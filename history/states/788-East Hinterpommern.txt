@@ -1,0 +1,22 @@
+state={
+	id=788
+	name="East Pommern"
+	manpower = 40000
+	state_category = town
+
+	history={
+		owner = POL
+		victory_points = {
+			11372 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			}
+		add_core_of = GER
+	}
+
+	provinces={
+		 9277 9252 9306 9361 9387  11316 11260 11343 11288 11372
+	}
+}

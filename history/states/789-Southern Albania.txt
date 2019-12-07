@@ -1,0 +1,17 @@
+state={
+	id=789
+	name="Southern Albania"
+	manpower = 1500
+	state_category = town
+	
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+			}
+		add_core_of = ALB
+              }
+         provinces={
+		 914 3448 6900 11767  
+	}
+}
