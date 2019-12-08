@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = USA
+		owner = CAL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
+		add_core_of = CAL
 		victory_points = {
 			3513 1 
 		}
