@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = MON
+		owner = IMR
 		buildings = {
 			infrastructure = 2
 		}
@@ -18,7 +18,8 @@ state={
 			10627 3
 		}
 		add_core_of = TAN
-		add_core_of = MON
+		add_core_of = IMR
+		add_core_of = SOV
 	}
 
 	provinces={
