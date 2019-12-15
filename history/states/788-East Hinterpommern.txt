@@ -1,6 +1,6 @@
 state={
 	id=788
-	name="East Pommern"
+	name="STATE_788"
 	manpower = 40000
 	state_category = town
 

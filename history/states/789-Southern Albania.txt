@@ -1,6 +1,6 @@
 state={
 	id=789
-	name="Southern Albania"
+	name="STATE_789"
 	manpower = 1500
 	state_category = town
 	
