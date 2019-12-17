@@ -1,0 +1,95 @@
+ideas = {
+	
+	political_advisor = {
+	
+		generic_anarchist_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = anarchist_ideologue limit = 1 } } }
+			available = { }
+			traits = { anarchist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_communist_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = communist_ideologue limit = 1 } } }
+			available = { }
+			traits = { communist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_leftist_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = leftist_ideologue limit = 1 } } }
+			available = { }
+			traits = { leftist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_centrist_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = centrist_ideologue limit = 1 } } }
+			available = { }
+			traits = { centrist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_conservative_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = conservative_ideologue limit = 1 } } }
+			available = { }
+			traits = { conservative_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_despotic_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = despotic_ideologue limit = 1 } } }
+			available = { }
+			traits = { despotic_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_monarchist_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = monarchist_ideologue limit = 1 } } }
+			available = { }
+			traits = { monarchist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_fascist_ideologue = {
+			allowed = { NOT = { has_available_idea_with_traits = { idea = fascist_ideologue limit = 1 } } }
+			available = { }
+			traits = { fascist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+	}
+	
+}

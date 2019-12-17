@@ -6,7 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = GME
+		owner = GER
+		controller = GER
 		
 		victory_points = {
 			6332 10 
@@ -27,8 +28,6 @@ state={
 			air_base = 6
 		}
 		add_core_of = GER
-		add_core_of = GME
-		add_claim_by = POL
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5

@@ -1,0 +1,1258 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"gfx/leaders/European/generic/generic_general.dds"
+			"gfx/leaders/European/generic/generic_general2.dds"
+			"gfx/leaders/European/generic/generic_general3.dds"
+			"gfx/leaders/European/generic/generic_general4.dds"
+			"gfx/leaders/European/generic/generic_general5.dds"
+			"gfx/leaders/European/generic/generic_general6.dds"
+			"gfx/leaders/European/generic/generic_general7.dds"
+			"gfx/leaders/European/generic/generic_general8.dds"
+			"gfx/leaders/European/generic/generic_general9.dds"
+			"gfx/leaders/European/generic/generic_general10.dds"
+			"gfx/leaders/European/generic/generic_general11.dds"
+			"gfx/leaders/European/generic/generic_general12.dds"
+			"gfx/leaders/European/generic/generic_general13.dds"
+			"gfx/leaders/European/generic/generic_general14.dds"
+			"gfx/leaders/European/generic/generic_general15.dds"
+			"gfx/leaders/European/generic/generic_general16.dds"
+			"gfx/leaders/European/generic/generic_general17.dds"
+			"gfx/leaders/European/generic/generic_general18.dds"
+			"gfx/leaders/European/generic/generic_general19.dds"
+			"gfx/leaders/European/generic/generic_general20.dds"
+			"gfx/leaders/European/generic/generic_general21.dds"
+			"gfx/leaders/European/generic/generic_general22.dds"
+			"gfx/leaders/European/generic/generic_general23.dds"
+			"gfx/leaders/European/generic/generic_general24.dds"
+			"gfx/leaders/European/generic/generic_general25.dds"
+			"gfx/leaders/European/generic/generic_general26.dds"
+			"gfx/leaders/European/generic/generic_general27.dds"
+			"gfx/leaders/European/generic/generic_general28.dds"
+			"gfx/leaders/European/generic/generic_general29.dds"
+			"gfx/leaders/European/generic/generic_general30.dds"
+			"gfx/leaders/European/generic/generic_general31.dds"
+			"gfx/leaders/European/generic/generic_general32.dds"
+			"gfx/leaders/European/generic/generic_general33.dds"
+			"gfx/leaders/European/generic/generic_general34.dds"
+			"gfx/leaders/European/generic/generic_general35.dds"
+			"gfx/leaders/European/generic/generic_general36.dds"
+			"gfx/leaders/European/generic/generic_general37.dds"
+			"gfx/leaders/European/generic/generic_general38.dds"
+			"gfx/leaders/European/generic/generic_general39.dds"
+			"gfx/leaders/European/generic/generic_general40.dds"
+			"gfx/leaders/European/generic/generic_general41.dds"
+			"gfx/leaders/European/generic/generic_general42.dds"
+			"gfx/leaders/European/generic/generic_general43.dds"
+			"gfx/leaders/European/generic/generic_general44.dds"
+			"gfx/leaders/European/generic/generic_general45.dds"
+			"gfx/leaders/European/generic/generic_general46.dds"
+			"gfx/leaders/European/generic/generic_general47.dds"
+			"gfx/leaders/European/generic/generic_general48.dds"
+			"gfx/leaders/European/generic/generic_general49.dds"
+			"gfx/leaders/European/generic/generic_general50.dds"
+			"gfx/leaders/European/generic/generic_general51.dds"
+			"gfx/leaders/European/generic/generic_general52.dds"
+			"gfx/leaders/European/generic/generic_general53.dds"
+			"gfx/leaders/European/generic/generic_general54.dds"
+			"gfx/leaders/European/generic/generic_general55.dds"
+			"gfx/leaders/European/generic/generic_general56.dds"
+			"gfx/leaders/European/generic/generic_general57.dds"
+			"gfx/leaders/European/Aleksandr_Vasilevsky.dds"
+			"gfx/leaders/European/Alexander_Gorbatov.dds"
+			"gfx/leaders/European/Archibald_Wavell.dds"
+			"gfx/leaders/European/PDXCon_Winner.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/European/generic/generic_admiral.dds"
+			"gfx/leaders/European/generic/generic_admiral2.dds"
+			"gfx/leaders/European/generic/generic_admiral3.dds"
+			"gfx/leaders/European/generic/generic_admiral4.dds"
+			"gfx/leaders/European/generic/generic_admiral5.dds"
+			"gfx/leaders/European/generic/generic_admiral6.dds"
+			"gfx/leaders/European/generic/generic_admiral7.dds"
+			"gfx/leaders/European/generic/generic_admiral8.dds"
+			"gfx/leaders/European/generic/generic_admiral9.dds"
+			"gfx/leaders/European/generic/generic_admiral10.dds"
+			"gfx/leaders/European/generic/generic_admiral11.dds"
+			"gfx/leaders/European/generic/generic_admiral12.dds"
+			"gfx/leaders/European/generic/generic_admiral13.dds"
+			"gfx/leaders/European/generic/generic_admiral14.dds"
+			"gfx/leaders/European/generic/generic_admiral15.dds"
+			"gfx/leaders/European/generic/generic_admiral16.dds"
+			"gfx/leaders/European/generic/generic_admiral17.dds"
+			"gfx/leaders/European/generic/generic_admiral18.dds"
+			"gfx/leaders/European/generic/generic_admiral19.dds"
+			"gfx/leaders/European/generic/generic_admiral20.dds"
+			"gfx/leaders/European/generic/generic_admiral21.dds"
+			"gfx/leaders/European/generic/generic_admiral22.dds"
+			"gfx/leaders/European/generic/generic_admiral23.dds"
+			"gfx/leaders/European/generic/generic_admiral24.dds"
+			"gfx/leaders/European/generic/generic_admiral25.dds"
+			"gfx/leaders/European/generic/generic_admiral26.dds"
+			"gfx/leaders/European/generic/generic_admiral27.dds"
+			"gfx/leaders/European/generic/generic_admiral28.dds"
+			"gfx/leaders/European/generic/generic_admiral29.dds"
+			"gfx/leaders/European/generic/generic_admiral30.dds"
+			"gfx/leaders/European/generic/generic_admiral31.dds"
+			"gfx/leaders/European/generic/generic_admiral32.dds"
+			"gfx/leaders/European/generic/generic_admiral33.dds"
+			"gfx/leaders/European/generic/generic_admiral34.dds"
+			"gfx/leaders/European/generic/generic_admiral35.dds"
+			"gfx/leaders/European/generic/generic_admiral36.dds"
+			"gfx/leaders/European/generic/generic_admiral37.dds"
+		}
+	}
+	
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader17.dds"
+				"gfx/leaders/European/generic/generic_leader20.dds"
+				"gfx/leaders/European/generic/generic_leader23.dds"
+				"gfx/leaders/European/generic/generic_leader26.dds"
+				"gfx/leaders/European/generic/generic_leader29.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader18.dds"
+				"gfx/leaders/European/generic/generic_leader21.dds"
+				"gfx/leaders/European/generic/generic_leader24.dds"
+				"gfx/leaders/European/generic/generic_leader30.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general.dds" 
+				"gfx/leaders/European/generic/generic_general2.dds" 
+				"gfx/leaders/European/generic/generic_general6.dds" 
+				"gfx/leaders/European/generic/generic_general10.dds" 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader13.dds" 
+				"gfx/leaders/European/generic/generic_leader31.dds" 
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general16.dds" 
+				"gfx/leaders/European/August_von_Mackensen.dds" 
+				"gfx/leaders/European/Boris_III.dds" 
+				"gfx/leaders/European/Charles_Lindbergh.dds" 
+				"gfx/leaders/European/Danilo_Kalafatovic.dds" 
+				"gfx/leaders/European/George_VI.dds" 
+				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader3.dds"
+				"gfx/leaders/European/generic/generic_leader5.dds"
+				"gfx/leaders/European/generic/generic_leader10.dds"
+				"gfx/leaders/European/generic/generic_leader13.dds"
+				"gfx/leaders/European/generic/generic_leader16.dds"
+				"gfx/leaders/European/generic/generic_leader19.dds"
+				"gfx/leaders/European/generic/generic_leader22.dds"
+				"gfx/leaders/European/generic/generic_leader25.dds"
+				"gfx/leaders/European/generic/generic_leader28.dds"
+				"gfx/leaders/European/generic/generic_leader31.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"gfx/leaders/European/generic/generic_general.dds"
+			"gfx/leaders/European/generic/generic_general2.dds"
+			"gfx/leaders/European/generic/generic_general3.dds"
+			"gfx/leaders/European/generic/generic_general4.dds"
+			"gfx/leaders/European/generic/generic_general5.dds"
+			"gfx/leaders/European/generic/generic_general6.dds"
+			"gfx/leaders/European/generic/generic_general7.dds"
+			"gfx/leaders/European/generic/generic_general8.dds"
+			"gfx/leaders/European/generic/generic_general9.dds"
+			"gfx/leaders/European/generic/generic_general10.dds"
+			"gfx/leaders/European/generic/generic_general11.dds"
+			"gfx/leaders/European/generic/generic_general12.dds"
+			"gfx/leaders/European/generic/generic_general13.dds"
+			"gfx/leaders/European/generic/generic_general14.dds"
+			"gfx/leaders/European/generic/generic_general15.dds"
+			"gfx/leaders/European/generic/generic_general16.dds"
+			"gfx/leaders/European/generic/generic_general17.dds"
+			"gfx/leaders/European/generic/generic_general18.dds"
+			"gfx/leaders/European/generic/generic_general19.dds"
+			"gfx/leaders/European/generic/generic_general20.dds"
+			"gfx/leaders/European/generic/generic_general21.dds"
+			"gfx/leaders/European/generic/generic_general22.dds"
+			"gfx/leaders/European/generic/generic_general23.dds"
+			"gfx/leaders/European/generic/generic_general24.dds"
+			"gfx/leaders/European/generic/generic_general25.dds"
+			"gfx/leaders/European/generic/generic_general26.dds"
+			"gfx/leaders/European/generic/generic_general27.dds"
+			"gfx/leaders/European/generic/generic_general28.dds"
+			"gfx/leaders/European/generic/generic_general29.dds"
+			"gfx/leaders/European/generic/generic_general30.dds"
+			"gfx/leaders/European/generic/generic_general31.dds"
+			"gfx/leaders/European/generic/generic_general32.dds"
+			"gfx/leaders/European/generic/generic_general33.dds"
+			"gfx/leaders/European/generic/generic_general34.dds"
+			"gfx/leaders/European/generic/generic_general35.dds"
+			"gfx/leaders/European/generic/generic_general36.dds"
+			"gfx/leaders/European/generic/generic_general37.dds"
+			"gfx/leaders/European/generic/generic_general38.dds"
+			"gfx/leaders/European/generic/generic_general39.dds"
+			"gfx/leaders/European/generic/generic_general40.dds"
+			"gfx/leaders/European/generic/generic_general41.dds"
+			"gfx/leaders/European/generic/generic_general42.dds"
+			"gfx/leaders/European/generic/generic_general43.dds"
+			"gfx/leaders/European/generic/generic_general44.dds"
+			"gfx/leaders/European/generic/generic_general45.dds"
+			"gfx/leaders/European/generic/generic_general46.dds"
+			"gfx/leaders/European/generic/generic_general47.dds"
+			"gfx/leaders/European/generic/generic_general48.dds"
+			"gfx/leaders/European/generic/generic_general49.dds"
+			"gfx/leaders/European/generic/generic_general50.dds"
+			"gfx/leaders/European/generic/generic_general51.dds"
+			"gfx/leaders/European/generic/generic_general52.dds"
+			"gfx/leaders/European/generic/generic_general53.dds"
+			"gfx/leaders/European/generic/generic_general54.dds"
+			"gfx/leaders/European/generic/generic_general55.dds"
+			"gfx/leaders/European/generic/generic_general56.dds"
+			"gfx/leaders/European/generic/generic_general57.dds"
+			"gfx/leaders/European/Aleksandr_Vasilevsky.dds"
+			"gfx/leaders/European/Alexander_Gorbatov.dds"
+			"gfx/leaders/European/Archibald_Wavell.dds"
+			"gfx/leaders/European/PDXCon_Winner.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/European/generic/generic_admiral.dds"
+			"gfx/leaders/European/generic/generic_admiral2.dds"
+			"gfx/leaders/European/generic/generic_admiral3.dds"
+			"gfx/leaders/European/generic/generic_admiral4.dds"
+			"gfx/leaders/European/generic/generic_admiral5.dds"
+			"gfx/leaders/European/generic/generic_admiral6.dds"
+			"gfx/leaders/European/generic/generic_admiral7.dds"
+			"gfx/leaders/European/generic/generic_admiral8.dds"
+			"gfx/leaders/European/generic/generic_admiral9.dds"
+			"gfx/leaders/European/generic/generic_admiral10.dds"
+			"gfx/leaders/European/generic/generic_admiral11.dds"
+			"gfx/leaders/European/generic/generic_admiral12.dds"
+			"gfx/leaders/European/generic/generic_admiral13.dds"
+			"gfx/leaders/European/generic/generic_admiral14.dds"
+			"gfx/leaders/European/generic/generic_admiral15.dds"
+			"gfx/leaders/European/generic/generic_admiral16.dds"
+			"gfx/leaders/European/generic/generic_admiral17.dds"
+			"gfx/leaders/European/generic/generic_admiral18.dds"
+			"gfx/leaders/European/generic/generic_admiral19.dds"
+			"gfx/leaders/European/generic/generic_admiral20.dds"
+			"gfx/leaders/European/generic/generic_admiral21.dds"
+			"gfx/leaders/European/generic/generic_admiral22.dds"
+			"gfx/leaders/European/generic/generic_admiral23.dds"
+			"gfx/leaders/European/generic/generic_admiral24.dds"
+			"gfx/leaders/European/generic/generic_admiral25.dds"
+			"gfx/leaders/European/generic/generic_admiral26.dds"
+			"gfx/leaders/European/generic/generic_admiral27.dds"
+			"gfx/leaders/European/generic/generic_admiral28.dds"
+			"gfx/leaders/European/generic/generic_admiral29.dds"
+			"gfx/leaders/European/generic/generic_admiral30.dds"
+			"gfx/leaders/European/generic/generic_admiral31.dds"
+			"gfx/leaders/European/generic/generic_admiral32.dds"
+			"gfx/leaders/European/generic/generic_admiral33.dds"
+			"gfx/leaders/European/generic/generic_admiral34.dds"
+			"gfx/leaders/European/generic/generic_admiral35.dds"
+			"gfx/leaders/European/generic/generic_admiral36.dds"
+			"gfx/leaders/European/generic/generic_admiral37.dds"
+		}
+	}
+	
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader17.dds"
+				"gfx/leaders/European/generic/generic_leader20.dds"
+				"gfx/leaders/European/generic/generic_leader23.dds"
+				"gfx/leaders/European/generic/generic_leader26.dds"
+				"gfx/leaders/European/generic/generic_leader29.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader18.dds"
+				"gfx/leaders/European/generic/generic_leader21.dds"
+				"gfx/leaders/European/generic/generic_leader24.dds"
+				"gfx/leaders/European/generic/generic_leader30.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general.dds" 
+				"gfx/leaders/European/generic/generic_general2.dds" 
+				"gfx/leaders/European/generic/generic_general6.dds" 
+				"gfx/leaders/European/generic/generic_general10.dds" 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader13.dds" 
+				"gfx/leaders/European/generic/generic_leader31.dds" 
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general16.dds" 
+				"gfx/leaders/European/August_von_Mackensen.dds" 
+				"gfx/leaders/European/Boris_III.dds" 
+				"gfx/leaders/European/Charles_Lindbergh.dds" 
+				"gfx/leaders/European/Danilo_Kalafatovic.dds" 
+				"gfx/leaders/European/George_VI.dds" 
+				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader3.dds"
+				"gfx/leaders/European/generic/generic_leader5.dds"
+				"gfx/leaders/European/generic/generic_leader10.dds"
+				"gfx/leaders/European/generic/generic_leader13.dds"
+				"gfx/leaders/European/generic/generic_leader16.dds"
+				"gfx/leaders/European/generic/generic_leader19.dds"
+				"gfx/leaders/European/generic/generic_leader22.dds"
+				"gfx/leaders/European/generic/generic_leader25.dds"
+				"gfx/leaders/European/generic/generic_leader28.dds"
+				"gfx/leaders/European/generic/generic_leader31.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"gfx/leaders/European/generic/generic_general.dds"
+			"gfx/leaders/European/generic/generic_general2.dds"
+			"gfx/leaders/European/generic/generic_general3.dds"
+			"gfx/leaders/European/generic/generic_general4.dds"
+			"gfx/leaders/European/generic/generic_general5.dds"
+			"gfx/leaders/European/generic/generic_general6.dds"
+			"gfx/leaders/European/generic/generic_general7.dds"
+			"gfx/leaders/European/generic/generic_general8.dds"
+			"gfx/leaders/European/generic/generic_general9.dds"
+			"gfx/leaders/European/generic/generic_general10.dds"
+			"gfx/leaders/European/generic/generic_general11.dds"
+			"gfx/leaders/European/generic/generic_general12.dds"
+			"gfx/leaders/European/generic/generic_general13.dds"
+			"gfx/leaders/European/generic/generic_general14.dds"
+			"gfx/leaders/European/generic/generic_general15.dds"
+			"gfx/leaders/European/generic/generic_general16.dds"
+			"gfx/leaders/European/generic/generic_general17.dds"
+			"gfx/leaders/European/generic/generic_general18.dds"
+			"gfx/leaders/European/generic/generic_general19.dds"
+			"gfx/leaders/European/generic/generic_general20.dds"
+			"gfx/leaders/European/generic/generic_general21.dds"
+			"gfx/leaders/European/generic/generic_general22.dds"
+			"gfx/leaders/European/generic/generic_general23.dds"
+			"gfx/leaders/European/generic/generic_general24.dds"
+			"gfx/leaders/European/generic/generic_general25.dds"
+			"gfx/leaders/European/generic/generic_general26.dds"
+			"gfx/leaders/European/generic/generic_general27.dds"
+			"gfx/leaders/European/generic/generic_general28.dds"
+			"gfx/leaders/European/generic/generic_general29.dds"
+			"gfx/leaders/European/generic/generic_general30.dds"
+			"gfx/leaders/European/generic/generic_general31.dds"
+			"gfx/leaders/European/generic/generic_general32.dds"
+			"gfx/leaders/European/generic/generic_general33.dds"
+			"gfx/leaders/European/generic/generic_general34.dds"
+			"gfx/leaders/European/generic/generic_general35.dds"
+			"gfx/leaders/European/generic/generic_general36.dds"
+			"gfx/leaders/European/generic/generic_general37.dds"
+			"gfx/leaders/European/generic/generic_general38.dds"
+			"gfx/leaders/European/generic/generic_general39.dds"
+			"gfx/leaders/European/generic/generic_general40.dds"
+			"gfx/leaders/European/generic/generic_general41.dds"
+			"gfx/leaders/European/generic/generic_general42.dds"
+			"gfx/leaders/European/generic/generic_general43.dds"
+			"gfx/leaders/European/generic/generic_general44.dds"
+			"gfx/leaders/European/generic/generic_general45.dds"
+			"gfx/leaders/European/generic/generic_general46.dds"
+			"gfx/leaders/European/generic/generic_general47.dds"
+			"gfx/leaders/European/generic/generic_general48.dds"
+			"gfx/leaders/European/generic/generic_general49.dds"
+			"gfx/leaders/European/generic/generic_general50.dds"
+			"gfx/leaders/European/generic/generic_general51.dds"
+			"gfx/leaders/European/generic/generic_general52.dds"
+			"gfx/leaders/European/generic/generic_general53.dds"
+			"gfx/leaders/European/generic/generic_general54.dds"
+			"gfx/leaders/European/generic/generic_general55.dds"
+			"gfx/leaders/European/generic/generic_general56.dds"
+			"gfx/leaders/European/generic/generic_general57.dds"
+			"gfx/leaders/European/Aleksandr_Vasilevsky.dds"
+			"gfx/leaders/European/Alexander_Gorbatov.dds"
+			"gfx/leaders/European/Archibald_Wavell.dds"
+			"gfx/leaders/European/PDXCon_Winner.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/European/generic/generic_admiral.dds"
+			"gfx/leaders/European/generic/generic_admiral2.dds"
+			"gfx/leaders/European/generic/generic_admiral3.dds"
+			"gfx/leaders/European/generic/generic_admiral4.dds"
+			"gfx/leaders/European/generic/generic_admiral5.dds"
+			"gfx/leaders/European/generic/generic_admiral6.dds"
+			"gfx/leaders/European/generic/generic_admiral7.dds"
+			"gfx/leaders/European/generic/generic_admiral8.dds"
+			"gfx/leaders/European/generic/generic_admiral9.dds"
+			"gfx/leaders/European/generic/generic_admiral10.dds"
+			"gfx/leaders/European/generic/generic_admiral11.dds"
+			"gfx/leaders/European/generic/generic_admiral12.dds"
+			"gfx/leaders/European/generic/generic_admiral13.dds"
+			"gfx/leaders/European/generic/generic_admiral14.dds"
+			"gfx/leaders/European/generic/generic_admiral15.dds"
+			"gfx/leaders/European/generic/generic_admiral16.dds"
+			"gfx/leaders/European/generic/generic_admiral17.dds"
+			"gfx/leaders/European/generic/generic_admiral18.dds"
+			"gfx/leaders/European/generic/generic_admiral19.dds"
+			"gfx/leaders/European/generic/generic_admiral20.dds"
+			"gfx/leaders/European/generic/generic_admiral21.dds"
+			"gfx/leaders/European/generic/generic_admiral22.dds"
+			"gfx/leaders/European/generic/generic_admiral23.dds"
+			"gfx/leaders/European/generic/generic_admiral24.dds"
+			"gfx/leaders/European/generic/generic_admiral25.dds"
+			"gfx/leaders/European/generic/generic_admiral26.dds"
+			"gfx/leaders/European/generic/generic_admiral27.dds"
+			"gfx/leaders/European/generic/generic_admiral28.dds"
+			"gfx/leaders/European/generic/generic_admiral29.dds"
+			"gfx/leaders/European/generic/generic_admiral30.dds"
+			"gfx/leaders/European/generic/generic_admiral31.dds"
+			"gfx/leaders/European/generic/generic_admiral32.dds"
+			"gfx/leaders/European/generic/generic_admiral33.dds"
+			"gfx/leaders/European/generic/generic_admiral34.dds"
+			"gfx/leaders/European/generic/generic_admiral35.dds"
+			"gfx/leaders/European/generic/generic_admiral36.dds"
+			"gfx/leaders/European/generic/generic_admiral37.dds"
+		}
+	}
+	
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader17.dds"
+				"gfx/leaders/European/generic/generic_leader20.dds"
+				"gfx/leaders/European/generic/generic_leader23.dds"
+				"gfx/leaders/European/generic/generic_leader26.dds"
+				"gfx/leaders/European/generic/generic_leader29.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader18.dds"
+				"gfx/leaders/European/generic/generic_leader21.dds"
+				"gfx/leaders/European/generic/generic_leader24.dds"
+				"gfx/leaders/European/generic/generic_leader30.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general.dds" 
+				"gfx/leaders/European/generic/generic_general2.dds" 
+				"gfx/leaders/European/generic/generic_general6.dds" 
+				"gfx/leaders/European/generic/generic_general10.dds" 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader13.dds" 
+				"gfx/leaders/European/generic/generic_leader31.dds" 
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general16.dds" 
+				"gfx/leaders/European/August_von_Mackensen.dds" 
+				"gfx/leaders/European/Boris_III.dds" 
+				"gfx/leaders/European/Charles_Lindbergh.dds" 
+				"gfx/leaders/European/Danilo_Kalafatovic.dds" 
+				"gfx/leaders/European/George_VI.dds" 
+				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader3.dds"
+				"gfx/leaders/European/generic/generic_leader5.dds"
+				"gfx/leaders/European/generic/generic_leader10.dds"
+				"gfx/leaders/European/generic/generic_leader13.dds"
+				"gfx/leaders/European/generic/generic_leader16.dds"
+				"gfx/leaders/European/generic/generic_leader19.dds"
+				"gfx/leaders/European/generic/generic_leader22.dds"
+				"gfx/leaders/European/generic/generic_leader25.dds"
+				"gfx/leaders/European/generic/generic_leader28.dds"
+				"gfx/leaders/European/generic/generic_leader31.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"gfx/leaders/European/generic/generic_general.dds"
+			"gfx/leaders/European/generic/generic_general2.dds"
+			"gfx/leaders/European/generic/generic_general3.dds"
+			"gfx/leaders/European/generic/generic_general4.dds"
+			"gfx/leaders/European/generic/generic_general5.dds"
+			"gfx/leaders/European/generic/generic_general6.dds"
+			"gfx/leaders/European/generic/generic_general7.dds"
+			"gfx/leaders/European/generic/generic_general8.dds"
+			"gfx/leaders/European/generic/generic_general9.dds"
+			"gfx/leaders/European/generic/generic_general10.dds"
+			"gfx/leaders/European/generic/generic_general11.dds"
+			"gfx/leaders/European/generic/generic_general12.dds"
+			"gfx/leaders/European/generic/generic_general13.dds"
+			"gfx/leaders/European/generic/generic_general14.dds"
+			"gfx/leaders/European/generic/generic_general15.dds"
+			"gfx/leaders/European/generic/generic_general16.dds"
+			"gfx/leaders/European/generic/generic_general17.dds"
+			"gfx/leaders/European/generic/generic_general18.dds"
+			"gfx/leaders/European/generic/generic_general19.dds"
+			"gfx/leaders/European/generic/generic_general20.dds"
+			"gfx/leaders/European/generic/generic_general21.dds"
+			"gfx/leaders/European/generic/generic_general22.dds"
+			"gfx/leaders/European/generic/generic_general23.dds"
+			"gfx/leaders/European/generic/generic_general24.dds"
+			"gfx/leaders/European/generic/generic_general25.dds"
+			"gfx/leaders/European/generic/generic_general26.dds"
+			"gfx/leaders/European/generic/generic_general27.dds"
+			"gfx/leaders/European/generic/generic_general28.dds"
+			"gfx/leaders/European/generic/generic_general29.dds"
+			"gfx/leaders/European/generic/generic_general30.dds"
+			"gfx/leaders/European/generic/generic_general31.dds"
+			"gfx/leaders/European/generic/generic_general32.dds"
+			"gfx/leaders/European/generic/generic_general33.dds"
+			"gfx/leaders/European/generic/generic_general34.dds"
+			"gfx/leaders/European/generic/generic_general35.dds"
+			"gfx/leaders/European/generic/generic_general36.dds"
+			"gfx/leaders/European/generic/generic_general37.dds"
+			"gfx/leaders/European/generic/generic_general38.dds"
+			"gfx/leaders/European/generic/generic_general39.dds"
+			"gfx/leaders/European/generic/generic_general40.dds"
+			"gfx/leaders/European/generic/generic_general41.dds"
+			"gfx/leaders/European/generic/generic_general42.dds"
+			"gfx/leaders/European/generic/generic_general43.dds"
+			"gfx/leaders/European/generic/generic_general44.dds"
+			"gfx/leaders/European/generic/generic_general45.dds"
+			"gfx/leaders/European/generic/generic_general46.dds"
+			"gfx/leaders/European/generic/generic_general47.dds"
+			"gfx/leaders/European/generic/generic_general48.dds"
+			"gfx/leaders/European/generic/generic_general49.dds"
+			"gfx/leaders/European/generic/generic_general50.dds"
+			"gfx/leaders/European/generic/generic_general51.dds"
+			"gfx/leaders/European/generic/generic_general52.dds"
+			"gfx/leaders/European/generic/generic_general53.dds"
+			"gfx/leaders/European/generic/generic_general54.dds"
+			"gfx/leaders/European/generic/generic_general55.dds"
+			"gfx/leaders/European/generic/generic_general56.dds"
+			"gfx/leaders/European/generic/generic_general57.dds"
+			"gfx/leaders/European/Aleksandr_Vasilevsky.dds"
+			"gfx/leaders/European/Alexander_Gorbatov.dds"
+			"gfx/leaders/European/Archibald_Wavell.dds"
+			"gfx/leaders/European/PDXCon_Winner.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/European/generic/generic_admiral.dds"
+			"gfx/leaders/European/generic/generic_admiral2.dds"
+			"gfx/leaders/European/generic/generic_admiral3.dds"
+			"gfx/leaders/European/generic/generic_admiral4.dds"
+			"gfx/leaders/European/generic/generic_admiral5.dds"
+			"gfx/leaders/European/generic/generic_admiral6.dds"
+			"gfx/leaders/European/generic/generic_admiral7.dds"
+			"gfx/leaders/European/generic/generic_admiral8.dds"
+			"gfx/leaders/European/generic/generic_admiral9.dds"
+			"gfx/leaders/European/generic/generic_admiral10.dds"
+			"gfx/leaders/European/generic/generic_admiral11.dds"
+			"gfx/leaders/European/generic/generic_admiral12.dds"
+			"gfx/leaders/European/generic/generic_admiral13.dds"
+			"gfx/leaders/European/generic/generic_admiral14.dds"
+			"gfx/leaders/European/generic/generic_admiral15.dds"
+			"gfx/leaders/European/generic/generic_admiral16.dds"
+			"gfx/leaders/European/generic/generic_admiral17.dds"
+			"gfx/leaders/European/generic/generic_admiral18.dds"
+			"gfx/leaders/European/generic/generic_admiral19.dds"
+			"gfx/leaders/European/generic/generic_admiral20.dds"
+			"gfx/leaders/European/generic/generic_admiral21.dds"
+			"gfx/leaders/European/generic/generic_admiral22.dds"
+			"gfx/leaders/European/generic/generic_admiral23.dds"
+			"gfx/leaders/European/generic/generic_admiral24.dds"
+			"gfx/leaders/European/generic/generic_admiral25.dds"
+			"gfx/leaders/European/generic/generic_admiral26.dds"
+			"gfx/leaders/European/generic/generic_admiral27.dds"
+			"gfx/leaders/European/generic/generic_admiral28.dds"
+			"gfx/leaders/European/generic/generic_admiral29.dds"
+			"gfx/leaders/European/generic/generic_admiral30.dds"
+			"gfx/leaders/European/generic/generic_admiral31.dds"
+			"gfx/leaders/European/generic/generic_admiral32.dds"
+			"gfx/leaders/European/generic/generic_admiral33.dds"
+			"gfx/leaders/European/generic/generic_admiral34.dds"
+			"gfx/leaders/European/generic/generic_admiral35.dds"
+			"gfx/leaders/European/generic/generic_admiral36.dds"
+			"gfx/leaders/European/generic/generic_admiral37.dds"
+		}
+	}
+	
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader17.dds"
+				"gfx/leaders/European/generic/generic_leader20.dds"
+				"gfx/leaders/European/generic/generic_leader23.dds"
+				"gfx/leaders/European/generic/generic_leader26.dds"
+				"gfx/leaders/European/generic/generic_leader29.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader7.dds"
+				"gfx/leaders/European/generic/generic_leader8.dds"
+				"gfx/leaders/European/generic/generic_leader11.dds"
+				"gfx/leaders/European/generic/generic_leader14.dds"
+				"gfx/leaders/European/generic/generic_leader18.dds"
+				"gfx/leaders/European/generic/generic_leader21.dds"
+				"gfx/leaders/European/generic/generic_leader24.dds"
+				"gfx/leaders/European/generic/generic_leader30.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader4.dds" 
+				"gfx/leaders/European/generic/generic_leader6.dds" 
+				"gfx/leaders/European/generic/generic_leader9.dds" 
+				"gfx/leaders/European/generic/generic_leader12.dds" 
+				"gfx/leaders/European/generic/generic_leader15.dds" 
+				"gfx/leaders/European/generic/generic_leader18.dds" 
+				"gfx/leaders/European/generic/generic_leader21.dds" 
+				"gfx/leaders/European/generic/generic_leader24.dds" 
+				"gfx/leaders/European/generic/generic_leader27.dds" 
+				"gfx/leaders/European/generic/generic_leader30.dds" 
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general.dds" 
+				"gfx/leaders/European/generic/generic_general2.dds" 
+				"gfx/leaders/European/generic/generic_general6.dds" 
+				"gfx/leaders/European/generic/generic_general10.dds" 
+				"gfx/leaders/European/generic/generic_leader.dds" 
+				"gfx/leaders/European/generic/generic_leader2.dds" 
+				"gfx/leaders/European/generic/generic_leader3.dds" 
+				"gfx/leaders/European/generic/generic_leader13.dds" 
+				"gfx/leaders/European/generic/generic_leader31.dds" 
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_general16.dds" 
+				"gfx/leaders/European/August_von_Mackensen.dds" 
+				"gfx/leaders/European/Boris_III.dds" 
+				"gfx/leaders/European/Charles_Lindbergh.dds" 
+				"gfx/leaders/European/Danilo_Kalafatovic.dds" 
+				"gfx/leaders/European/George_VI.dds" 
+				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/European/generic/generic_leader3.dds"
+				"gfx/leaders/European/generic/generic_leader5.dds"
+				"gfx/leaders/European/generic/generic_leader10.dds"
+				"gfx/leaders/European/generic/generic_leader13.dds"
+				"gfx/leaders/European/generic/generic_leader16.dds"
+				"gfx/leaders/European/generic/generic_leader19.dds"
+				"gfx/leaders/European/generic/generic_leader22.dds"
+				"gfx/leaders/European/generic/generic_leader25.dds"
+				"gfx/leaders/European/generic/generic_leader28.dds"
+				"gfx/leaders/European/generic/generic_leader31.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"gfx/leaders/African/generic/generic_general.dds"
+			"gfx/leaders/African/generic/generic_general2.dds"
+			"gfx/leaders/African/generic/generic_general3.dds"
+			"gfx/leaders/African/generic/generic_general4.dds"
+			"gfx/leaders/African/generic/generic_general5.dds"
+			"gfx/leaders/African/generic/generic_general6.dds"
+			"gfx/leaders/African/generic/generic_general7.dds"
+			"gfx/leaders/African/generic/generic_general8.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/African/generic/generic_admiral.dds"
+			"gfx/leaders/African/generic/generic_admiral2.dds"
+			"gfx/leaders/African/generic/generic_admiral3.dds"
+			"gfx/leaders/African/generic/generic_admiral4.dds"
+			"gfx/leaders/African/generic/generic_admiral5.dds"
+		}
+	}
+	
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_general6.dds"
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader3.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_general6.dds"
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader3.dds"
+				"gfx/leaders/African/Moses_Kotane.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader2.dds"
+				"gfx/leaders/African/generic/generic_leader4.dds"	
+				"gfx/leaders/African/Moses_Kotane.dds"
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader2.dds"
+				"gfx/leaders/African/generic/generic_leader4.dds"	
+				"gfx/leaders/African/Moses_Kotane.dds"
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader2.dds"
+				"gfx/leaders/African/generic/generic_leader4.dds"	
+				"gfx/leaders/African/Moses_Kotane.dds"
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_general3.dds"
+				"gfx/leaders/African/generic/generic_general4.dds"
+				"gfx/leaders/African/generic/generic_general5.dds"
+				"gfx/leaders/African/generic/generic_general6.dds"
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader2.dds"
+				"gfx/leaders/African/generic/generic_leader4.dds"	
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/African/Haile_Selassie.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/African/generic/generic_general.dds"
+				"gfx/leaders/African/generic/generic_general3.dds"
+				"gfx/leaders/African/generic/generic_general4.dds"
+				"gfx/leaders/African/generic/generic_general5.dds"
+				"gfx/leaders/African/generic/generic_general7.dds"
+				"gfx/leaders/African/generic/generic_leader.dds"
+				"gfx/leaders/African/generic/generic_leader2.dds"
+				"gfx/leaders/African/generic/generic_leader5.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"gfx/leaders/Asian/generic/generic_general.dds"
+			"gfx/leaders/Asian/generic/generic_general2.dds"
+			"gfx/leaders/Asian/generic/generic_general3.dds"
+			"gfx/leaders/Asian/generic/generic_general4.dds"
+			"gfx/leaders/Asian/generic/generic_general5.dds"
+			"gfx/leaders/Asian/generic/generic_general6.dds"
+			"gfx/leaders/Asian/generic/generic_general7.dds"
+			"gfx/leaders/Asian/generic/generic_general8.dds"
+			"gfx/leaders/Asian/generic/generic_general9.dds"
+			"gfx/leaders/Asian/generic/generic_general10.dds"
+			"gfx/leaders/Asian/generic/generic_general11.dds"
+			"gfx/leaders/Asian/generic/generic_general12.dds"
+			"gfx/leaders/Asian/generic/generic_general13.dds"
+			"gfx/leaders/Asian/generic/generic_general14.dds"
+			"gfx/leaders/Asian/generic/generic_general15.dds"
+			"gfx/leaders/Asian/generic/generic_general16.dds"
+			"gfx/leaders/Asian/generic/generic_general17.dds"
+			"gfx/leaders/Asian/generic/generic_general18.dds"
+			"gfx/leaders/Asian/generic/generic_general19.dds"
+			"gfx/leaders/Asian/Aisin_Gioro_Xiqia.dds"
+			"gfx/leaders/Asian/Akira_Muto.dds"
+			"gfx/leaders/Asian/Anandyn_Amar.dds"
+			"gfx/leaders/Asian/Chen_Yi.dds"
+			"gfx/leaders/Asian/Chi_Du_Yuming.dds"
+			"gfx/leaders/Asian/Chi_Fu_Zuoyi.dds"
+			"gfx/leaders/Asian/Chi_Gu_Zhutong.dds"
+			"gfx/leaders/Asian/Chi_Wang_Yaowu.dds"
+			"gfx/leaders/Asian/Chi_Xue_Yue.dds"
+			"gfx/leaders/Asian/Chiang_Kai_Shek.dds"
+			"gfx/leaders/Asian/Gengo_Hyakutake.dds"
+			"gfx/leaders/Asian/Harukichi_Hyakutake.dds"
+			"gfx/leaders/Asian/Hasegawa_Kiyoshi.dds"
+			"gfx/leaders/Asian/Hatazo_Adachi.dds"
+			"gfx/leaders/Asian/He_Yingqin.dds"
+			"gfx/leaders/Asian/Hideki_Tojo.dds"
+			"gfx/leaders/Asian/Hiroaki_Abe.dds"
+			"gfx/leaders/Asian/Hisaichi_Terauchi.dds"
+			"gfx/leaders/Asian/Hitoshi_Imamura.dds"
+			"gfx/leaders/Asian/Hu_Zongnan.dds"
+			"gfx/leaders/Asian/Zhu_De.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Asian/generic/generic_admiral.dds"
+			"gfx/leaders/Asian/generic/generic_admiral2.dds"
+			"gfx/leaders/Asian/generic/generic_admiral3.dds"
+			"gfx/leaders/Asian/generic/generic_admiral4.dds"
+			"gfx/leaders/Asian/generic/generic_admiral5.dds"
+			"gfx/leaders/Asian/generic/generic_admiral6.dds"
+			"gfx/leaders/Asian/Hiroaki_Abe.dds"
+		}
+	}
+
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader2.dds"
+				"gfx/leaders/Asian/generic/generic_leader5.dds"
+				"gfx/leaders/Asian/generic/generic_leader7.dds"
+				"gfx/leaders/Asian/Tetsu_Katayama.dds"
+				"gfx/leaders/Asian/Zhu_De.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader2.dds"
+				"gfx/leaders/Asian/generic/generic_leader5.dds"
+				"gfx/leaders/Asian/generic/generic_leader7.dds"
+				"gfx/leaders/Asian/Kyuichi_Tokuda.dds"
+				"gfx/leaders/Asian/Mao_Zedong.dds"
+				"gfx/leaders/Asian/Mao_Zedong_old.dds"
+				"gfx/leaders/Asian/Tetsu_Katayama.dds"
+				"gfx/leaders/Asian/Zhu_De.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader.dds"
+				"gfx/leaders/Asian/generic/generic_leader4.dds"
+				"gfx/leaders/Asian/generic/generic_leader8.dds"
+				"gfx/leaders/Asian/Tetsu_Katayama.dds"
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader.dds"
+				"gfx/leaders/Asian/generic/generic_leader4.dds"
+				"gfx/leaders/Asian/generic/generic_leader8.dds"
+				"gfx/leaders/Asian/Tetsu_Katayama.dds"
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader.dds"
+				"gfx/leaders/Asian/generic/generic_leader4.dds"
+				"gfx/leaders/Asian/generic/generic_leader8.dds"
+				"gfx/leaders/Asian/Tetsu_Katayama.dds"
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader3.dds"
+				"gfx/leaders/Asian/generic/generic_leader6.dds"
+				"gfx/leaders/Asian/generic/generic_leader9.dds"
+				"gfx/leaders/Asian/Demchugdongrub.dds"
+				"gfx/leaders/Asian/Hirohito.dds"
+				"gfx/leaders/Asian/Jamphel_Yeshe_Gyaltsen.dds"
+				"gfx/leaders/Asian/Jigme_Wangchuk.dds"
+				"gfx/leaders/Asian/Puyi.dds"
+				"gfx/leaders/Asian/Puyi_emperor.dds"
+				"gfx/leaders/Asian/Zhang_Lan.dds"
+				"gfx/leaders/Asian/Zhang_Xueliang.dds"
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/Asian/Hirohito.dds"
+				"gfx/leaders/Asian/Jamphel_Yeshe_Gyaltsen.dds"
+				"gfx/leaders/Asian/Jigme_Wangchuk.dds"
+				"gfx/leaders/Asian/Puyi_emperor.dds"
+				"gfx/leaders/Asian/Zhang_Lan.dds"
+				"gfx/leaders/Asian/Zhang_Xueliang.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Asian/generic/generic_leader3.dds"
+				"gfx/leaders/Asian/generic/generic_leader6.dds"
+				"gfx/leaders/Asian/generic/generic_leader9.dds"
+				"gfx/leaders/Asian/Hideki_Tojo.dds"
+				"gfx/leaders/Asian/Zhang_Xueliang.dds"
+			}
+		}
+	}	
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"gfx/leaders/Arab/generic/generic_general.dds"
+			"gfx/leaders/Arab/generic/generic_general2.dds"
+			"gfx/leaders/Arab/generic/generic_general3.dds"
+			"gfx/leaders/Arab/generic/generic_general4.dds"
+			"gfx/leaders/Arab/generic/generic_general5.dds"
+			"gfx/leaders/Arab/generic/generic_general6.dds"
+			"gfx/leaders/Arab/Mohammed_Zahir_Shah.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Arab/generic/generic_admiral.dds"
+			"gfx/leaders/Arab/generic/generic_admiral2.dds"
+			"gfx/leaders/Arab/generic/generic_admiral3.dds"
+		}
+	}
+	
+	political = {
+		anarchism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader2.dds"
+				"gfx/leaders/Arab/generic/generic_leader5.dds"
+				"gfx/leaders/Arab/Imam_Yaha.dds"
+			}
+		}
+		communism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader2.dds"
+				"gfx/leaders/Arab/generic/generic_leader5.dds"
+			}
+		}
+		leftism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader.dds"
+				"gfx/leaders/Arab/generic/generic_leader4.dds"
+			}
+		}
+		centrism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader.dds"
+				"gfx/leaders/Arab/generic/generic_leader4.dds"
+			}
+		}
+		conservatism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader.dds"
+				"gfx/leaders/Arab/generic/generic_leader4.dds"
+			}
+		}
+		despotism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader3.dds"
+				"gfx/leaders/Arab/generic/generic_leader6.dds"
+			}
+		}
+		monarchism = {
+			male = { 
+				"gfx/leaders/Arab/Abdulazis_Ibn_Saud.dds"
+				"gfx/leaders/Arab/Ghazi.dds"
+				"gfx/leaders/Arab/Imam_Yaha.dds"
+				"gfx/leaders/Arab/Mohammed_Zahir_Shah.dds"
+				"gfx/leaders/Arab/Reza_Shah_Pahlavi.dds"
+				"gfx/leaders/Arab/Said_Bin_Taimur.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Arab/generic/generic_leader3.dds"
+				"gfx/leaders/Arab/generic/generic_leader6.dds"
+				"gfx/leaders/Arab/Imam_Yaha.dds"
+			}
+		}
+	}
+
+}

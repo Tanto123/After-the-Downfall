@@ -212,7 +212,7 @@ fleet_in_being_ratios = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 5
+		value = 20
 	}
 }
 
@@ -245,7 +245,7 @@ base_strike_ratios = {
 	ai_strategy = {
 		type = unit_ratio
 		id = carrier
-		value = 40
+		value = 50
 	}
 
 	ai_strategy = {

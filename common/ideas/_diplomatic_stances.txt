@@ -1,0 +1,81 @@
+ideas = {
+
+	diplomatic_stance = {
+	
+		jingoism = {
+			picture = purge
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = -0.1
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.10
+				war_support_factor = 0.1
+				max_command_power = 15
+				mobilization_speed = 0.1
+			}
+		}
+	
+		hawk_lobby = {
+			picture = vittoria_mutilata
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = -0.05
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				max_command_power = 10
+				mobilization_speed = 0.05
+			}
+		}
+	
+		dove_lobby = {
+			picture = peace
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				max_command_power = 5
+			}
+		}
+	
+		pacifism = {
+			picture = democracy
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = 0.05
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				mobilization_speed = -0.05
+			}
+		}
+		
+	}
+	
+}

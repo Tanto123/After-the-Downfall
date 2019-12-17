@@ -9,7 +9,10 @@
 
 communist_peace = {
 	enable = {
-		has_government = communism
+		OR = {
+			has_government = anarchism
+			has_government = communism
+		}
 	}
 
 	annex_randomness = 0 #200
@@ -66,6 +69,9 @@ communist_peace = {
 			NOT = {
 				FROM = {
 					has_government = communism
+				}
+				FROM = {
+					has_government = anarchism
 				}			
 			}
 		}
@@ -110,7 +116,6 @@ communist_peace = {
 		}
 		modifier = { #Don't release Chinese warlords except for PRC.
 			factor = 0
-			FROM = { is_independent_china_or_warlord = yes }
 			NOT = { tag = PRC }
 		}
 	}
@@ -233,7 +238,6 @@ communist_peace = {
 		}
 		modifier = { #Puppet only the PRC.
 			factor = 0
-			FROM = { is_independent_china_or_warlord = yes }
 			FROM = { NOT = { tag = PRC } }
 		}
 		modifier = { #Do not release Sinkiang.
@@ -242,25 +246,6 @@ communist_peace = {
 		}
 	}
 
-	# ROOT = Taker, FROM = Giver
-	puppet_all = {
-		base = 0 
-	}
-	
-	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
-	puppet_state = {
-		base = 0 
-		modifier = { #puppet state only if already puppeted
-			add = 200
-			#only if already puppetted the country
-			is_in_array = { subject_countries@FROM = FROM.FROM }
-			#only if already puppetted a neighbor state
-			any_neighbor_state = {
-				is_in_array = { subject_states@FROM = this }
-			}
-		}
-	}
-	
 	# ROOT = Taker, FROM = State
 	take_states = {
 		factor = 200
@@ -526,7 +511,10 @@ communist_peace = {
 			factor = -1
 
 			FROM = {
-				has_government = communism
+				OR = {
+					has_government = anarchism
+					has_government = communism
+				}
 			}
 		}
 	}

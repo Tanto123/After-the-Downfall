@@ -15,6 +15,7 @@ state={
 
 	history={
 		owner = CSA
+		add_core_of = CSA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 9
@@ -26,7 +27,6 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CSA
 		victory_points = {
 			10337 10
 		}
@@ -36,7 +36,6 @@ state={
 		victory_points = {
 			12782 1 
 		}
-
 	}
 
 	provinces={

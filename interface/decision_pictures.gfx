@@ -1,0 +1,98 @@
+spriteTypes = {	
+	
+	### category pictures
+	
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_arabia"
+		texturefile = "gfx/interface/decision_pictures/DCP_arabia.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_austria_hungary"
+		texturefile = "gfx/interface/decision_pictures/DCP_austria_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_baltics"
+		texturefile = "gfx/interface/decision_pictures/DCP_baltics.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_benelux"
+		texturefile = "gfx/interface/decision_pictures/DCP_benelux.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_border_conflicts"
+		texturefile = "gfx/interface/decision_pictures/DCP_border_conflicts.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_byzantine_empire"
+		texturefile = "gfx/interface/decision_pictures/DCP_byzantine_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_case_anton"
+		texturefile = "gfx/interface/decision_pictures/DCP_case_anton.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_central_america"
+		texturefile = "gfx/interface/decision_pictures/DCP_central_america.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_european_union"
+		texturefile = "gfx/interface/decision_pictures/DCP_european_union.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_gran_colombia"
+		texturefile = "gfx/interface/decision_pictures/DCP_gran_colombia.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_hre"
+		texturefile = "gfx/interface/decision_pictures/DCP_hre.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_infiltration"
+		texturefile = "gfx/interface/decision_pictures/DCP_infiltration.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_majapahit_empire"
+		texturefile = "gfx/interface/decision_pictures/DCP_majapahit_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_mutapa"
+		texturefile = "gfx/interface/decision_pictures/DCP_mutapa.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_nordic_league"
+		texturefile = "gfx/interface/decision_pictures/DCP_nordic_league.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_ottoman_empire"
+		texturefile = "gfx/interface/decision_pictures/DCP_ottoman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_persian_empire"
+		texturefile = "gfx/interface/decision_pictures/DCP_persian_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_plc"
+		texturefile = "gfx/interface/decision_pictures/DCP_plc.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_political_support"
+		texturefile = "gfx/interface/decision_pictures/DCP_political_support.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_rattanakosin_kingdom"
+		texturefile = "gfx/interface/decision_pictures/DCP_rattanakosin_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_roman_empire"
+		texturefile = "gfx/interface/decision_pictures/DCP_roman_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_scandinavia"
+		texturefile = "gfx/interface/decision_pictures/DCP_scandinavia.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_DCP_supply_depot"
+		texturefile = "gfx/interface/decision_pictures/DCP_supply_depot.dds"
+	}
+	
+}

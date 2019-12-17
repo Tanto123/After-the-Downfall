@@ -1,4 +1,3 @@
-
 ai_focus_defense = {
 	research = {
 		defensive = 5.0	

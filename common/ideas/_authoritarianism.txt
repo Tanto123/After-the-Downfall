@@ -1,0 +1,85 @@
+ideas = {
+
+	authoritarianism = {
+	
+		totalitarian_rule = {
+			picture = political_force
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = 0.2
+			}
+		}
+	
+		authoritarian_rule = {
+			picture = ideology_drift_defense
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.15
+			}
+		}
+	
+		oligarchy = {
+			picture = upper_class
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
+	
+		flawed_democracy = {
+			picture = disjointed_government
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+	
+		democracy = {
+			picture = political_power_bonus
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		
+	}
+	
+}

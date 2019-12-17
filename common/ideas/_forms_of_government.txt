@@ -1,0 +1,52 @@
+ideas = {
+
+	form_of_government = {
+	
+		confederacy = {
+			picture = low_popular_support3
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	
+		constitutional_monarchy = {
+			picture = treaty
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	
+		federal_republic = {
+			picture = flexible_foreign_policy
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		
+	}
+	
+}

@@ -10,7 +10,10 @@ fascist_peace = {
 			has_government = fascism
 			AND = {
 				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
+				NOT = { has_government = anarchism }
+				NOT = { has_government = leftism }
+				NOT = { has_government = centrism }
+				NOT = { has_government = conservatism }
 				OR = {
 					any_country = {
 						is_in_faction_with = ROOT
@@ -164,6 +167,9 @@ fascist_peace = {
 			NOT = {
 				FROM = {
 					has_government = fascism
+				}
+				FROM = {
+					has_government = monarchism
 				}
 			}
 		}
@@ -479,25 +485,6 @@ fascist_peace = {
 		}
 	}
 
-	# ROOT = Taker, FROM = Giver
-	puppet_all = {
-		base = 0 
-	}
-	
-	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
-	puppet_state = {
-		base = 0 
-		modifier = { #puppet state only if already puppeted
-			add = 200
-			#only if already puppetted the country
-			is_in_array = { subject_countries@FROM = FROM.FROM }
-			#only if already puppetted a neighbor state
-			any_neighbor_state = {
-				is_in_array = { subject_states@FROM = this }
-			}
-		}
-	}
-	
 	# ROOT = Taker, FROM = State
 	take_states = {
 		factor = 600 #Up from 500 #200 - vanilla		
@@ -676,33 +663,6 @@ fascist_peace = {
 						#}
 					}
 				}			
-			}
-		}
-		modifier = { #If Japan is in faction, leave Asia and Australia to Japan.
-			factor = 0
-			OR = {
-				is_in_faction_with = JAP
-				AND = { #Workaround for a puppeted USA being given land in Asia
-					tag = USA
-					JAP = { has_government = fascism }
-				}
-			}
-			JAP = { is_puppet = no }
-			NOT = { tag = JAP }
-			NOT = {
-				FROM = {
-					OR = {
-						is_claimed_by = ROOT
-						is_core_of = ROOT
-					}
-				}
-			}
-			NOT = { FROM = { is_core_of = SOV } }
-			FROM = {
-				OR = {
-					is_on_continent = asia
-					is_on_continent = australia
-				}
 			}
 		}
 		modifier = { #Don't steal claims and cores from faction members unless we also have a right to that clay unless they are puppets

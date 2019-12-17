@@ -12,13 +12,13 @@ state={
 	}
 
 	history={
-		owner = CAL
+		owner = USA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 2
-			industrial_complex = 2
+			industrial_complex = 6
 			dockyard = 2
-			air_base = 1
+			air_base = 10
 			1562 = {
 				naval_base = 10
 			}
@@ -32,7 +32,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CAL
+		add_core_of = USA
 		victory_points = {
 			9814 30
 		}

@@ -1,0 +1,131 @@
+spriteTypes = {	
+
+	### categories
+
+	spriteType = {
+		name = "GFX_decision_category_DCI_generic"
+		texturefile = "gfx/interface/decision_categories/DCI_generic.dds"
+	}
+	
+	#diplomacy
+	spriteType = {
+		name = "GFX_decision_category_DCI_league_of_nations"
+		texturefile = "gfx/interface/decision_categories/economy/DCI_league_of_nations.dds"
+	}
+	
+	#economy
+	spriteType = {
+		name = "GFX_decision_category_DCI_economy"
+		texturefile = "gfx/interface/decision_categories/economy/DCI_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_industry"
+		texturefile = "gfx/interface/decision_categories/economy/DCI_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_mefo"
+		texturefile = "gfx/interface/decision_categories/economy/DCI_mefo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_resource_production"
+		texturefile = "gfx/interface/decision_categories/economy/DCI_resource_production.dds"
+	}
+	
+	#ideology
+	spriteType = {
+		name = "GFX_decision_category_DCI_communism"
+		texturefile = "gfx/interface/decision_categories/ideology/DCI_communism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_democracy"
+		texturefile = "gfx/interface/decision_categories/ideology/DCI_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_fascism"
+		texturefile = "gfx/interface/decision_categories/ideology/DCI_fascism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_monarchism"
+		texturefile = "gfx/interface/decision_categories/ideology/DCI_monarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_nazism"
+		texturefile = "gfx/interface/decision_categories/ideology/DCI_nazism.dds"
+	}
+	
+	#military
+	spriteType = {
+		name = "GFX_decision_category_DCI_army_reform"
+		texturefile = "gfx/interface/decision_categories/military/DCI_army_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_infiltration"
+		texturefile = "gfx/interface/decision_categories/military/DCI_infiltration.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_military_officers"
+		texturefile = "gfx/interface/decision_categories/military/DCI_military_officers.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_tank"
+		texturefile = "gfx/interface/decision_categories/military/DCI_tank.dds"
+	}
+	
+	#politics
+	spriteType = {
+		name = "GFX_decision_category_DCI_anti_colonialism"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_anti_colonialism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_border_conflict"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_border_conflict.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_border_war"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_border_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_crisis"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_independence"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_independence.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_politics"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_politics.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_power_struggle"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_power_struggle.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_propaganda"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_revolt"
+		texturefile = "gfx/interface/decision_categories/politics/DCI_revolt.dds"
+	}
+	
+	#specific_countries
+	
+	spriteType = {
+		name = "GFX_decision_category_DCI_CHI_intervention"
+		texturefile = "gfx/interface/decision_categories/specific_countries/DCI_CHI_intervention.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_JAP"
+		texturefile = "gfx/interface/decision_categories/specific_countries/DCI_JAP.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_JAP_expansion"
+		texturefile = "gfx/interface/decision_categories/specific_countries/DCI_JAP_expansion.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_DCI_SOV_soldier"
+		texturefile = "gfx/interface/decision_categories/specific_countries/DCI_SOV_soldier.dds"
+	}
+	
+}

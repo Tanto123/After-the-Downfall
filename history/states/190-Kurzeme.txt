@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			9262 3
 		}
-		owner = GME
+		owner = LAT
 		buildings = {
 			infrastructure = 5
 			9262 = {
@@ -22,6 +22,6 @@ state={
 	}
 
 	provinces={
-		265 3194 3296 3255 3319 3525 6222 6322 6342 9262 11246 11358
+		265 3194 3296 3319 3525 6222 6322 6342 9262 11246 
 	}
 }

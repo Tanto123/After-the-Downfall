@@ -1,0 +1,25 @@
+ideas = {
+
+	social_faction = {
+	
+		air_force_officers = {
+			picture = air_force
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				air_doctrine = 0.2
+			}
+			modifier = {
+				experience_gain_air = 0.03
+			}
+		}
+		
+	}
+	
+}

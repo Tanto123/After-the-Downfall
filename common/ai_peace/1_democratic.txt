@@ -9,7 +9,11 @@
 
 democratic_peace = {
 	enable = {
-		has_government = democratic
+		OR = {
+			has_government = leftism
+			has_government = centrism
+			has_government = conservatism
+		}
 	}
 
 	annex_randomness = 0 #100
@@ -55,14 +59,18 @@ democratic_peace = {
 			factor = 10
 
 			FROM = {
-				has_government = democratic
+				OR = {
+					has_government = leftism
+					has_government = centrism
+					has_government = conservatism
+				}
 			}
 		}
 		modifier = {
 			factor = 5
 
 			FROM = {
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 
@@ -152,14 +160,20 @@ democratic_peace = {
 			factor = 5
 
 			FROM = {
-				has_government = democratic
+				OR = {
+					has_government = leftism
+					has_government = centrism
+					has_government = conservatism
+				}
 			}
 		}
 
 		modifier = {
 			factor = 10
 			FROM = {
-				NOT = { has_government = democratic }
+				NOT = { has_government = leftism }
+				NOT = { has_government = centrism }
+				NOT = { has_government = conservatism }
 			}
 		}
 
@@ -298,25 +312,6 @@ democratic_peace = {
 		#}
 	}
 
-	# ROOT = Taker, FROM = Giver
-	puppet_all = {
-		base = 0 
-	}
-	
-	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
-	puppet_state = {
-		base = 0 
-		modifier = { #puppet state only if already puppeted
-			add = 200
-			#only if already puppetted the country
-			is_in_array = { subject_countries@FROM = FROM.FROM }
-			#only if already puppetted a neighbor state
-			any_neighbor_state = {
-				is_in_array = { subject_states@FROM = this }
-			}
-		}
-	}
-	
 	# ROOT = Taker, FROM = State
 	take_states = {
 		factor = 400 #50
@@ -591,42 +586,15 @@ democratic_peace = {
 				any_owned_state = { NOT = { is_core_of = FROM } }
 			}
 		}
-		#Don't force on GER if Yalta conference happened until release.
-		modifier = {
-			factor = 0
-			FROM = {
-				tag = GER
-				any_owned_state = {
-					OR = {
-						is_core_of = WGR
-						is_core_of = DDR
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			FROM = {
-				OR = { tag = PRC is_independent_china_or_warlord = yes }
-				NOT = { tag = CHI }
-			}
-		}
-		#modifier = { #Not if we claim anything - not working... need a workaround
-		#	factor = 0
-		#	NOT = {
-		#		FROM = {
-		#			any_owned_state = { 
-		#				is_claimed_by = ROOT
-		#				NOT = { has_claimed_state_in_peace_conference = ROOT }
-		#			}
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = -1
 
 			FROM = {
-				has_government = democratic
+				OR = {
+					has_government = leftism
+					has_government = centrism
+					has_government = conservatism
+				}
 			}
 		}
 	}

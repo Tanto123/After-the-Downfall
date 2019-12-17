@@ -1,22 +1,27 @@
 ﻿capital = 102
 
+OOB = "generic_1936"
+
 set_research_slots = 3
 
-# Starting tech
-# clone of Yugoslavia
+set_stability = 0.5
+set_war_support = 0.5
+
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 0 }
+add_offsite_building = { type = arms_factory level = 0 }
+
 set_technology = {
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_submarine = 1
 }
 
-set_popularities = {	fascism = 33	neutrality = 33	communism = 34
+
+	set_popularities = {
+		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 fascism = 5
+	}
+set_politics = { ruling_party = anarchism
+	last_election = "1925.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 }

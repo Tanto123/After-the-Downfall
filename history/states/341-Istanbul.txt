@@ -10,8 +10,8 @@ state= {
 	state_category = city
 
 	history= {
-		add_claim_by = TUR
-		owner = GRE
+		add_claim_by = GRE
+		owner = TUR
 		victory_points = {
 			9833 20
 		}
@@ -29,5 +29,5 @@ state= {
 	}
 	provinces=
 	{
-849 922 3879 3893 6895 9833 11842 	}
+849 922 3879 3893 6895 9833 11829 11842 	}
 }

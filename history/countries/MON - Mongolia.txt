@@ -1,42 +1,27 @@
 ﻿capital = 330
 
-oob = "MON_1936"
+OOB = "generic_1936"
 
+set_research_slots = 3
 
-add_ideas = {
-	limited_conscription
-}
-	
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+set_stability = 0.5
+set_war_support = 0.5
 
-set_popularities = {
-	neutrality = 100
-}
+set_convoys = 100
 
-create_country_leader = {
-	name = "Roman von Ungern-Sternberg"
-	desc = ""
-	picture = "Portrait_MON_Roman_von_Ungern_Sternberg.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+add_offsite_building = { type = industrial_complex level = 0 }
+add_offsite_building = { type = arms_factory level = 0 }
 
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	trench_warfare = 1
-	fuel_silos = 1
-	fuel_refining = 1
-	}
+}
 
+
+	set_popularities = {
+		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 fascism = 5
+	}
+set_politics = { ruling_party = anarchism
+	last_election = "1925.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}

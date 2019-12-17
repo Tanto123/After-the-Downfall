@@ -11,7 +11,7 @@ state={
 	state_category = metropolis
 	
 	history={
-		#owner = GER
+		owner = GER
 		victory_points = {
 			6469 10 
 		}
@@ -46,14 +46,9 @@ state={
 		1936.3.7 = {
 			set_demilitarized_zone = no
 		}
+	}
 
-1921.1.1 = {
-	add_core_of = RHI
-	owner = RHI
-}
-
-}
-provinces={
+	provinces={
 		529 587 3444 3512 3547 6469 6570 9482 9522 
 	}
 	

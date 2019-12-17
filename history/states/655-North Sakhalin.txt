@@ -6,9 +6,8 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = IMR
+		owner = SOV
 		add_core_of = SOV
-		add_core_of = IMR
 		add_claim_by = JAP
 		buildings = {
 			infrastructure = 3
