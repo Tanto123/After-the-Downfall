@@ -1,81 +1,97 @@
 leader_traits = {
 	
 	anarchist_ideologue = {
+		sprite = 1
 		random = no
 		anarchism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	anarchist_politician = {
+		sprite = 1
 		random = no
 		anarchism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	communist_ideologue = {
+		sprite = 2
 		random = no
 		communism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	communist_politician = {
+		sprite = 2
 		random = no
 		communism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	leftist_ideologue = {
+		sprite = 3
 		random = no
 		leftism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	leftist_politician = {
+		sprite = 3
 		random = no
 		leftism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	centrist_ideologue = {
+		sprite = 4
 		random = no
 		centrism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	centrist_politician = {
+		sprite = 4
 		random = no
 		centrism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	conservative_ideologue = {
+		sprite = 5
 		random = no
 		conservatism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	conservative_politician = {
+		sprite = 5
 		random = no
 		conservatism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	despotic_ideologue = {
+		sprite = 6
 		random = no
 		despotism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	despotic_politician = {
+		sprite = 6
 		random = no
 		despotism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	monarchist_ideologue = {
+		sprite = 7
 		random = no
 		monarchism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	monarchist_politician = {
+		sprite = 7
 		random = no
 		monarchism_drift = 0.01
 		ai_will_do = { factor = 0 }
 	}
 	ultranationalist_ideologue = {
+		sprite = 8
 		random = no
 		ultranationalism_drift = 0.1
 		ai_will_do = { factor = 0 }
 	}
 	ultranationalist_politician = {
+		sprite = 8
 		random = no
 		ultranationalism_drift = 0.01
 		ai_will_do = { factor = 0 }

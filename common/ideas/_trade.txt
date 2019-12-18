@@ -52,14 +52,6 @@ ideas = {
 		export_focus = {
 			
 			available = {
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 			
 			
@@ -106,7 +98,11 @@ ideas = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
+						OR = {
+							has_government = leftism
+							has_government = centrism
+							has_government = conservatism
+						}
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -116,22 +112,15 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
+						NOT = { has_government = leftism }
+						NOT = { has_government = centrism }
+						NOT = { has_government = conservatism }
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
 							has_idea = tot_economic_mobilisation
 						}
 					}
-				}
-
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 		
@@ -181,18 +170,6 @@ ideas = {
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
-				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 			

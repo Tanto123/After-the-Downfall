@@ -43,3 +43,35 @@
  ideological_crusader:0 "Ideological Crusader"
  relentless_optimist:0 "Relentless Optimist"
  talented_propagandist:0 "Talented Propagandist"
+ #
+ #Manufacturers
+ #
+ ##Tanks
+ allround_tank_manufacturer:0 "Allround Tank Manufacturer"
+ fast_tank_manufacturer:0 "Fast Tank Manufacturer"
+ heavy_tank_manufacturer:0 "Heavy Tank Manufacturer"
+ medium_tank_manufacturer:0 "Medium Tank Manufacturer"
+ ##Navy
+ atlantic_designer:0 "Atlantic Designer"
+ battlefleet_designer:0 "Battlefleet Designer"
+ coastal_designer:0 "Coastal Designer"
+ convoy_designer:0 "Convoy Designer"
+ pacific_designer:0 "Pacific Designer"
+ raiding_fleet_designer:0 "Raiding Fleet Designer"
+ ##Air
+ air_support_designer:0 "Air Support Designer"
+ air_range_designer:0 "Air Range Designer"
+ heavy_aircraft_designer:0 "Heavy Aircraft Designer"
+ light_aircraft_designer:0 "Light Aircraft Designer"
+ medium_aircraft_designer:0 "Medium Aircraft Designer"
+ naval_aircraft_designer:0 "Naval Aircraft Designer"
+ ##Materiel
+ artillery_manufacturer:0 "Artillery Manufacturer"
+ infantry_equipment_manufacturer:0 "Infantry Equipment Manufacturer"
+ support_equipment_manufacturer:0 "Support Equipment Manufacturer"
+ motorized_equipment_manufacturer:0 "Motorized Equipment Manufacturer"
+ ##Industrial
+ construction_company:0 "Construction Company"
+ electronics_concern:0 "Electronics Concern"
+ industrial_concern:0 "Industrial Concern"
+ refinery_concern:0 "Refinery Concern"

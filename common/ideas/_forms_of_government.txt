@@ -29,7 +29,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_advisor_cost_factor = -0.25
+				manufacturer_cost_factor = -0.25
 			}
 		}
 	
@@ -62,7 +62,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 		}
 	
@@ -92,7 +92,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
 			}
 		}
 	

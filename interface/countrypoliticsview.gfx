@@ -248,6 +248,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_slot_manufacturer"
+		textureFile = "gfx/interface/idea_slot_manufacturer.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_slot_industrial_concern"
 		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
@@ -275,6 +280,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_slot_political_advisor"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_social_faction"
+		textureFile = "gfx/interface/idea_slot_social_faction.dds"
 	}
 
 	spriteType = {

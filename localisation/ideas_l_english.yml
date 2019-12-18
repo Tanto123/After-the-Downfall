@@ -86,6 +86,15 @@
  ###
  #Research / Production
  research_production:0 "Research / Production"
+ manufacturer: "Manufacturer"
+ generic_artillery_company:0 "Artillery Company"
+ generic_construction_company:0 "Construction Company"
+ generic_electronics_company:0 "Electronics Company"
+ generic_industrial_company:0 "Industrial Company"
+ generic_infantry_equipment_company:0 "Infantry Arms Company"
+ generic_refinery_concern:0 "Refinery Concern"
+ generic_support_company:0 "Support Company"
+ generic_vehicle_company:0 "Vehicle Company"
  ###
  #Military Staff
  military_staff:0 "Military Staff"

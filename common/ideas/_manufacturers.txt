@@ -1,0 +1,92 @@
+ideas = {
+	
+	manufacturer = {
+	
+		generic_artillery_company = {
+			picture = artillery_manufacturer
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 } } }
+			available = { }
+			research_bonus = { artillery = 0.2 }
+			traits = { artillery_manufacturer }
+			cost = 150
+		}
+	
+		generic_construction_company = {
+			picture = production
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = construction_company limit = 1 } } }
+			available = { }
+			traits = { construction_company }
+			cost = 150
+		}
+	
+		generic_electronics_company = {
+			picture = industrial_concern2
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = electronics_concern limit = 1 } } }
+			available = { }
+			research_bonus = {
+				electronics = 0.3
+			}
+			traits = { electronics_concern }
+			cost = 150
+		}
+	
+		generic_industrial_company = {
+			picture = industrial_concern
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = industrial_concern limit = 1 } } }
+			available = { }
+			research_bonus = {
+				industry = 0.2
+			}
+			traits = { industrial_concern }
+			cost = 150
+		}
+	
+		generic_infantry_equipment_company = {
+			picture = infantry_equipment_manufacturer
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 } } }
+			available = { }
+			research_bonus = { infantry_weapons = 0.2 }
+			traits = { infantry_equipment_manufacturer }
+			cost = 150
+		}
+	
+		generic_refinery_concern = {
+			picture = refining_concern
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = refinery_concern limit = 1 } } }
+			available = { }
+			research_bonus = {
+				synth_resources = 0.5
+			}
+			traits = { refinery_concern }
+			cost = 150
+		}
+	
+		generic_support_company = {
+			picture = electronics_concern
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = support_equipment_manufacturer limit = 1 } } }
+			available = { }
+			research_bonus = { support_tech = 0.2 }
+			traits = { support_equipment_manufacturer }
+			cost = 150
+		}
+	
+		generic_vehicle_company = {
+			picture = motorized_equipment_manufacturer3
+			visible = { }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 } } }
+			available = { }
+			research_bonus = { motorized_equipment = 0.2 }
+			traits = { motorized_equipment_manufacturer }
+			cost = 150
+		}
+		
+	}
+	
+}
