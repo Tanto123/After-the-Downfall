@@ -1,9 +1,22 @@
 ideas = {
 
+	#
+	#	Democracy Rating:
+	#
+	#	00-20: Totalitarian
+	#	21-40: Authoritarian
+	#	41-60: Oligarchy
+	#	61-80: Flawed Democracy
+	#	81-100: Democracy
+	#
+
 	authoritarianism = {
+		law = yes
 	
 		totalitarian_rule = {
 			picture = political_force
+			
+			level = 5
 			
 			allowed = {}
 			visible = { always = yes }
@@ -21,6 +34,8 @@ ideas = {
 		authoritarian_rule = {
 			picture = ideology_drift_defense
 			
+			level = 4
+			
 			allowed = {}
 			visible = { always = yes }
 			available = { always = no }
@@ -37,6 +52,8 @@ ideas = {
 		oligarchy = {
 			picture = upper_class
 			
+			level = 3
+			
 			allowed = {}
 			visible = { always = yes }
 			available = { always = no }
@@ -51,6 +68,8 @@ ideas = {
 	
 		flawed_democracy = {
 			picture = disjointed_government
+			
+			level = 2
 			
 			allowed = {}
 			visible = { always = yes }
@@ -67,6 +86,8 @@ ideas = {
 	
 		democracy = {
 			picture = political_power_bonus
+			
+			level = 1
 			
 			allowed = {}
 			visible = { always = yes }

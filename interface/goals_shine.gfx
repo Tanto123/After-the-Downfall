@@ -17339,7 +17339,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-	##Fascism
+	##fascism
 	
 	SpriteType = {
 		name = "anti_fascism_shine"

@@ -7,7 +7,7 @@
 fascist_peace = {
 	enable = {
 		OR = {
-			has_government = fascism
+			has_government = ultranationalism
 			AND = {
 				NOT = { has_government = communism }
 				NOT = { has_government = anarchism }
@@ -18,7 +18,7 @@ fascist_peace = {
 					any_country = {
 						is_in_faction_with = ROOT
 						is_faction_leader = yes
-						has_government = fascism
+						has_government = ultranationalism
 					}
 					is_in_faction = no
 					is_faction_leader = yes
@@ -166,7 +166,7 @@ fascist_peace = {
 			factor = 0 #0.5 - only liberate fascists!
 			NOT = {
 				FROM = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				FROM = {
 					has_government = monarchism

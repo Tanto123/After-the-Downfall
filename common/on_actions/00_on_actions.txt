@@ -77,7 +77,81 @@ on_actions = {
 		effect = {}
 	}
 	on_startup = {
-		effect = {}
+		effect = {
+			#Democracy Rating
+			every_country = {
+				#Set DR to 50 if it doesnt exist.
+				if = {
+					limit = { NOT = { has_variable = democracy_rating } }
+					set_variable = { democracy_rating = 50 }
+				}
+				#Read DR to assign correct Authoritarianism idea.
+				if = {
+					limit = { check_variable = { democracy_rating < 21 } }
+					add_ideas = totalitarian_rule
+				}
+				if = {
+					limit = { 
+						check_variable = { democracy_rating > 20 } 
+						check_variable = { democracy_rating < 41 } 
+					}
+					add_ideas = authoritarian_rule
+				}
+				if = {
+					limit = { 
+						check_variable = { democracy_rating > 40 } 
+						check_variable = { democracy_rating < 61 } 
+					}
+					add_ideas = oligarchy
+				}
+				if = {
+					limit = { 
+						check_variable = { democracy_rating > 60 } 
+						check_variable = { democracy_rating < 81 } 
+					}
+					add_ideas = flawed_democracy
+				}
+				if = {
+					limit = { 
+						check_variable = { democracy_rating > 80 } 
+					}
+					add_ideas = democracy
+				}
+			}
+			#Pacifism Rating
+			every_country = {
+				#Set PR to 65 if it doesnt exist.
+				if = {
+					limit = { NOT = { has_variable = pacifism_rating } }
+					set_variable = { pacifism_rating = 65 }
+				}
+				#Read PR to assign correct Diplomatic Stance idea.
+				if = {
+					limit = { check_variable = { pacifism_rating < 26 } }
+					add_ideas = totalitarian_rule
+				}
+				if = {
+					limit = { 
+						check_variable = { pacifism_rating > 25 }
+						check_variable = { pacifism_rating < 51 }
+					}
+					add_ideas = hawk_lobby
+				}
+				if = {
+					limit = { 
+						check_variable = { pacifism_rating > 50 }
+						check_variable = { pacifism_rating < 76 }
+					}
+					add_ideas = dove_lobby
+				}
+				if = {
+					limit = { 
+						check_variable = { pacifism_rating > 75 }
+					}
+					add_ideas = pacifism
+				}
+			}
+		}
 	}
 	on_unit_leader_created = {
 		effect = {}

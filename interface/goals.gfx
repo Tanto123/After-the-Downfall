@@ -2323,7 +2323,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/democracy/rigged_elections.dds"			
 	}
 	
-	##Fascism
+	##fascism
 
 	SpriteType = {
 		name = "anti_fascism"

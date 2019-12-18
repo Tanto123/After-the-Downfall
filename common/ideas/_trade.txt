@@ -175,7 +175,7 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = fascism
+					has_government = ultranationalism
 					has_government = communism
 				}
 				OR = {

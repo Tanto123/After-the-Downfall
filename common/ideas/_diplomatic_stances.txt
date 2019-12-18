@@ -1,9 +1,21 @@
 ideas = {
 
+	#
+	#	Pacifism Rating:
+	#
+	#	00-25: Jingoism
+	#	26-50: Hawk Lobby
+	#	51-75: Dove Lobby
+	#	76-100: Pacifism
+	#
+
 	diplomatic_stance = {
+		law = yes
 	
 		jingoism = {
 			picture = purge
+			
+			level = 4
 			
 			allowed = {}
 			visible = { always = yes }
@@ -13,6 +25,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				min_export = -0.03
 				join_faction_tension = -0.1
 				production_speed_buildings_factor = -0.05
 				stability_factor = -0.10
@@ -25,6 +38,8 @@ ideas = {
 		hawk_lobby = {
 			picture = vittoria_mutilata
 			
+			level = 3
+			
 			allowed = {}
 			visible = { always = yes }
 			available = { always = no }
@@ -33,6 +48,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				min_export = -0.01
 				join_faction_tension = -0.05
 				stability_factor = -0.05
 				war_support_factor = 0.05
@@ -44,6 +60,8 @@ ideas = {
 		dove_lobby = {
 			picture = peace
 			
+			level = 2
+			
 			allowed = {}
 			visible = { always = yes }
 			available = { always = no }
@@ -52,6 +70,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				min_export = 0.01
 				production_speed_buildings_factor = 0.05
 				max_command_power = 5
 			}
@@ -60,6 +79,8 @@ ideas = {
 		pacifism = {
 			picture = democracy
 			
+			level = 1
+			
 			allowed = {}
 			visible = { always = yes }
 			available = { always = no }
@@ -68,6 +89,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				min_export = 0.03
 				join_faction_tension = 0.05
 				production_speed_buildings_factor = 0.1
 				stability_factor = 0.05

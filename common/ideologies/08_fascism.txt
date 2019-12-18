@@ -1,6 +1,6 @@
 ideologies = {
 
-	fascism = {
+	ultranationalism = {
 	
 		types = {
 			ethnopurism = {}

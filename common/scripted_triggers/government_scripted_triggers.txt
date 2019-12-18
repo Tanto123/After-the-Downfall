@@ -1,0 +1,6 @@
+is_republic = {
+	NOT = { has_idea = absolute_monarchy }
+	NOT = { has_idea = advised_monarchy }
+	NOT = { has_idea = constitutional_monarchy }
+	NOT = { has_idea = parliamentary_monarchy }
+}

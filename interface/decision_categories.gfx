@@ -41,8 +41,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/decision_categories/ideology/DCI_democracy.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_category_DCI_fascism"
-		texturefile = "gfx/interface/decision_categories/ideology/DCI_fascism.dds"
+		name = "GFX_decision_category_DCI_ultranationalism"
+		texturefile = "gfx/interface/decision_categories/ideology/DCI_ultranationalism.dds"
 	}
 	spriteType = {
 		name = "GFX_decision_category_DCI_monarchism"

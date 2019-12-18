@@ -476,8 +476,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/canada/canadian_democracy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_canadian_fascism"
-		texturefile = "gfx/interface/ideas/canada/canadian_fascism.dds"
+		name = "GFX_idea_canadian_ultranationalism"
+		texturefile = "gfx/interface/ideas/canada/canadian_ultranationalism.dds"
 	}
 	
 	#CHINA#
@@ -2279,8 +2279,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/hungary/hungarian_royal_democracy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_hungarian_royal_fascism"
-		texturefile = "gfx/interface/ideas/hungary/hungarian_royal_fascism.dds"
+		name = "GFX_idea_hungarian_royal_ultranationalism"
+		texturefile = "gfx/interface/ideas/hungary/hungarian_royal_ultranationalism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hungarian_swedish_ties"
@@ -2369,35 +2369,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideology/democracy/democracy2.dds"
 	}	
 	
-	##FASCISM##
+	##ultranationalism##
 
 	spriteType = {
-		name = "GFX_idea_anti_fascism"
-		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism.dds"
+		name = "GFX_idea_anti_ultranationalism"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/anti_ultranationalism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_fascism"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism.dds"
+		name = "GFX_idea_ultranationalism"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_fascism2"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism2.dds"
+		name = "GFX_idea_ultranationalism2"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism2.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_fascism3"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism3.dds"
+		name = "GFX_idea_ultranationalism3"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism3.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_fascism4"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism4.dds"
+		name = "GFX_idea_ultranationalism4"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism4.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_fascism5"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism5.dds"
+		name = "GFX_idea_ultranationalism5"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism5.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_fascism6"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism6.dds"
+		name = "GFX_idea_ultranationalism6"
+		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism6.dds"
 	}	
 	##MONARCHISM##
 
@@ -2553,8 +2553,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/india/indian_communism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_indian_fascism"
-		texturefile = "gfx/interface/ideas/india/indian_fascism.dds"
+		name = "GFX_idea_indian_ultranationalism"
+		texturefile = "gfx/interface/ideas/india/indian_ultranationalism.dds"
 	}	
 	#ITALY#
 	

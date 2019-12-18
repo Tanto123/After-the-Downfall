@@ -3,6 +3,8 @@ ideas = {
 	political_advisor = {
 	
 		generic_anarchist_ideologue = {
+			picture = generic_politician
+		
 			allowed = { NOT = { has_available_idea_with_traits = { idea = anarchist_ideologue limit = 1 } } }
 			available = { }
 			traits = { anarchist_ideologue }
@@ -14,6 +16,8 @@ ideas = {
 		}
 	
 		generic_communist_ideologue = {
+			picture = generic_politician2
+			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = communist_ideologue limit = 1 } } }
 			available = { }
 			traits = { communist_ideologue }
@@ -25,6 +29,8 @@ ideas = {
 		}
 	
 		generic_leftist_ideologue = {
+			picture = generic_politician3
+			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = leftist_ideologue limit = 1 } } }
 			available = { }
 			traits = { leftist_ideologue }
@@ -36,6 +42,8 @@ ideas = {
 		}
 	
 		generic_centrist_ideologue = {
+			picture = generic_politician4
+			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = centrist_ideologue limit = 1 } } }
 			available = { }
 			traits = { centrist_ideologue }
@@ -47,6 +55,8 @@ ideas = {
 		}
 	
 		generic_conservative_ideologue = {
+			picture = generic_politician5
+			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = conservative_ideologue limit = 1 } } }
 			available = { }
 			traits = { conservative_ideologue }
@@ -58,6 +68,8 @@ ideas = {
 		}
 	
 		generic_despotic_ideologue = {
+			picture = generic_politician6
+			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = despotic_ideologue limit = 1 } } }
 			available = { }
 			traits = { despotic_ideologue }
@@ -69,6 +81,8 @@ ideas = {
 		}
 	
 		generic_monarchist_ideologue = {
+			picture = generic_politician
+			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = monarchist_ideologue limit = 1 } } }
 			available = { }
 			traits = { monarchist_ideologue }
@@ -79,10 +93,220 @@ ideas = {
 			}
 		}
 	
-		generic_fascist_ideologue = {
-			allowed = { NOT = { has_available_idea_with_traits = { idea = fascist_ideologue limit = 1 } } }
+		generic_ultranationalist_ideologue = {
+			picture = generic_politician2
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = ultranationalist_ideologue limit = 1 } } }
 			available = { }
-			traits = { fascist_ideologue }
+			traits = { ultranationalist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_foreign_interventionist = {
+			picture = generic_politician3
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = foreign_interventionist limit = 1 } } }
+			available = { }
+			traits = { foreign_interventionist }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_machiavellian_diplomat = {
+			picture = generic_politician4
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = machiavellian_diplomat limit = 1 } } }
+			available = { }
+			traits = { machiavellian_diplomat }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_staunch_imperialist = {
+			picture = generic_politician5
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = staunch_imperialist limit = 1 } } }
+			available = { }
+			traits = { staunch_imperialist }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_autarky_proponent = {
+			picture = generic_politician6
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = autarky_proponent limit = 1 } } }
+			available = { }
+			traits = { autarky_proponent }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_consumption_expert = {
+			picture = generic_politician
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = consumption_expert limit = 1 } } }
+			available = { }
+			traits = { consumption_expert }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_industrial_lobbyist = {
+			picture = generic_politician2
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = industrial_lobbyist limit = 1 } } }
+			available = { }
+			traits = { industrial_lobbyist }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_militarization_proponent = {
+			picture = generic_politician3
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = militarization_proponent limit = 1 } } }
+			available = { }
+			traits = { militarization_proponent }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_oil_baron = {
+			picture = generic_politician4
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = oil_baron limit = 1 } } }
+			available = { }
+			traits = { oil_baron }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_research_enthusiast = {
+			picture = generic_politician5
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = research_enthusiast limit = 1 } } }
+			available = { }
+			traits = { research_enthusiast }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_trade_protectionist = {
+			picture = generic_politician6
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = trade_protectionist limit = 1 } } }
+			available = { }
+			traits = { trade_protectionist }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_administrative_genius = {
+			picture = generic_politician
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = administrative_genius limit = 1 } } }
+			available = { }
+			traits = { administrative_genius }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_effective_bureaucrat = {
+			picture = generic_politician2
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = effective_bureaucrat limit = 1 } } }
+			available = { }
+			traits = { effective_bureaucrat }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_freedom_fighter = {
+			picture = generic_politician3
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = freedom_fighter limit = 1 } } }
+			available = { is_subject = yes  }
+			traits = { freedom_fighter }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_ideological_crusader = {
+			picture = generic_politician4
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = ideological_crusader limit = 1 } } }
+			available = { }
+			traits = { ideological_crusader }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_relentless_optimist = {
+			picture = generic_politician5
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = relentless_optimist limit = 1 } } }
+			available = { }
+			traits = { relentless_optimist }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		generic_talented_propagandist = {
+			picture = generic_politician6
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = talented_propagandist limit = 1 } } }
+			available = { }
+			traits = { talented_propagandist }
 			on_add = { }
 			do_effect = { }
 			ai_will_do = {

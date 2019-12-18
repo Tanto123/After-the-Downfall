@@ -1,0 +1,23 @@
+leader_traits = {
+	
+	foreign_interventionist = {
+		random = yes
+		send_volunteers_tension = -0.2
+		ai_will_do = { factor = 0 }
+	}
+	
+	machiavellian_diplomat = {
+		random = yes
+		join_faction_tension = -0.1
+		guarantee_tension = -0.1
+		ai_will_do = { factor = 0 }
+	}
+	
+	staunch_imperialist = {
+		random = yes
+		subjects_autonomy_gain = -0.2
+		generate_wargoal_tension = -0.05
+		ai_will_do = { factor = 0 }
+	}
+	
+}

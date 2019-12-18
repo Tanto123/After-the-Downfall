@@ -232,7 +232,7 @@ continent = {
 				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/European/generic/generic_leader3.dds"
 				"gfx/leaders/European/generic/generic_leader5.dds"
@@ -461,7 +461,7 @@ continent = {
 				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/European/generic/generic_leader3.dds"
 				"gfx/leaders/European/generic/generic_leader5.dds"
@@ -690,7 +690,7 @@ continent = {
 				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/European/generic/generic_leader3.dds"
 				"gfx/leaders/European/generic/generic_leader5.dds"
@@ -919,7 +919,7 @@ continent = {
 				"gfx/leaders/European/Victor_Emmanuel_III.dds" 
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/European/generic/generic_leader3.dds"
 				"gfx/leaders/European/generic/generic_leader5.dds"
@@ -1018,7 +1018,7 @@ continent = {
 				"gfx/leaders/African/Haile_Selassie.dds"
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/African/generic/generic_general.dds"
 				"gfx/leaders/African/generic/generic_general3.dds"
@@ -1163,7 +1163,7 @@ continent = {
 				"gfx/leaders/Asian/Zhang_Xueliang.dds"
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Asian/generic/generic_leader3.dds"
 				"gfx/leaders/Asian/generic/generic_leader6.dds"
@@ -1246,7 +1246,7 @@ continent = {
 				"gfx/leaders/Arab/Said_Bin_Taimur.dds"
 			}
 		}
-		fascism = {
+		ultranationalism = {
 			male = { 
 				"gfx/leaders/Arab/generic/generic_leader3.dds"
 				"gfx/leaders/Arab/generic/generic_leader6.dds"

@@ -3,19 +3,34 @@
  government:0 "Government"
  ##Forms of Government
  form_of_government:0 "Form of Government"
+ absolute_monarchy:0 "Absolute Monarchy"
+ advised_monarchy:0 "Advised Monarchy"
+ defensive_anarchism:0 "Defensive Anarchism"
  confederacy:0 "Confederacy"
  constitutional_monarchy:0 "Constitutional Monarchy"
+ council_republic:0 "Council Republic"
  federal_republic:0 "Federal Republic"
+ industrial_republic:0 "Industrial Republic"
+ military_dictatorship:0 "Military Dictatorship"
+ parliamentary_monarchy:0 "Parliamentary Monarchy"
+ peasant_republic:0 "Peasant Republic"
+ ##Political Advisors
+ political_advisor:0 "Political Advisor"
  ###
  #Government Properties
  government_properties:0 "Government Properties"
  ##Authoritarianism
  authoritarianism:0 "Authoritarianism"
- totalitarian_rule:0 "Totalitarian Rule"
- authoritarian_rule:0 "Authoritarian Rule"
- oligarchy:0 "Oligarchy"
- flawed_democracy:0 "Flawed Democracy"
- democracy:0 "Democracy"
+ totalitarian_rule:0 "Totalitarian Rule ([?ROOT.democracy_rating])"
+ totalitarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Totalitarian Rule: 0-20)\n\nIn totalitarianism, virtually all individual rights have been wiped out. There is no political elections, freedom of speech, freedom of the press, freedom of publication, freedom of movement, freedom of assembly, freedom of association or freedom of religion. Increasingly, even the workplace of each individual is selected by the government during that person's upbringing, which is also heavily supervised through a state-controlled and legally binding education system. Totalitarian states are backed by both overt and covert police forces that prosecute and persecute any dissenters at any level of society, and apply a crushing state ideology in which every form of disagreement is high treason. This is typically enforced through a system in which denunciation of dissent by private individuals is rewarded."
+ authoritarian_rule:0 "Authoritarian Rule ([?ROOT.democracy_rating])"
+ authoritarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Authoritarian Rule: 21-40)\n\nUnder authoritarianism, almost all methods of political participation have been retracted, including the right to vote of most citizens and the freedom of the press. Authoritarianism also features heavy media censorship, including cinema, radio and the newspapers. However, authoritarian governments do usually not feature the overwhelming surveillance states of their totalitarian cousins, and some authoritarian governments still allow some minor private freedoms, like the freedom to choose one's workplace or religion, even though any sort of social movement that could arise from such indulgences is still viewed with great suspicion."
+ oligarchy:0 "Oligarchy ([?ROOT.democracy_rating])"
+ oligarchy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Oligarchy: 41-60)\n\nIn Oligarchies, elections are usually a sham and political opposition groups face numerous artificial obstacles that are not faced by the governing elite's chosen political forces. However, oligarchic states still mostly leave most other personal freedoms intact, with perhaps the only exception being freedom of the press, as the press is usually encouraged to 'self-censor'."
+ flawed_democracy:0 "Flawed Democracy ([?ROOT.democracy_rating])"
+ flawed_democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Flawed Democracy: 61-80)\n\nIn Flawed Democracies, almost all individual and political freedoms are fully intact. On the surface, it is usually hard to differentiate Flawed Democracies from their fully democratic counterparts. However, beneath the surface, there are uncomfortably close ties between big business and media magnates and the governing party, leading to extensive positive media coverage for the ruling elite and lots of criticism aimed at the opposition. Furthermore, minorities of various kinds, be they ethnic, religious or political, often face obstacles when attempting to utilize their right to political participation. For example, opposition strongholds might receive geographically inconvenient voting booths to discourage opposition voters from going to the polls, whereas bastions of government support receive a larger amount of polling stations to make voting more accessible and convenient."
+ democracy:0 "Democracy ([?ROOT.democracy_rating])"
+ democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Democracy: 81-100)\n\nIn Full Democracies (politicians of such systems often refer to them as 'Flawless Democracies'), citizens are provided with full voting rights, a generally fair and equal access to the ballot box, as well as satisfactory separations of power between government and media as well as government and non-political institutions like churches, the military, and big businesses. In Full Democracies, the press is completely free in its broadcasting, and information can flow freely from citizen to citizen as well as into and out of the country as a whole. Full Democracies tend to outperform their more authoritarian rivals in terms of academic success and tend to produce more intelligent citizens, but domestic disputes and crises are also much more visible and amplified because of the unrestricted flow of information."
  ##Mobilization Laws
  mobilization_laws:0 "Mobilization Laws"
  disarmed_nation:0 "Disarmed Nation"
@@ -33,10 +48,15 @@
  war_economy:0 "War Economy"
  tot_economic_mobilisation:0 "Total Mobilization"
  ##Diplomatic Stance
- jingoism:0 "Jingoism"
- hawk_lobby:0 "Hawk Lobby"
- dove_lobby:0 "Dove Lobby"
- pacifism:0 "Pacifism"
+ diplomatic_stance:0 "Diplomatic Stance"
+ jingoism:0 "Jingoism ([?ROOT.pacifism_rating])"
+ jingoism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Jingoism: 0-25)\n\nThe word 'jingoism' originated in the British press of the 1870s, then as a call to vigilance against the United States government's willingness to go to war with the Confederate States. Since then, it has come into use in much of the anglophone word, and is usually used in a derogatory fashion to decry hyper-aggressive foreign policy, typically by one's political or diplomatic rivals."
+ hawk_lobby:0 "Hawk Lobby ([?ROOT.pacifism_rating])"
+ hawk_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Hawk Lobby: 26-50)\n\nIn foreign policy, 'hawks' are politicians that are quick to use military force or economic pressure to opportunistically enforce the nation's diplomatic goals. Hawks carry a low reputation with more peaceful factions, and quickly become the target of enemy propaganda. Their effectiveness in advancement of the country's situation on the world stage should however not be underestimated."
+ dove_lobby:0 "Dove Lobby ([?ROOT.pacifism_rating])"
+ dove_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Dove Lobby: 51-75)\n\nIn foreign policy, 'doves' prefer cooperative and non-interventionist models over the trigger-happy adventures of their 'hawk' counterparts. Instead, doves seek to form defensive alliances to contravene potential aggressors on the world stage, and will accept war or military action only as the last resort."
+ pacifism:0 "Pacifism ([?ROOT.pacifism_rating])"
+ pacifism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Pacifism: 76-100)\n\nIn a complete rejection of military entanglements, pacifists tend to put values in demilitarization of the national society to instead turn the populous toward more civilian pursuits. Pacifists will only in the darkest of times even consider army mobilization or military pacts, and the mere thought of preventive strikes is foreign to them."
  ##Trade Laws
  trade_laws:0 "Trade Laws"
  export_focus:0 "Export Focus"
@@ -54,7 +74,15 @@
  ###
  #Social Factions
  social_factions:0 "Social Factions"
+ social_faction:0 "Social Faction"
  air_force_officers:0 "Air Force Officers"
+ army_officers:0 "Army Officers"
+ automotive_industry:0 "Automotive Industry"
+ mining_companies:0 "Mining Companies"
+ navy_officers:0 "Navy Officers"
+ railroad_companies:0 "Railroad Companies"
+ robber_barons:0 "Robber Barons"
+ ultranationalists:0 "Ultranationalists"
  ###
  #Research / Production
  research_production:0 "Research / Production"

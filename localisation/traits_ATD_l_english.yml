@@ -1,4 +1,7 @@
 ﻿l_english:
+ #
+ #Ideology
+ #
  anarchist_ideologue:0 "Anarchist Ideologue"
  communist_ideologue:0 "Communist Ideologue"
  leftist_ideologue:0 "Leftist Ideologue"
@@ -6,4 +9,37 @@
  conservative_ideologue:0 "Conservative Ideologue"
  despotic_ideologue:0 "Despotic Ideologue"
  monarchist_ideologue:0 "Monarchist Ideologue"
- fascist_ideologue:0 "Fascist Ideologue"
+ ultranationalist_ideologue:0 "Ultranationalist Ideologue"
+ anarchist_politician:0 "(Anarchist)"
+ communist_politician:0 "(Communist)"
+ leftist_politician:0 "(Leftist)"
+ centrist_politician:0 "(Centrist)"
+ conservative_politician:0 "(Conservative)"
+ despotic_politician:0 "(Despotic)"
+ monarchist_politician:0 "(Monarchist)"
+ ultranationalist_politician:0 "(Ultranationalist)"
+ #
+ #Diplomacy
+ #
+ foreign_interventionist:0 "Foreign Interventionist"
+ machiavellian_diplomat:0 "Machiavellian Diplomat"
+ staunch_imperialist:0 "Staunch Imperialist"
+ #
+ #Economy
+ #
+ autarky_proponent:0 "Autarky Proponent"
+ consumption_expert:0 "Consumption Expert"
+ industrial_lobbyist:0 "Industrial Lobbyist"
+ militarization_proponent:0 "Militarization Proponent"
+ oil_baron:0 "Oil Baron"
+ research_enthusiast:0 "Research Enthusiast"
+ trade_protectionist:0 "Trade Protectionist"
+ #
+ #Country
+ #
+ administrative_genius:0 "Administrative Genius"
+ effective_bureaucrat:0 "Effective Bureaucrat"
+ freedom_fighter:0 "Freedom Fighter"
+ ideological_crusader:0 "Ideological Crusader"
+ relentless_optimist:0 "Relentless Optimist"
+ talented_propagandist:0 "Talented Propagandist"

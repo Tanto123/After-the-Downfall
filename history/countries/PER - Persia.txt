@@ -18,7 +18,7 @@ set_technology = {
 
 
 	set_popularities = {
-		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 fascism = 5
+		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 ultranationalism = 5
 	}
 set_politics = { ruling_party = anarchism
 	last_election = "1925.1.1"
