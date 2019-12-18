@@ -2,14 +2,14 @@
  #
  #Ideology
  #
- anarchist_ideologue:0 "Anarchist Ideologue"
- communist_ideologue:0 "Communist Ideologue"
- leftist_ideologue:0 "Leftist Ideologue"
- centrist_ideologue:0 "Centrist Ideologue"
- conservative_ideologue:0 "Conservative Ideologue"
- despotic_ideologue:0 "Despotic Ideologue"
- monarchist_ideologue:0 "Monarchist Ideologue"
- ultranationalist_ideologue:0 "Ultranationalist Ideologue"
+ anarchist_ideologue:0 "Anarchist"
+ communist_ideologue:0 "Communist"
+ leftist_ideologue:0 "Leftist"
+ centrist_ideologue:0 "Centrist"
+ conservative_ideologue:0 "Conservative"
+ despotic_ideologue:0 "Despotic"
+ monarchist_ideologue:0 "Monarchist"
+ ultranationalist_ideologue:0 "Ultranationalist"
  anarchist_politician:0 "(Anarchist)"
  communist_politician:0 "(Communist)"
  leftist_politician:0 "(Leftist)"
@@ -18,6 +18,8 @@
  despotic_politician:0 "(Despotic)"
  monarchist_politician:0 "(Monarchist)"
  ultranationalist_politician:0 "(Ultranationalist)"
+ anti_leftist_activist:0 "Anti-Leftist Activist"
+ anti_rightist_activist:0 "Anti-Rightist Activist"
  #
  #Diplomacy
  #
@@ -29,8 +31,10 @@
  #
  autarky_proponent:0 "Autarky Proponent"
  consumption_expert:0 "Consumption Expert"
+ expansionist_landlord:0 "Expansionist Landlord"
  industrial_lobbyist:0 "Industrial Lobbyist"
- militarization_proponent:0 "Militarization Proponent"
+ labor_unionist:0 "Labor Unionist"
+ militarization_advocate:0 "Militarization Advocate"
  oil_baron:0 "Oil Baron"
  research_enthusiast:0 "Research Enthusiast"
  trade_protectionist:0 "Trade Protectionist"

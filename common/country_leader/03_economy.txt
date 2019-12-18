@@ -12,13 +12,26 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	expansionist_landlord = {
+		random = yes
+		global_building_slots_factor = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	
 	industrial_lobbyist = {
 		random = yes
 		production_speed_industrial_complex_factor = 0.15
 		ai_will_do = { factor = 1 }
 	}
 	
-	militarization_proponent = {
+	labor_unionist = {
+		random = yes
+		production_factory_max_efficiency_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	militarization_advocate = {
 		random = yes
 		production_speed_arms_factory_factor = 0.05
 		production_speed_dockyard_factor = 0.05

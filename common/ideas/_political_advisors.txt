@@ -171,6 +171,19 @@ ideas = {
 			}
 		}
 	
+		generic_expansionist_landlord = {
+			picture = generic_politician6
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = expansionist_landlord limit = 1 } } }
+			available = { }
+			traits = { expansionist_landlord }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
 		generic_industrial_lobbyist = {
 			picture = generic_politician2
 			
@@ -184,12 +197,25 @@ ideas = {
 			}
 		}
 	
-		generic_militarization_proponent = {
+		generic_labor_unionist = {
+			picture = generic_politician4
+			
+			allowed = { NOT = { has_available_idea_with_traits = { idea = labor_unionist limit = 1 } } }
+			available = { }
+			traits = { labor_unionist }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_militarization_advocate = {
 			picture = generic_politician3
 			
-			allowed = { NOT = { has_available_idea_with_traits = { idea = militarization_proponent limit = 1 } } }
+			allowed = { NOT = { has_available_idea_with_traits = { idea = militarization_advocate limit = 1 } } }
 			available = { }
-			traits = { militarization_proponent }
+			traits = { militarization_advocate }
 			on_add = { }
 			do_effect = { }
 			ai_will_do = {

@@ -44,3 +44,77 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+create_country_leader = {
+	name = "John Nance Garner"
+	desc = leader_desc_CSA_John_Nance_Garner
+	picture = "John_Nance_Garner.dds"
+	ideology = national_conservatism
+	traits = {
+		ideological_crusader
+	}
+}
+
+create_country_leader = {
+	name = "Huey Long"
+	desc = leader_desc_CSA_Huey_Long
+	picture = "Huey_Long.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		labor_unionist
+	}
+}
+create_country_leader = {
+	name = "Benjamin Gitlow"
+	desc = leader_desc_CSA_Benjamin_Gitlow
+	picture = "Doyle_E_Carlton.dds"
+	ideology = national_communism
+	traits = {
+		foreign_interventionist
+	}
+}
+create_country_leader = {
+	name = "Harry F. Byrd"
+	desc = leader_desc_CSA_Harry_F_Byrd
+	picture = "Harry_F_Byrd.dds"
+	ideology = social_democracy
+	traits = {
+		research_enthusiast
+	}
+}
+create_country_leader = {
+	name = "Doyle E. Carlton"
+	desc = leader_desc_CSA_Doyle_E_Carlton
+	picture = "Doyle_E_Carlton.dds"
+	ideology = market_liberalism
+	traits = {
+		effective_bureaucrat
+	}
+}
+create_country_leader = {
+	name = "John J. Pershing"
+	desc = leader_desc_CSA_John_J_Pershing
+	picture = "generals/John_J_Pershing.dds"
+	ideology = military_dictatorship
+	traits = {
+		relentless_optimist
+	}
+}
+create_country_leader = {
+	name = "Jefferson Davis IV"
+	desc = leader_desc_CSA_Jefferson_Davis_IV
+	picture = "Jefferson_Davis_IV.dds"
+	ideology = absolute_monarchism
+	traits = {
+		administrative_genius
+	}
+}
+create_country_leader = {
+	name = "Charles G. Dawes"
+	desc = Charles_G_Dawes
+	picture = "Jefferson_Davis_IV.dds"
+	ideology = ethnopurism
+	traits = {
+		talented_propagandist
+	}
+}
