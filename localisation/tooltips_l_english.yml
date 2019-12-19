@@ -1,0 +1,11 @@
+﻿l_english:
+ TT_DR_decr_1:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Rdecrease§W by 1."
+ TT_DR_decr_2:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Rdecrease§W by 2."
+ TT_DR_decr_3:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Rdecrease§W by 3."
+ TT_DR_decr_5:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Rdecrease§W by 5."
+ TT_DR_decr_10:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Rdecrease§W by 10."
+ TT_DR_incr_1:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Gincrease§W by 1."
+ TT_DR_incr_2:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Gincrease§W by 2."
+ TT_DR_incr_3:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Gincrease§W by 3."
+ TT_DR_incr_5:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Gincrease§W by 5."
+ TT_DR_incr_10:0 "Your democracy rating (current: §Y[?ROOT.democracy_rating]§W) will §Gincrease§W by 10."
