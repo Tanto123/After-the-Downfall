@@ -29,12 +29,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				manufacturer_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				military_leader_cost_factor = -0.25
 			}
 		}
 	
 		defensive_anarchism = {
-			picture = anti_monarchism
+			picture = anti_communism2
 			
 			allowed = {}
 			visible = { always = yes }
@@ -172,8 +173,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				monthly_population = 0.1
-				min_export = -0.05
+				monthly_population = 0.3
+				recon_factor = 0.05
+				production_speed_buildings_factor = -0.1
 			}
 		}
 		

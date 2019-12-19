@@ -1,0 +1,21 @@
+ideas = {
+	
+	country = {
+	
+		aftermath_of_the_chichibu_coup = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = hirohito
+			
+			modifier = {
+				political_power_factor = -0.25
+			}
+		}
+	
+	}
+	
+}

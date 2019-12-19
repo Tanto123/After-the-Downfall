@@ -1,0 +1,476 @@
+﻿army = {
+	gfx = GFX_theatre_army_shield
+	
+	icon = {
+		#Example of icon script, corresponding to the frame index in the .dds files
+		#color_override = no
+		#name = "EQUAL_ICON"
+		#available = 
+		#{
+		#	tag = CHI
+		#}
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+		color_override = no
+		name = "4. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "16. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "1. Panzerarmee"
+	}
+	icon = {
+		color_override = no
+		name = "V. Armeekorps"
+	}
+	icon = {
+		color_override = no
+		name = "6. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "7. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "2. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "2. Panzerarmee"
+	}
+	icon = {
+		color_override = no
+		name = "10. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "11. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "14. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "17. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "18. Armee"
+	}
+	icon = {
+		color_override = no
+		name = "Panzergruppe H"
+	}
+	icon = {
+		color_override = no
+		name = "Panzergruppe E"
+	}
+	icon = {
+		color_override = no
+		name = "Panzergruppe Z"
+	}
+	icon = {
+		color_override = no
+		name = "Panzergruppe A"
+	}
+	icon = {
+		color_override = no
+		name = "Panzergruppe D"
+	}
+	icon = {
+		color_override = no
+		name = "First Army"
+	}
+	icon = {
+		color_override = no
+		name = "Second Army"
+	}
+	icon = {
+		color_override = no
+		name = "Eighth Army"
+	}
+	icon = {
+		color_override = no
+		name = "Tenth Army"
+	}
+	icon = {
+		color_override = no
+		name = "Fourteenth Army"
+	}
+	icon = {
+		color_override = no
+		name = "Northern Command"
+	}
+	icon = {
+		color_override = no
+		name = "Eastern Command"
+	}
+	icon = {
+		color_override = no
+		name = "Western Command"
+	}
+	icon = {
+		color_override = no
+		name = "Southern Command"
+	}
+	icon = {
+		color_override = no
+		name = "Aldershot Command"
+	}
+	icon = {
+		color_override = no
+		name = "Scottish Command"
+	}
+	icon = {
+		color_override = no
+		name = "8th Army"
+	}
+	icon = {
+		color_override = no
+		name = "1st Army"
+	}
+	icon = {
+		color_override = no
+		name = "2nd Army"
+	}
+	icon = {
+		color_override = no
+		name = "3rd Army"
+	}
+	icon = {
+		color_override = no
+		name = "5th Army"
+	}
+	icon = {
+		color_override = no
+		name = "6th Army"
+	}
+	icon = {
+		color_override = no
+		name = "7th Army"
+	}
+	icon = {
+		color_override = no
+		name = "9th Army"
+	}
+	icon = {
+		color_override = no
+		name = "1re Armée"
+	}
+	icon = {
+		color_override = no
+		name = "Forces françaises libres"
+	}
+	icon = {
+		color_override = no
+		name = "2e Armée"
+	}
+	icon = {
+		color_override = no
+		name = "1. Allied Army"
+	}
+	icon = {
+		color_override = no
+		name = "1. Homeland Defense Army"
+	}
+	icon = {
+		color_override = no
+		name = "Sunflower Defense Corps"
+	}
+	icon = {
+		color_override = no
+		name = "I. Army"
+	}
+	icon = {
+		color_override = no
+		name = "II. Army"
+	}
+	icon = {
+		color_override = no
+		name = "III. Army"
+	}
+	icon = 
+	{
+		color_override = no
+		name = "1. Celestial Penetration Army"
+	}
+	icon = {
+		color_override = no
+		name = "1. Liberation Army"
+	}
+	icon = {
+		color_override = no
+		name = "IV. Army"
+	}
+	icon = {
+		color_override = no
+		name = "V. Army"
+	}
+	icon = {
+		color_override = no
+		name = "7. Guards"
+	}
+	icon = {
+		color_override = no
+		name = "41. Guards"
+	}
+	icon = {
+		color_override = no
+		name = "90. Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "8. Artillery"
+	}
+	icon = {
+		color_override = no
+		name = "1443. Artillery"
+	}
+	icon = {
+		color_override = no
+		name = "76. Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "3. Guards Mechanized"
+	}
+	icon = {
+		color_override = no
+		name = "3. Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "213. Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "8. Mechanized"
+	}
+}
+
+army_group = {
+	gfx = GFX_theatre_army_group_shield
+	
+	icon = {
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+		name = "15. Army Group"
+	}
+	icon = {
+		color_override = no
+		name = "12. Army Group"
+	}
+	icon = {
+		color_override = no
+		name = "6. Army Group"
+	}
+	icon = {
+		color_override = no
+	}
+}
+
+fleet = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+}
+
+task_force = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+}
+
+naval_equipment_role = {
+	gfx = GFX_naval_equipment_role_icons
+	
+	icon = {
+		color_override = no
+		name = "Battery"
+	}
+	icon = {
+		color_override = no
+		name = "Shield"
+	}
+	icon = {
+		color_override = no
+		name = "Spotter"
+	}
+	icon = {
+		color_override = no
+		name = "Minelayer"
+	}
+	icon = {
+		color_override = no
+		name = "Minesweeper"
+	}
+	icon = {
+		color_override = no
+		name = "Skull"
+	}
+	icon = {
+		color_override = no
+		name = "Airplane"
+	}
+	icon = {
+		color_override = no
+		name = "Crab"
+	}
+}

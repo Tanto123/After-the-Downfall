@@ -80,10 +80,17 @@ on_actions = {
 		effect = {
 			#Democracy Rating
 			every_country = {
-				#Set DR to 50 if it doesnt exist.
+				#Set DR to 30 for autocratic ideologies and 50 for democratic ideologies if it doesnt exist.
 				if = {
 					limit = { NOT = { has_variable = democracy_rating } }
-					set_variable = { democracy_rating = 50 }
+					if = {
+						limit = { OR = { has_government = anarchism has_government = leftism has_government = centrism has_government = conservatism } }
+						set_variable = { democracy_rating = 50 }
+					}
+					if = {
+						limit = { OR = { has_government = communism has_government = ultranationalism has_government = despotism has_government = monarchism } }
+						set_variable = { democracy_rating = 30 }
+					}
 				}
 				#Read DR to assign correct Authoritarianism idea.
 				if = {

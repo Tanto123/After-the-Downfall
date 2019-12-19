@@ -8,8 +8,57 @@ bookmarks = {
 		default = yes
 		
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = anarchism
+			history = "USA_1928_DESC"
+			ideology = centrism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CSA"={
+			history = "CSA_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_1928_DESC"
+			ideology = leftism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = "GER_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_1928_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_1928_DESC"
+			ideology = monarchism
+			ideas = {
+				aftermath_of_the_chichibu_coup
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_1928_DESC"
+			ideology = conservatism
 			ideas = {
 			}
 			focuses = {

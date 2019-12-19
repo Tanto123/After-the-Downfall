@@ -4,7 +4,10 @@
  ##Forms of Government
  form_of_government:0 "Form of Government"
  absolute_monarchy:0 "Absolute Monarchy"
+ absolute_monarchy_desc:0 "Absolute Monarchy is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature or customs. Absolute Monarchy is usually hereditary, and the power of the monarchy is not restricted by a constitution or any other form of formal social contract."
  advised_monarchy:0 "Advised Monarchy"
+ JAP_advised_monarchy:0 "Neo-Shogunate"
+ advised_monarchy_desc:0 "While nominally an Absolute Monarchy, the Advised Monarchy has established customs in which the monarch rules through their advisors. Such a system is most associated with the Japanese Emperors. In Japan, this system is decried by advocates of a more complete Absolute Monarchy as a 'Neo-Shogunate'."
  defensive_anarchism:0 "Defensive Anarchism"
  confederacy:0 "Confederacy"
  constitutional_monarchy:0 "Constitutional Monarchy"
@@ -14,6 +17,7 @@
  military_dictatorship:0 "Military Dictatorship"
  parliamentary_monarchy:0 "Parliamentary Monarchy"
  peasant_republic:0 "Peasant Republic"
+ peasant_republic_desc:0 "In agrarian-inspired forms of communism and anarchism, a Peasant Republic is one of the potential forms that a society could take. Peasant Republics would aim to greatly de-urbanize the country and decrease the size of cities. Instead, 'towns' of less than 30,000 inhabitants would oversee several 'villages' or 'communes' of less than 10,000 in their vicinity. Doctors, teachers and a select few industrial facilities would be in the towns, whereas the vast majority of the population would be organized in the villages, with jobs focussed on agriculture and livestock."
  ##Political Advisors
  political_advisor:0 "Political Advisor"
  ###
@@ -22,15 +26,15 @@
  ##Authoritarianism
  authoritarianism:0 "Authoritarianism"
  totalitarian_rule:0 "Totalitarian Rule ([?ROOT.democracy_rating])"
- totalitarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Totalitarian Rule: 0-20)\n\nIn totalitarianism, virtually all individual rights have been wiped out. There is no political elections, freedom of speech, freedom of the press, freedom of publication, freedom of movement, freedom of assembly, freedom of association or freedom of religion. Increasingly, even the workplace of each individual is selected by the government during that person's upbringing, which is also heavily supervised through a state-controlled and legally binding education system. Totalitarian states are backed by both overt and covert police forces that prosecute and persecute any dissenters at any level of society, and apply a crushing state ideology in which every form of disagreement is high treason. This is typically enforced through a system in which denunciation of dissent by private individuals is rewarded."
+ totalitarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Totalitarian Rule: 0-20)\n\nIn totalitarianism, virtually all individual rights have been wiped out. There is no political elections, freedom of speech, freedom of the press, freedom of publication, freedom of movement, freedom of assembly, freedom of association or freedom of religion. Increasingly, even the workplace of each individual is selected by the government during that person's upbringing, which is also heavily supervised through a state-controlled and legally binding education system. Totalitarian states are backed by both overt and covert police forces that prosecute and persecute any dissenters at any level of society, and apply a crushing state ideology in which every form of disagreement is high treason. This is typically enforced through a system in which denunciation of dissent by private individuals is rewarded.\n"
  authoritarian_rule:0 "Authoritarian Rule ([?ROOT.democracy_rating])"
- authoritarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Authoritarian Rule: 21-40)\n\nUnder authoritarianism, almost all methods of political participation have been retracted, including the right to vote of most citizens and the freedom of the press. Authoritarianism also features heavy media censorship, including cinema, radio and the newspapers. However, authoritarian governments do usually not feature the overwhelming surveillance states of their totalitarian cousins, and some authoritarian governments still allow some minor private freedoms, like the freedom to choose one's workplace or religion, even though any sort of social movement that could arise from such indulgences is still viewed with great suspicion."
+ authoritarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Authoritarian Rule: 21-40)\n\nUnder authoritarianism, almost all methods of political participation have been retracted, including the right to vote of most citizens and the freedom of the press. Authoritarianism also features heavy media censorship, including cinema, radio and the newspapers. However, authoritarian governments do usually not feature the overwhelming surveillance states of their totalitarian cousins, and some authoritarian governments still allow some minor private freedoms, like the freedom to choose one's workplace or religion, even though any sort of social movement that could arise from such indulgences is still viewed with great suspicion.\n"
  oligarchy:0 "Oligarchy ([?ROOT.democracy_rating])"
- oligarchy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Oligarchy: 41-60)\n\nIn Oligarchies, elections are usually a sham and political opposition groups face numerous artificial obstacles that are not faced by the governing elite's chosen political forces. However, oligarchic states still mostly leave most other personal freedoms intact, with perhaps the only exception being freedom of the press, as the press is usually encouraged to 'self-censor'."
+ oligarchy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Oligarchy: 41-60)\n\nIn Oligarchies, elections are usually a sham and political opposition groups face numerous artificial obstacles that are not faced by the governing elite's chosen political forces. However, oligarchic states still mostly leave most other personal freedoms intact, with perhaps the only exception being freedom of the press, as the press is usually encouraged to 'self-censor'.\n"
  flawed_democracy:0 "Flawed Democracy ([?ROOT.democracy_rating])"
- flawed_democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Flawed Democracy: 61-80)\n\nIn Flawed Democracies, almost all individual and political freedoms are fully intact. On the surface, it is usually hard to differentiate Flawed Democracies from their fully democratic counterparts. However, beneath the surface, there are uncomfortably close ties between big business and media magnates and the governing party, leading to extensive positive media coverage for the ruling elite and lots of criticism aimed at the opposition. Furthermore, minorities of various kinds, be they ethnic, religious or political, often face obstacles when attempting to utilize their right to political participation. For example, opposition strongholds might receive geographically inconvenient voting booths to discourage opposition voters from going to the polls, whereas bastions of government support receive a larger amount of polling stations to make voting more accessible and convenient."
+ flawed_democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Flawed Democracy: 61-80)\n\nIn Flawed Democracies, almost all individual and political freedoms are fully intact. On the surface, it is usually hard to differentiate Flawed Democracies from their fully democratic counterparts. However, beneath the surface, there are uncomfortably close ties between big business and media magnates and the governing party, leading to extensive positive media coverage for the ruling elite and lots of criticism aimed at the opposition. Furthermore, minorities of various kinds, be they ethnic, religious or political, often face obstacles when attempting to utilize their right to political participation. For example, opposition strongholds might receive geographically inconvenient voting booths to discourage opposition voters from going to the polls, whereas bastions of government support receive a larger amount of polling stations to make voting more accessible and convenient.\n"
  democracy:0 "Democracy ([?ROOT.democracy_rating])"
- democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Democracy: 81-100)\n\nIn Full Democracies (politicians of such systems often refer to them as 'Flawless Democracies'), citizens are provided with full voting rights, a generally fair and equal access to the ballot box, as well as satisfactory separations of power between government and media as well as government and non-political institutions like churches, the military, and big businesses. In Full Democracies, the press is completely free in its broadcasting, and information can flow freely from citizen to citizen as well as into and out of the country as a whole. Full Democracies tend to outperform their more authoritarian rivals in terms of academic success and tend to produce more intelligent citizens, but domestic disputes and crises are also much more visible and amplified because of the unrestricted flow of information."
+ democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Democracy: 81-100)\n\nIn Full Democracies (politicians of such systems often refer to them as 'Flawless Democracies'), citizens are provided with full voting rights, a generally fair and equal access to the ballot box, as well as satisfactory separations of power between government and media as well as government and non-political institutions like churches, the military, and big businesses. In Full Democracies, the press is completely free in its broadcasting, and information can flow freely from citizen to citizen as well as into and out of the country as a whole. Full Democracies tend to outperform their more authoritarian rivals in terms of academic success and tend to produce more intelligent citizens, but domestic disputes and crises are also much more visible and amplified because of the unrestricted flow of information.\n"
  ##Mobilization Laws
  mobilization_laws:0 "Mobilization Laws"
  disarmed_nation:0 "Disarmed Nation"
@@ -50,27 +54,19 @@
  ##Diplomatic Stance
  diplomatic_stance:0 "Diplomatic Stance"
  jingoism:0 "Jingoism ([?ROOT.pacifism_rating])"
- jingoism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Jingoism: 0-25)\n\nThe word 'jingoism' originated in the British press of the 1870s, then as a call to vigilance against the United States government's willingness to go to war with the Confederate States. Since then, it has come into use in much of the anglophone word, and is usually used in a derogatory fashion to decry hyper-aggressive foreign policy, typically by one's political or diplomatic rivals."
+ jingoism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Jingoism: 0-25)\n\nThe word 'jingoism' originated in the British press of the 1870s, then as a call to vigilance against the United States government's willingness to go to war with the Confederate States. Since then, it has come into use in much of the anglophone word, and is usually used in a derogatory fashion to decry hyper-aggressive foreign policy, typically by one's political or diplomatic rivals.\n"
  hawk_lobby:0 "Hawk Lobby ([?ROOT.pacifism_rating])"
- hawk_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Hawk Lobby: 26-50)\n\nIn foreign policy, 'hawks' are politicians that are quick to use military force or economic pressure to opportunistically enforce the nation's diplomatic goals. Hawks carry a low reputation with more peaceful factions, and quickly become the target of enemy propaganda. Their effectiveness in advancement of the country's situation on the world stage should however not be underestimated."
+ hawk_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Hawk Lobby: 26-50)\n\nIn foreign policy, 'hawks' are politicians that are quick to use military force or economic pressure to opportunistically enforce the nation's diplomatic goals. Hawks carry a low reputation with more peaceful factions, and quickly become the target of enemy propaganda. Their effectiveness in advancement of the country's situation on the world stage should however not be underestimated.\n"
  dove_lobby:0 "Dove Lobby ([?ROOT.pacifism_rating])"
- dove_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Dove Lobby: 51-75)\n\nIn foreign policy, 'doves' prefer cooperative and non-interventionist models over the trigger-happy adventures of their 'hawk' counterparts. Instead, doves seek to form defensive alliances to contravene potential aggressors on the world stage, and will accept war or military action only as the last resort."
+ dove_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Dove Lobby: 51-75)\n\nIn foreign policy, 'doves' prefer cooperative and non-interventionist models over the trigger-happy adventures of their 'hawk' counterparts. Instead, doves seek to form defensive alliances to contravene potential aggressors on the world stage, and will accept war or military action only as the last resort.\n"
  pacifism:0 "Pacifism ([?ROOT.pacifism_rating])"
- pacifism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Pacifism: 76-100)\n\nIn a complete rejection of military entanglements, pacifists tend to put values in demilitarization of the national society to instead turn the populous toward more civilian pursuits. Pacifists will only in the darkest of times even consider army mobilization or military pacts, and the mere thought of preventive strikes is foreign to them."
+ pacifism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Pacifism: 76-100)\n\nIn a complete rejection of military entanglements, pacifists tend to put values in demilitarization of the national society to instead turn the populous toward more civilian pursuits. Pacifists will only in the darkest of times even consider army mobilization or military pacts, and the mere thought of preventive strikes is foreign to them.\n"
  ##Trade Laws
  trade_laws:0 "Trade Laws"
  export_focus:0 "Export Focus"
  closed_economy:0 "Closed Economy"
  limited_exports:0 "Limited Exports"
  free_trade:0 "Free Trade"
- ##Religion
- religion:0 "Religion"
- orthodox_christianity:0 "Orthodox Christianity"
- protestantism:0 "Protestantism"
- roman_catholicism:0 "Roman Catholicism"
- shia_islam:0 "Shia Islam"
- shintoism:0 "Shintoism"
- sunni_islam:0 "Sunni Islam"
  ###
  #Social Factions
  social_factions:0 "Social Factions"
@@ -80,8 +76,14 @@
  automotive_industry:0 "Automotive Industry"
  mining_companies:0 "Mining Companies"
  navy_officers:0 "Navy Officers"
+ orthodox_christianity:0 "Orthodox Christianity"
+ protestantism:0 "Protestantism"
  railroad_companies:0 "Railroad Companies"
  robber_barons:0 "Robber Barons"
+ roman_catholicism:0 "Roman Catholicism"
+ shia_islam:0 "Shia Islam"
+ shintoism:0 "Shintoism"
+ sunni_islam:0 "Sunni Islam"
  ultranationalists:0 "Ultranationalists"
  ###
  #Research / Production
@@ -100,5 +102,16 @@
  military_staff:0 "Military Staff"
  ###
  #Generic Ideas
+ anarchist_tendencies:0 "Anarchist Tendencies"
+ communist_tendencies:0 "Communist Tendencies"
+ leftist_tendencies:0 "Leftist Tendencies"
+ centrist_tendencies:0 "Centrist Tendencies"
+ conservative_tendencies:0 "Conservative Tendencies"
+ despotic_tendencies:0 "Despotic Tendencies"
+ monarchist_tendencies:0 "Monarchist Tendencies"
+ ultranationalist_tendencies:0 "Ultranationalist Tendencies"
  ###
  #Specific Country Ideas
+ ##JAP
+ aftermath_of_the_chichibu_coup:0 "Aftermath of the Chichibu Coup"
+ aftermath_of_the_chichibu_coup_desc:0 "Emperor Yasuhito came to power in 1927, when the military forced his older brother Hirohito, the Showa Emperor, into abdication. The Japanese people at large see this intervention as an unjustified attempt by the military to meddle in the divine imperial house and in Japanese politics.\n\nAfter Hirohito's abdication, the throne went to his younger brother Yasuhito, then known as Prince Chichibu. As a result, the new emperor's ascendance to the throne was dubbed the 'Chichibu Coup' by international observers."

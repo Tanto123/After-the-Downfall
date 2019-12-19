@@ -1,0 +1,71 @@
+ideas = {
+	
+	country = {
+	
+		anarchist_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = anarchism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { anarchism_drift = 0.1 }
+		}
+	
+		communist_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = communism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { communism_drift = 0.1 }
+		}
+	
+		leftist_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = leftism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { leftism_drift = 0.1 }
+		}
+	
+		centrist_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = centrism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { centrism_drift = 0.1 }
+		}
+	
+		conservative_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = conservatism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { conservatism_drift = 0.1 }
+		}
+	
+		despotic_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = despotism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { despotism_drift = 0.1 }
+		}
+	
+		monarchist_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = monarchism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { monarchism_drift = 0.1 }
+		}
+	
+		ultranationalist_tendencies = {
+			allowed = { always = no }
+			allowed_civil_war = { has_government = ultranationalism }
+			removal_cost = -1
+			picture = political_support
+			modifier = { ultranationalism_drift = 0.1 }
+		}
+	
+	}
+	
+}
