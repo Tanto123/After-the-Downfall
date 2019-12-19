@@ -1,0 +1,32 @@
+﻿CSA_INF_01 = {
+	name = "Infantry Division"
+	for_countries = { CSA }
+	
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+	fallback_name = "%d Infantry Division"
+	
+	ordered = {
+		1 = { "%dst 'Virginia' Infantry Division" }
+		2 = { "%dnd 'Texas' Infantry Division" }
+		3 = { "%drd 'Mississippi' Infantry Division" }
+		4 = { "%dth 'Missouri' Infantry Division" }
+		5 = { "%dth 'Florida' Infantry Division" }
+		6 = { "%dth 'Georgia' Infantry Division" }
+		7 = { "%dth 'Tennessee' Infantry Division" }
+		8 = { "%dth 'Kentucky' Infantry Division" }
+		9 = { "%dth 'North Carolina' Infantry Division" }
+		10 = { "%dth 'Louisiana' Infantry Division" }
+		11 = { "%dth 'Alabama' Infantry Division" }
+		12 = { "%dth 'South Carolina' Infantry Division" }
+		13 = { "%dth 'Arkansas' Infantry Division" }
+		14 = { "%dth 'Oklahoma' Infantry Division" }
+		15 = { "%dth 'New Mexico' Infantry Division" }
+		16 = { "%dth 'Arizona' Infantry Division" }
+		17 = { "%dth 'Coahuila' Infantry Division" }
+		18 = { "%dth 'Tamaulipas' Infantry Division" }
+		19 = { "%dth 'Cuba' Infantry Division" }
+		20 = { "%dth 'Indian Territory' Infantry Division" }
+	}
+}

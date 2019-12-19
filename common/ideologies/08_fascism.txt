@@ -4,7 +4,10 @@ ideologies = {
 	
 		types = {
 			ethnopurism = {}
+			falangism = {}
+			fascism = {}
 			militant_reactionism = {}
+			national_socialism = {}
 			totalitarian_theocracy = {}
 		}
 		

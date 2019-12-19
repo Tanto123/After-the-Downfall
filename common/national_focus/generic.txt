@@ -5,14 +5,13 @@ focus_tree = {
 		factor = 1
 	}
 	
-	default = yes
 	reset_on_civilwar = no
 	
 	#Political Effort Branch
 	focus = {
 		id = generic_political_effort
 		icon = demand_territory
-		x = 7
+		x = 6
 		y = 0
 		cost = 10
 		
@@ -55,6 +54,9 @@ focus_tree = {
 			add_popularity = { ideology = anarchism popularity = 0.03 }
 			add_popularity = { ideology = communism popularity = 0.03 }
 			add_popularity = { ideology = leftism popularity = 0.03 }
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_anarchist_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_communist_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_leftist_ideologue
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -88,6 +90,9 @@ focus_tree = {
 			add_popularity = { ideology = leftism popularity = 0.03 }
 			add_popularity = { ideology = centrism popularity = 0.03 }
 			add_popularity = { ideology = conservatism popularity = 0.03 }
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_leftist_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_centrist_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_conservative_ideologue
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -124,6 +129,10 @@ focus_tree = {
 			add_popularity = { ideology = despotism popularity = 0.03 }
 			add_popularity = { ideology = monarchism popularity = 0.03 }
 			add_popularity = { ideology = ultranationalism popularity = 0.03 }
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_conservative_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_despotic_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_monarchist_ideologue
+			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_ultranationalist_ideologue
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -143,7 +152,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_leftist_tendencies }
 		
 		completion_reward = {
-			add_popularity = { ideology = anarchism popularity = 0.05 }
+			add_timed_idea = { idea = anarchist_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -163,7 +172,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_leftist_tendencies }
 		
 		completion_reward = {
-			add_popularity = { ideology = communism popularity = 0.05 }
+			add_timed_idea = { idea = communist_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -188,7 +197,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_conservative_tendencies }
 		
 		completion_reward = {
-			add_popularity = { ideology = leftism popularity = 0.05 }
+			add_timed_idea = { idea = leftist_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -208,7 +217,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_conservative_tendencies }
 		
 		completion_reward = {
-			add_popularity = { ideology = centrism popularity = 0.05 }
+			add_timed_idea = { idea = centrist_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -230,10 +239,10 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_leftist_tendencies }
 		mutually_exclusive = { focus = generic_centrist_tendencies }
 		mutually_exclusive = { focus = generic_authoritarian_tendencies }
-		mutually_exclusive = { focus = generic_fascist_tendencies }
+		mutually_exclusive = { focus = generic_ultranationalist_tendencies }
 		
 		completion_reward = {
-			add_popularity = { ideology = conservatism popularity = 0.05 }
+			add_timed_idea = { idea = conservative_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -259,7 +268,7 @@ focus_tree = {
 			}
 		}
 		mutually_exclusive = { focus = generic_conservative_tendencies }
-		mutually_exclusive = { focus = generic_fascist_tendencies }
+		mutually_exclusive = { focus = generic_ultranationalist_tendencies }
 		
 		completion_reward = {
 			add_popularity = { ideology = despotism popularity = 0.05 }
@@ -269,7 +278,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
-		id = generic_fascist_tendencies
+		id = generic_ultranationalist_tendencies
 		icon = fascism2
 		x = 6
 		y = 2
@@ -283,28 +292,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_authoritarian_tendencies }
 		
 		completion_reward = {
-			add_popularity = { ideology = ultranationalism popularity = 0.05 }
-		}
-		
-		ai_will_do = { factor = 10 }
-	}
-	focus = {
-		id = generic_strengthen_local_economies
-		icon = communism6
-		x = -7
-		y = 3
-		cost = 10
-		
-		relative_position_id = generic_political_effort
-		
-		prerequisite = { 
-			focus = generic_anarchist_tendencies
-		}
-		available = { }
-		mutually_exclusive = { }
-		
-		completion_reward = {
-			
+			add_timed_idea = { idea = ultranationalist_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -331,10 +319,12 @@ focus_tree = {
 		mutually_exclusive = {  }
 		
 		completion_reward = {
+			#Remove Monarchy Ideas
 			if = { limit = { has_idea = absolute_monarchy } remove_ideas = absolute_monarchy }
 			if = { limit = { has_idea = advised_monarchy } remove_ideas = advised_monarchy }
 			if = { limit = { has_idea = constitutional_monarchy } remove_ideas = constitutional_monarchy }
 			if = { limit = { has_idea = parliamentary_monarchy } remove_ideas = parliamentary_monarchy }
+			#Add a nice Commie/Annie Republic
 			if = {
 				limit = { NOT = { has_completed_focus = generic_anarchist_tendencies } }
 				limit = { NOT = { has_completed_focus = generic_communist_tendencies } }
@@ -428,7 +418,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_royal_conservatism }
 		
 		completion_reward = {
-			add_popularity = { ideology = despotism popularity = 0.05 }
+			add_timed_idea = { idea = despotic_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -456,7 +446,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_royal_conservatism }
 		
 		completion_reward = {
-			add_popularity = { ideology = monarchism popularity = 0.05 }
+			add_timed_idea = { idea = monarchist_tendencies days = 365 }
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -471,7 +461,7 @@ focus_tree = {
 		relative_position_id = generic_political_effort
 		
 		prerequisite = { 
-			focus = generic_fascist_tendencies
+			focus = generic_ultranationalist_tendencies
 		}
 		available = { }
 		mutually_exclusive = { }
@@ -483,27 +473,22 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
-		id = generic_establish_defensive_anarchism
-		icon = syndicalist_industry
+		id = generic_strengthen_local_economies
+		icon = communism6
 		x = -6
 		y = 4
 		cost = 10
 		
 		relative_position_id = generic_political_effort
 		
-		bypass = { has_idea = defensive_anarchism }
 		prerequisite = { 
-			focus = generic_strengthen_local_economies
+			focus = generic_anarchist_tendencies
 		}
-		available = { is_republic = yes }
+		available = { }
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			set_politics = {
-				ruling_party = anarchism
-				elections_allowed = no
-			}
-			add_ideas = defensive_anarchism
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -603,11 +588,13 @@ focus_tree = {
 			focus = generic_military_cult
 			focus = generic_royal_conservatism
 		}
-		available = { }
+		available = { 
+			NOT = { has_idea = democracy }
+		}
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			
+			decrease_democracy_rating_by_5 = yes
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -622,9 +609,33 @@ focus_tree = {
 		relative_position_id = generic_political_effort
 		
 		prerequisite = { 
-			focus = generic_fascist_tendencies
+			focus = generic_ultranationalist_tendencies
 		}
-		available = { }
+		available = { 
+			NOT = { has_idea = democracy }
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			decrease_democracy_rating_by_5 = yes
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_establish_defensive_anarchism
+		icon = syndicalist_industry
+		x = -6
+		y = 5
+		cost = 10
+		
+		relative_position_id = generic_political_effort
+		
+		bypass = { has_idea = defensive_anarchism }
+		prerequisite = { 
+			focus = generic_strengthen_local_economies
+		}
+		available = { is_republic = yes }
 		mutually_exclusive = { }
 		
 		completion_reward = {
@@ -652,11 +663,7 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_popularity = { ideology = communism popularity = 0.05 }
-			set_politics = {
-				ruling_party = communism
-				elections_allowed = no
-			}
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -679,11 +686,7 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_popularity = { ideology = leftism popularity = 0.05 }
-			set_politics = {
-				ruling_party = leftism
-				elections_allowed = yes
-			}
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -706,11 +709,7 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_popularity = { ideology = centrism popularity = 0.05 }
-			set_politics = {
-				ruling_party = centrism
-				elections_allowed = yes
-			}
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -733,11 +732,7 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_popularity = { ideology = conservatism popularity = 0.05 }
-			set_politics = {
-				ruling_party = conservatism
-				elections_allowed = yes
-			}
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -765,7 +760,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
-		id = generic_fascist_state
+		id = generic_ultranationalist_state
 		icon = fascism
 		x = 7
 		y = 5
@@ -805,11 +800,7 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_popularity = { ideology = despotism popularity = 0.05 }
-			set_politics = {
-				ruling_party = despotism
-				elections_allowed = no
-			}
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -832,11 +823,327 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_popularity = { ideology = monarchism popularity = 0.05 }
-			set_politics = {
-				ruling_party = monarchism
-				elections_allowed = no
-			}
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
+	#Economy Branch
+	focus = {
+		id = generic_economic_focus
+		icon = money2
+		
+		x = 16
+		y = 0
+		
+		cost = 10
+		
+		prerequisite = { }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_stabilize_the_economy
+		icon = neutrality
+		
+		x = -2
+		y = 1
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_economic_focus }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_local_economic_opportunities
+		icon = trade2
+		
+		x = 0
+		y = 1
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_economic_focus }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_industrial_efficiency_programs
+		icon = consumer_goods
+		
+		x = 2
+		y = 1
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_economic_focus }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_agricultural_investments
+		icon = agriculture2
+		
+		x = -2
+		y = 2
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_local_economic_opportunities }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_infrastructure_investments
+		icon = infrastructure
+		
+		x = 0
+		y = 2
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_local_economic_opportunities }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_trade_reform
+		icon = trade
+		
+		x = 2
+		y = 2
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_industrial_efficiency_programs }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_job_creation_efforts
+		icon = industry_civilian
+		
+		x = -1
+		y = 3
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_infrastructure_investments }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_armament_campaign
+		icon = industry_military
+		
+		x = 1
+		y = 3
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_infrastructure_investments }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strengthen_the_labor_unions
+		icon = working_class
+		
+		x = -2
+		y = 4
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_job_creation_efforts }
+		available = { }
+		mutually_exclusive = { focus = generic_strengthen_the_business_elites }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strengthen_the_business_elites
+		icon = business_elite2
+		
+		x = 0
+		y = 4
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_job_creation_efforts }
+		available = { }
+		mutually_exclusive = { focus = generic_strengthen_the_labor_unions }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
+	#Diplomatic Branch
+	focus = {
+		id = generic_diplomatic_focus
+		icon = diplomacy
+		
+		x = 22
+		y = 0
+		
+		cost = 10
+		
+		prerequisite = { }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_aggressive_attitude
+		icon = aggressive_diplomacy
+		
+		x = -2
+		y = 1
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_diplomatic_focus }
+		available = { }
+		mutually_exclusive = { focus = generic_defensive_attitude }
+		mutually_exclusive = { focus = generic_neutral_attitude }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_neutral_attitude
+		icon = treaty
+		
+		x = 0
+		y = 1
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_diplomatic_focus }
+		available = { }
+		mutually_exclusive = { focus = generic_aggressive_attitude }
+		mutually_exclusive = { focus = generic_defensive_attitude }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_defensive_attitude
+		icon = defense
+		
+		x = 2
+		y = 1
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_diplomatic_focus }
+		available = { }
+		mutually_exclusive = { focus = generic_aggressive_attitude }
+		mutually_exclusive = { focus = generic_neutral_attitude }
+		bypass = { }
+		
+		completion_reward = {
+			
 		}
 		
 		ai_will_do = { factor = 10 }

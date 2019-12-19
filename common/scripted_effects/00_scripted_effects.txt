@@ -1,0 +1,110 @@
+adjust_democracy_rating_if_necessary = {
+	hidden_effect = {
+		if = {
+			limit = {
+				OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule has_idea = oligarchy has_idea = flawed_democracy }
+				check_variable = { democracy_rating > 80 }
+			}
+			country_event = { id = democracy.1 }
+		}
+		if = {
+			limit = {
+				OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule has_idea = oligarchy has_idea = democracy }
+				check_variable = { democracy_rating > 60 } 
+				check_variable = { democracy_rating < 81 } 
+			}
+			country_event = { id = democracy.2 }
+		}
+		if = {
+			limit = {
+				OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule has_idea = flawed_democracy has_idea = democracy }
+				check_variable = { democracy_rating > 40 } 
+				check_variable = { democracy_rating < 61 } 
+			}
+			country_event = { id = democracy.3 }
+		}
+		if = {
+			limit = {
+				OR = { has_idea = totalitarian_rule has_idea = oligarchy has_idea = flawed_democracy has_idea = democracy }
+				check_variable = { democracy_rating > 20 } 
+				check_variable = { democracy_rating < 41 } 
+			}
+			country_event = { id = democracy.4 }
+		}
+		if = {
+			limit = {
+				OR = { has_idea = authoritarian_rule has_idea = oligarchy has_idea = flawed_democracy has_idea = democracy }
+				check_variable = { democracy_rating < 21 }
+			}
+			country_event = { id = democracy.5 }
+		}
+	}
+}
+
+increase_democracy_rating_by_1 = {
+	add_to_variable = { var = democracy_rating value = 1 }
+	adjust_democracy_rating_if_necessary = yes
+	custom_effect_tooltip = TT_DR_incr_1
+}
+increase_democracy_rating_by_2 = {
+	hidden_effect = {
+		increase_democracy_rating_by_1 = yes
+		increase_democracy_rating_by_1 = yes
+	}
+	custom_effect_tooltip = TT_DR_incr_2
+}
+increase_democracy_rating_by_3 = {
+	hidden_effect = {
+		increase_democracy_rating_by_2 = yes
+		increase_democracy_rating_by_1 = yes
+	}
+	custom_effect_tooltip = TT_DR_incr_3
+}
+increase_democracy_rating_by_5 = {
+	hidden_effect = {
+		increase_democracy_rating_by_3 = yes
+		increase_democracy_rating_by_2 = yes
+	}
+	custom_effect_tooltip = TT_DR_incr_5
+}
+increase_democracy_rating_by_10 = {
+	hidden_effect = {
+		increase_democracy_rating_by_5 = yes
+		increase_democracy_rating_by_5 = yes
+	}
+	custom_effect_tooltip = TT_DR_incr_10
+}
+
+decrease_democracy_rating_by_1 = {
+	add_to_variable = { var = democracy_rating value = -1 }
+	adjust_democracy_rating_if_necessary = yes
+	custom_effect_tooltip = TT_DR_decr_1
+}
+decrease_democracy_rating_by_2 = {
+	hidden_effect = {
+		decrease_democracy_rating_by_1 = yes
+		decrease_democracy_rating_by_1 = yes
+	}
+	custom_effect_tooltip = TT_DR_decr_2
+}
+decrease_democracy_rating_by_3 = {
+	hidden_effect = {
+		decrease_democracy_rating_by_2 = yes
+		decrease_democracy_rating_by_1 = yes
+	}
+	custom_effect_tooltip = TT_DR_decr_3
+}
+decrease_democracy_rating_by_5 = {
+	hidden_effect = {
+		decrease_democracy_rating_by_3 = yes
+		decrease_democracy_rating_by_2 = yes
+	}
+	custom_effect_tooltip = TT_DR_decr_5
+}
+decrease_democracy_rating_by_10 = {
+	hidden_effect = {
+		decrease_democracy_rating_by_5 = yes
+		decrease_democracy_rating_by_5 = yes
+	}
+	custom_effect_tooltip = TT_DR_decr_10
+}

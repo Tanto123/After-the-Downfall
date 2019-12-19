@@ -20,6 +20,106 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		
+		"AST"={
+			minor = yes
+			history = "AST_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BRA"={
+			minor = yes
+			history = "BRA_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CAN"={
+			minor = yes
+			history = "CAN_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GRE"={
+			minor = yes
+			history = "GRE_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"MEX"={
+			minor = yes
+			history = "MEX_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "POR_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TUR"={
+			minor = yes
+			history = "TUR_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		effect = {
 			randomize_weather = 98765 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

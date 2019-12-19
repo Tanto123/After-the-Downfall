@@ -1,0 +1,11 @@
+opinion_modifiers = {
+	
+	scandinavian_cultural_ties = {
+		value = 10
+	}
+	
+	yankee_dixie_rivalry = {
+		value = -50
+	}
+	
+}
