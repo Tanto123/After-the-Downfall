@@ -1,1 +1,27 @@
-﻿
+﻿add_namespace = generic
+
+#Ideologies
+##Anarchism
+##Communism
+##Leftism
+##Centrism
+##Conservatism
+##Despotism
+##Monarchism
+##Ultranationalism
+
+#Social Factions
+##Air Force Officers
+##Army Officers
+##Automotive Industry
+##Mining Companies
+##Navy Officers
+##Orthodox Christianity
+##Protestantism
+##Railroad Company
+##Robber
+##Roman Catholicism
+##Shia Islam
+##Shintoism
+##Sunni Islam
+##Ultranationalists

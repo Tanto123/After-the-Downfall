@@ -78,6 +78,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"BEL"={
+			minor = yes
+			history = "BEL_1928_DESC"
+			ideology = leftism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"BRA"={
 			minor = yes
 			history = "BRA_1928_DESC"
@@ -127,6 +136,15 @@ bookmarks = {
 			minor = yes
 			history = "MEX_1928_DESC"
 			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"HOL"={
+			minor = yes
+			history = "HOL_1928_DESC"
+			ideology = leftism
 			ideas = {
 			}
 			focuses = {

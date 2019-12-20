@@ -2,22 +2,52 @@
  #Government
  government:0 "Government"
  ##Forms of Government
+ ###
  form_of_government:0 "Form of Government"
+ ###
  absolute_monarchy:0 "Absolute Monarchy"
+ GER_absolute_monarchy:0 "Kaiserreich"
  absolute_monarchy_desc:0 "Absolute Monarchy is a form of monarchy in which the monarch holds supreme autocratic authority, principally not being restricted by written laws, legislature or customs. Absolute Monarchy is usually hereditary, and the power of the monarchy is not restricted by a constitution or any other form of formal social contract."
+ ###
  advised_monarchy:0 "Advised Monarchy"
  JAP_advised_monarchy:0 "Neo-Shogunate"
- advised_monarchy_desc:0 "While nominally an Absolute Monarchy, the Advised Monarchy has established customs in which the monarch rules through their advisors. Such a system is most associated with the Japanese Emperors. In Japan, this system is decried by advocates of a more complete Absolute Monarchy as a 'Neo-Shogunate'."
+ advised_monarchy_desc:0 "While nominally an Absolute Monarchy, the Advised Monarchy has established customs in which the monarch rules through their advisors. Such a system is most associated with the Japanese Emperors.\n\nIn Japan, this system is decried by advocates of a more complete Absolute Monarchy as a 'Neo-Shogunate'."
+ ###
  defensive_anarchism:0 "Defensive Anarchism"
+ ###
  confederacy:0 "Confederacy"
+ GER_confederacy:0 "Konföderation"
+ ###
  constitutional_monarchy:0 "Constitutional Monarchy"
+ GER_constitutional_monarchy:0 "Wilhelmine Monarchy"
+ constitutional_monarchy_desc:0 "A Constitutional Monarchy is a state headed by a monarch, typically with a hereditary succession system, where the power of the monarch is limited by a central document, usually a constitution, and an independent body to enforce it, typically a parliament. The monarch can still take significant influence on politics and culture through private action or public speeches, as well as certain political appointments like that of a Prime Minister, but they are politically hindered from taking dictatorial action.\n\nThe most famous example of a Constitutional Monarchy is the Wilhelmine Monarchy in Germany."
+ ###
  council_republic:0 "Council Republic"
+ GER_council_republic:0 "Räterepublik"
+ SOV_council_republic:0 "Sovetskaya Respublika"
+ council_republic_desc:0 "A Council Republic, also known from Russian as a 'Soviet Republic', organizes political power following models of 'council democracy'. Under council democracy, each citizen is part of a population bloc that votes for a certain amount of representatives to be sent to a council. Then, in turn, each council votes a certain amount of representatives to the next-higher level, all the way up to the uppermost council ('Supreme Soviet' in the Russian model), which serves as the whole country's main legislative body. A Council Republic rejects a horizontal separation of powers into a legislature, executive and judiciary as it exists in other models of democracy, and instead, all power is exerted by officials appointed and dismissed by their responsible councils. In practice, there is also no vertical separation of powers, and the Supreme Soviet usually exerts crushing influence on the lower-level councils to bully out any dissenters and opposition thinkers that might in turn threaten the makeup of the Supreme Soviet."
+ ###
  federal_republic:0 "Federal Republic"
+ GER_federal_republic:0 "Bundesrepublik"
+ federal_republic_desc:0 "A Federal Republic observes the horizontal separation of powers typical for democratic systems as well as a vertical separation of powers between the federal and various regional governments. Typically, Federal Republics are symmetrical federations, where all federal subjects have the same rights against the federal government. However, the world's most famous Federal Republic, the United States of America, is asymmetrical and features territories as well. A Federal Republic is different from a Confederacy in that federal subjects cannot unilaterally secede from Federal Republics, while they typically can do so from a Confederacy."
+ ###
  industrial_republic:0 "Industrial Republic"
+ GER_industrial_republic:0 "Industrierepublik"
+ industrial_republic_desc:0 "A recent model by western European communists in heavily urbanized countries, the Industrial Republic was conceptualized in the early 1920s by Belgian communists in response to the country's high degree of industralization and concurrent extinction of agricultural labor. An Industrial Republic is seen in the communist ideal as a part of the world society in which heavy industrial goods are produced and from where they are shipped to more agricultural socialist states like Peasant Republics, in exchange for foodstuffs and agricultural produce. However, models for the survival of a socialist Industrial Republic within a world that is still dominated by capitalist states are still unclear."
+ ###
  military_dictatorship:0 "Military Dictatorship"
+ GER_military_dictatorship:0 "Militärdiktatur"
+ military_dictatorship_desc:0 "In a Military Dictatorship, also known as a Junta in Spanish-speaking countries, is a form of autocratic government in which the military wields most or all of the political power, usually through puppets in the civilian government. A Military Dictatorship tends to accelerate the country's military advancements and produce high-quality officers, but will abandon the needs of the civilian population and trample the country's cultural and political character in the process. As a result, Military Dictatorships tend to be deeply unpopular."
+ ###
  parliamentary_monarchy:0 "Parliamentary Monarchy"
+ ENG_parliamentary_monarchy:0 "Westminster System"
+ GER_parliamentary_monarchy:0 "Parlamentsmonarchie"
+ parliamentary_monarchy_desc:0 "A Parliamentary Monarchy, often called the 'Westminster System', is a subtype of the Constitutional Monarchy in which the role of the monarch has been reduced to that of a total figurehead, whereas in a mainline Constitutional Monarchy they might still have some influence in policymaking. In a Parliamentary Monarchy, it is customary for the monarch to be apolitical, to remain silent on most common political issues, and to rubber-stamp the acts of the cabinet and the legislature."
+ ###
  peasant_republic:0 "Peasant Republic"
+ GER_peasant_republic:0 "Bauernrepublik"
  peasant_republic_desc:0 "In agrarian-inspired forms of communism and anarchism, a Peasant Republic is one of the potential forms that a society could take. Peasant Republics would aim to greatly de-urbanize the country and decrease the size of cities. Instead, 'towns' of less than 30,000 inhabitants would oversee several 'villages' or 'communes' of less than 10,000 in their vicinity. Doctors, teachers and a select few industrial facilities would be in the towns, whereas the vast majority of the population would be organized in the villages, with jobs focussed on agriculture and livestock."
+ ###
  ##Political Advisors
  political_advisor:0 "Political Advisor"
  ###
@@ -25,15 +55,15 @@
  government_properties:0 "Government Properties"
  ##Authoritarianism
  authoritarianism:0 "Authoritarianism"
- totalitarian_rule:0 "Totalitarian Rule ([?ROOT.democracy_rating])"
+ totalitarian_rule:0 "Totalitarian Rule"
  totalitarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Totalitarian Rule: 0-20)\n\nIn totalitarianism, virtually all individual rights have been wiped out. There is no political elections, freedom of speech, freedom of the press, freedom of publication, freedom of movement, freedom of assembly, freedom of association or freedom of religion. Increasingly, even the workplace of each individual is selected by the government during that person's upbringing, which is also heavily supervised through a state-controlled and legally binding education system. Totalitarian states are backed by both overt and covert police forces that prosecute and persecute any dissenters at any level of society, and apply a crushing state ideology in which every form of disagreement is high treason. This is typically enforced through a system in which denunciation of dissent by private individuals is rewarded.\n"
- authoritarian_rule:0 "Authoritarian Rule ([?ROOT.democracy_rating])"
+ authoritarian_rule:0 "Authoritarian Rule"
  authoritarian_rule_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Authoritarian Rule: 21-40)\n\nUnder authoritarianism, almost all methods of political participation have been retracted, including the right to vote of most citizens and the freedom of the press. Authoritarianism also features heavy media censorship, including cinema, radio and the newspapers. However, authoritarian governments do usually not feature the overwhelming surveillance states of their totalitarian cousins, and some authoritarian governments still allow some minor private freedoms, like the freedom to choose one's workplace or religion, even though any sort of social movement that could arise from such indulgences is still viewed with great suspicion.\n"
- oligarchy:0 "Oligarchy ([?ROOT.democracy_rating])"
+ oligarchy:0 "Oligarchy"
  oligarchy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Oligarchy: 41-60)\n\nIn Oligarchies, elections are usually a sham and political opposition groups face numerous artificial obstacles that are not faced by the governing elite's chosen political forces. However, oligarchic states still mostly leave most other personal freedoms intact, with perhaps the only exception being freedom of the press, as the press is usually encouraged to 'self-censor'.\n"
- flawed_democracy:0 "Flawed Democracy ([?ROOT.democracy_rating])"
+ flawed_democracy:0 "Flawed Democracy"
  flawed_democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Flawed Democracy: 61-80)\n\nIn Flawed Democracies, almost all individual and political freedoms are fully intact. On the surface, it is usually hard to differentiate Flawed Democracies from their fully democratic counterparts. However, beneath the surface, there are uncomfortably close ties between big business and media magnates and the governing party, leading to extensive positive media coverage for the ruling elite and lots of criticism aimed at the opposition. Furthermore, minorities of various kinds, be they ethnic, religious or political, often face obstacles when attempting to utilize their right to political participation. For example, opposition strongholds might receive geographically inconvenient voting booths to discourage opposition voters from going to the polls, whereas bastions of government support receive a larger amount of polling stations to make voting more accessible and convenient.\n"
- democracy:0 "Democracy ([?ROOT.democracy_rating])"
+ democracy:0 "Democracy"
  democracy_desc:0 "Current Democracy Rating: [?ROOT.democracy_rating]\n(Required for Democracy: 81-100)\n\nIn Full Democracies (politicians of such systems often refer to them as 'Flawless Democracies'), citizens are provided with full voting rights, a generally fair and equal access to the ballot box, as well as satisfactory separations of power between government and media as well as government and non-political institutions like churches, the military, and big businesses. In Full Democracies, the press is completely free in its broadcasting, and information can flow freely from citizen to citizen as well as into and out of the country as a whole. Full Democracies tend to outperform their more authoritarian rivals in terms of academic success and tend to produce more intelligent citizens, but domestic disputes and crises are also much more visible and amplified because of the unrestricted flow of information.\n"
  ##Mobilization Laws
  mobilization_laws:0 "Mobilization Laws"
@@ -53,13 +83,13 @@
  tot_economic_mobilisation:0 "Total Mobilization"
  ##Diplomatic Stance
  diplomatic_stance:0 "Diplomatic Stance"
- jingoism:0 "Jingoism ([?ROOT.pacifism_rating])"
+ jingoism:0 "Jingoism"
  jingoism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Jingoism: 0-25)\n\nThe word 'jingoism' originated in the British press of the 1870s, then as a call to vigilance against the United States government's willingness to go to war with the Confederate States. Since then, it has come into use in much of the anglophone word, and is usually used in a derogatory fashion to decry hyper-aggressive foreign policy, typically by one's political or diplomatic rivals.\n"
- hawk_lobby:0 "Hawk Lobby ([?ROOT.pacifism_rating])"
+ hawk_lobby:0 "Hawk Lobby"
  hawk_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Hawk Lobby: 26-50)\n\nIn foreign policy, 'hawks' are politicians that are quick to use military force or economic pressure to opportunistically enforce the nation's diplomatic goals. Hawks carry a low reputation with more peaceful factions, and quickly become the target of enemy propaganda. Their effectiveness in advancement of the country's situation on the world stage should however not be underestimated.\n"
- dove_lobby:0 "Dove Lobby ([?ROOT.pacifism_rating])"
+ dove_lobby:0 "Dove Lobby"
  dove_lobby_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Dove Lobby: 51-75)\n\nIn foreign policy, 'doves' prefer cooperative and non-interventionist models over the trigger-happy adventures of their 'hawk' counterparts. Instead, doves seek to form defensive alliances to contravene potential aggressors on the world stage, and will accept war or military action only as the last resort.\n"
- pacifism:0 "Pacifism ([?ROOT.pacifism_rating])"
+ pacifism:0 "Pacifism"
  pacifism_desc:0 "Current Pacifism Rating: [?ROOT.pacifism_rating]\n(Required for Pacifism: 76-100)\n\nIn a complete rejection of military entanglements, pacifists tend to put values in demilitarization of the national society to instead turn the populous toward more civilian pursuits. Pacifists will only in the darkest of times even consider army mobilization or military pacts, and the mere thought of preventive strikes is foreign to them.\n"
  ##Trade Laws
  trade_laws:0 "Trade Laws"
@@ -87,8 +117,10 @@
  ultranationalists:0 "Ultranationalists"
  ###
  #Research / Production
+ ###
  research_production:0 "Research / Production"
  manufacturer: "Manufacturer"
+ ###
  generic_artillery_company:0 "Artillery Company"
  generic_construction_company:0 "Construction Company"
  generic_electronics_company:0 "Electronics Company"
@@ -98,8 +130,32 @@
  generic_support_company:0 "Support Company"
  generic_vehicle_company:0 "Vehicle Company"
  ###
+ generic_allround_tank_manufacturer:0 "Allround Tank Manufacturer"
+ generic_fast_tank_manufacturer:0 "Fast Tank Manufacturer"
+ generic_heavy_tank_manufacturer:0 "Heavy Tank Manufacturer"
+ generic_medium_tank_manufacturer:0 "Medium Tank Manufacturer"
+ ###
+ generic_atlantic_designer:0 "Atlantic Designer"
+ generic_battlefleet_designer:0 "Battlefleet Designer"
+ generic_coastal_designer:0 "Coastal Designer"
+ generic_convoy_designer:0 "Convoy Designer"
+ generic_pacific_designer:0 "Pacific Designer"
+ generic_raiding_fleet_designer:0 "Raiding Fleet Designer"
+ ###
+ generic_air_support_designer:0 "Air Support Designer"
+ generic_air_range_designer:0 "Air Range Designer"
+ generic_heavy_aircraft_designer:0 "Heavy Aircraft Designer"
+ generic_light_aircraft_designer:0 "Light Aircraft Designer"
+ generic_medium_aircraft_designer:0 "Medium Aircraft Designer"
+ generic_naval_aircraft_designer:0 "Naval Aircraft Designer"
+ ###
  #Military Staff
+ ###
  military_staff:0 "Military Staff"
+ army_chief:0 "Army Chief"
+ navy_chief:0 "Navy Chief"
+ air_chief:0 "Air Chief"
+ high_command:0 "High Command"
  ###
  #Generic Ideas
  anarchist_tendencies:0 "Anarchist Tendencies"

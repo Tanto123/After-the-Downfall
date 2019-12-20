@@ -1,0 +1,48 @@
+leader_traits = {
+
+	anti_leftist_activist = {
+		random = no
+		anarchism_drift = -0.01
+		communism_drift = -0.01
+		leftism_drift = -0.01
+		ai_will_do = { factor = 0 }
+	}
+	
+	anti_rightist_activist = {
+		random = no
+		conservatism_drift = -0.01
+		despotism_drift = -0.01
+		monarchism_drift = -0.01
+		ultranationalism_drift = -0.01
+		ai_will_do = { factor = 0 }
+	}
+	
+	exclusionary_communist = {
+		random = no
+		communism_drift = 0.01
+		anarchism_drift = -0.01
+		leftism_drift = -0.01
+		communism_acceptance = 10
+		anarchism_acceptance = -10
+		leftism_acceptance = -10
+		ai_will_do = { factor = 0 }
+	}
+	
+	far_left_isolationist = {
+		random = no
+		anarchism_acceptance = 20
+		communism_acceptance = 20
+		generate_wargoal_tension = 0.1
+		ai_will_do = { factor = 0 }
+	}
+	
+	uncompromising_conservative = {
+		random = no
+		conservatism_acceptance = 10
+		conservatism_drift = 0.01
+		stability_factor = 0.05
+		political_power_factor = -0.1
+		ai_will_do = { factor = 0 }
+	}
+	
+}

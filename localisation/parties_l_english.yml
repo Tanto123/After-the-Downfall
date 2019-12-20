@@ -1,4 +1,7 @@
 ﻿l_english:
+ AST_leftism_party:0 "Labour Party"
+ AST_conservatism_party:0 "National Liberal Party"
+ #
  CSA_anarchism_party:0 "ALF"
  CSA_anarchism_party_long:0 "Autonomous Labour Front"
  CSA_communism_party:0 "NLF"
@@ -14,6 +17,16 @@
  CSA_monarchism_party:0 "Davis Loyalists"
  CSA_ultranationalism_party:0 "NDP"
  CSA_ultranationalism_party_long:0 "National Democratic Party"
+ #
+ ENG_anarchism_party:0 "(Anarchist) Labour Party"
+ ENG_communism_party:0 "(Communist) Labour Party"
+ ENG_leftism_party:0 "Labour Party"
+ ENG_centrism_party:0 "Liberal Party"
+ ENG_conservatism_party:0 "Conservative Party"
+ ENG_despotism_party:0 "British Armed Forces"
+ ENG_monarchism_party:0 "Royalists"
+ ENG_ultranationalism_party:0 "BUN"
+ ENG_ultranationalism_party_desc:0 "British Union of Nationalists"
  #
  GER_anarchism_party:0 "KFDA"
  GER_anarchism_party_long:0 "Kampffront der Deutschen Arbeit"

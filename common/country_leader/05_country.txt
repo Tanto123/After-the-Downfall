@@ -1,0 +1,90 @@
+leader_traits = {
+	
+	administrative_genius = {
+		random = yes
+		stability_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	apolitical_monarch = {
+		random = yes
+		stability_factor = 0.025
+		political_power_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	babbling_buffoon = {
+		random = no
+		stability_factor = -0.05
+		ai_will_do = { factor = 0 }
+	}
+	
+	controversial_monarch = {
+		random = no
+		stability_factor = -0.05
+		political_power_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	effective_bureaucrat = {
+		random = yes
+		political_power_factor = 0.15
+		ai_will_do = { factor = 1 }
+	}
+	
+	freedom_fighter = {
+		random = no
+		autonomy_gain = 1
+		ai_will_do = { factor = 1 }
+	}
+	
+	ideological_crusader = {
+		random = yes
+		drift_defence_factor = 0.5
+		ai_will_do = { factor = 1 }
+	}
+	
+	political_hardliner = {
+		random = yes
+		political_power_factor = 0.2
+		stability_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	relentless_optimist = {
+		random = yes
+		surrender_limit = 0.2
+		war_support_factor = 0.025
+		ai_will_do = { factor = 0 }
+	}
+	
+	relentless_technocrat = {
+		random = yes
+		research_speed_factor = 0.1
+		stability_factor = -0.05
+		war_support_factor = -0.05
+		ai_will_do = { factor = 0 }
+	}
+	
+	talented_propagandist = {
+		random = yes
+		war_support_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	tolerant_intellectual = {
+		random = yes
+		stability_factor = 0.05
+		research_speed_factor = 0.05
+		war_support_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	unpopular_pragmatist = {
+		random = yes
+		political_power_factor = 0.15
+		stability_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+}

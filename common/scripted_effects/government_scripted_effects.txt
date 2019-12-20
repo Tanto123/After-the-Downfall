@@ -1,0 +1,191 @@
+switch_government_to_anarchism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = anarchism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = anarchism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = anarchism
+			elections_allowed = yes
+		}
+	}
+}
+
+switch_government_to_communism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+	}
+}
+
+switch_government_to_leftism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = leftism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = leftism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = leftism
+			elections_allowed = yes
+		}
+	}
+}
+
+switch_government_to_centrism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = centrism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = centrism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = centrism
+			elections_allowed = yes
+		}
+	}
+}
+
+switch_government_to_conservatism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = conservatism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = conservatism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = conservatism
+			elections_allowed = yes
+		}
+	}
+}
+
+switch_government_to_despotism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = despotism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = despotism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = despotism
+			elections_allowed = yes
+		}
+	}
+}
+
+switch_government_to_monarchism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = monarchism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = monarchism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = monarchism
+			elections_allowed = yes
+		}
+	}
+}
+
+switch_government_to_ultranationalism = {
+	if = {	#DR > 40
+		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
+		set_politics = {
+			ruling_party = ultranationalism
+			elections_allowed = yes
+		}
+	}
+	if = {	#DR < 40
+		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+		set_politics = {
+			ruling_party = ultranationalism
+			elections_allowed = no
+		}
+	}
+	if = {	#Failsafe
+		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
+		set_politics = {
+			ruling_party = ultranationalism
+			elections_allowed = yes
+		}
+	}
+}

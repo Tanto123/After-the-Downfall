@@ -1,0 +1,151 @@
+﻿add_namespace = democracy
+
+#Democracy
+country_event = {
+	id = democracy.1
+	title = democracy.1.t
+	desc = democracy.1.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = democracy.1.o1
+		if = { limit = { has_idea = totalitarian_rule } remove_ideas = totalitarian_rule }
+		if = { limit = { has_idea = authoritarian_rule } remove_ideas = authoritarian_rule }
+		if = { limit = { has_idea = oligarchy } remove_ideas = oligarchy }
+		if = { limit = { has_idea = flawed_democracy } remove_ideas = flawed_democracy }
+		add_ideas = democracy
+	}
+}
+
+#Flawed Democracy
+country_event = {
+	id = democracy.2
+	title = democracy.2.t
+	desc = {
+		text = democracy.2.d1
+		trigger = {
+			OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule has_idea = oligarchy }
+		}
+	}
+	desc = {
+		text = democracy.2.d2
+		trigger = {
+			has_idea = democracy
+		}
+	}
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = democracy.2.o1
+		if = { limit = { has_idea = totalitarian_rule } remove_ideas = totalitarian_rule }
+		if = { limit = { has_idea = authoritarian_rule } remove_ideas = authoritarian_rule }
+		if = { limit = { has_idea = oligarchy } remove_ideas = oligarchy }
+		if = { limit = { has_idea = democracy } remove_ideas = democracy }
+		add_ideas = flawed_democracy
+	}
+}
+
+#Oligarchy
+country_event = {
+	id = democracy.3
+	title = democracy.3.t
+	desc = {
+		text = democracy.3.d1
+		trigger = {
+			OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule }
+		}
+	}
+	desc = {
+		text = democracy.3.d2
+		trigger = {
+			OR = { has_idea = flawed_democracy has_idea = democracy }
+		}
+	}
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = democracy.3.o1
+		if = {
+			limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
+			if = { limit = { has_government = anarchism } set_politics = { ruling_party = anarchism elections_allowed = yes } }
+			if = { limit = { has_government = communism } set_politics = { ruling_party = communism elections_allowed = yes } }
+			if = { limit = { has_government = leftism } set_politics = { ruling_party = leftism elections_allowed = yes } }
+			if = { limit = { has_government = centrism } set_politics = { ruling_party = centrism elections_allowed = yes } }
+			if = { limit = { has_government = conservatism } set_politics = { ruling_party = conservatism elections_allowed = yes } }
+			if = { limit = { has_government = despotism } set_politics = { ruling_party = despotism elections_allowed = yes } }
+			if = { limit = { has_government = monarchism } set_politics = { ruling_party = monarchism elections_allowed = yes } }
+			if = { limit = { has_government = ultranationalism } set_politics = { ruling_party = ultranationalism elections_allowed = yes } }
+		}
+		if = { limit = { has_idea = totalitarian_rule } remove_ideas = totalitarian_rule }
+		if = { limit = { has_idea = authoritarian_rule } remove_ideas = authoritarian_rule }
+		if = { limit = { has_idea = flawed_democracy } remove_ideas = flawed_democracy }
+		if = { limit = { has_idea = democracy } remove_ideas = democracy }
+		add_ideas = oligarchy
+	}
+}
+
+#Authoritarian Rule
+country_event = {
+	id = democracy.4
+	title = democracy.4.t
+	desc = {
+		text = democracy.4.d1
+		trigger = {
+			has_idea = totalitarian_rule
+		}
+	}
+	desc = {
+		text = democracy.4.d2
+		trigger = {
+			OR = { has_idea = oligarchy has_idea = flawed_democracy has_idea = democracy }
+		}
+	}
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = democracy.4.o1
+		if = {
+			limit = { OR = { has_idea = oligarchy has_idea = flawed_democracy has_idea = democracy } }
+			if = { limit = { has_government = anarchism } set_politics = { ruling_party = anarchism elections_allowed = no } }
+			if = { limit = { has_government = communism } set_politics = { ruling_party = communism elections_allowed = no } }
+			if = { limit = { has_government = leftism } set_politics = { ruling_party = leftism elections_allowed = no } }
+			if = { limit = { has_government = centrism } set_politics = { ruling_party = centrism elections_allowed = no } }
+			if = { limit = { has_government = conservatism } set_politics = { ruling_party = conservatism elections_allowed = no } }
+			if = { limit = { has_government = despotism } set_politics = { ruling_party = despotism elections_allowed = no } }
+			if = { limit = { has_government = monarchism } set_politics = { ruling_party = monarchism elections_allowed = no } }
+			if = { limit = { has_government = ultranationalism } set_politics = { ruling_party = ultranationalism elections_allowed = no } }
+		}
+		if = { limit = { has_idea = totalitarian_rule } remove_ideas = totalitarian_rule }
+		if = { limit = { has_idea = oligarchy } remove_ideas = oligarchy }
+		if = { limit = { has_idea = flawed_democracy } remove_ideas = flawed_democracy }
+		if = { limit = { has_idea = democracy } remove_ideas = democracy }
+		add_ideas = authoritarian_rule
+	}
+}
+
+#Flawed Democracy
+country_event = {
+	id = democracy.5
+	title = democracy.5.t
+	desc = democracy.5.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = democracy.5.o1
+		if = { limit = { has_idea = authoritarian_rule } remove_ideas = authoritarian_rule }
+		if = { limit = { has_idea = oligarchy } remove_ideas = oligarchy }
+		if = { limit = { has_idea = flawed_democracy } remove_ideas = flawed_democracy }
+		if = { limit = { has_idea = democracy } remove_ideas = democracy }
+		add_ideas = totalitarian_rule
+	}
+}

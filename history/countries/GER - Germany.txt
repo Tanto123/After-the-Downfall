@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-OOB = "generic_1936"
+OOB = "generic_1928"
 
 set_research_slots = 3
 
@@ -20,14 +20,14 @@ set_variable = { democracy_rating = 62 }
 set_variable = { pacifism_rating = 43 }
 
 set_popularities = {
-	anarchism = 0
-	communism = 0 
-	leftism = 100 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 0 
-	monarchism = 0 
-	ultranationalism = 0
+	anarchism = 3
+	communism = 12
+	leftism = 38
+	centrism = 8
+	conservatism = 31
+	despotism = 1
+	monarchism = 2
+	ultranationalism = 5
 }
 
 set_politics = { 
@@ -35,4 +35,460 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Otto Wels"
+	desc = leader_desc_GER_Otto_Wels
+	picture = "Otto_Wels.dds"
+	ideology = social_democracy
+	traits = {
+		unpopular_pragmatist
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm Koenen"
+	desc = leader_desc_GER_Wilhelm_Koenen
+	picture = "Wilhelm_Koenen.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		far_left_isolationist
+	}
+}
+create_country_leader = {
+	name = "Wilhelm Pieck"
+	desc = leader_desc_GER_Wilhelm_Pieck
+	picture = "Wilhelm_Pieck.dds"
+	ideology = national_communism
+	traits = {
+		foreign_interventionist
+	}
+}
+create_country_leader = {
+	name = "Ernst Ludwig von Hessen"
+	desc = leader_desc_GER_Ernst_Ludwig_von_Hessen
+	picture = "Ernst_Ludwig_von_Hessen.dds"
+	ideology = market_liberalism
+	traits = {
+		committed_isolationist
+	}
+}
+create_country_leader = {
+	name = "Rudolf Friedrichs"
+	desc = leader_desc_GER_Rudolf_Friedrichs
+	picture = "Rudolf_Friedrichs.dds"
+	ideology = national_conservatism
+	traits = {
+		political_hardliner
+	}
+}
+create_country_leader = {
+	name = "Gerd von Rundstedt"
+	desc = leader_desc_GER_Gerd_von_Rundstedt
+	picture = "generals/Gerd_von_Rundstedt.dds"
+	ideology = military_dictatorship
+	traits = {
+		foreign_interventionist
+	}
+}
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = leader_desc_CSA_Wilhelm_II
+	picture = "Wilhelm_II.dds"
+	ideology = absolute_monarchism
+	traits = {
+		babbling_buffoon
+	}
+}
+create_country_leader = {
+	name = "Kurt von Schleicher"
+	desc = leader_desc_GER_Kurt_von_Schleicher
+	picture = "Kurt_von_Schleicher.dds"
+	ideology = ethnopurism
+	traits = {
+		machiavellian_diplomat
+	}
+}
+
+create_field_marshal = {
+	name = "Gerd von Rundstedt"
+	picture = "generals/Gerd_von_Rundstedt.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Erich Ludendorff"
+	picture = "generals/Erich_Ludendorff.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "August von Mackensen"
+	picture = "generals/August_von_Mackensen.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Erwin von Witzleben"
+	picture = "generals/Erwin_von_Witzleben.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Walther von Reichenau"
+	picture = "generals/Walther_von_Reichenau.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Werner von Fritsch"
+	picture = "generals/Werner_von_Fritsch.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Wilhelm Keitel"
+	picture = "generals/Wilhelm_Keitel.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfred Jodl"
+	picture = "generals/Alfred_Jodl.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Carl Heinrich von Stülpnagel"
+	picture = "generals/Carl_Heinrich_von_Stuelpnagel.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Erich von Manstein"
+	picture = "generals/Erich_von_Manstein.dds"
+	traits = {  }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Ernst Eberhard Hell"
+	picture = "generals/Ernst_Eberhard_Hell.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Erwin Jänicke"
+	picture = "generals/Erwin_Jaenicke.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Erwin Rommel"
+	picture = "generals/Erwin_Rommel.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ewald von Kleist"
+	picture = "generals/Ewald_von_Kleist.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Fedor von Bock"
+	picture = "generals/Fedor_von_Bock.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Friedrich Paulus"
+	picture = "generals/Friedrich_Paulus.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Friedrich Schulz"
+	picture = "generals/Friedrich_Schulz.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Georg-Hans Reinhardt"
+	picture = "generals/Georg_Hans_Reinhardt.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Georg von Küchler"
+	picture = "generals/Georg_von_Kuechler.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Günther von Kluge"
+	picture = "generals/Gunther_von_Kluge.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Hasso von Manteuffel"
+	picture = "generals/Hasso_von_Manteuffel.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "generals/Heinz_Guderian.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Hermann Ehrhardt"
+	picture = "generals/Hermann_Ehrhardt.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hermann Hoth"
+	picture = "generals/Hermann_Hoth.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Johannes Blaskowitz"
+	picture = "generals/Johannes_Blaskowitz.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Karl-Adolf Hollidt"
+	picture = "generals/Karl_Adolf_Hollidt.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Konrad von Dellmensingen"
+	picture = "generals/Konrad_von_Dellmensingen.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Kurt Student"
+	picture = "generals/Kurt_Student.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Manfred von Richthofen"
+	picture = "generals/Manfred_von_Richthofen.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Maximilian von Weichs"
+	picture = "generals/Maximilian_von_Weichs.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Paul Hausser"
+	picture = "generals/Paul_Hausser.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Reinhard Gehlen"
+	picture = "generals/Reinhard_Gehlen.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Rudolf Höss"
+	picture = "generals/Rudolf_Hoess.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Sepp Dietrich"
+	picture = "generals/Sepp_Dietrich.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Walter Krüger"
+	picture = "generals/Walter_Kruger.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Walter Model"
+	picture = "generals/Walter_Model.dds"
+	traits = {  }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 7
+	planning_skill = 6
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Wilhelm List"
+	picture = "generals/Wilhelm_List.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Wilhelm Ritter von Leeb"
+	picture = "generals/Wilhelm_Ritter_von_Leeb.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
