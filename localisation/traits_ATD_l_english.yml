@@ -1,6 +1,6 @@
 ﻿l_english:
  #
- #Ideology
+ #Drift
  #
  anarchist_ideologue:0 "Anarchist"
  communist_ideologue:0 "Communist"
@@ -18,11 +18,18 @@
  despotic_politician:0 "(Despotic)"
  monarchist_politician:0 "(Monarchist)"
  ultranationalist_politician:0 "(Ultranationalist)"
+ #
+ #Ideology
+ #
  anti_leftist_activist:0 "Anti-Leftist Activist"
  anti_rightist_activist:0 "Anti-Rightist Activist"
+ exclusionary_communist:0 "Exclusionary Communist"
+ far_left_isolationist:0 "Far-Left Isolationist"
+ uncompromising_conservative:0 "Uncompromising Conservative"
  #
  #Diplomacy
  #
+ committed_isolationist:0 "Committed Isolationist"
  foreign_interventionist:0 "Foreign Interventionist"
  machiavellian_diplomat:0 "Machiavellian Diplomat"
  staunch_imperialist:0 "Staunch Imperialist"
@@ -42,12 +49,18 @@
  #Country
  #
  administrative_genius:0 "Administrative Genius"
+ apolitical_monarch:0 "Apolitical Monarch"
+ babbling_buffoon:0 "Babbling Buffoon"
  controversial_monarch:0 "Controversial Monarch"
  effective_bureaucrat:0 "Effective Bureaucrat"
  freedom_fighter:0 "Freedom Fighter"
  ideological_crusader:0 "Ideological Crusader"
+ political_hardliner:0 "Political Hardliner"
  relentless_optimist:0 "Relentless Optimist"
+ relentless_technocrat:0 "Relentless Technocrat"
  talented_propagandist:0 "Talented Propagandist"
+ tolerant_intellectual:0 "Tolerant Intellectual"
+ unpopular_pragmatist:0 "Unpopular Pragmatist"
  #
  #Manufacturers
  #
@@ -80,3 +93,75 @@
  electronics_concern:0 "Electronics Concern"
  industrial_concern:0 "Industrial Concern"
  refinery_concern:0 "Refinery Concern"
+ #
+ #Theorist
+ #
+ rocket_scientist:0 "Rocket Scientist"
+ nuclear_scientist:0 "Nuclear Scientist"
+ army_theorist:0 "Army Theorist"
+ grand_battleplan_theorist:0 "Grand Battleplan Theorist"
+ mass_assault_theorist:0 "Mass Assault Theorist"
+ mobile_warfare_theorist:0 "Mobile Warfare Theorist"
+ superior_firepower_theorist:0 "Superior Firepower Theorist"
+ #
+ #Army Chief
+ #
+ army_chief_defensive:0 "Defensive Commander"
+ army_chief_drill:0 "Drill Sergeant"
+ army_chief_maneuver:0 "Maneuver Chief"
+ army_chief_morale:0 "Morale Expert"
+ army_chief_offensive:0 "Offensive Commander"
+ army_chief_old_guard:0 "Army Old Guard"
+ army_chief_organization:0 "Organization Expert"
+ army_chief_reform:0 "Reformist General"
+ #
+ #Navy Chief
+ #
+ navy_chief_commerce_raiding:0 "Commerce Raider"
+ navy_chief_decisive_battle:0 "Decisive Battler"
+ navy_chief_maneuver:0 "Maneuver Admiral"
+ navy_chief_naval_aviation:0 "Naval Aviator"
+ navy_chief_old_guard:0 "Naval Old Guard"
+ navy_chief_reform:0 "Reformist Admiral"
+ #
+ #Air Force Chief
+ #
+ air_chief_all_weather:0 "All-Weather Chief"
+ air_chief_ground_support:0 "Ground Support Advocate"
+ air_chief_night_operations:0 "Night Operator"
+ air_chief_old_guard:0 "Aerial Old Guard"
+ air_chief_reform:0 "Reformist Air Chief"
+ air_chief_safety:0 "Flight Safety Advocate"
+ #
+ #Army High Command
+ #
+ generic_high_command_army_armored:0 "Armor General"
+ generic_high_command_army_artillery:0 "Artillery General"
+ generic_high_command_army_cavalry:0 "Cavalry General"
+ generic_high_command_army_commando:0 "Commando General"
+ generic_high_command_army_concealment:0 "Concealment Expert"
+ generic_high_command_army_entrenchment:0 "Entrenchment Expert"
+ generic_high_command_army_infantry:0 "Infantry General"
+ generic_high_command_army_logistics:0 "Logistics Expert"
+ generic_high_command_army_regrouping:0 "Regrouping Expert"
+ #
+ #Navy High Command
+ #
+ generic_high_command_navy_amphibious_assault:0 "Amphibious Assaulter"
+ generic_high_command_navy_anti_submarine:0 "Submarine Hunter"
+ generic_high_command_navy_capital_ship:0 "Capital Ship Admiral"
+ generic_high_command_navy_carrier:0 "Carrier Admiral"
+ generic_high_command_navy_fleet_logistics:0 "Logistics Admiral"
+ generic_high_command_navy_naval_air_defense:0 "Naval Air Defender"
+ generic_high_command_navy_screen:0 "Naval Screen Admiral"
+ generic_high_command_navy_submarine:0 "Submarine Admiral"
+ #
+ #Air Force High Command
+ #
+ generic_high_command_air_combat_training:0 "Aerial Combat Trainer"
+ generic_high_command_air_naval_strike:0 "Aerial Naval Striker"
+ generic_high_command_air_bomber_interception:0 "Bomber Interceptor"
+ generic_high_command_air_superiority:0 "Air Superiority Advocate"
+ generic_high_command_air_close_air_support:0 "Close Air Support Expert"
+ generic_high_command_air_strategic_bombing:0 "Strategic Bombing Expert"
+ generic_high_command_air_airborne:0 "Airborne Commander"

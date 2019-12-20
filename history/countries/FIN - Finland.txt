@@ -1,6 +1,6 @@
 ﻿capital = 111
 
-OOB = "generic_1936"
+OOB = "generic_1928"
 
 set_research_slots = 3
 
@@ -17,11 +17,11 @@ set_technology = {
 }
 
 set_popularities = {
-	anarchism = 0
-	communism = 0 
-	leftism = 100
-	centrism = 0
-	conservatism = 0 
+	anarchism = 4
+	communism = 5 
+	leftism = 41
+	centrism = 15
+	conservatism = 35 
 	despotism = 0
 	monarchism = 0
 	ultranationalism = 0

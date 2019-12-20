@@ -97,21 +97,4 @@ leader_traits = {
 		ai_will_do = { factor = 0 }
 	}
 	
-	anti_leftist_activist = {
-		random = no
-		anarchism_drift = -0.01
-		communism_drift = -0.01
-		leftism_drift = -0.01
-		ai_will_do = { factor = 0 }
-	}
-	
-	anti_rightist_activist = {
-		random = no
-		conservatism_drift = -0.01
-		despotism_drift = -0.01
-		monarchism_drift = -0.01
-		ultranationalism_drift = -0.01
-		ai_will_do = { factor = 0 }
-	}
-	
 }

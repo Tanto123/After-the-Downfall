@@ -1,6 +1,6 @@
 ﻿capital = 126
 
-OOB = "generic_1936"
+OOB = "generic_1928"
 
 set_research_slots = 3
 
@@ -39,7 +39,7 @@ set_popularities = {
 }
 
 set_politics = { 
-	ruling_party = leftism
+	ruling_party = conservatism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -51,3 +51,77 @@ puppet = AST
 puppet = CAN
 puppet = NZL
 puppet = SAF
+
+create_country_leader = {
+	name = "Austen Chamberlain"
+	desc = leader_desc_ENG_Austen_Chamberlain
+	picture = "Austen_Chamberlain.dds"
+	ideology = social_conservatism
+	traits = {
+		anti_leftist_activist
+		uncompromising_conservative
+	}
+}
+create_country_leader = {
+	name = "James Maxton"
+	desc = leader_desc_ENG_James_Maxton
+	picture = "James_Maxton.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		unpopular_pragmatist
+	}
+}
+create_country_leader = {
+	name = "Harold Harmsworth"
+	desc = leader_desc_ENG_Harold_Harmsworth
+	picture = "Harold_Harmsworth.dds"
+	ideology = national_communism
+	traits = {
+		effective_bureaucrat
+	}
+}
+create_country_leader = {
+	name = "Ramsay MacDonald"
+	desc = leader_desc_ENG_Ramsay_MacDonald
+	picture = "Ramsay_MacDonald.dds"
+	ideology = social_democracy
+	traits = {
+		labor_unionist
+	}
+}
+create_country_leader = {
+	name = "Harold Alexander"
+	desc = leader_desc_ENG_Harold_Alexander
+	picture = "Harold_Alexander.dds"
+	ideology = military_dictatorship
+	traits = {
+		relentless_optimist
+	}
+}
+create_country_leader = {
+	name = "Oswald Mosley"
+	desc = leader_desc_ENG_Oswald_Mosley
+	picture = "Oswald_Mosley.dds"
+	ideology = ethnopurism
+	traits = {
+		babbling_buffoon
+	}
+}
+create_country_leader = {
+	name = "Herbert Morrison"
+	desc = leader_desc_ENG_Herbert_Morrison
+	picture = "Herbert_Morrison.dds"
+	ideology = social_liberalism
+	traits = {
+		babbling_buffoon
+	}
+}
+create_country_leader = {
+	name = "George V"
+	desc = leader_desc_ENG_George_V
+	picture = "George_V.dds"
+	ideology = absolute_monarchism
+	traits = {
+		apolitical_monarch
+	}
+}

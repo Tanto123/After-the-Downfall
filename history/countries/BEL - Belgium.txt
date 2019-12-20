@@ -1,11 +1,11 @@
 ﻿capital = 6
 
-OOB = "generic_1936"
+OOB = "generic_1928"
 
 set_research_slots = 3
 
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.52
+set_war_support = 0.39
 
 set_convoys = 100
 
@@ -18,18 +18,28 @@ set_technology = {
 
 set_popularities = {
 	anarchism = 0
-	communism = 0 
-	leftism = 0
-	centrism = 100
-	conservatism = 0 
+	communism = 10
+	leftism = 57
+	centrism = 5
+	conservatism = 28 
 	despotism = 0
 	monarchism = 0
 	ultranationalism = 0
 }
 
 set_politics = { 
-	ruling_party = centrism
+	ruling_party = leftism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Charles de Broqueville"
+	desc = leader_desc_BEL_Charles_de_Broqueville
+	picture = "Charles_de_Broqueville.dds"
+	ideology = social_democracy
+	traits = {
+		relentless_technocrat
+	}
 }

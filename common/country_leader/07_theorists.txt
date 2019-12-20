@@ -1,0 +1,40 @@
+leader_traits = {
+
+	rocket_scientist = {
+		ai_will_do = { factor = 5 }
+	}
+
+	nuclear_scientist = {
+		ai_will_do = { factor = 5 }
+	}
+
+	army_theorist = {
+		experience_gain_army = 0.10
+		ai_will_do = { factor = 25 }
+	}
+
+	grand_battleplan_theorist = {
+		experience_gain_army = 0.05
+		army_morale_factor = 0.05
+		ai_will_do = { factor = 45 }
+	}
+
+	mass_assault_theorist = {
+		experience_gain_army = 0.05
+		training_time_army_factor = -0.05
+		ai_will_do = { factor = 45 }
+	}
+
+	mobile_warfare_theorist = {
+		experience_gain_army = 0.05
+		army_speed_factor = 0.05
+		ai_will_do = { factor = 45 }
+	}
+
+	superior_firepower_theorist = {
+		experience_gain_army = 0.05
+		army_attack_factor = 0.05
+		ai_will_do = { factor = 45 }
+	}
+	
+}
