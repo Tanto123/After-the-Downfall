@@ -36,3 +36,20 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
+
+create_country_leader = {
+	name = "Stanley Bruce"
+	ideology = christian_conservatism
+	picture = "Stanley_Bruce.jpg"
+	traits = {
+		political_hardliner
+	}
+}
+
+create_country_leader = { 
+	name = "James Scullin" 
+	ideology = social_democracy
+	picture = "James_Scullin.dds"
+	}
+}
+
