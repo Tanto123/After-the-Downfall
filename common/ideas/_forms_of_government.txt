@@ -34,24 +34,6 @@ ideas = {
 			}
 		}
 	
-		defensive_anarchism = {
-			picture = anti_communism2
-			
-			allowed = {}
-			visible = { always = yes }
-			available = { always = no }
-			cancel = {}
-			
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_bunker_factor = 0.25
-				army_leader_start_defense_level = 1
-				war_support_factor = 0.05
-				political_power_factor = -0.5
-			}
-		}
-	
 		confederacy = {
 			picture = low_popular_support3
 			
@@ -94,6 +76,24 @@ ideas = {
 			
 			modifier = {
 				production_speed_buildings_factor = 0.05
+			}
+		}
+	
+		defensive_anarchism = {
+			picture = anti_communism2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.25
+				army_leader_start_defense_level = 1
+				war_support_factor = 0.05
+				political_power_factor = -0.5
 			}
 		}
 	

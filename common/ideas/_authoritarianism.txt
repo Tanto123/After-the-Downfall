@@ -85,7 +85,7 @@ ideas = {
 		}
 	
 		democracy = {
-			picture = political_power_bonus
+			picture = democracy
 			
 			level = 1
 			

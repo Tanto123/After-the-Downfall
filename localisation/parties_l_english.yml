@@ -1,7 +1,8 @@
 ﻿l_english:
+ AST_communism_party:0 "CPA"
+ AST_communism_party_long:0 "Communist Party of Australia"
  AST_leftism_party:0 "Labor Party"
  AST_conservatism_party:0 "Nationalist-Country Party"
- AST_communism_party:0 "Communisty Party of Australia"
  #
  CSA_anarchism_party:0 "ALF"
  CSA_anarchism_party_long:0 "Autonomous Labour Front"

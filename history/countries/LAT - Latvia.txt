@@ -16,6 +16,10 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+add_ideas = {	#Social Factions
+	baltic_germans
+}
+
 set_popularities = {
 	anarchism = 0
 	communism = 7

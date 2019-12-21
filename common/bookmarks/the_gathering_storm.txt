@@ -7,25 +7,9 @@ bookmarks = {
 		default_country = "USA"
 		default = yes
 		
-		"USA"={
-			history = "USA_1928_DESC"
-			ideology = centrism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"CSA"={
 			history = "CSA_1928_DESC"
 			ideology = conservatism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"ENG"={
-			history = "ENG_1928_DESC"
-			ideology = leftism
 			ideas = {
 			}
 			focuses = {
@@ -59,6 +43,22 @@ bookmarks = {
 		"SOV"={
 			history = "SOV_1928_DESC"
 			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_1928_DESC"
+			ideology = leftism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_1928_DESC"
+			ideology = centrism
 			ideas = {
 			}
 			focuses = {
@@ -119,6 +119,16 @@ bookmarks = {
 			history = "CHI_1928_DESC"
 			ideology = conservatism
 			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FIN"={
+			minor = yes
+			history = "FIN_1928_DESC"
+			ideology = conservatism
+			ideas = {
+				finnish_nationalism
 			}
 			focuses = {
 			}
@@ -191,6 +201,16 @@ bookmarks = {
 			history = "SPR_1928_DESC"
 			ideology = conservatism
 			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_1928_DESC"
+			ideology = conservatism
+			ideas = {
+				pori_corridor_question
 			}
 			focuses = {
 			}

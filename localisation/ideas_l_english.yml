@@ -104,6 +104,7 @@
  air_force_officers:0 "Air Force Officers"
  army_officers:0 "Army Officers"
  automotive_industry:0 "Automotive Industry"
+ labor_unions:0 "Labor Unions"
  mining_companies:0 "Mining Companies"
  navy_officers:0 "Navy Officers"
  orthodox_christianity:0 "Orthodox Christianity"
@@ -115,6 +116,8 @@
  shintoism:0 "Shintoism"
  sunni_islam:0 "Sunni Islam"
  ultranationalists:0 "Ultranationalists"
+ ITA_ultranationalists:0 "Fascists"
+ SPR_ultranationalists:0 "Falangists"
  ###
  #Research / Production
  ###
@@ -168,6 +171,15 @@
  ultranationalist_tendencies:0 "Ultranationalist Tendencies"
  ###
  #Specific Country Ideas
+ ##Groups of Countries
+ baltic_germans:0 "Baltic Germans"
+ baltic_germans_desc:0 "Although their wishes for their own state remained unheard at the Russo-German Peace Negotiations in 1916, the Baltic Germans continue to be a major political influence in Estonia, Latvia and Lithuania. They have excellent connections to the German ambassadors in each of these countries, and the German embassies wield great political influence over the respective governments.\n"
+ ##FIN
+ finnish_nationalism:0 "Finnish Nationalism"
+ finnish_nationalism_desc:0 "Finnish Nationalism, combined with the Finnish national spirit of 'Sisu', has been culturally dominant with the Finnish people ever since the German arbitration at the Russo-German peace negotiations awarded the Turku and Vaasa regions to Sweden instead of Finland. With a revanchist Russia on one side and a lobby of Swedish nationalists demanding the Pori region for Sweden on the other, Finland will not run out of enemies any time soon."
  ##JAP
  aftermath_of_the_chichibu_coup:0 "Aftermath of the Chichibu Coup"
  aftermath_of_the_chichibu_coup_desc:0 "Emperor Yasuhito came to power in 1927, when the military forced his older brother Hirohito, the Showa Emperor, into abdication. The Japanese people at large see this intervention as an unjustified attempt by the military to meddle in the divine imperial house and in Japanese politics.\n\nAfter Hirohito's abdication, the throne went to his younger brother Yasuhito, then known as Prince Chichibu. As a result, the new emperor's ascendance to the throne was dubbed the 'Chichibu Coup' by international observers."
+ ##SWE
+ pori_corridor_question:0 "Pori Corridor Question"
+ pori_corridor_question_desc:0 "Ever since Sweden's successful 1915 intervention in the European War, the Swedish-speaking parts of what was once Russian Finland have been part of Sweden.\n\nHowever, the German government, allied with both Sweden and Finland, forced Swedish troops to retreat to only two coastal strips with the highest concentration of ethnic Swedes.\n\nThese two territories, the Turku and Vaasa areas, are divided by the Pori region, which the Germans awarded to Finland. Ever since, a growing lobby of Swedish nationalists have voiced demands to connect the two colonial regions by acquiring what they refer to as the 'Pori Corridor'."

@@ -1,0 +1,18 @@
+on_actions = {
+	on_subject_free = {
+		effect = {
+			if = { 
+				limit = { original_tag = BOS } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = HUN } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = RAJ } 
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+}

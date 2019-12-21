@@ -2,6 +2,10 @@ ideas = {
 
 	social_faction = {
 	
+		######################################
+		###		GENERIC
+		######################################
+	
 		air_force_officers = {
 			picture = air_force
 			
@@ -61,6 +65,25 @@ ideas = {
 			modifier = {
 				experience_gain_army_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		
+		labor_unions = {
+			picture = production
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				anarchism_drift = 0.01
+				communism_drift = 0.01
+				leftism_drift = 0.01
+				war_support_factor = -0.05
 			}
 		}
 		
@@ -239,6 +262,29 @@ ideas = {
 				ultranationalism_acceptance = 5
 			}
 		}
+		
+		######################################
+		###		SEVERAL SPECIFIC COUNTRIES
+		######################################
+		
+		# EST / LAT / LIT : Baltic Germans
+		baltic_germans = {
+			picture = german_eagle
+			
+			allowed = {}
+			visible = { OR = { original_tag = EST original_tag = LAT original_tag = LIT } }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+	
+		######################################
+		###		SINGULAR SPECIFIC COUNTRIES
+		######################################
 		
 	}
 	

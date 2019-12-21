@@ -1,0 +1,26 @@
+ideas = {
+	
+	country = {
+	
+		finnish_nationalism = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = sisu
+			
+			modifier = {
+				stability_factor = 0.05
+				targeted_modifier = {
+					tag = JAP
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+			}
+		}
+	
+	}
+	
+}

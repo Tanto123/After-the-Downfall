@@ -49,7 +49,9 @@ create_faction = commonwealth_faction
 
 puppet = AST
 puppet = CAN
+puppet = MAL
 puppet = NZL
+puppet = RAJ
 puppet = SAF
 
 create_country_leader = {

@@ -12,6 +12,14 @@ set_convoys = 100
 add_offsite_building = { type = industrial_complex level = 0 }
 add_offsite_building = { type = arms_factory level = 0 }
 
+add_opinion_modifier = { target = FRA modifier = former_allies_in_the_european_war }
+add_opinion_modifier = { target = SER modifier = former_allies_in_the_european_war }
+add_opinion_modifier = { target = SOV modifier = former_allies_in_the_european_war }
+add_opinion_modifier = { target = AUS modifier = former_enemies_in_the_european_war }
+add_opinion_modifier = { target = GER modifier = former_enemies_in_the_european_war }
+add_opinion_modifier = { target = HUN modifier = former_enemies_in_the_european_war }
+add_opinion_modifier = { target = SWE modifier = former_enemies_in_the_european_war }
+
 set_technology = {
 	infantry_weapons = 1
 }

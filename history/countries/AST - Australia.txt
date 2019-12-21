@@ -19,6 +19,10 @@ set_technology = {
 set_variable = { democracy_rating = 81 }
 set_variable = { pacifism_rating = 57 }
 
+add_ideas = {	#Social Factions
+	labor_unions
+}
+
 set_popularities = {
 	anarchism = 2
 	communism = 7 
@@ -46,10 +50,12 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = { 
+create_country_leader = {
 	name = "James Scullin" 
 	ideology = social_democracy
 	picture = "James_Scullin.dds"
+	traits = {
+		consumption_expert
 	}
 }
 

@@ -1,5 +1,13 @@
 opinion_modifiers = {
 	
+	former_allies_in_the_european_war = {
+		value = 15
+	}
+	
+	former_enemies_in_the_european_war = {
+		value = -15
+	}
+	
 	scandinavian_cultural_ties = {
 		value = 10
 	}

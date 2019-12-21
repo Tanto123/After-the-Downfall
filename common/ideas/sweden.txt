@@ -1,0 +1,26 @@
+ideas = {
+	
+	country = {
+	
+		pori_corridor_question = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = political_oppression
+			
+			modifier = {
+				ultranationalism_drift = 0.01
+				targeted_modifier = {
+					tag = JAP
+					attack_bonus_against = 0.1
+					defense_bonus_against = 0.1
+				}
+			}
+		}
+	
+	}
+	
+}

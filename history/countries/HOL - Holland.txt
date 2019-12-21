@@ -16,6 +16,9 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+set_variable = { democracy_rating = 80 }
+set_variable = { pacifism_rating = 95 }
+
 set_popularities = {
 	anarchism = 0
 	communism = 0 
@@ -33,3 +36,5 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+puppet = INS
