@@ -20,14 +20,14 @@ set_variable = { democracy_rating = 80 }
 set_variable = { pacifism_rating = 57 }
 
 set_popularities = {
-	anarchism = 0
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 100 
-	despotism = 0 
-	monarchism = 0 
-	ultranationalism = 0
+	anarchism = 2
+	communism = 7 
+	leftism = 38
+	centrism = 3
+	conservatism = 39
+	despotism = 3 
+	monarchism = 2
+	ultranationalism = 6
 }
 
 set_politics = { 
