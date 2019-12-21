@@ -7,7 +7,10 @@ state=
 	state_category = enclave
 	
 	history={
-		owner = ITA
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = CRO
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 5
 			3943 = {

@@ -3,16 +3,13 @@ state={
 	name="STATE_774"
 
 	history={
-		owner = FRA
+		owner = GER
+		add_claim_by = FRA
 		add_core_of = CHA
-		victory_points = {
-			2081 1
-		}
+		victory_points = { 2081 1 }
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
 
 	provinces={

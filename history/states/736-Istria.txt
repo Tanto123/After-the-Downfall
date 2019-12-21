@@ -5,22 +5,17 @@ state={
 	state_category = city
 
 	history={
-		victory_points = {
-			6626 1 
-		}
-		owner = ITA
+		owner = AUS
+		add_core_of = AUS
 		add_core_of = ITA
-		add_core_of = YUG
 		add_core_of = SLV
+		victory_points = { 6626 1 }
 		buildings = {
 			infrastructure = 2
 			6626 = {
 				naval_base = 5
-
 			}
-
 		}
-
 	}
 
 	provinces={

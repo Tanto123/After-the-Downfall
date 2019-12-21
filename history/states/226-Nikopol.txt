@@ -11,20 +11,15 @@ state={
 	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			11437 10 
-		}
-		victory_points = {
-			11561 1
-		}
+		owner = UKR
+		add_core_of = UKR
+		victory_points = { 11437 10 }
+		victory_points = { 11561 1 }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = SOV
-		add_core_of = UKR
 	}
 
 	provinces={

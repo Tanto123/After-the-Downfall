@@ -7,19 +7,13 @@ state={
 		rubber=2 # was: 2
 	}
 	history={
-		owner = ENG
-		victory_points = {
-			2196 1
-		}
+		owner = GER
+		victory_points = { 2196 1 }
 		buildings = {
 			infrastructure = 3
-			2196 = {
-				naval_base = 2
-
-			}
-
+			2196 = { naval_base = 2 }
 		}
-			add_core_of = TZN
+		add_core_of = TZN
 	}
 
 	provinces={

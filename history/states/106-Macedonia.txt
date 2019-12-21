@@ -7,19 +7,16 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = SER
+		add_core_of = MAC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 2
-
 		}
-		victory_points = {
-			3882 5
-		}
-		add_core_of = YUG
-		add_core_of = MAC
-
+		victory_points = { 3882 5 }
 	}
 
 	provinces={

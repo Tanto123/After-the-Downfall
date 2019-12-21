@@ -16,12 +16,20 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+set_popularities = {
+	anarchism = 0 
+	communism = 0 
+	leftism = 0 
+	centrism = 0 
+	conservatism = 0
+	despotism = 100 
+	monarchism = 0 
+	ultranationalism = 0
+}
 
-	set_popularities = {
-		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 ultranationalism = 5
-	}
-set_politics = { ruling_party = anarchism
+set_politics = { 
+	ruling_party = despotism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }

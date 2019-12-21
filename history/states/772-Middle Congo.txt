@@ -9,18 +9,14 @@ state={
 		rubber=1 # was: 1
 	}
 	history={
-		owner = FRA
+		owner = GER
+		add_claim_by = FRA
 		add_core_of = RCG
-		victory_points = {
-			8193 2
-		}
+		victory_points = { 8193 2 }
 		buildings = {
 			infrastructure = 3
-			12975 = {
-				naval_base = 1
-			}
+			12975 = { naval_base = 1 }
 		}
-
 	}
 
 	provinces={

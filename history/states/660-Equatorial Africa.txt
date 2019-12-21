@@ -9,7 +9,8 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = FRA
+		owner = GER
+		add_claim_by = FRA
 		add_core_of = CAR
 		victory_points = {
 			12830 1
@@ -17,7 +18,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-
 	}
 
 	provinces={

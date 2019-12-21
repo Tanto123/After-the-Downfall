@@ -78,6 +78,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"AUS"={
+			minor = yes
+			history = "AUS_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"BEL"={
 			minor = yes
 			history = "BEL_1928_DESC"
@@ -117,6 +126,15 @@ bookmarks = {
 		"GRE"={
 			minor = yes
 			history = "GRE_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"HUN"={
+			minor = yes
+			history = "HUN_1928_DESC"
 			ideology = conservatism
 			ideas = {
 			}

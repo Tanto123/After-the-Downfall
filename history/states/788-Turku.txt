@@ -1,0 +1,27 @@
+state={
+	id=788
+	name="STATE_788"
+	
+	state_category = town
+
+	history={
+		owner = SWE
+		add_core_of = SWE
+		add_core_of = FIN
+		victory_points = { 3083 1 }
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	
+	provinces={
+		3083 6066 9194 
+	}
+	manpower=150200
+	buildings_max_level_factor=1.000
+}

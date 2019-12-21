@@ -25,9 +25,9 @@ add_ideas = {	#Social Factions
 
 set_popularities = {
 	anarchism = 0 
-	communism = 0 
+	communism = 10 
 	leftism = 28 
-	centrism = 33
+	centrism = 23
 	conservatism = 39 
 	despotism = 0 
 	monarchism = 0
@@ -39,4 +39,17 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+puppet = HUN
+puppet = BOS
+
+create_country_leader = {
+	name = "Otto von Habsburg"
+	desc = leader_desc_AUS_Otto_Habsburg
+	picture = "Otto_Habsburg.dds"
+	ideology = social_conservatism
+	traits = {
+		effective_bureaucrat
+	}
 }

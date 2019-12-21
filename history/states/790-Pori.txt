@@ -1,0 +1,21 @@
+state={
+	id=790
+	name="STATE_790"
+	
+	state_category = rural
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+		}
+	}
+	
+	provinces={
+		32 169 3009 3117 6013 9094
+	}
+	manpower=13020
+	buildings_max_level_factor=1.000
+}
