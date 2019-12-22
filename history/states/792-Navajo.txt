@@ -1,0 +1,19 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		850 1793 6897 7821 10573 11814 12765 
+	}
+	history={
+		owner = CSA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
+		}
+	}
+	state_category=rural
+	manpower=143249
+	buildings_max_level_factor=1.000
+}

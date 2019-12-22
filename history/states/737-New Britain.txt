@@ -3,30 +3,16 @@ state={
 	name="STATE_737"
 
 	history={
+		owner = GER
 		add_core_of = PNG
-		owner = AST
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			7251 = {
-				naval_base = 5
-
-			}
-			4352 = {
-				naval_base = 1
-
-			}
-			7339 = {
-				naval_base = 1
-
-			}			
-
+			7251 = { naval_base = 5 }
+			4352 = { naval_base = 1 }
+			7339 = { naval_base = 1 }			
 		}
-		
-		victory_points = {
-			7251 5 
-		}
-		
+		victory_points = { 7251 5 }
 	}
 
 	provinces={

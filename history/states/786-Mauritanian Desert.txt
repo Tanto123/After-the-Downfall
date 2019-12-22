@@ -7,12 +7,9 @@ state={
 	impassable = yes
 
 	history={
-		owner = FRA
+		owner = GER
 		add_core_of = MRT
-		buildings = {
-			infrastructure = 0
-		}
-
+		buildings = { infrastructure = 0 }
 	}
 
 	provinces={

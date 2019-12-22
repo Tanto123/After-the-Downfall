@@ -30,6 +30,19 @@ set_technology = {
 set_variable = { democracy_rating = 83 }
 set_variable = { pacifism_rating = 13 }
 
+add_ideas = {	#Social Factions
+	roman_catholicism
+}
+add_ideas = {
+	federal_republic
+	limited_conscription
+	civilian_economy
+	limited_exports
+}
+add_ideas = {	#National Ideas
+	french_revanchism
+}
+
 set_popularities = {
 	anarchism = 0
 	communism = 29

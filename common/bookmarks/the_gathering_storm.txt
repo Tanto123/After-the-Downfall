@@ -28,8 +28,9 @@ bookmarks = {
 		}
 		"FRA"={
 			history = "FRA_1928_DESC"
-			ideology = communism
+			ideology = ultranationalism
 			ideas = {
+				french_revanchism
 			}
 			focuses = {
 			}

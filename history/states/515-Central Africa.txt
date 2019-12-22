@@ -6,13 +6,11 @@ state={
 	impassable = yes
 
 	history={
-		owner = FRA
+		owner = GER
 		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
-
 		}
-
 	}
 
 	provinces={

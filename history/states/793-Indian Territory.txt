@@ -1,0 +1,19 @@
+state={
+	id=793
+	name="STATE_793"
+	provinces={
+		1618 1806 2043 5103 7762 7904 10798 11802 12624 
+	}
+	history={
+		owner = CSA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
+		}
+	}
+	state_category=rural
+	manpower=544299
+	buildings_max_level_factor=1.000
+}
