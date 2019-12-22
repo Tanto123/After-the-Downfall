@@ -5,11 +5,11 @@ state={
 		850 1793 6897 7821 10573 11814 12765 
 	}
 	history={
-		owner = CSA
-		add_core_of = CSA
+		owner = ARZ
+		add_core_of = ARZ
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 3
+			industrial_complex = 1
 			air_base = 1
 		}
 	}
