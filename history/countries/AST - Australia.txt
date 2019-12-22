@@ -21,6 +21,10 @@ set_variable = { pacifism_rating = 57 }
 
 add_ideas = {	#Social Factions
 	labor_unions
+	big_banks
+	farmers
+	mining_companies
+	parliamentary_monarchy
 }
 
 set_popularities = {
@@ -43,10 +47,11 @@ set_politics = {
 
 create_country_leader = {
 	name = "Stanley Bruce"
-	ideology = christian_conservatism
+	ideology = liberal_conservatism
 	picture = "Stanley_Bruce.jpg"
 	traits = {
 		political_hardliner
+		uncompromising_conservative
 	}
 }
 
@@ -56,6 +61,27 @@ create_country_leader = {
 	picture = "James_Scullin.dds"
 	traits = {
 		consumption_expert
+		labor_unionist
+	}
+}
+
+create_country_leader = {
+	name = "John Garden" 
+	ideology = christian_communism
+	picture = "Jock_Garden.jpg"
+	traits = {
+		nosey_politican
+		labor_unionist
+	}
+}
+
+create_country_leader = {
+	name = "Charles Kingsford Smith" 
+	ideology = ethnopurism
+	picture = "CKS.jpg"
+	traits = {
+		fly_boy
+		committed_isolationist
 	}
 }
 
