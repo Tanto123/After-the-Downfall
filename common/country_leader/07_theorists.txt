@@ -2,10 +2,12 @@ leader_traits = {
 
 	rocket_scientist = {
 		ai_will_do = { factor = 5 }
+		research_speed_factor = 0.02
 	}
 
 	nuclear_scientist = {
 		ai_will_do = { factor = 5 }
+		research_speed_factor = 0.02
 	}
 
 	army_theorist = {

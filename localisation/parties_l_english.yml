@@ -7,6 +7,8 @@
  AST_monarchism_party:0 "Loyalist"
  AST_ultranationalism_party: "New Guard"
  #
+ BOS_despotism_party:0 "Austro-Hungarian Military"
+ #
  CSA_anarchism_party:0 "ALF"
  CSA_anarchism_party_long:0 "Autonomous Labour Front"
  CSA_communism_party:0 "NLF"
@@ -33,6 +35,8 @@
  ENG_ultranationalism_party:0 "BUN"
  ENG_ultranationalism_party_desc:0 "British Union of Nationalists"
  #
+ MNT_despotism_party:0 "Austro-Hungarian Military"
+ #
  GER_anarchism_party:0 "KFDA"
  GER_anarchism_party_long:0 "Kampffront der Deutschen Arbeit"
  GER_communism_party:0 "KPD"
@@ -48,6 +52,8 @@
  GER_monarchism_party_long:0 "Kaisertreue Volksunion"
  GER_ultranationalism_party:0 "DNVU"
  GER_ultranationalism_party_long:0 "Deutschnationale Volksunion"
+ #
+ SER_despotism_party:0 "Austro-Hungarian Military"
  #
  USA_anarchism_party:0 "Syndicate Party"
  USA_communism_party:0 "Radical Labour Party"

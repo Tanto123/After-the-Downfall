@@ -16,12 +16,12 @@ country_event = {
 			targeted_alliance = FROM.FROM
 			hostility_reason = Mitteleuropa
 		}
-		ai_will_do = { base = 100 }
+		ai_chance = { base = 100 }
 	}
 	option = {
 		name = germany.1.o2
 		add_stability = -0.05
-		ai_will_do = { base = 0 }
+		ai_chance = { base = 0 }
 	}
 }
 
@@ -41,11 +41,11 @@ country_event = {
 			targeted_alliance = FROM.FROM
 			hostility_reason = Triple_Alliance
 		}
-		ai_will_do = { base = 100 }
+		ai_chance = { base = 100 }
 	}
 	option = {
 		name = germany.2.o2
 		add_stability = -0.05
-		ai_will_do = { base = 0 }
+		ai_chance = { base = 0 }
 	}
 }

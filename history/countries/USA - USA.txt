@@ -46,3 +46,58 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+create_country_leader = {
+	name = "William Z. Foster"
+	desc = leader_desc_USA_William_Z_Foster
+	picture = "William_Z_Foster.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		anti_rightist_activist
+	}
+}
+create_country_leader = {
+	name = "Earl Browder"
+	desc = leader_desc_USA_Earl_Browder
+	picture = "Earl_Browder.dds"
+	ideology = national_communism
+	traits = {
+		machiavellian_diplomat
+	}
+}
+create_country_leader = {
+	name = "Franklin D. Roosevelt"
+	desc = leader_desc_USA_Franklin_D_Roosevelt
+	picture = "Franklin_D_Roosevelt.dds"
+	ideology = social_democracy
+	traits = {
+		relentless_technocrat
+	}
+}
+create_country_leader = {
+	name = "Charles Curtis"
+	desc = leader_desc_USA_Charles_Curtis
+	picture = "Charles_Curtis.dds"
+	ideology = market_liberalism
+	traits = {
+		industrial_lobbyist
+	}
+}
+create_country_leader = {
+	name = "James W. Wadsworth Jr."
+	desc = leader_desc_USA_James_W_Wadsworth_Jr
+	picture = "James_W_Wadsworth_Jr.dds"
+	ideology = national_conservatism
+	traits = {
+		foreign_interventionist
+	}
+}
+create_country_leader = {
+	name = "Dwight D. Eisenhower"
+	desc = leader_desc_USA_Dwight_D_Eisenhower
+	picture = "generals/Dwight_D_Eisenhower.dds"
+	ideology = military_dictatorship
+	traits = {
+		autarky_proponent
+	}
+}

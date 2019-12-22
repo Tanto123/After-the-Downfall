@@ -13,6 +13,7 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.25
+				monarchism_drift = -0.01
 			}
 		}
 	

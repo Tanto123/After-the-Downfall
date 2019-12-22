@@ -1,5 +1,9 @@
 opinion_modifiers = {
 	
+	austrian_italian_rivalry = {
+		value = -25
+	}
+	
 	armenian_genocide = {
 		value = -50
 	}

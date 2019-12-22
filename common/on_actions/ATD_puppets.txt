@@ -10,7 +10,15 @@ on_actions = {
 				drop_cosmetic_tag = yes
 			}
 			if = { 
+				limit = { original_tag = MNT } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
 				limit = { original_tag = RAJ } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = SER } 
 				drop_cosmetic_tag = yes
 			}
 		}

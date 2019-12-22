@@ -16,10 +16,12 @@ add_opinion_modifier = { target = FRA modifier = former_allies_in_the_european_w
 add_opinion_modifier = { target = MNT modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = SER modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = AUS modifier = former_enemies_in_the_european_war }
+add_opinion_modifier = { target = BUL modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = GER modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = HUN modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = ITA modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = SWE modifier = former_enemies_in_the_european_war }
+add_opinion_modifier = { target = TUR modifier = former_enemies_in_the_european_war }
 
 set_technology = {
 	infantry_weapons = 1

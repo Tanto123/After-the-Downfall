@@ -40,8 +40,11 @@
  military_dictatorship_desc:0 "In a Military Dictatorship, also known as a Junta in Spanish-speaking countries, is a form of autocratic government in which the military wields most or all of the political power, usually through puppets in the civilian government. A Military Dictatorship tends to accelerate the country's military advancements and produce high-quality officers, but will abandon the needs of the civilian population and trample the country's cultural and political character in the process. As a result, Military Dictatorships tend to be deeply unpopular."
  ###
  parliamentary_monarchy:0 "Parliamentary Monarchy"
+ AST_parliamentary_monarchy:0 "Westminster System"
+ CAN_parliamentary_monarchy:0 "Westminster System"
  ENG_parliamentary_monarchy:0 "Westminster System"
  GER_parliamentary_monarchy:0 "Parlamentsmonarchie"
+ NZL_parliamentary_monarchy:0 "Westminster System"
  parliamentary_monarchy_desc:0 "A Parliamentary Monarchy, often called the 'Westminster System', is a subtype of the Constitutional Monarchy in which the role of the monarch has been reduced to that of a total figurehead, whereas in a mainline Constitutional Monarchy they might still have some influence in policymaking. In a Parliamentary Monarchy, it is customary for the monarch to be apolitical, to remain silent on most common political issues, and to rubber-stamp the acts of the cabinet and the legislature."
  ###
  peasant_republic:0 "Peasant Republic"

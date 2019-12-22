@@ -15,9 +15,11 @@ add_offsite_building = { type = arms_factory level = 0 }
 add_opinion_modifier = { target = DEN modifier = scandinavian_cultural_ties }
 add_opinion_modifier = { target = NOR modifier = scandinavian_cultural_ties }
 add_opinion_modifier = { target = AUS modifier = former_allies_in_the_european_war }
+add_opinion_modifier = { target = BUL modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = GER modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = HUN modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = ITA modifier = former_allies_in_the_european_war }
+add_opinion_modifier = { target = TUR modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = FRA modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = MNT modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = SER modifier = former_enemies_in_the_european_war }
