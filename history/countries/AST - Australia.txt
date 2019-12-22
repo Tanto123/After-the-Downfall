@@ -70,7 +70,7 @@ create_country_leader = {
 	ideology = christian_communism
 	picture = "Jock_Garden.jpg"
 	traits = {
-		nosey_politican
+		nosey_politician
 		labor_unionist
 	}
 }
