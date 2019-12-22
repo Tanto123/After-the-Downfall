@@ -7,16 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = ENG
+		owner = TUR
+		add_core_of = JOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		victory_points = {
-			7151 1 
-		}
-
-		add_core_of = JOR
+		victory_points = { 7151 1 }
 	}
 
 	provinces={

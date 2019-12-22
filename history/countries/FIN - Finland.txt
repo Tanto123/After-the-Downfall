@@ -18,6 +18,7 @@ set_technology = {
 
 add_ideas = {	#National Ideas
 	finnish_nationalism
+	mitteleuropa_member
 }
 
 set_popularities = {

@@ -394,6 +394,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/brazil/brazilian_monarchy.dds"			
 	}
 	SpriteType = {
+		name = "brazilian_monarchy2"
+		texturefile = "gfx/interface/goals/brazil/brazilian_monarchy2.dds"			
+	}
+	SpriteType = {
 		name = "brazilian_navy"
 		texturefile = "gfx/interface/goals/brazil/brazilian_navy.dds"			
 	}
@@ -826,6 +830,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_ethiopia.dds"			
 	}
 	SpriteType = {
+		name = "align_with_finland"
+		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_finland.dds"			
+	}
+	SpriteType = {
 		name = "align_with_france"
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_france.dds"			
 	}
@@ -874,6 +882,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_portugal.dds"			
 	}
 	SpriteType = {
+		name = "align_with_portugal2"
+		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_portugal2.dds"			
+	}
+	SpriteType = {
 		name = "align_with_poland"
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_poland.dds"			
 	}
@@ -886,8 +898,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_prussia.dds"			
 	}
 	SpriteType = {
+		name = "align_with_romania"
+		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_romania.dds"			
+	}
+	SpriteType = {
 		name = "align_with_spain"
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_spain.dds"			
+	}
+	SpriteType = {
+		name = "align_with_spain2"
+		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_spain2.dds"			
+	}
+	SpriteType = {
+		name = "align_with_spain3"
+		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_spain3.dds"			
 	}
 	SpriteType = {
 		name = "align_with_sweden"
@@ -916,6 +940,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "align_with_uruguay"
 		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_uruguay.dds"			
+	}
+	SpriteType = {
+		name = "align_with_yugoslavia"
+		texturefile = "gfx/interface/goals/diplomacy/alignment/align_with_yugoslavia.dds"			
 	}
 	
 	##Alliance
@@ -1000,6 +1028,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_belgium.dds"			
 	}
 	SpriteType = {
+		name = "war_against_brazil"
+		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_brazil.dds"			
+	}
+	SpriteType = {
 		name = "war_against_britain"
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_britain.dds"			
 	}
@@ -1052,6 +1084,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_mexico.dds"			
 	}
 	SpriteType = {
+		name = "war_against_portugal"
+		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_portugal.dds"			
+	}
+	SpriteType = {
 		name = "war_against_romania"
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_romania.dds"			
 	}
@@ -1062,6 +1098,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "war_against_russia2"
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_russia2.dds"			
+	}
+	SpriteType = {
+		name = "war_against_spain"
+		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_spain.dds"			
 	}
 	SpriteType = {
 		name = "war_against_switzerland"
@@ -1080,12 +1120,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_the_united_states.dds"			
 	}
 	SpriteType = {
+		name = "war_against_the_united_states2"
+		texturefile = "gfx/interface/goals/diplomacy/conflict/war_against_the_united_states2.dds"			
+	}
+	SpriteType = {
 		name = "war_in_europe"
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_in_europe.dds"			
 	}
 	SpriteType = {
 		name = "war_in_europe2"
 		texturefile = "gfx/interface/goals/diplomacy/conflict/war_in_europe2.dds"			
+	}
+	SpriteType = {
+		name = "war_in_south_america"
+		texturefile = "gfx/interface/goals/diplomacy/conflict/war_in_south_america.dds"			
 	}
 	SpriteType = {
 		name = "war2"
@@ -1153,6 +1201,14 @@ spriteTypes = {
 		name = "alliance_indonesia_netherlands"
 		texturefile = "gfx/interface/goals/diplomacy/specific_alliances/alliance_indonesia_netherlands.dds"			
 	}
+	SpriteType = {
+		name = "alliance_portugal_spain"
+		texturefile = "gfx/interface/goals/diplomacy/specific_alliances/alliance_portugal_spain.dds"			
+	}
+	SpriteType = {
+		name = "stresa_front"
+		texturefile = "gfx/interface/goals/diplomacy/specific_alliances/stresa_front.dds"			
+	}
 	
 	##
 
@@ -1216,6 +1272,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/diplomacy/colonialism2.dds"			
 	}
 	SpriteType = {
+		name = "colonialism3"
+		texturefile = "gfx/interface/goals/diplomacy/colonialism3.dds"			
+	}
+	SpriteType = {
 		name = "dangerous_deal"
 		texturefile = "gfx/interface/goals/diplomacy/dangerous_deal.dds"			
 	}
@@ -1234,6 +1294,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "demand_territory3"
 		texturefile = "gfx/interface/goals/diplomacy/demand_territory3.dds"			
+	}
+	SpriteType = {
+		name = "demand_territory4"
+		texturefile = "gfx/interface/goals/diplomacy/demand_territory4.dds"			
 	}
 	SpriteType = {
 		name = "diplomacy"
@@ -1383,6 +1447,22 @@ spriteTypes = {
 	#Economy
 
 	SpriteType = {
+		name = "african_fleet"
+		texturefile = "gfx/interface/goals/economy/african_fleet.dds"			
+	}
+	SpriteType = {
+		name = "african_industry"
+		texturefile = "gfx/interface/goals/economy/african_industry.dds"			
+	}
+	SpriteType = {
+		name = "african_infrastructure"
+		texturefile = "gfx/interface/goals/economy/african_infrastructure.dds"			
+	}
+	SpriteType = {
+		name = "african_production"
+		texturefile = "gfx/interface/goals/economy/african_production.dds"			
+	}
+	SpriteType = {
 		name = "agriculture"
 		texturefile = "gfx/interface/goals/economy/agriculture.dds"			
 	}
@@ -1437,6 +1517,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "construction3"
 		texturefile = "gfx/interface/goals/economy/construction3.dds"			
+	}
+	SpriteType = {
+		name = "construction4"
+		texturefile = "gfx/interface/goals/economy/construction4.dds"			
 	}
 	SpriteType = {
 		name = "consumer_goods"
@@ -1600,6 +1684,10 @@ spriteTypes = {
 	#France
 
 	SpriteType = {
+		name = "anti_marianne"
+		texturefile = "gfx/interface/goals/france/anti_marianne.dds"			
+	}
+	SpriteType = {
 		name = "arc_de_triomphe"
 		texturefile = "gfx/interface/goals/france/arc_de_triomphe.dds"			
 	}
@@ -1616,84 +1704,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/france/charles_de_gaulle.dds"			
 	}
 	SpriteType = {
-		name = "france"
-		texturefile = "gfx/interface/goals/france/france.dds"			
+		name = "devalue_the_franc"
+		texturefile = "gfx/interface/goals/france/devalue_the_franc.dds"			
 	}
 	SpriteType = {
 		name = "french_army"
 		texturefile = "gfx/interface/goals/france/french_army.dds"			
 	}
 	SpriteType = {
-		name = "french_casualties"
-		texturefile = "gfx/interface/goals/france/french_casualties.dds"			
-	}
-	SpriteType = {
-		name = "french_conscription"
-		texturefile = "gfx/interface/goals/france/french_conscription.dds"			
-	}
-	SpriteType = {
-		name = "french_constitution"
-		texturefile = "gfx/interface/goals/france/french_constitution.dds"			
-	}
-	SpriteType = {
-		name = "french_diplomacy"
-		texturefile = "gfx/interface/goals/france/french_diplomacy.dds"			
-	}
-	SpriteType = {
-		name = "french_diplomacy2"
-		texturefile = "gfx/interface/goals/france/french_diplomacy2.dds"			
-	}
-	SpriteType = {
-		name = "french_factories"
-		texturefile = "gfx/interface/goals/france/french_factories.dds"			
-	}
-	SpriteType = {
-		name = "french_fascism"
-		texturefile = "gfx/interface/goals/france/french_fascism.dds"			
-	}
-	SpriteType = {
-		name = "french_fire"
-		texturefile = "gfx/interface/goals/france/french_fire.dds"			
-	}
-	SpriteType = {
-		name = "french_forts"
-		texturefile = "gfx/interface/goals/france/french_forts.dds"			
-	}
-	SpriteType = {
-		name = "french_guns"
-		texturefile = "gfx/interface/goals/france/french_guns.dds"			
-	}
-	SpriteType = {
 		name = "french_imperials"
 		texturefile = "gfx/interface/goals/france/french_imperials.dds"			
-	}
-	SpriteType = {
-		name = "french_imperials2"
-		texturefile = "gfx/interface/goals/france/french_imperials2.dds"			
-	}
-	SpriteType = {
-		name = "french_iron_cross"
-		texturefile = "gfx/interface/goals/france/french_iron_cross.dds"			
-	}
-	SpriteType = {
-		name = "french_militia"
-		texturefile = "gfx/interface/goals/france/french_militia.dds"			
-	}
-	SpriteType = {
-		name = "french_militia2"
-		texturefile = "gfx/interface/goals/france/french_militia2.dds"			
-	}
-	SpriteType = {
-		name = "french_navy"
-		texturefile = "gfx/interface/goals/france/french_navy.dds"			
-	}
-	SpriteType = {
-		name = "french_puppet"
-		texturefile = "gfx/interface/goals/france/french_puppet.dds"			
-	}
-	SpriteType = {
-		name = "french_reichskriegsflagge"
-		texturefile = "gfx/interface/goals/france/french_reichskriegsflagge.dds"			
 	}
 	SpriteType = {
 		name = "french_republic"
@@ -1704,12 +1724,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/france/french_resistance.dds"			
 	}
 	SpriteType = {
-		name = "french_ss"
-		texturefile = "gfx/interface/goals/france/french_ss.dds"			
+		name = "french_revolution"
+		texturefile = "gfx/interface/goals/france/french_revolution.dds"			
 	}
 	SpriteType = {
-		name = "french_victory"
-		texturefile = "gfx/interface/goals/france/french_victory.dds"			
+		name = "french_third_empire"
+		texturefile = "gfx/interface/goals/france/french_third_empire.dds"			
+	}
+	SpriteType = {
+		name = "french_union"
+		texturefile = "gfx/interface/goals/france/french_union.dds"			
 	}
 	SpriteType = {
 		name = "girondists"
@@ -1722,6 +1746,42 @@ spriteTypes = {
 	SpriteType = {
 		name = "jacobins"
 		texturefile = "gfx/interface/goals/france/jacobins.dds"			
+	}
+	SpriteType = {
+		name = "joan_of_arc"
+		texturefile = "gfx/interface/goals/france/joan_of_arc.dds"			
+	}
+	SpriteType = {
+		name = "le_deluge"
+		texturefile = "gfx/interface/goals/france/le_deluge.dds"			
+	}
+	SpriteType = {
+		name = "liberte_egalite_solidarite"
+		texturefile = "gfx/interface/goals/france/liberte_egalite_solidarite.dds"			
+	}
+	SpriteType = {
+		name = "maquis"
+		texturefile = "gfx/interface/goals/france/maquis.dds"			
+	}
+	SpriteType = {
+		name = "milice"
+		texturefile = "gfx/interface/goals/france/milice.dds"			
+	}
+	SpriteType = {
+		name = "natural_borders_of_france"
+		texturefile = "gfx/interface/goals/france/natural_borders_of_france.dds"			
+	}
+	SpriteType = {
+		name = "orleanism"
+		texturefile = "gfx/interface/goals/france/orleanism.dds"			
+	}
+	SpriteType = {
+		name = "regiment_normandie"
+		texturefile = "gfx/interface/goals/france/regiment_normandie.dds"			
+	}
+	SpriteType = {
+		name = "renault"
+		texturefile = "gfx/interface/goals/france/renault.dds"			
 	}
 	SpriteType = {
 		name = "vichy_france"
@@ -2172,6 +2232,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/communism/anti_communism3.dds"			
 	}
 	SpriteType = {
+		name = "anti_communism4"
+		texturefile = "gfx/interface/goals/politics/communism/anti_communism4.dds"			
+	}
+	SpriteType = {
+		name = "class_struggle"
+		texturefile = "gfx/interface/goals/politics/communism/class_struggle.dds"			
+	}
+	SpriteType = {
 		name = "communism"
 		texturefile = "gfx/interface/goals/politics/communism/communism.dds"			
 	}
@@ -2240,6 +2308,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/communism/communist_navy2.dds"			
 	}
 	SpriteType = {
+		name = "communist_propaganda"
+		texturefile = "gfx/interface/goals/politics/communism/communist_propaganda.dds"			
+	}
+	SpriteType = {
 		name = "communist_purge"
 		texturefile = "gfx/interface/goals/politics/communism/communist_purge.dds"			
 	}
@@ -2264,12 +2336,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/communism/fourth_international.dds"			
 	}
 	SpriteType = {
+		name = "global_anarchism"
+		texturefile = "gfx/interface/goals/politics/communism/global_anarchism.dds"			
+	}
+	SpriteType = {
 		name = "marxism"
 		texturefile = "gfx/interface/goals/politics/communism/marxism.dds"			
 	}
 	SpriteType = {
+		name = "marxist_deal"
+		texturefile = "gfx/interface/goals/politics/communism/marxist_deal.dds"			
+	}
+	SpriteType = {
+		name = "south_american_communism"
+		texturefile = "gfx/interface/goals/politics/communism/south_american_communism.dds"			
+	}
+	SpriteType = {
+		name = "stalinism"
+		texturefile = "gfx/interface/goals/politics/communism/stalinism.dds"			
+	}
+	SpriteType = {
 		name = "syndicalist_industry"
 		texturefile = "gfx/interface/goals/politics/communism/syndicalist_industry.dds"			
+	}
+	SpriteType = {
+		name = "trotzky"
+		texturefile = "gfx/interface/goals/politics/communism/trotzky.dds"			
 	}
 	
 	##Democracy
@@ -2328,6 +2420,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "anti_fascism"
 		texturefile = "gfx/interface/goals/politics/fascism/anti_fascism.dds"			
+	}
+	SpriteType = {
+		name = "anti_fascism2"
+		texturefile = "gfx/interface/goals/politics/fascism/anti_fascism2.dds"			
+	}
+	SpriteType = {
+		name = "anti_fascism3"
+		texturefile = "gfx/interface/goals/politics/fascism/anti_fascism3.dds"			
 	}
 	SpriteType = {
 		name = "fascism"
@@ -2389,6 +2489,10 @@ spriteTypes = {
 	##Monarchism
 
 	SpriteType = {
+		name = "absolute_monarchy"
+		texturefile = "gfx/interface/goals/politics/monarchism/absolute_monarchy.dds"			
+	}
+	SpriteType = {
 		name = "anti_monarchism"
 		texturefile = "gfx/interface/goals/politics/monarchism/anti_monarchism.dds"			
 	}
@@ -2419,6 +2523,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "monarchism3"
 		texturefile = "gfx/interface/goals/politics/monarchism/monarchism3.dds"			
+	}
+	SpriteType = {
+		name = "monarchism4"
+		texturefile = "gfx/interface/goals/politics/monarchism/monarchism4.dds"			
 	}
 	
 	####
@@ -2548,6 +2656,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/labor_unions.dds"			
 	}
 	SpriteType = {
+		name = "manpower"
+		texturefile = "gfx/interface/goals/politics/manpower.dds"			
+	}
+	SpriteType = {
 		name = "military_junta"
 		texturefile = "gfx/interface/goals/politics/military_junta.dds"			
 	}
@@ -2600,8 +2712,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/stolen_papers.dds"			
 	}
 	SpriteType = {
-		name = "stolen_papers"
-		texturefile = "gfx/interface/goals/politics/stolen_papers.dds"			
+		name = "torchbearers"
+		texturefile = "gfx/interface/goals/politics/torchbearers.dds"			
+	}
+	
+	#Portugal
+
+	SpriteType = {
+		name = "olivenca"
+		texturefile = "gfx/interface/goals/portugal/olivenca.dds"			
+	}
+	SpriteType = {
+		name = "portugal"
+		texturefile = "gfx/interface/goals/portugal/portugal.dds"			
+	}
+	SpriteType = {
+		name = "portugal2"
+		texturefile = "gfx/interface/goals/portugal/portugal2.dds"			
+	}
+	SpriteType = {
+		name = "portuguese_colonialism"
+		texturefile = "gfx/interface/goals/portugal/portuguese_colonialism.dds"			
+	}
+	SpriteType = {
+		name = "portuguese_kingdom"
+		texturefile = "gfx/interface/goals/portugal/portuguese_kingdom.dds"			
+	}
+	SpriteType = {
+		name = "portuguese_legion"
+		texturefile = "gfx/interface/goals/portugal/portuguese_legion.dds"			
+	}
+	SpriteType = {
+		name = "the_pink_map"
+		texturefile = "gfx/interface/goals/portugal/the_pink_map.dds"			
 	}
 	
 	#Religion
@@ -2785,6 +2928,61 @@ spriteTypes = {
 	SpriteType = {
 		name = "oranje_vrystaat"
 		texturefile = "gfx/interface/goals/south_africa/oranje_vrystaat.dds"			
+	}
+	
+	#Spain
+
+	SpriteType = {
+		name = "alcazar"
+		texturefile = "gfx/interface/goals/spain/alcazar.dds"			
+	}
+	SpriteType = {
+		name = "anti_carlism"
+		texturefile = "gfx/interface/goals/spain/anti_carlism.dds"			
+	}
+	SpriteType = {
+		name = "aragon_council"
+		texturefile = "gfx/interface/goals/spain/aragon_council.dds"			
+	}
+	SpriteType = {
+		name = "carlism"
+		texturefile = "gfx/interface/goals/spain/carlism.dds"			
+	}
+	SpriteType = {
+		name = "carlist_ideals"
+		texturefile = "gfx/interface/goals/spain/carlist_ideals.dds"			
+	}
+	SpriteType = {
+		name = "falangism"
+		texturefile = "gfx/interface/goals/spain/falangism.dds"			
+	}
+	SpriteType = {
+		name = "falangism2"
+		texturefile = "gfx/interface/goals/spain/falangism2.dds"			
+	}
+	SpriteType = {
+		name = "francisco_franco"
+		texturefile = "gfx/interface/goals/spain/francisco_franco.dds"			
+	}
+	SpriteType = {
+		name = "spain"
+		texturefile = "gfx/interface/goals/spain/spain.dds"			
+	}
+	SpriteType = {
+		name = "spanish_nationalism"
+		texturefile = "gfx/interface/goals/spain/spanish_nationalism.dds"			
+	}
+	SpriteType = {
+		name = "spanish_republicans"
+		texturefile = "gfx/interface/goals/spain/spanish_republicans.dds"			
+	}
+	SpriteType = {
+		name = "spanish_republicans2"
+		texturefile = "gfx/interface/goals/spain/spanish_republicans2.dds"			
+	}
+	SpriteType = {
+		name = "spanish_unity"
+		texturefile = "gfx/interface/goals/spain/spanish_unity.dds"			
 	}
 	
 	#United Baltic Duchy

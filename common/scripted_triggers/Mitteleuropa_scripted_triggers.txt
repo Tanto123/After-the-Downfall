@@ -1,0 +1,39 @@
+is_mitteleuropa_leader = {
+	OR = {
+		AND = {
+			original_tag = GER
+			has_idea = mitteleuropa_member
+			OR = {
+				has_global_flag = mitteleuropa_leader_germany
+				#This catches localization errors before the game start.
+				NOT = {
+					has_global_flag = mitteleuropa_leader_germany
+					has_global_flag = mitteleuropa_leader_austria
+					has_global_flag = mitteleuropa_leader_hungary
+					has_global_flag = mitteleuropa_leader_sweden
+					has_global_flag = mitteleuropa_leader_finland
+				}
+			}
+		}
+		AND = {
+			original_tag = AUS
+			has_idea = mitteleuropa_member
+			has_global_flag = mitteleuropa_leader_austria
+		}
+		AND = {
+			original_tag = HUN
+			has_idea = mitteleuropa_member
+			has_global_flag = mitteleuropa_leader_hun
+		}
+		AND = {
+			original_tag = SWE
+			has_idea = mitteleuropa_member
+			has_global_flag = mitteleuropa_leader_sweden
+		}
+		AND = {
+			original_tag = FIN
+			has_idea = mitteleuropa_member
+			has_global_flag = mitteleuropa_leader_finland
+		}
+	}
+}

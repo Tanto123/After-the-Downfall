@@ -226,8 +226,8 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 0 210 0  }
+	color_ui = rgb { 0 210 0 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -474,6 +474,18 @@ ISR = {
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
+}
+DON = {
+	color = rgb { 240 180 100  }
+	color_ui = rgb { 240 180 100 }
+}
+KUB = {
+	color = rgb { 150 50 200  }
+	color_ui = rgb { 150 50 200 }
+}
+TAT = {
+	color = rgb { 0 150 200 }
+	color_ui = rgb { 0 150 200 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

@@ -1,0 +1,22 @@
+ideas = {
+	
+	country = {
+	
+		legacy_of_the_armenian_genocide = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = military_casualties
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+			}
+		}
+	
+	}
+	
+}

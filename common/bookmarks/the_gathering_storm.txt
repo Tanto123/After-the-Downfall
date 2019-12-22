@@ -19,6 +19,9 @@ bookmarks = {
 			history = "GER_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				german_military_hubris
+				mitteleuropa_member
+				triple_alliance_member
 			}
 			focuses = {
 			}
@@ -83,6 +86,8 @@ bookmarks = {
 			history = "AUS_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				mitteleuropa_member
+				triple_alliance_member
 			}
 			focuses = {
 			}
@@ -129,6 +134,7 @@ bookmarks = {
 			ideology = conservatism
 			ideas = {
 				finnish_nationalism
+				mitteleuropa_member
 			}
 			focuses = {
 			}
@@ -147,6 +153,7 @@ bookmarks = {
 			history = "HUN_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				mitteleuropa_member
 			}
 			focuses = {
 			}
@@ -156,6 +163,8 @@ bookmarks = {
 			history = "ITA_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				vittoria_dimezzata
+				triple_alliance_member
 			}
 			focuses = {
 			}
@@ -211,6 +220,7 @@ bookmarks = {
 			ideology = conservatism
 			ideas = {
 				pori_corridor_question
+				mitteleuropa_member
 			}
 			focuses = {
 			}

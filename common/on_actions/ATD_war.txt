@@ -1,0 +1,51 @@
+#FROM is attacked
+#ROOT is attacker
+on_actions = {
+	on_declare_war = {
+		effect = {
+			#Mitteleuropa
+			if = {
+				limit = {
+					FROM = { has_idea = mitteleuropa_member }
+					ROOT = { NOT = { has_idea = mitteleuropa_member } }
+				}
+				hidden_effect = { #We don't want this to show up for tooltip reasons.
+					ROOT = { #This guy will be FROM.FROM
+						FROM = { #This guy will be FROM
+							every_country = { #The country that gets the event
+								limit = { is_mitteleuropa_leader = yes }
+								country_event = germany.1
+							}
+						}
+					}
+				}
+				effect_tooltip = { 		#The tooltip looks weird otherwise.
+					every_country = { limit = { is_mitteleuropa_leader = yes } country_event = germany.1 } 
+				}
+			}
+			#Triple Alliance
+			if = {
+				limit = {
+					FROM = { has_idea = triple_alliance_member }
+					ROOT = { NOT = { has_idea = triple_alliance_member } }
+				}
+				hidden_effect = { #We don't want this to show up for tooltip reasons.
+					ROOT = { #This guy will be FROM.FROM
+						FROM = { #This guy will be FROM
+							every_country = { #The country that gets the event
+								limit = { 
+									has_idea = triple_alliance_member 
+									NOT = { tag = FROM } 
+								}
+								country_event = germany.2
+							}
+						}
+					}
+				}
+				effect_tooltip = {		#The tooltip looks weird otherwise.
+					every_country = { limit = { has_idea = triple_alliance_member NOT = { tag = ROOT } } country_event = germany.1 } 
+				}
+			}
+		}
+	}
+}

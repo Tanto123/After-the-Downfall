@@ -1,1 +1,51 @@
-﻿
+﻿add_namespace = germany
+
+#Mitteleuropa member under attack
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.1.o1
+		add_to_war = {
+			enemy = FROM
+			targeted_alliance = FROM.FROM
+			hostility_reason = Mitteleuropa
+		}
+		ai_will_do = { base = 100 }
+	}
+	option = {
+		name = germany.1.o2
+		add_stability = -0.05
+		ai_will_do = { base = 0 }
+	}
+}
+
+#Triple Alliance member under attack
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2.o1
+		add_to_war = {
+			enemy = FROM
+			targeted_alliance = FROM.FROM
+			hostility_reason = Triple_Alliance
+		}
+		ai_will_do = { base = 100 }
+	}
+	option = {
+		name = germany.2.o2
+		add_stability = -0.05
+		ai_will_do = { base = 0 }
+	}
+}

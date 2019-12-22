@@ -1,0 +1,55 @@
+ideas = {
+	
+	country = {
+	
+		german_military_hubris = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			research_bonus = {
+				land_doctrine = -0.5
+				naval_doctrine = -0.5
+				air_doctrine = -0.5
+			}
+			modifier = {
+				max_command_power = -10
+				command_power_gain_mult = -0.1
+			}
+		}
+	
+		mitteleuropa_member = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = german_soviet_pact
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+		}
+	
+		triple_alliance_member = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = treaty3
+			
+			modifier = {
+				command_power_gain_mult = 0.05
+			}
+		}
+	
+	}
+	
+}

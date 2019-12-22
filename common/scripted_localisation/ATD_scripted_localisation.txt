@@ -1,0 +1,35 @@
+defined_text = { # Country
+	name = GetMitteleuropaLeader
+	text = {
+		trigger = {
+			OR = {
+				has_global_flag = mitteleuropa_leader_germany
+				#This catches localization errors before the game start.
+				NOT = {
+					has_global_flag = mitteleuropa_leader_germany
+					has_global_flag = mitteleuropa_leader_austria
+					has_global_flag = mitteleuropa_leader_hungary
+					has_global_flag = mitteleuropa_leader_sweden
+					has_global_flag = mitteleuropa_leader_finland
+				}
+			}
+		}
+		localization_key = CustomLoc_MitteleuropaLeader_GER
+	}
+	text = {
+		trigger = { has_global_flag = mitteleuropa_leader_austria }
+		localization_key = CustomLoc_MitteleuropaLeader_AUS
+	}
+	text = {
+		trigger = { has_global_flag = mitteleuropa_leader_hungary }
+		localization_key = CustomLoc_MitteleuropaLeader_HUN
+	}
+	text = {
+		trigger = { has_global_flag = mitteleuropa_leader_sweden }
+		localization_key = CustomLoc_MitteleuropaLeader_SWE
+	}
+	text = {
+		trigger = { has_global_flag = mitteleuropa_leader_finland }
+		localization_key = CustomLoc_MitteleuropaLeader_FIN
+	}
+}

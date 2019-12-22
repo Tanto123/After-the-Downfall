@@ -77,7 +77,7 @@ ideas = {
 		}
 	
 		pacifism = {
-			picture = democracy
+			picture = neutrality2
 			
 			level = 1
 			

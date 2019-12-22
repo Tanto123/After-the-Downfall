@@ -19,20 +19,23 @@ set_technology = {
 add_ideas = {	#Social Factions
 	baltic_germans
 }
+add_ideas = {	#National Ideas
+	mitteleuropa_member
+}
 
 set_popularities = {
 	anarchism = 0
 	communism = 7
 	leftism = 11
-	centrism = 13
-	conservatism = 57
+	centrism = 53
+	conservatism = 17
 	despotism = 0
 	monarchism = 0
 	ultranationalism = 12
 }
 
 set_politics = { 
-	ruling_party = conservatism
+	ruling_party = centrism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes

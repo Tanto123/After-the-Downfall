@@ -1,6 +1,8 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			set_global_flag = mitteleuropa_leader_germany
+		
 			#Democracy Rating
 			every_country = {
 				#Set DR to 30 for autocratic ideologies and 50 for democratic ideologies if it doesnt exist.

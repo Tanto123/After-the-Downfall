@@ -1,0 +1,23 @@
+ideas = {
+	
+	country = {
+	
+		vittoria_dimezzata = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = war_of_resistance3
+			
+			modifier = {
+				ultranationalism_drift = 0.01
+				war_support_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+	
+	}
+	
+}

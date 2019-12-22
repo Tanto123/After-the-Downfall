@@ -17,6 +17,7 @@ add_opinion_modifier = { target = NOR modifier = scandinavian_cultural_ties }
 add_opinion_modifier = { target = AUS modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = GER modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = HUN modifier = former_allies_in_the_european_war }
+add_opinion_modifier = { target = ITA modifier = former_allies_in_the_european_war }
 add_opinion_modifier = { target = FRA modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = MNT modifier = former_enemies_in_the_european_war }
 add_opinion_modifier = { target = SER modifier = former_enemies_in_the_european_war }
@@ -34,17 +35,18 @@ add_ideas = {	#Social Factions
 }
 add_ideas = {	#National Ideas
 	pori_corridor_question
+	mitteleuropa_member
 }
 
 set_popularities = {
 	anarchism = 0
 	communism = 9
-	leftism = 51
-	centrism = 33
+	leftism = 36
+	centrism = 23
 	conservatism = 7
 	despotism = 0
 	monarchism = 0
-	ultranationalism = 0
+	ultranationalism = 25
 }
 
 set_politics = { 

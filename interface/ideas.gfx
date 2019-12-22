@@ -89,6 +89,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/army/army_problems.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_army_volunteers"
+		texturefile = "gfx/interface/ideas/army/army_volunteers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_army_volunteers2"
+		texturefile = "gfx/interface/ideas/army/army_volunteers2.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_army_war_college"
 		texturefile = "gfx/interface/ideas/army/army_war_college.dds"
 	}
@@ -99,6 +107,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_colonial_infantry"
 		texturefile = "gfx/interface/ideas/army/colonial_infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colonial_infantry2"
+		texturefile = "gfx/interface/ideas/army/colonial_infantry2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_colonial_manpower"
@@ -135,6 +147,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_infantry"
 		texturefile = "gfx/interface/ideas/army/infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_infantry2"
+		texturefile = "gfx/interface/ideas/army/infantry2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_long_march"
@@ -476,8 +492,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/canada/canadian_democracy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_canadian_ultranationalism"
-		texturefile = "gfx/interface/ideas/canada/canadian_ultranationalism.dds"
+		name = "GFX_idea_canadian_fascism"
+		texturefile = "gfx/interface/ideas/canada/canadian_fascism.dds"
 	}
 	
 	#CHINA#
@@ -825,6 +841,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/diplomacy/deal_with_the_devil2.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_diplomatic_pressure"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_pressure.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_flexible_foreign_policy"
 		texturefile = "gfx/interface/ideas/diplomacy/flexible_foreign_policy.dds"
 	}
@@ -853,6 +873,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/diplomacy/neutrality.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_neutrality2"
+		texturefile = "gfx/interface/ideas/diplomacy/neutrality2.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_pawn_takes_queen"
 		texturefile = "gfx/interface/ideas/diplomacy/pawn_takes_queen.dds"
 	}
@@ -869,6 +893,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/diplomacy/treaty2.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_treaty3"
+		texturefile = "gfx/interface/ideas/diplomacy/treaty3.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_war_of_resistance"
 		texturefile = "gfx/interface/ideas/diplomacy/war_of_resistance.dds"
 	}
@@ -879,6 +907,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_war_of_resistance3"
 		texturefile = "gfx/interface/ideas/diplomacy/war_of_resistance3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wilhelmina"
+		texturefile = "gfx/interface/ideas/diplomacy/wilhelmina.dds"
 	}
 	
 	#ECONOMY#
@@ -902,6 +934,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_central_management"
 		texturefile = "gfx/interface/ideas/economy/central_management.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_collectivized_society"
+		texturefile = "gfx/interface/ideas/economy/collectivized_society.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_constructions"
@@ -928,6 +964,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/economy/foreign_capital.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_gold_reserves"
+		texturefile = "gfx/interface/ideas/economy/gold_reserves.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_great_depression"
 		texturefile = "gfx/interface/ideas/economy/great_depression.dds"
 	}
@@ -942,6 +982,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_horses"																		#Source: EU4
 		texturefile = "gfx/interface/ideas/economy/horses.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hydroelectric_power"
+		texturefile = "gfx/interface/ideas/economy/hydroelectric_power.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hyper_inflation"
@@ -974,6 +1018,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_local_self_management"
 		texturefile = "gfx/interface/ideas/economy/local_self_management.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_market_dynamism"
+		texturefile = "gfx/interface/ideas/economy/market_dynamism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_mefo_bills"
@@ -1055,6 +1103,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/france/advisors/charles_huntziger.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_charles_tillion"
+		texturefile = "gfx/interface/ideas/france/advisors/charles_tillion.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_emile_muselier"
 		texturefile = "gfx/interface/ideas/france/advisors/emile_muselier.dds"
 	}
@@ -1065,6 +1117,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_frederic_irene_joliot_curie"
 		texturefile = "gfx/interface/ideas/france/advisors/frederic_irene_joliot_curie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_georges_bonnet"
+		texturefile = "gfx/interface/ideas/france/advisors/georges_bonnet.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_henri_giraud"
@@ -1127,12 +1183,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/france/advisors/maxime_weygand.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_paul_baudoin"
+		texturefile = "gfx/interface/ideas/france/advisors/paul_baudoin.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_philippe_fequant"
 		texturefile = "gfx/interface/ideas/france/advisors/philippe_fequant.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_philippe_henriot"
+		texturefile = "gfx/interface/ideas/france/advisors/philippe_henriot.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_philippe_leclerc"
 		texturefile = "gfx/interface/ideas/france/advisors/philippe_leclerc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pierre_pucheu"
+		texturefile = "gfx/interface/ideas/france/advisors/pierre_pucheu.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_rene_emile_godfroy"
@@ -1147,12 +1215,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/france/advisors/robert_odic.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_roger_salengro"
+		texturefile = "gfx/interface/ideas/france/advisors/roger_salengro.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_victor_denain"
 		texturefile = "gfx/interface/ideas/france/advisors/victor_denain.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_vincent_auriol"
+		texturefile = "gfx/interface/ideas/france/advisors/vincent_auriol.dds"
 	}
 	
 	##COMPANIES##
 
+	spriteType = {
+		name = "GFX_idea_acl"
+		texturefile = "gfx/interface/ideas/france/companies/acl.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aeb"
+		texturefile = "gfx/interface/ideas/france/companies/aeb.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_amiot"
 		texturefile = "gfx/interface/ideas/france/companies/amiot.dds"
@@ -1190,6 +1274,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/france/companies/schneider.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_sncac"
+		texturefile = "gfx/interface/ideas/france/companies/sncac.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sncan"
+		texturefile = "gfx/interface/ideas/france/companies/sncan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sncao"
+		texturefile = "gfx/interface/ideas/france/companies/sncao.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sncase"
+		texturefile = "gfx/interface/ideas/france/companies/sncase.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_somua"
 		texturefile = "gfx/interface/ideas/france/companies/somua.dds"
 	}
@@ -1207,6 +1307,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_jacobins"
 		texturefile = "gfx/interface/ideas/france/jacobins.dds"							#Source: EU4
+	}
+	spriteType = {
+		name = "GFX_idea_liberte_egalite_solidarite"
+		texturefile = "gfx/interface/ideas/france/liberte_egalite_solidarite.dds"
 	}
 	
 	#GENERIC ADVISORS#
@@ -1248,6 +1352,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_fascist_african_2d"
 		texturefile = "gfx/interface/ideas/generic_advisors/africa/generic_fascist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_admiral_african_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/africa/generic_female_admiral.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_advisor_african_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/africa/generic_female_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_general_african_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/africa/generic_female_general.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_generic_general_african_2d"
@@ -1342,6 +1458,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_advisors/arab_world/generic_fascist.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_generic_female_admiral_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab_world/generic_female_admiral.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_advisor_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab_world/generic_female_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_general_middle_eastern_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab_world/generic_female_general.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_general_middle_eastern_2d"
 		texturefile = "gfx/interface/ideas/generic_advisors/arab_world/generic_general.dds"
 	}
@@ -1432,6 +1560,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_fascist_asian_2d"
 		texturefile = "gfx/interface/ideas/generic_advisors/asia/generic_fascist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_admiral_asian_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/asia/generic_female_admiral.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_advisor_asian_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/asia/generic_female_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_general_asian_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/asia/generic_female_general.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_generic_general_asian_2d"
@@ -1525,6 +1665,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_fascist.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_generic_female_admiral_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_admiral.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_advisor_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_general_eastern_european_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_general.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_general_eastern_european_2d"
 		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_general.dds"
 	}
@@ -1614,6 +1766,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_fascist_western_european_2d"
 		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_fascist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_admiral_western_european_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_admiral.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_admiral_western_european_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_female_general_western_european_2d"
+		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_general.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_generic_general_western_european_2d"
@@ -2144,6 +2308,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/german_general_staff.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_german_soldier"
+		texturefile = "gfx/interface/ideas/germany/german_soldier.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_german_traitors"
 		texturefile = "gfx/interface/ideas/germany/german_traitors.dds"
 	}
@@ -2279,8 +2447,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/hungary/hungarian_royal_democracy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_hungarian_royal_ultranationalism"
-		texturefile = "gfx/interface/ideas/hungary/hungarian_royal_ultranationalism.dds"
+		name = "GFX_idea_hungarian_royal_fascism"
+		texturefile = "gfx/interface/ideas/hungary/hungarian_royal_fascism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hungarian_swedish_ties"
@@ -2291,12 +2459,28 @@ spriteTypes = {
 	##COMMUNISM##
 
 	spriteType = {
+		name = "GFX_idea_anarchism"
+		texturefile = "gfx/interface/ideas/ideology/communism/anarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_anarchist_council"
+		texturefile = "gfx/interface/ideas/ideology/communism/anarchist_council.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_anti_communism"
 		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_communism2"
 		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_anti_communism3"
+		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_anti_communism4"
+		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism4.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_communism"
@@ -2335,12 +2519,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideology/communism/communism9.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_communism10"
+		texturefile = "gfx/interface/ideas/ideology/communism/communism10.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_communist_army"
 		texturefile = "gfx/interface/ideas/ideology/communism/communist_army.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_communist_army2"
 		texturefile = "gfx/interface/ideas/ideology/communism/communist_army2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_cooperation"
+		texturefile = "gfx/interface/ideas/ideology/communism/communist_cooperation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_communist_cuisine"
@@ -2351,13 +2543,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideology/communism/communist_industry.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_communist_propaganda"
+		texturefile = "gfx/interface/ideas/ideology/communism/communist_propaganda.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_communist_purge"
 		texturefile = "gfx/interface/ideas/ideology/communism/communist_purge.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_fourth_international"
 		texturefile = "gfx/interface/ideas/ideology/communism/fourth_international.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_international_brigades"
+		texturefile = "gfx/interface/ideas/ideology/communism/international_brigades.dds"
+	}
+	
 	##DEMOCRACY##
 
 	spriteType = {
@@ -2368,36 +2569,48 @@ spriteTypes = {
 		name = "GFX_idea_democracy2"
 		texturefile = "gfx/interface/ideas/ideology/democracy/democracy2.dds"
 	}	
+	spriteType = {
+		name = "GFX_idea_democracy3"
+		texturefile = "gfx/interface/ideas/ideology/democracy/democracy3.dds"
+	}	
 	
-	##ultranationalism##
+	##FASCISM##
 
 	spriteType = {
-		name = "GFX_idea_anti_ultranationalism"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/anti_ultranationalism.dds"
+		name = "GFX_idea_anti_fascism"
+		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ultranationalism"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism.dds"
+		name = "GFX_idea_anti_fascism2"
+		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism2.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ultranationalism2"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism2.dds"
+		name = "GFX_idea_anti_fascism3"
+		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism3.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ultranationalism3"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism3.dds"
+		name = "GFX_idea_fascism"
+		texturefile = "gfx/interface/ideas/ideology/fascism/fascism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ultranationalism4"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism4.dds"
+		name = "GFX_idea_fascism2"
+		texturefile = "gfx/interface/ideas/ideology/fascism/fascism2.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ultranationalism5"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism5.dds"
+		name = "GFX_idea_fascism3"
+		texturefile = "gfx/interface/ideas/ideology/fascism/fascism3.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ultranationalism6"
-		texturefile = "gfx/interface/ideas/ideology/ultranationalism/ultranationalism6.dds"
+		name = "GFX_idea_fascism4"
+		texturefile = "gfx/interface/ideas/ideology/fascism/fascism4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism5"
+		texturefile = "gfx/interface/ideas/ideology/fascism/fascism5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism6"
+		texturefile = "gfx/interface/ideas/ideology/fascism/fascism6.dds"
 	}	
 	##MONARCHISM##
 
@@ -2553,8 +2766,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/india/indian_communism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_indian_ultranationalism"
-		texturefile = "gfx/interface/ideas/india/indian_ultranationalism.dds"
+		name = "GFX_idea_indian_fascism"
+		texturefile = "gfx/interface/ideas/india/indian_fascism.dds"
 	}	
 	#ITALY#
 	
@@ -3298,6 +3511,33 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/netherlands/companies/royal_dutch_shell.dds"
 	}	
 	
+	##
+	
+	spriteType = {
+		name = "GFX_idea_dutch_alliances"
+		texturefile = "gfx/interface/ideas/netherlands/dutch_alliances.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dutch_colonial_army"
+		texturefile = "gfx/interface/ideas/netherlands/dutch_colonial_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dutch_navy"
+		texturefile = "gfx/interface/ideas/netherlands/dutch_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dutch_trade"
+		texturefile = "gfx/interface/ideas/netherlands/dutch_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_netherlands"
+		texturefile = "gfx/interface/ideas/netherlands/netherlands.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_oranje_boven"
+		texturefile = "gfx/interface/ideas/netherlands/oranje_boven.dds"
+	}
+	
 	#NEW ZEALAND#
 	
 	##ADVISORS##
@@ -3538,6 +3778,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/politics/clergy.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_colonial_assimilation"
+		texturefile = "gfx/interface/ideas/politics/colonial_assimilation.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_conscription_crisis"
 		texturefile = "gfx/interface/ideas/politics/conscription_crisis.dds"
 	}
@@ -3622,6 +3866,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/politics/political_support.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_political_violence"
+		texturefile = "gfx/interface/ideas/politics/political_violence.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_prisoners"
 		texturefile = "gfx/interface/ideas/politics/prisoners.dds"
 	}
@@ -3653,6 +3901,57 @@ spriteTypes = {
 		name = "GFX_idea_volunteers"
 		texturefile = "gfx/interface/ideas/politics/volunteers.dds"
 	}	
+	
+	#PORTUGAL#
+	
+	##ADVISORS##
+	
+	spriteType = {
+		name = "GFX_idea_augusto_de_vasconcelos"
+		texturefile = "gfx/interface/ideas/portugal/advisors/augusto_de_vasconcelos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jose_hipolito_raposo"
+		texturefile = "gfx/interface/ideas/portugal/advisors/jose_hipolito_raposo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jose_norton_de_matos"
+		texturefile = "gfx/interface/ideas/portugal/advisors/jose_norton_de_matos.dds"
+	}
+	
+	##COMPANIES##
+	
+	spriteType = {
+		name = "GFX_idea_ogma"
+		texturefile = "gfx/interface/ideas/portugal/advisors/ogma.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ogme"
+		texturefile = "gfx/interface/ideas/portugal/advisors/ogme.dds"
+	}
+	
+	####
+	
+	spriteType = {
+		name = "GFX_idea_camisas_azuis"
+		texturefile = "gfx/interface/ideas/portugal/camisas_azuis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_estado_novo"
+		texturefile = "gfx/interface/ideas/portugal/estado_novo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_portugal"
+		texturefile = "gfx/interface/ideas/portugal/portugal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_portuguese_empire"
+		texturefile = "gfx/interface/ideas/portugal/portuguese_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_portuguese_republic"
+		texturefile = "gfx/interface/ideas/portugal/portuguese_republic.dds"
+	}
 	
 	#RELIGION#
 
@@ -4148,63 +4447,202 @@ spriteTypes = {
 	##ADVISORS##
 
 	spriteType = {
+		name = "GFX_idea_andres_garcia_la_calle"
+		texturefile = "gfx/interface/ideas/spain/advisors/andres_garcia_la_calle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_antonio_azarola_y_gresillon"
+		texturefile = "gfx/interface/ideas/spain/advisors/antonio_azarola_y_gresillon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diego_martinez_barrio"
+		texturefile = "gfx/interface/ideas/spain/advisors/diego_martinez_barrio.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_dolores_ibarruri"
 		texturefile = "gfx/interface/ideas/spain/advisors/dolores_ibarruri.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dolores_ibarruri2"
+		texturefile = "gfx/interface/ideas/spain/advisors/dolores_ibarruri2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_domenec_batet"
+		texturefile = "gfx/interface/ideas/spain/advisors/domenec_batet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_esteban_de_bilbao_eguia"
+		texturefile = "gfx/interface/ideas/spain/advisors/esteban_de_bilbao_eguia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_etelvino_vega"
+		texturefile = "gfx/interface/ideas/spain/advisors/etelvino_vega.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_federica_montseny"
+		texturefile = "gfx/interface/ideas/spain/advisors/federica_montseny.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_francisco_ciutat_de_miguel"
+		texturefile = "gfx/interface/ideas/spain/advisors/francisco_ciutat_de_miguel.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_francisco_franco"
 		texturefile = "gfx/interface/ideas/spain/advisors/francisco_franco.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_francisco_largo_caballero"
+		texturefile = "gfx/interface/ideas/spain/advisors/francisco_largo_caballero.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_heli_rolando_de_tella"
+		texturefile = "gfx/interface/ideas/spain/advisors/heli_rolando_de_tella.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ignacio_hidalgo_de_cisneros"
+		texturefile = "gfx/interface/ideas/spain/advisors/ignacio_hidalgo_de_cisneros.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_janos_galicz"
+		texturefile = "gfx/interface/ideas/spain/advisors/janos_galicz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jesus_comin_y_sagues"
+		texturefile = "gfx/interface/ideas/spain/advisors/jesus_comin_y_sagues.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jesus_hernandez_tomas"
+		texturefile = "gfx/interface/ideas/spain/advisors/jesus_hernandez_tomas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_joaquin_garcia_morato"
+		texturefile = "gfx/interface/ideas/spain/advisors/joaquin_garcia_morato.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jose_antonio_giron"
+		texturefile = "gfx/interface/ideas/spain/advisors/jose_antonio_giron.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jose_antonio_primo_de_rivera"
+		texturefile = "gfx/interface/ideas/spain/advisors/jose_antonio_primo_de_rivera.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_juan_garcia_oliver"
+		texturefile = "gfx/interface/ideas/spain/advisors/juan_garcia_oliver.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_juan_lopez_sanchez"
+		texturefile = "gfx/interface/ideas/spain/advisors/juan_lopez_sanchez.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_juan_negrin"
+		texturefile = "gfx/interface/ideas/spain/advisors/juan_negrin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_juan_yague"
+		texturefile = "gfx/interface/ideas/spain/advisors/juan_yague.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_luis_gonzalez_ubieta"
+		texturefile = "gfx/interface/ideas/spain/advisors/luis_gonzalez_ubieta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manuel_hedilla"
+		texturefile = "gfx/interface/ideas/spain/advisors/manuel_hedilla.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mate_zalka"
+		texturefile = "gfx/interface/ideas/spain/advisors/mate_zalka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_miguel_cabanellas"
+		texturefile = "gfx/interface/ideas/spain/advisors/miguel_cabanellas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_miguel_ponte"
+		texturefile = "gfx/interface/ideas/spain/advisors/miguel_ponte.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nicolas_molero"
+		texturefile = "gfx/interface/ideas/spain/advisors/nicolas_molero.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rafael_garcia_valino"
+		texturefile = "gfx/interface/ideas/spain/advisors/rafael_garcia_valino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_raimundo_fernandez_cuesta"
+		texturefile = "gfx/interface/ideas/spain/advisors/raimundo_fernandez_cuesta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ramon_serrano_suner"
+		texturefile = "gfx/interface/ideas/spain/advisors/ramon_serrano_suner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tomas_dominguez_arevalo"
+		texturefile = "gfx/interface/ideas/spain/advisors/tomas_dominguez_arevalo.dds"
+	}
+	
+	##COMPANIES##
+	
+	spriteType = {
+		name = "GFX_idea_altos_hornos_de_vizcaya"
+		texturefile = "gfx/interface/ideas/spain/companies/altos_hornos_de_vizcaya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_casa"
+		texturefile = "gfx/interface/ideas/spain/companies/casa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_compania_telefonica_nacional"
+		texturefile = "gfx/interface/ideas/spain/companies/compania_telefonica_nacional.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hispano_aviacion"
+		texturefile = "gfx/interface/ideas/spain/companies/hispano_aviacion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hispano_suiza"
+		texturefile = "gfx/interface/ideas/spain/companies/hispano_suiza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrias_de_guerra_de_cataluna"
+		texturefile = "gfx/interface/ideas/spain/companies/industrias_de_guerra_de_cataluna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_llama_gabilondo_y_cia_sa"
+		texturefile = "gfx/interface/ideas/spain/companies/llama_gabilondo_y_cia_sa.dds"
+	}
 	
 	##
 	
 	spriteType = {
+		name = "GFX_idea_anti_carlism"
+		texturefile = "gfx/interface/ideas/spain/anti_carlism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_carlism"
+		texturefile = "gfx/interface/ideas/spain/carlism.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_dominicans"
 		texturefile = "gfx/interface/ideas/spain/dominicans.dds"						#Source: EU4
-	}
-	spriteType = {
-		name = "GFX_idea_dominicans2"
-		texturefile = "gfx/interface/ideas/spain/dominicans2.dds"						#Source: EU4
-	}
-	spriteType = {
-		name = "GFX_idea_dominicans3"
-		texturefile = "gfx/interface/ideas/spain/dominicans3.dds"						#Source: EU4
-	}
-	spriteType = {
-		name = "GFX_idea_dominicans4"
-		texturefile = "gfx/interface/ideas/spain/dominicans4.dds"						#Source: EU4
 	}
 	spriteType = {
 		name = "GFX_idea_franciscans"
 		texturefile = "gfx/interface/ideas/spain/franciscans.dds"						#Source: EU4
 	}
 	spriteType = {
-		name = "GFX_idea_franciscans2"
-		texturefile = "gfx/interface/ideas/spain/franciscans2.dds"						#Source: EU4
-	}
-	spriteType = {
-		name = "GFX_idea_franciscans3"
-		texturefile = "gfx/interface/ideas/spain/franciscans3.dds"						#Source: EU4
-	}
-	spriteType = {
-		name = "GFX_idea_franciscans4"
-		texturefile = "gfx/interface/ideas/spain/franciscans4.dds"						#Source: EU4
-	}
-	spriteType = {
 		name = "GFX_idea_jesuits"
 		texturefile = "gfx/interface/ideas/spain/jesuits.dds"							#Source: EU4
 	}
 	spriteType = {
-		name = "GFX_idea_jesuits2"
-		texturefile = "gfx/interface/ideas/spain/jesuits2.dds"							#Source: EU4
+		name = "GFX_idea_spanish_economy"
+		texturefile = "gfx/interface/ideas/spain/spanish_economy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_jesuits3"
-		texturefile = "gfx/interface/ideas/spain/jesuits3.dds"							#Source: EU4
-	}
-	spriteType = {
-		name = "GFX_idea_jesuits4"
-		texturefile = "gfx/interface/ideas/spain/jesuits4.dds"							#Source: EU4
+		name = "GFX_idea_spanish_militias"
+		texturefile = "gfx/interface/ideas/spain/spanish_militias.dds"
 	}
 	
 	#SWEDEN#
@@ -4478,6 +4916,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_british_occupation"
 		texturefile = "gfx/interface/ideas/united_kingdom/british_occupation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_british_soldier"
+		texturefile = "gfx/interface/ideas/united_kingdom/british_soldier.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_british_stoicism"

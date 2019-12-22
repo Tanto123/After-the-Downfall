@@ -6,13 +6,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SAU
-		victory_points = {
-			12758 1 
-		}
-		victory_points = {
-			12883 1 
-		}
+		owner = TUR
+		victory_points = { 12758 1 }
+		victory_points = { 12883 1 }
 		buildings = {
 			infrastructure = 3
 			12883 = {

@@ -1,1 +1,9 @@
-﻿
+﻿add_namespace = news
+
+#Generic Declaration of War
+
+#New Faction
+
+#New Faction Member
+
+#FROM annexes ROOT

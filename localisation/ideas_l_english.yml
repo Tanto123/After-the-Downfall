@@ -99,13 +99,21 @@
  free_trade:0 "Free Trade"
  ###
  #Social Factions
+ ###
+ ##generic
+ ###
  social_factions:0 "Social Factions"
  social_faction:0 "Social Faction"
  air_force_officers:0 "Air Force Officers"
+ aristocrats:0 "Aristocrats"
  army_officers:0 "Army Officers"
  automotive_industry:0 "Automotive Industry"
+ big_banks:0 "Big Banks"
+ farmers:0 "Farmers"
+ intellectuals:0 "Intellectuals"
  labor_unions:0 "Labor Unions"
  mining_companies:0 "Mining Companies"
+ naval_industry:0 "Naval Industry"
  navy_officers:0 "Navy Officers"
  orthodox_christianity:0 "Orthodox Christianity"
  protestantism:0 "Protestantism"
@@ -118,6 +126,11 @@
  ultranationalists:0 "Ultranationalists"
  ITA_ultranationalists:0 "Fascists"
  SPR_ultranationalists:0 "Falangists"
+ ###
+ ##specific
+ ###
+ baltic_germans:0 "Baltic Germans"
+ baltic_germans_desc:0 "Although their wishes for their own state remained unheard at the Russo-German Peace Negotiations in 1916, the Baltic Germans continue to be a major political influence in Estonia, Latvia and Lithuania. They have excellent connections to the German ambassadors in each of these countries, and the German embassies wield great political influence over the respective governments.\n"
  ###
  #Research / Production
  ###
@@ -171,12 +184,22 @@
  ultranationalist_tendencies:0 "Ultranationalist Tendencies"
  ###
  #Specific Country Ideas
- ##Groups of Countries
- baltic_germans:0 "Baltic Germans"
- baltic_germans_desc:0 "Although their wishes for their own state remained unheard at the Russo-German Peace Negotiations in 1916, the Baltic Germans continue to be a major political influence in Estonia, Latvia and Lithuania. They have excellent connections to the German ambassadors in each of these countries, and the German embassies wield great political influence over the respective governments.\n"
+ ##ARM
+ legacy_of_the_armenian_genocide:0 "Legacy of the Armenian Genocide"
+ legacy_of_the_armenian_genocide_desc:0 "After the Ottoman Empire entered the European War of 1914 on the side of the Germans against the Russians, the Armenian minority in the northeast of the Ottoman Empire quickly became the target of racial hatred, persecution and eventually genocide on the grounds of an alleged sympathy towards the Russian Empire. After Russia's defeat in 1916, the outright murder of Armenians was replaced with a mass deportation from Turkish territory into the area designated by the victorious Central Powers as an Armenian state."
  ##FIN
  finnish_nationalism:0 "Finnish Nationalism"
  finnish_nationalism_desc:0 "Finnish Nationalism, combined with the Finnish national spirit of 'Sisu', has been culturally dominant with the Finnish people ever since the German arbitration at the Russo-German peace negotiations awarded the Turku and Vaasa regions to Sweden instead of Finland. With a revanchist Russia on one side and a lobby of Swedish nationalists demanding the Pori region for Sweden on the other, Finland will not run out of enemies any time soon."
+ ##GER
+ german_military_hubris:0 "German Military Hubris"
+ german_military_hubris_desc:0 "Germany is the main victor of the European War of 1914 to 1917, also known as the 'Continental War' or the 'Great War'. Along with its Austro-Hungarian and later Bulgarian, Ottoman and Swedish allies, the Germans stood victorious over the coalition formed by Russia and France, while the United Kingdom, Italy and the two American republics looked on from neutrality.\n\nGermany first focussed on beating Russia in the east, while defending against relentless French assaults against the western border in Alsace-Lorraine. By 1916, Russia was beaten and agreed to peace negotiations. In the west, France and Germany agreed to peace arbitration by the Belgian and British government in late 1917 after several failed German offensives against French defensive lines, and Germany took large amounts of colonial territory from France.\n\nHowever, whereas revanchism and patriotic militarism remains strong in France, Germany has been overtaken by defeatist attitudes in a complacent military high command. While France is developing new tank models and preparing new forms of warfare, German generals still think their country invincible."
+ mitteleuropa_member:0 "Mitteleuropa Member"
+ mitteleuropa_member_desc:0 "Formed after the Continental War, the Mitteleuropa association is an economic and diplomatic agreement formed by Germany, Austria-Hungary, and their northern and eastern European sattelites and allies.\n\n§RAn attack by a country not party to the Mitteleuropa agreement against one of its members will call the agreement's leader to arms.§!\n\nCurrent leader: §Y[Root.GetMitteleuropaLeader]§!"
+ triple_alliance_member:0 "Triple Alliance Member"
+ triple_alliance_member_desc:0 "The Triple Alliance of 1882 between Germany, Austria-Hungary and Italy was renewed in 1915, 1919 and most recently 1924. However, the actions of Italy in the Continental War between 1914 and 1917, in which the Italians initially declined to join the Austrian and German cause in favor of neutrality and only entered the conflict when the victory of the Central Powers was evident in late 1916, have made German and Austrian planners cast aside any pretenses of Italian usefulness in offensive diplomatic actions. The Triple Alliance is purely defensive in nature, and Austria and Germany have instead chosen their Dual Alliance as their main diplomatic tool of choice."
+ ##ITA
+ vittoria_dimezzata:0 "Vittoria Dimezzata"
+ vittoria_dimezzata_desc:0 "The vittoria dimezzata, the 'halved victory', is the derogatory term used by Italian nationalists for the outcome of the Continental War of 1914.\n\nItaly had initially stayed neutral, refusing to aid her German and Austro-Hungarian allies on the grounds of the aggressive nature of their conquest. However, after Russia's defeat was complete and with only France on the Entente side left fighting, Italy entered the war in December 1916. Whereas Germany took for itself French colonies in central and southern Africa as well as Indochina, Italy was awarded control of Corsica, Savoy and colonial Tunisia.\n\nWhile the enthusiasm about the victory was great, the territories acquired were ultimately largely French-speaking areas, whereas Italian-speaking lands like South Tyrol and Dalmatia remain firmly in the hands of Italy's supposed ally Austria-Hungary. Perhaps, Italy's war is not yet over."
  ##JAP
  aftermath_of_the_chichibu_coup:0 "Aftermath of the Chichibu Coup"
  aftermath_of_the_chichibu_coup_desc:0 "Emperor Yasuhito came to power in 1927, when the military forced his older brother Hirohito, the Showa Emperor, into abdication. The Japanese people at large see this intervention as an unjustified attempt by the military to meddle in the divine imperial house and in Japanese politics.\n\nAfter Hirohito's abdication, the throne went to his younger brother Yasuhito, then known as Prince Chichibu. As a result, the new emperor's ascendance to the throne was dubbed the 'Chichibu Coup' by international observers."

@@ -6,15 +6,12 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = FRA
-		victory_points = {
-			3942 1
-		}
+		owner = TUR
+		add_core_of = SYR
+		victory_points = { 3942 1 }
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SYR
-
 	}
 
 

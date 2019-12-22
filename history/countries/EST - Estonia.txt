@@ -19,6 +19,9 @@ set_technology = {
 add_ideas = {	#Social Factions
 	baltic_germans
 }
+add_ideas = {	#National Ideas
+	mitteleuropa_member
+}
 
 set_popularities = {
 	anarchism = 0

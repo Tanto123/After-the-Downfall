@@ -1,5 +1,9 @@
 opinion_modifiers = {
 	
+	armenian_genocide = {
+		value = -50
+	}
+	
 	former_allies_in_the_european_war = {
 		value = 15
 	}

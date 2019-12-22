@@ -7,23 +7,17 @@ state={
 	state_category = rural
 
 	history={
-		owner = ENG
+		owner = TUR
+		add_core_of = PAL
+		add_core_of = ISR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
-			4206 = {
-				naval_base = 3
-			}
+			4206 = { naval_base = 3 }
 		}
-		victory_points = {
-			1086 1 
-		}
-		victory_points = {
-			4206 1 
-		}
-		add_core_of = PAL
-		add_core_of = ISR
+		victory_points = { 1086 1 }
+		victory_points = { 4206 1 }
 	}
 
 	provinces={

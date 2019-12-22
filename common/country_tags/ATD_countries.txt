@@ -1,0 +1,3 @@
+DON = "countries/Don.txt"
+KUB = "countries/Kuban.txt"
+TAT = "countries/Tataria.txt"
