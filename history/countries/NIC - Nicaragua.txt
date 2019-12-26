@@ -33,3 +33,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+create_country_leader = {
+	name = "Augusto César Sandino"
+	desc = leader_desc_NIC_Augusto_Cesar_Sandino
+	picture = "Augusto_Cesar_Sandino.dds"
+	ideology = national_communism
+	traits = {
+		labor_unionist
+	}
+}

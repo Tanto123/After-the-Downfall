@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		banana_republic_influence = {
+			picture = banana_republic
+			cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				stability_factor = -0.10
+                                local_building_slots_factor = -0.15
+                                local_resources_factor = -0.10
+                                political_power_gain = -0.15
+			}
+		}	

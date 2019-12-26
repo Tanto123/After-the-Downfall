@@ -269,3 +269,6 @@
  ##SWE
  pori_corridor_question:0 "Pori Corridor Question"
  pori_corridor_question_desc:0 "Ever since Sweden's successful 1915 intervention in the European War, the Swedish-speaking parts of what was once Russian Finland have been part of Sweden.\n\nHowever, the German government, allied with both Sweden and Finland, forced Swedish troops to retreat to only two coastal strips with the highest concentration of ethnic Swedes.\n\nThese two territories, the Turku and Vaasa areas, are divided by the Pori region, which the Germans awarded to Finland. Ever since, a growing lobby of Swedish nationalists have voiced demands to connect the two colonial regions by acquiring what they refer to as the 'Pori Corridor'."
+ ##Central America
+ banana_republic_influence:0 "Grip of the Banana Republic"
+ banana_republic_influence_desc:0 ""

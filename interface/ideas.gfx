@@ -5,7 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 22
 	}
-	
+		spriteType = {
+		name = "GFX_idea_banana_republic"
+		texturefile = "gfx/interface/ideas/economy/banana_republic.dds"
+	}
 	#AIR FORCE#
 
 	spriteType = {

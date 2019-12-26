@@ -50,6 +50,7 @@ set_politics = {
 }
 
 puppet = CUB
+puppet = ARZ
 
 create_country_leader = {
 	name = "John Nance Garner"
