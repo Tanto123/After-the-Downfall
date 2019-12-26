@@ -34,10 +34,10 @@ set_popularities = {
 	communism = 0 
 	leftism = 0
 	centrism = 0
-	conservatism = 0 
-	despotism = 100
+	conservatism = 31
+	despotism = 61
 	monarchism = 0
-	ultranationalism = 0
+	ultranationalism = 8
 }
 
 set_politics = { 
@@ -45,4 +45,32 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mehmed VI"
+	desc = leader_desc_TUR_Mehmed_VI
+	picture = "Mehmed_VI.dds"
+	ideology = feudalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Abdulmejid II"
+	desc = leader_desc_TUR_Abdulmejid_II
+	picture = "Abdulmejid_II.dds"
+	ideology = totalitarian_theocracy
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Mustafa Kemal"
+	desc = leader_desc_TUR_Mustafa_Kemal
+	picture = "Mustafa_Kemal.dds"
+	ideology = islamic_conservatism
+	traits = {
+		
+	}
 }

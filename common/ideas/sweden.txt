@@ -12,12 +12,9 @@ ideas = {
 			picture = political_oppression
 			
 			modifier = {
+				war_support_factor = 0.05
+				generate_wargoal_tension = -0.1
 				ultranationalism_drift = 0.01
-				targeted_modifier = {
-					tag = JAP
-					attack_bonus_against = 0.1
-					defense_bonus_against = 0.1
-				}
 			}
 		}
 	

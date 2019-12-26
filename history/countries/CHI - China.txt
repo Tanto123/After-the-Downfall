@@ -17,14 +17,14 @@ set_technology = {
 }
 
 set_popularities = {
-	anarchism = 0 
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 100 
-	monarchism = 0 
-	ultranationalism = 0
+	anarchism = 5
+	communism = 5
+	leftism = 10
+	centrism = 10
+	conservatism = 10
+	despotism = 49
+	monarchism = 1
+	ultranationalism = 10
 }
 
 set_politics = { 
@@ -32,4 +32,88 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_faction = chinese_national_alliance
+
+puppet = GXC
+puppet = MAN
+puppet = MEN
+puppet = SIK
+puppet = SHX
+puppet = XSM
+puppet = YUN
+
+create_country_leader = {
+	name = "Chiang Kai-Shek"
+	desc = leader_desc_CHI_Chiang_Kai_Shek
+	picture = "Chiang_Kai_Shek.dds"
+	ideology = military_dictatorship
+	traits = {
+		military_innovator
+	}
+}
+create_country_leader = {
+	name = "Chen Duxiu"
+	desc = leader_desc_CHI_Chen_Duxiu
+	picture = "Chen_Duxiu.dds"
+	ideology = decentralism
+	traits = {
+		radical_revolutionary
+	}
+}
+create_country_leader = {
+	name = "Mao Zedong"
+	desc = leader_desc_CHI_Mao_Zedong
+	picture = "Mao_Zedong.dds"
+	ideology = revolutionary_socialism
+	traits = {
+		talented_rhetoritician
+		trade_protectionist
+	}
+}
+create_country_leader = {
+	name = "Zhou Fohai"
+	desc = leader_desc_CHI_Zhou_Fohai
+	picture = "Zhou_Fohai.dds"
+	ideology = social_democracy
+	traits = {
+		working_class_advocate
+	}
+}
+create_country_leader = {
+	name = "Hu Hanmin"
+	desc = leader_desc_CHI_Hu_Hanmin
+	picture = "Hu_Hanmin.dds"
+	ideology = market_liberalism
+	traits = {
+		laissez_faire_capitalist
+	}
+}
+create_country_leader = {
+	name = "Sun Fo"
+	desc = leader_desc_CHI_Sun_Fo
+	picture = "Sun_Fo.dds"
+	ideology = national_conservatism
+	traits = {
+		industrial_lobbyist
+	}
+}
+create_country_leader = {
+	name = "Pu Yi"
+	desc = leader_desc_CHI_Pu_Yi
+	picture = "Pu_Yi.dds"
+	ideology = absolute_monarchism
+	traits = {
+		ineffective_monarch
+	}
+}
+create_country_leader = {
+	name = "Wang Jingwei"
+	desc = leader_desc_CHI_Wang_Jingwei
+	picture = "Wang_Jingwei.dds"
+	ideology = militant_reactionism
+	traits = {
+		militarization_advocate
+	}
 }

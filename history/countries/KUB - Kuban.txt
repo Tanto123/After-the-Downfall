@@ -1,4 +1,4 @@
-﻿capital = 202
+﻿capital = 234
 
 OOB = "generic_1928"
 

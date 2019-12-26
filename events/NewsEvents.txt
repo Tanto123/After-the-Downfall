@@ -1,9 +1,99 @@
 ﻿add_namespace = news
 
 #Generic Declaration of War
+##Root declares war on From
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_international_treaty6
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = news.1.o1
+		trigger = { tag = ROOT }
+	}
+	option = { 
+		name = news.1.o2
+		trigger = { tag = FROM }
+	}
+	option = { 
+		name = news.1.o3
+		trigger = { 
+			NOT = { tag = ROOT }
+			is_in_faction_with = ROOT
+		}
+	}
+	option = { 
+		name = news.1.o4
+		trigger = { 
+			NOT = { tag = FROM }
+			is_in_faction_with = FROM
+		}
+	}
+	option = { 
+		name = news.1.o5
+		trigger = { 
+			NOT = { tag = FROM }
+			NOT = { tag = ROOT }
+			NOT = { is_in_faction_with = FROM }
+			NOT = { is_in_faction_with = ROOT }
+		}
+	}
+}
 
 #New Faction
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_international_treaty6
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = { name = news.2.o1 }
+}
 
 #New Faction Member
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_international_treaty2
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = { name = news.3.o1 }
+}
 
 #FROM annexes ROOT
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_cavalry_parade
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.o1
+		trigger = { tag = FROM }
+	}
+	option = {
+		name = news.4.o2
+		trigger = { NOT = { tag = FROM } NOT = { is_in_faction_with = FROM } NOT = { has_war_with = FROM } }
+	}
+	option = {
+		name = news.4.o3
+		trigger = { is_in_faction_with = FROM NOT = { tag = FROM } }
+	}
+	option = {
+		name = news.4.o4
+		trigger = { has_war_with = FROM }
+	}
+}

@@ -1,0 +1,11 @@
+ideas = {
+
+	#	Do adjust the AI likelihood to ally certain countries
+
+	hidden_ideas = {
+		
+		
+		
+	}
+	
+}

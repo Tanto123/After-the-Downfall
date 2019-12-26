@@ -20,11 +20,11 @@ set_popularities = {
 	anarchism = 0 
 	communism = 0 
 	leftism = 0 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 100 
-	monarchism = 0 
-	ultranationalism = 0
+	centrism = 4
+	conservatism = 30
+	despotism = 62
+	monarchism = 2
+	ultranationalism = 2
 }
 
 set_politics = { 
@@ -32,4 +32,50 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mohammed Zahir Khan"
+	desc = leader_desc_AFG_Mohammed_Zahir_Khan
+	picture = "Mohammed_Zahir_Khan.dds"
+	ideology = feudalism
+	traits = {
+		ineffective_monarch
+	}
+}
+create_country_leader = {
+	name = "Mohammed Zahir Khan"
+	desc = leader_desc_AFG_Mohammed_Zahir_Khan
+	picture = "Mohammed_Zahir_Khan.dds"
+	ideology = absolute_monarchism
+	traits = {
+		apolitical_monarch
+	}
+}
+create_country_leader = {
+	name = "Amanullah Khan"
+	desc = leader_desc_AFG_Amanullah_Khan
+	picture = "Amanullah_Khan.dds"
+	ideology = totalitarian_theocracy
+	traits = {
+		supreme_religious_leader
+	}
+}
+create_country_leader = {
+	name = "Habibullah Kalakani"
+	desc = leader_desc_AFG_Habibullah_Kalakani
+	picture = "Habibullah_Kalakani.dds"
+	ideology = islamic_conservatism
+	traits = {
+		foreign_legionnaire
+	}
+}
+create_country_leader = {
+	name = "Nadir Khan"
+	desc = leader_desc_AFG_Nadir_Khan
+	picture = "Nadir_Khan.dds"
+	ideology = market_liberalism
+	traits = {
+		laissez_faire_capitalist
+	}
 }

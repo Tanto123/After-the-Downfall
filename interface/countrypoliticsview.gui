@@ -674,7 +674,7 @@ guiTypes = {
 					name = "box"
 					position = { x = 10 y = 10 }
 					size = { width = 1000 height = 1 }
-					slotsize = { width = 231 height = 75 }
+					slotsize = { width = 230 height = 75 }
 					max_slots_horizontal = 4
 					add_horizontal = yes
 					format = "UPPER_LEFT"
@@ -822,7 +822,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 47 }
+			position = { x = 90 y = 60 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142

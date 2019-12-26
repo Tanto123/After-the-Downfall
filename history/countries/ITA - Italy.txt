@@ -53,3 +53,76 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+create_country_leader = {
+	name = "Enrico de Nicola"
+	desc = leader_desc_ITA_Enrico_de_Nicola
+	picture = "Enrico_de_Nicola.dds"
+	ideology = market_liberalism
+	traits = {
+		laissez_faire_capitalist
+	}
+}
+create_country_leader = {
+	name = "Randolfo Pacciardi"
+	desc = leader_desc_ITA_Randolfo_Pacciardi
+	picture = "Randolfo_Pacciardi.dds"
+	ideology = social_democracy
+	traits = {
+		working_class_hero
+	}
+}
+create_country_leader = {
+	name = "Luigi Longo"
+	desc = leader_desc_ITA_Luigi_Longo
+	picture = "Luigi_Longo.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		detached_philosopher
+	}
+}
+create_country_leader = {
+	name = "Palmiro Togliatti"
+	desc = leader_desc_ITA_Palmiro_Togliatti
+	picture = "Palmiro_Togliatti.dds"
+	ideology = vanguardism
+	traits = {
+		foreign_interventionist
+	}
+}
+create_country_leader = {
+	name = "Alcide_de_Gaspari"
+	desc = leader_desc_ITA_Alcide_de_Gasperi
+	picture = "Alcide_de_Gasperi.dds"
+	ideology = fiscal_conservatism
+	traits = {
+		laissez_faire_capitalist
+	}
+}
+create_country_leader = {
+	name = "Edmondo Rossoni"
+	desc = leader_desc_ITA_Edmondo_Rossoni
+	picture = "generals/Edmondo_Rossoni.dds"
+	ideology = military_dictatorship
+	traits = {
+		officer_educator
+	}
+}
+create_country_leader = {
+	name = "Vittorio Emanuele"
+	desc = leader_desc_ITA_Vittorio_Emanuele
+	picture = "Vittorio_Emanuele.dds"
+	ideology = absolute_monarchism
+	traits = {
+		babbling_buffoon
+	}
+}
+create_country_leader = {
+	name = "Benito Mussolini"
+	desc = leader_desc_ITA_Benito_Mussolini
+	picture = "Benito_Mussolini.dds"
+	ideology = fascism
+	traits = {
+		babbling_buffoon
+	}
+}

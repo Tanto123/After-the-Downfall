@@ -68,6 +68,51 @@ create_country_leader = {
 	picture = "Otto_Habsburg.dds"
 	ideology = social_conservatism
 	traits = {
-		effective_bureaucrat
+		apolitical_monarch
+	}
+}
+create_country_leader = {
+	name = "Karl Renner"
+	desc = leader_desc_AUS_Karl_Renner
+	picture = "Karl_Renner.dds"
+	ideology = social_democracy
+	traits = {
+		labor_unionist
+	}
+}
+create_country_leader = {
+	name = "Alfred Klahr"
+	desc = leader_desc_AUS_Alfred_Klahr
+	picture = "Alfred_Klahr.dds"
+	ideology = vanguardism
+	traits = {
+		militarization_advocate
+	}
+}
+create_country_leader = {
+	name = "Ernst Starhemberg"
+	desc = leader_desc_AUS_Ernst_Starhemberg
+	picture = "Ernst_Starhemberg.dds"
+	ideology = market_liberalism
+	traits = {
+		laissez_faire_capitalist
+	}
+}
+create_country_leader = {
+	name = "Alfred Jansa"
+	desc = leader_desc_AUS_Alfred_Jansa
+	picture = "generals/Alfred_Jansa.dds"
+	ideology = military_dictatorship
+	traits = {
+		officer_educator
+	}
+}
+create_country_leader = {
+	name = "Arthur Seyss-Inquart"
+	desc = leader_desc_AUS_Arthur_Seyss_Inquart
+	picture = "Arthur_Seyss_Inquart.dds"
+	ideology = national_socialism
+	traits = {
+		officer_educator
 	}
 }

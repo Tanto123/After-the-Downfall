@@ -18,11 +18,11 @@ set_technology = {
 
 set_popularities = {
 	anarchism = 0
-	communism = 0 
-	leftism = 0
-	centrism = 0
-	conservatism = 0 
-	despotism = 100
+	communism = 10
+	leftism = 10
+	centrism = 10
+	conservatism = 10
+	despotism = 60
 	monarchism = 0
 	ultranationalism = 0
 }
@@ -32,4 +32,32 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Carol II"
+	desc = leader_desc_ROM_Carol_II
+	picture = "Carol_II.dds"
+	ideology = machiavellianism
+	traits = {
+		babbling_buffoon
+	}
+}
+create_country_leader = {
+	name = "Georghe Gheorgiu Dej"
+	desc = leader_desc_ROM_Gheorghe_Gheorghiu_Dej
+	picture = "Gheorghe_Gheorghiu_Dej.dds"
+	ideology = vanguardism
+	traits = {
+		labor_unionist
+	}
+}
+create_country_leader = {
+	name = "Carol II"
+	desc = leader_desc_ROM_Carol_II
+	picture = "Carol_II.dds"
+	ideology = absolute_monarchism
+	traits = {
+		babbling_buffoon
+	}
 }

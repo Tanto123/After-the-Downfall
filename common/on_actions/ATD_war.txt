@@ -3,6 +3,7 @@
 on_actions = {
 	on_declare_war = {
 		effect = {
+			ROOT = { FROM = { news_event = news.1 } }
 			#Mitteleuropa
 			if = {
 				limit = {

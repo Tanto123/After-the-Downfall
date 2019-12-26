@@ -1297,6 +1297,14 @@ spriteTypes = {
 	##
 	
 	spriteType = {
+		name = "GFX_idea_deluge"
+		texturefile = "gfx/interface/ideas/france/deluge.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_francophobia"
+		texturefile = "gfx/interface/ideas/france/francophobia.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_french_imperials"
 		texturefile = "gfx/interface/ideas/france/french_imperials.dds"					#Source: EU4
 	}
@@ -1772,7 +1780,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_admiral.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_generic_female_admiral_western_european_2d"
+		name = "GFX_idea_generic_female_advisor_western_european_2d"
 		texturefile = "gfx/interface/ideas/generic_advisors/europe/generic_female_advisor.dds"
 	}
 	spriteType = {

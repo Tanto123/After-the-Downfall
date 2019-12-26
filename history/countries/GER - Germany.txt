@@ -9,6 +9,8 @@ set_war_support = 0.5
 
 set_convoys = 100
 
+set_country_flag = custom_advisor_pool
+
 add_offsite_building = { type = industrial_complex level = 0 }
 add_offsite_building = { type = arms_factory level = 0 }
 
@@ -46,6 +48,7 @@ add_ideas = {	#National Ideas
 	german_military_hubris
 	mitteleuropa_member
 	triple_alliance_member
+	rechtsfront
 }
 
 set_popularities = {

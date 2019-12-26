@@ -200,7 +200,7 @@ ideas = {
 		}
 	
 		navy_officers = {
-			picture = escort_effort
+			picture = navy
 			
 			allowed = {}
 			visible = { always = yes }

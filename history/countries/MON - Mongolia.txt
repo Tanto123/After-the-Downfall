@@ -33,3 +33,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Peljiddin Genden"
+	desc = leader_desc_MON_Peljiddin_Genden
+	picture = "Peljiddin_Genden.dds"
+	ideology = vanguardism
+	traits = {
+		
+	}
+}

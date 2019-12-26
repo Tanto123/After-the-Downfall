@@ -20,7 +20,7 @@ focus_tree = {
 		mutually_exclusive = { }
 		
 		completion_reward = {
-			add_political_power = 150
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -51,12 +51,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_right_wing_sympathies }
 		
 		completion_reward = {
-			add_popularity = { ideology = anarchism popularity = 0.03 }
-			add_popularity = { ideology = communism popularity = 0.03 }
-			add_popularity = { ideology = leftism popularity = 0.03 }
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_anarchist_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_communist_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_leftist_ideologue
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -87,12 +82,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_right_wing_sympathies }
 		
 		completion_reward = {
-			add_popularity = { ideology = leftism popularity = 0.03 }
-			add_popularity = { ideology = centrism popularity = 0.03 }
-			add_popularity = { ideology = conservatism popularity = 0.03 }
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_leftist_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_centrist_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_conservative_ideologue
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -125,14 +115,7 @@ focus_tree = {
 		mutually_exclusive = { focus = generic_centrist_sympathies }
 		
 		completion_reward = {
-			add_popularity = { ideology = conservatism popularity = 0.03 }
-			add_popularity = { ideology = despotism popularity = 0.03 }
-			add_popularity = { ideology = monarchism popularity = 0.03 }
-			add_popularity = { ideology = ultranationalism popularity = 0.03 }
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_conservative_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_despotic_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_monarchist_ideologue
-			custom_effect_tooltip = available_political_advisor show_ideas_tooltip = generic_ultranationalist_ideologue
+			
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -830,12 +813,320 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	
+	#Diplomatic Branch
+	focus = {
+		id = generic_diplomatic_focus
+		icon = diplomacy
+		
+		x = 16
+		y = 1
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_political_effort }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_aggressive_attitude
+		icon = aggressive_diplomacy
+		
+		x = -2
+		y = 1
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_diplomatic_focus }
+		available = { }
+		mutually_exclusive = { focus = generic_defensive_attitude }
+		mutually_exclusive = { focus = generic_neutral_attitude }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_neutral_attitude
+		icon = treaty
+		
+		x = 0
+		y = 1
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_diplomatic_focus }
+		available = { }
+		mutually_exclusive = { focus = generic_aggressive_attitude }
+		mutually_exclusive = { focus = generic_defensive_attitude }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_defensive_attitude
+		icon = defense
+		
+		x = 2
+		y = 1
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_diplomatic_focus }
+		available = { }
+		mutually_exclusive = { focus = generic_aggressive_attitude }
+		mutually_exclusive = { focus = generic_neutral_attitude }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_a
+		icon = xxx
+		
+		x = 1
+		y = 2
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { 
+			focus = generic_aggressive_attitude
+			focus = generic_neutral_attitude
+		}
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_b
+		icon = xxx
+		
+		x = -1
+		y = 2
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { 
+			focus = generic_neutral_attitude
+			focus = generic_defensive_attitude
+		}
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_1
+		icon = xxx
+		
+		x = -2
+		y = 3
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_aggressive_attitude }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_2
+		icon = xxx
+		
+		x = 0
+		y = 3
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_neutral_attitude }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_3
+		icon = xxx
+		
+		x = 2
+		y = 3
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_defensive_attitude }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_c
+		icon = xxx
+		
+		x = 1
+		y = 4
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { 
+			focus = generic_a
+		}
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_d
+		icon = xxx
+		
+		x = -1
+		y = 4
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { 
+			focus = generic_b
+		}
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_4
+		icon = xxx
+		
+		x = -2
+		y = 5
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_1 }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_5
+		icon = xxx
+		
+		x = 0
+		y = 5
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_2 }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_6
+		icon = xxx
+		
+		x = 2
+		y = 5
+		relative_position_id = generic_diplomatic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_3 }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
 	#Economy Branch
 	focus = {
 		id = generic_economic_focus
 		icon = money2
 		
-		x = 16
+		x = 22
 		y = 0
 		
 		cost = 10
@@ -1020,6 +1311,27 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
+		id = generic_industrial_buildup
+		icon = industry
+		
+		x = 3
+		y = 3
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_infrastructure_investments }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
 		id = generic_strengthen_the_labor_unions
 		icon = working_class
 		
@@ -1061,18 +1373,17 @@ focus_tree = {
 		
 		ai_will_do = { factor = 10 }
 	}
-	
-	#Diplomatic Branch
 	focus = {
-		id = generic_diplomatic_focus
-		icon = diplomacy
+		id = generic_industrial_buildup2
+		icon = industry2
 		
-		x = 22
-		y = 0
+		x = 3
+		y = 4
+		relative_position_id = generic_economic_focus
 		
 		cost = 10
 		
-		prerequisite = { }
+		prerequisite = { focus = generic_industrial_buildup }
 		available = { }
 		mutually_exclusive = { }
 		bypass = { }
@@ -1084,63 +1395,61 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
-		id = generic_aggressive_attitude
-		icon = aggressive_diplomacy
-		
-		x = -2
-		y = 1
-		relative_position_id = generic_diplomatic_focus
-		
-		cost = 10
-		
-		prerequisite = { focus = generic_diplomatic_focus }
-		available = { }
-		mutually_exclusive = { focus = generic_defensive_attitude }
-		mutually_exclusive = { focus = generic_neutral_attitude }
-		bypass = { }
-		
-		completion_reward = {
-			
-		}
-		
-		ai_will_do = { factor = 10 }
-	}
-	focus = {
-		id = generic_neutral_attitude
-		icon = treaty
-		
-		x = 0
-		y = 1
-		relative_position_id = generic_diplomatic_focus
-		
-		cost = 10
-		
-		prerequisite = { focus = generic_diplomatic_focus }
-		available = { }
-		mutually_exclusive = { focus = generic_aggressive_attitude }
-		mutually_exclusive = { focus = generic_defensive_attitude }
-		bypass = { }
-		
-		completion_reward = {
-			
-		}
-		
-		ai_will_do = { factor = 10 }
-	}
-	focus = {
-		id = generic_defensive_attitude
-		icon = defense
+		id = generic_armament_campaign2
+		icon = industry_military
 		
 		x = 2
-		y = 1
-		relative_position_id = generic_diplomatic_focus
+		y = 5
+		relative_position_id = generic_economic_focus
 		
 		cost = 10
 		
-		prerequisite = { focus = generic_diplomatic_focus }
+		prerequisite = { focus = generic_industrial_buildup2 }
+		prerequisite = { focus = generic_armament_campaign }
 		available = { }
-		mutually_exclusive = { focus = generic_aggressive_attitude }
-		mutually_exclusive = { focus = generic_neutral_attitude }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_armament_campaign3
+		icon = industry_military
+		
+		x = 1
+		y = 6
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_armament_campaign2 }
+		available = { }
+		mutually_exclusive = { }
+		bypass = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_industrial_buildup3
+		icon = industry3
+		
+		x = 3
+		y = 6
+		relative_position_id = generic_economic_focus
+		
+		cost = 10
+		
+		prerequisite = { focus = generic_industrial_buildup2 }
+		available = { }
+		mutually_exclusive = { }
 		bypass = { }
 		
 		completion_reward = {

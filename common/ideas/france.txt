@@ -13,11 +13,9 @@ ideas = {
 			
 			modifier = {
 				ultranationalism_drift = 0.01
-				targeted_modifier = {
-					tag = GER
-					attack_bonus_against = 0.1
-					defense_bonus_against = 0.1
-				}
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				army_org_factor = 0.05
 			}
 		}
 	

@@ -1,7 +1,4 @@
-RAJ_BritishRaj = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
-}
+#Austria Hungary
 HUN_AustriaHungary = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
@@ -17,4 +14,38 @@ MNT_AustriaHungary = {
 SER_AustriaHungary = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
+}
+#British Empire
+RAJ_BritishRaj = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+#Chinese Warlords
+GXC_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
+}
+MAN_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
+}
+MEN_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
+}
+SIK_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
+}
+SHX_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
+}
+XSM_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
+}
+YUN_ChineseWarlord = {
+	color = rgb { 235 224 170 }
+	color_ui = rgb { 235 224 170 }
 }

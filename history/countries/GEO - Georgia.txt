@@ -18,11 +18,11 @@ set_technology = {
 
 set_popularities = {
 	anarchism = 0 
-	communism = 0 
+	communism = 13 
 	leftism = 0 
 	centrism = 0 
 	conservatism = 0 
-	despotism = 100 
+	despotism = 87
 	monarchism = 0 
 	ultranationalism = 0
 }
@@ -32,4 +32,14 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Iosif Djugashvili"
+	desc = leader_desc_GEO_Iosif_Djugashvili
+	picture = "generals/Iosif_Djugashvili.dds"
+	ideology = vanguardism
+	traits = {
+		
+	}
 }

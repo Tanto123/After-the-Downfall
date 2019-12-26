@@ -57,7 +57,7 @@ create_country_leader = {
 	picture = "John_Nance_Garner.dds"
 	ideology = national_conservatism
 	traits = {
-		ideological_crusader
+		yankeephobe
 	}
 }
 

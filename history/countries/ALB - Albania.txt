@@ -18,18 +18,73 @@ set_technology = {
 
 set_popularities = {
 	anarchism = 0 
-	communism = 100 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 0
-	despotism = 0 
+	communism = 16
+	leftism = 44
+	centrism = 2 
+	conservatism = 28
+	despotism = 5
 	monarchism = 0 
-	ultranationalism = 0
+	ultranationalism = 5
 }
 
 set_politics = { 
-	ruling_party = communism
+	ruling_party = leftism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Avni Rustemi"
+	desc = leader_desc_ALB_Avni_Rustemi
+	picture = "Avni_Rustemi.dds"
+	ideology = social_democracy
+	traits = {
+		working_class_advocate
+	}
+}
+create_country_leader = {
+	name = "Enver Hoxha"
+	desc = leader_desc_ALB_Enver_Hoxha
+	picture = "Enver_Hoxha.dds"
+	ideology = vanguardism
+	traits = {
+		defensive_thinker
+	}
+}
+create_country_leader = {
+	name = "Maliq Bushati"
+	desc = leader_desc_ALB_Maliq_Bushati
+	picture = "Maliq_Bushati.dds"
+	ideology = market_liberalism
+	traits = {
+		laissez_faire_capitalist
+	}
+}
+create_country_leader = {
+	name = "Mehdi Bej Frasheri"
+	desc = leader_desc_ALB_Mehdi_Bej_Frasheri
+	picture = "Mehdi_Bej_Frasheri.dds"
+	ideology = islamic_conservative
+	traits = {
+		political_hardliner
+	}
+}
+create_country_leader = {
+	name = "Avni Rustemi"
+	desc = leader_desc_ALB_Xhafer_bej_Ypi
+	picture = "Xhafer_bej_Ypi.dds"
+	ideology = anarcho_syndicalist
+	traits = {
+		labor_unionist
+	}
+}
+create_country_leader = {
+	name = "Theofan Stilian Noli"
+	desc = leader_desc_ALB_Theofan_Stilian_Noli
+	picture = "Theofan_Stilian_Noli.dds"
+	ideology = totalitarian_theocracy
+	traits = {
+		supreme_religious_leader
+	}
 }

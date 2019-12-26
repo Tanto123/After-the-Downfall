@@ -21,7 +21,7 @@ bookmarks = {
 			ideas = {
 				german_military_hubris
 				mitteleuropa_member
-				triple_alliance_member
+				rechtsfront
 			}
 			focuses = {
 			}
@@ -193,6 +193,7 @@ bookmarks = {
 			history = "POL_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				mitteleuropa_member
 			}
 			focuses = {
 			}

@@ -1,0 +1,21 @@
+ideas = {
+	
+	political_advisor = {
+	
+		alexander_shirah = {
+			picture = walraven_van_hall
+			allowed = { original_tag = CSA }
+			visible = { }
+			available = { can_hire_conservative_advisors = yes }
+			traits = { 
+				conservative_politician
+				state_capitalist
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+}

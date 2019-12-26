@@ -12,12 +12,9 @@ ideas = {
 			picture = sisu
 			
 			modifier = {
+				defence = 0.1
 				stability_factor = 0.05
-				targeted_modifier = {
-					tag = JAP
-					attack_bonus_against = 0.1
-					defense_bonus_against = 0.1
-				}
+				war_support_factor = 0.05
 			}
 		}
 	

@@ -29,18 +29,46 @@ set_technology = {
 
 set_popularities = {
 	anarchism = 0 
-	communism = 0 
+	communism = 30 
 	leftism = 0 
 	centrism = 0 
-	conservatism = 100 
-	despotism = 0 
+	conservatism = 18 
+	despotism = 52 
 	monarchism = 0 
 	ultranationalism = 0
 }
 
 set_politics = { 
-	ruling_party = conservatism
+	ruling_party = despotism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Nicholas II"
+	desc = leader_desc_SOV_Nicholas_II
+	picture = "Nicholas_II.dds"
+	ideology = feudalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Leon Trotzky"
+	desc = leader_desc_SOV_Leon_Trotzky
+	picture = "Leon_Trotzky.dds"
+	ideology = vanguardism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Alexander Kerensky"
+	desc = leader_desc_SOV_Alexander_Kerensky
+	picture = "Alexander_Kerensky.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
 }

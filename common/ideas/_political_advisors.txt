@@ -6,6 +6,9 @@ ideas = {
 			picture = generic_politician
 		
 			allowed = { NOT = { has_available_idea_with_traits = { idea = anarchist_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { anarchist_ideologue }
 			on_add = { }
@@ -19,6 +22,9 @@ ideas = {
 			picture = generic_politician2
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = communist_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { communist_ideologue }
 			on_add = { }
@@ -32,6 +38,9 @@ ideas = {
 			picture = generic_politician3
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = leftist_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { leftist_ideologue }
 			on_add = { }
@@ -45,6 +54,9 @@ ideas = {
 			picture = generic_politician4
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = centrist_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { centrist_ideologue }
 			on_add = { }
@@ -58,6 +70,9 @@ ideas = {
 			picture = generic_politician5
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = conservative_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { conservative_ideologue }
 			on_add = { }
@@ -71,6 +86,9 @@ ideas = {
 			picture = generic_politician6
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = despotic_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { despotic_ideologue }
 			on_add = { }
@@ -84,6 +102,9 @@ ideas = {
 			picture = generic_politician
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = monarchist_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { monarchist_ideologue }
 			on_add = { }
@@ -97,6 +118,9 @@ ideas = {
 			picture = generic_politician2
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = ultranationalist_ideologue limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { ultranationalist_ideologue }
 			on_add = { }
@@ -110,6 +134,9 @@ ideas = {
 			picture = generic_politician3
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = foreign_interventionist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { foreign_interventionist }
 			on_add = { }
@@ -123,6 +150,9 @@ ideas = {
 			picture = generic_politician4
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = machiavellian_diplomat limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { machiavellian_diplomat }
 			on_add = { }
@@ -136,6 +166,9 @@ ideas = {
 			picture = generic_politician5
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = staunch_imperialist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { staunch_imperialist }
 			on_add = { }
@@ -149,6 +182,9 @@ ideas = {
 			picture = generic_politician6
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = autarky_proponent limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { autarky_proponent }
 			on_add = { }
@@ -162,6 +198,9 @@ ideas = {
 			picture = generic_politician
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = consumption_expert limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { consumption_expert }
 			on_add = { }
@@ -175,6 +214,9 @@ ideas = {
 			picture = generic_politician6
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = expansionist_landlord limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { expansionist_landlord }
 			on_add = { }
@@ -188,6 +230,9 @@ ideas = {
 			picture = generic_politician2
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = industrial_lobbyist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { industrial_lobbyist }
 			on_add = { }
@@ -201,6 +246,9 @@ ideas = {
 			picture = generic_politician4
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = labor_unionist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { labor_unionist }
 			on_add = { }
@@ -214,6 +262,9 @@ ideas = {
 			picture = generic_politician3
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = militarization_advocate limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { militarization_advocate }
 			on_add = { }
@@ -227,6 +278,9 @@ ideas = {
 			picture = generic_politician4
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = oil_baron limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { oil_baron }
 			on_add = { }
@@ -240,6 +294,9 @@ ideas = {
 			picture = generic_politician5
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = research_enthusiast limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { research_enthusiast }
 			on_add = { }
@@ -253,6 +310,9 @@ ideas = {
 			picture = generic_politician6
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = trade_protectionist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { trade_protectionist }
 			on_add = { }
@@ -266,6 +326,9 @@ ideas = {
 			picture = generic_politician
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = administrative_genius limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { administrative_genius }
 			on_add = { }
@@ -279,6 +342,9 @@ ideas = {
 			picture = generic_politician2
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = effective_bureaucrat limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { effective_bureaucrat }
 			on_add = { }
@@ -292,6 +358,9 @@ ideas = {
 			picture = generic_politician3
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = freedom_fighter limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { is_subject = yes  }
 			traits = { freedom_fighter }
 			on_add = { }
@@ -305,6 +374,9 @@ ideas = {
 			picture = generic_politician4
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = ideological_crusader limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { ideological_crusader }
 			on_add = { }
@@ -318,6 +390,9 @@ ideas = {
 			picture = generic_politician5
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = relentless_optimist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { relentless_optimist }
 			on_add = { }
@@ -331,6 +406,9 @@ ideas = {
 			picture = generic_politician6
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = talented_propagandist limit = 1 } } }
+			visible = {
+				NOT = { has_country_flag = custom_advisor_pool }
+			}
 			available = { }
 			traits = { talented_propagandist }
 			on_add = { }

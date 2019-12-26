@@ -6,7 +6,19 @@ on_actions = {
 				drop_cosmetic_tag = yes
 			}
 			if = { 
+				limit = { original_tag = GXC } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
 				limit = { original_tag = HUN } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = MAN } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = MEN } 
 				drop_cosmetic_tag = yes
 			}
 			if = { 
@@ -19,6 +31,22 @@ on_actions = {
 			}
 			if = { 
 				limit = { original_tag = SER } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = SIK } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = SHX } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = XSM } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = YUN } 
 				drop_cosmetic_tag = yes
 			}
 		}

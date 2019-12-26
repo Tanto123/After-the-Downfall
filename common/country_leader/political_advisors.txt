@@ -1,0 +1,463 @@
+leader_traits = {
+	
+	administrative_genius = {
+		random = yes
+		political_power_gain = 0.1
+		stability_factor = 0.025
+		ai_will_do = { factor = 1 }
+	}
+	
+	aerial_recon = {
+		production_speed_anti_air_building_factor = 0.25
+		production_speed_air_base_factor = 0.25
+		production_speed_rocket_site_factor = 0.25
+		production_speed_radar_station_factor = 0.25
+	}
+
+	anti_aircraft_expert = {
+		random = no
+		production_speed_anti_air_building_factor = 0.25
+		navy_anti_air_attack_factor = 0.1
+		industry_repair_factor = 0.1
+		industry_free_repair_factor = 0.1
+		ai_will_do = { factor = 0 }
+	}
+
+	anti_leftist_activist = {
+		random = no
+		anarchism_drift = -0.01
+		communism_drift = -0.01
+		leftism_drift = -0.01
+		ai_will_do = { factor = 0 }
+	}
+	
+	anti_rightist_activist = {
+		random = no
+		conservatism_drift = -0.01
+		despotism_drift = -0.01
+		monarchism_drift = -0.01
+		ultranationalism_drift = -0.01
+		ai_will_do = { factor = 0 }
+	}
+	
+	arrogant_aristocrat = {
+		random = yes
+		political_power_gain = 0.1
+		command_power_gain = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	apolitical_monarch = {
+		random = yes
+		stability_factor = 0.03
+		political_power_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	autarky_proponent = {
+		random = yes
+		local_resources_factor = 0.05
+		ai_will_do = { factor = 0 }
+	}
+	
+	babbling_buffoon = {
+		random = no
+		stability_factor = -0.05
+		ai_will_do = { factor = 0 }
+	}
+	
+	committed_isolationist = {
+		random = yes
+		stability_factor = 0.1
+		send_volunteers_tension = 0.1
+		join_faction_tension = 0.1
+		guarantee_tension = 0.1
+		generate_wargoal_tension = 0.1
+		ai_will_do = { factor = 0 }
+	}
+	
+	consumption_expert = {
+		random = yes
+		consumer_goods_factor = -0.02
+		monthly_population = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	controversial_monarch = {
+		random = no
+		stability_factor = -0.05
+		political_power_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	conscription_advocate = {
+		random = no
+		conscription_factor = 0.1
+		non_core_manpower = 0.02
+		ai_will_do = { factor = 1 }
+	}
+	
+	defensive_thinker = {
+		random = yes
+		defence = 0.05
+		production_speed_bunker_factor = 0.25
+		production_speed_coastal_bunker_factor = 0.25
+		production_speed_anti_air_building_factor = 0.25
+		offence = -0.05
+		ai_focus_defense_factor = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	detached_philosopher = {
+		random = no
+		research_speed_factor = 0.05
+		training_time_factor = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	dixiephobe = {
+		random = yes
+		ai_will_do = { factor = 1 }
+		targeted_modifier = { tag = CSA generate_wargoal_tension_against = -0.1 }
+		targeted_modifier = { tag = CSA attack_bonus_against = 0.05 }
+		targeted_modifier = { tag = CSA defense_bonus_against = 0.05 }
+	}
+	
+	effective_bureaucrat = {
+		random = yes
+		political_power_factor = 0.15
+		ai_will_do = { factor = 1 }
+	}
+	
+	exclusionary_communist = {
+		random = no
+		communism_drift = 0.01
+		anarchism_drift = -0.01
+		leftism_drift = -0.01
+		communism_acceptance = 10
+		anarchism_acceptance = -10
+		leftism_acceptance = -10
+		ai_will_do = { factor = 0 }
+	}
+	
+	expansionist_landlord = {
+		random = yes
+		global_building_slots_factor = 0.10
+		ai_will_do = { factor = 1 }
+	}
+	
+	far_left_isolationist = {
+		random = no
+		anarchism_acceptance = 20
+		communism_acceptance = 20
+		generate_wargoal_tension = 0.1
+		ai_will_do = { factor = 0 }
+	}
+	
+	financial_expert = {
+		random = yes
+		consumer_goods_factor = -0.03
+		production_factory_max_efficiency_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	flexible_economist = {
+		random = yes
+		line_change_production_efficiency_factor = 0.15
+		production_factory_max_efficiency_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	foreign_legionnaire = {
+		random = yes
+		send_volunteers_tension = -0.1
+		send_volunteer_divisions_required = -0.5
+		send_volunteer_size = 2
+		ai_join_ally_desire_factor = 10
+		ai_will_do = { factor = 1 }
+	}
+	
+	francophobe = {
+		random = yes
+		ai_will_do = { factor = 1 }
+		targeted_modifier = { tag = FRA generate_wargoal_tension_against = -0.1 }
+		targeted_modifier = { tag = FRA attack_bonus_against = 0.05 }
+		targeted_modifier = { tag = FRA defense_bonus_against = 0.05 }
+	}
+	
+	freedom_fighter = {
+		random = no
+		autonomy_gain = 1
+		ai_will_do = { factor = 1 }
+	}
+	
+	fly_boy = {
+		random = no
+		air_ace_generation_chance_factor = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	foreign_interventionist = {
+		random = yes
+		send_volunteers_tension = -0.2
+		ai_join_ally_desire_factor = 10
+		ai_will_do = { factor = 0 }
+	}
+	
+	germanophobe = {
+		random = yes
+		ai_will_do = { factor = 1 }
+		targeted_modifier = { tag = GER generate_wargoal_tension_against = -0.1 }
+		targeted_modifier = { tag = GER attack_bonus_against = 0.05 }
+		targeted_modifier = { tag = GER defense_bonus_against = 0.05 }
+	}
+	
+	ideological_crusader = {
+		random = yes
+		drift_defence_factor = 0.25
+		ai_join_ally_desire_factor = 10
+		ai_will_do = { factor = 1 }
+	}
+	
+	industrial_lobbyist = {
+		random = yes
+		production_speed_industrial_complex_factor = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	ineffective_monarch = {
+		random = yes
+		political_power_gain = -0.1
+		political_power_factor = -0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	labor_unionist = {
+		random = yes
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	laissez_faire_capitalist = {
+		random = yes
+		consumer_goods_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	machiavellian_diplomat = {
+		random = yes
+		guarantee_tension = -0.1
+		guarantee_cost = -0.1
+		license_purchase_cost = -0.1
+		ai_will_do = { factor = 0 }
+	}
+	
+	militarization_advocate = {
+		random = yes
+		production_speed_arms_factory_factor = 0.05
+		production_speed_dockyard_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	military_innovator = {
+		random = yes
+		land_equipment_upgrade_xp_cost = 0.25
+		naval_equipment_upgrade_xp_cost = 0.25
+		air_equipment_upgrade_xp_cost = 0.25
+		ai_will_do = { factor = 1 }
+	}
+	
+	neopagan_weirdo = {
+		random = yes
+		foreign_subversive_activites = -0.2
+		ai_will_do = { factor = 1 }
+	}
+	
+	nosey_politician = {
+		random = yes
+		decryption_factor = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	officer_educator = {
+		random = yes
+		military_leader_cost_factor = -0.5
+		ai_will_do = { factor = 1 }
+	}
+	
+	oil_baron = {
+		random = yes
+		production_oil_factor = 0.2
+		ai_will_do = { factor = 1 }
+	}
+	
+	paranoid_veteran = {
+		random = yes
+		max_planning = 0.1
+		planning_speed = -0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	peace_activist = {
+		random = yes
+		stability_factor = 0.05
+		generate_wargoal_tension = 0.1
+		ai_will_do = { factor = 1 }
+	}
+	
+	political_hardliner = {
+		random = yes
+		political_power_factor = 0.1
+		stability_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	prussian_traditionalist = {
+		random = no
+		political_power_factor = 0.1
+		monarchism_drift = 0.01
+		conservatism_drift = 0.01
+		monarchism_acceptance = 10
+		conservatism_acceptance = 10
+		ai_will_do = { factor = 1 }
+	}
+	
+	radical_revolutionary = {
+		random = yes
+		subversive_activites_upkeep = -0.25
+		stability_factor = -0.025
+		ai_will_do = { factor = 1 }
+	}
+	
+	relentless_optimist = {
+		random = yes
+		surrender_limit = 0.05
+		war_support_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	relentless_technocrat = {
+		random = yes
+		research_speed_factor = 0.1
+		stability_factor = -0.05
+		war_support_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	repurposer = {
+		random = yes
+		refit_speed = 0.15
+		refit_ic_cost = -0.15
+		ai_will_do = { factor = 1 }
+	}
+	
+	research_enthusiast = {
+		random = yes
+		research_speed_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	silent_workhorse = {
+		random = yes
+		political_power_gain = 0.25
+		ai_will_do = { factor = 1 }
+	}
+	
+	state_capitalist = {
+		random = yes
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		consumer_goods_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	staunch_imperialist = {
+		random = yes
+		subjects_autonomy_gain = -0.2
+		generate_wargoal_tension = -0.05
+		ai_will_do = { factor = 0 }
+	}
+	
+	supreme_religious_leader = {
+		random = no
+		stability_factor = 0.05
+		war_support_factor = 0.05
+		production_speed_buildings_factor = -0.25
+		ai_will_do = { factor = 0 }
+	}
+	
+	talented_propagandist = {
+		random = yes
+		war_support_factor = 0.05
+		generate_wargoal_tension = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	talented_rhetoritician = {
+		random = yes
+		stability_factor = 0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	trade_protectionist = {
+		random = yes
+		min_export = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	tolerant_intellectual = {
+		random = yes
+		stability_factor = 0.05
+		research_speed_factor = 0.05
+		war_support_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	uncompromising_conservative = {
+		random = no
+		conservatism_acceptance = 10
+		conservatism_drift = 0.01
+		stability_factor = 0.05
+		political_power_factor = -0.2
+		ai_will_do = { factor = 0 }
+	}
+	
+	unpopular_pragmatist = {
+		random = yes
+		political_power_factor = 0.15
+		stability_factor = -0.05
+		ai_will_do = { factor = 1 }
+	}
+	
+	wasteful_architect = {
+		random = yes
+		production_speed_buildings_factor = 0.075
+		consumer_goods_factor = 0.02
+		ai_will_do = { factor = 0 }
+	}
+	
+	working_class_advocate = {
+		random = yes
+		production_speed_industrial_complex_factor = 0.05
+		consumer_goods_factor = -0.02
+		ai_will_do = { factor = 1 }
+	}
+	
+	working_class_hero = {
+		random = yes
+		production_speed_industrial_complex_factor = 0.1
+		industrial_capacity_factory = 0.05
+		consumer_goods_factor = 0.01
+		ai_will_do = { factor = 1 }
+	}
+	
+	yankeephobe = {
+		random = yes
+		ai_will_do = { factor = 1 }
+		targeted_modifier = { tag = USA generate_wargoal_tension_against = -0.1 }
+		targeted_modifier = { tag = USA attack_bonus_against = 0.05 }
+		targeted_modifier = { tag = USA defense_bonus_against = 0.05 }
+	}
+	
+}

@@ -28,6 +28,12 @@ add_ideas = {
 	limited_exports
 	protestantism
 }
+add_ideas = {
+	big_banks
+	intellectuals
+	mining_companies
+	railroad_companies
+}
 
 set_popularities = {
 	anarchism = 0
