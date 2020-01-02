@@ -2,5 +2,5 @@ version="1"
 tags={
 	"Alternative History"
 }
-name="After the Downfall"
+name="Lincoln's Nightmare"
 supported_version="1.8.1"

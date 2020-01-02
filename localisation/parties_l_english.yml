@@ -9,6 +9,22 @@
  #
  BOS_despotism_party:0 "Austro-Hungarian Military"
  #
+ CAN_anarchism_party:0 "DAP"
+ CAN_anarchism_party_long:0 "Direct Actionist Party"
+ CAN_communism_party:0 "CP"
+ CAN_communism_party_long:0 "Communist Party"
+ CAN_leftism_party:0 "CCF"
+ CAN_leftism_party_long:0 "Co-operative Commonwealth Federation"
+ CAN_centrism_party:0 "LP"
+ CAN_centrism_party_long:0 "Liberal Party"
+ CAN_conservatism_party:0 "CPC"
+ CAN_conservatism_party_long:0 "Conservative Party"
+ CAN_despotism_party:0 "RCAF"
+ CAN_despotism_party_long:0 "Royal Canadian Armed Forces"
+ CAN_monarchism_party:0 "Royalists"
+ CAN_ultranationalism_party:0 "CUN"
+ CAN_ultranationalism_party_long:0 "Canadian Union of Nationalists"
+ #
  CSA_anarchism_party:0 "ALF"
  CSA_anarchism_party_long:0 "Autonomous Labour Front"
  CSA_communism_party:0 "NLF"

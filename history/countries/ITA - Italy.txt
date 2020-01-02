@@ -93,7 +93,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alcide_de_Gaspari"
 	desc = leader_desc_ITA_Alcide_de_Gasperi
-	picture = "Alcide_de_Gasperi.dds"
+	picture = "Alcide de Gasperi.dds"
 	ideology = fiscal_conservatism
 	traits = {
 		laissez_faire_capitalist

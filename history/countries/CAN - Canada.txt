@@ -16,23 +16,91 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+set_cosmetic_tag = CAN_British
+
 set_variable = { democracy_rating = 80 }
 set_variable = { pacifism_rating = 57 }
 
 set_popularities = {
 	anarchism = 0
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 100 
+	communism = 1 
+	leftism = 20 
+	centrism = 45 
+	conservatism = 30 
 	despotism = 0 
-	monarchism = 0 
+	monarchism = 4 
 	ultranationalism = 0
 }
 
 set_politics = { 
-	ruling_party = conservatism
+	ruling_party = centrism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "John Edward Brownlee"
+	desc = leader_desc_CAN_John_Edward_Brownlee
+	picture = "John_Edward_Brownlee.dds"
+	ideology = decentralism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Timothy Buck"
+	desc = leader_desc_CAN_Timothy_Buck
+	picture = "Timothy_Buck.dds"
+	ideology = vanguardism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "M. J. Coldwell"
+	desc = leader_desc_CAN_Coldwell
+	picture = "Major_James_Coldwell.dds"
+	ideology = social_democracy
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Mackenzie King"
+	desc = leader_desc_CAN_Machenzie_King
+	picture = "William_Lyon_Mackenzie_King.dds"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "R. B. Bennett"
+	desc = leader_desc_CAN_Bennett
+	picture = "Richard_Bedford_Bennett.dds"
+	ideology = fiscal_conservatism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Andrew McNaughton"
+	desc = leader_desc_CAN_Andrew_McNaughton
+	picture = "generals/McNaughton.dds"
+	ideology = military_dictatorship
+	traits = {
+		officer_educator
+	}
+}
+create_country_leader = {
+	name = "Henry IX"
+	desc = leader_desc_CAN_Henry_IX
+	picture = "Henry_IX.dds"
+	ideology = absolute_monarchism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Adrien Arcand"
+	desc = leader_desc_CAN_Adrien_Arcand
+	picture = "Adrien_Arcand.dds"
+	ideology = fascism
+	traits = {
+	}
 }
