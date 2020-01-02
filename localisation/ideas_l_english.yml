@@ -177,6 +177,8 @@
  high_command:0 "High Command"
  ###
  #Generic Ideas
+ ###
+ #Tendencies
  anarchist_tendencies:0 "Anarchist Tendencies"
  communist_tendencies:0 "Communist Tendencies"
  leftist_tendencies:0 "Leftist Tendencies"
@@ -185,6 +187,16 @@
  despotic_tendencies:0 "Despotic Tendencies"
  monarchist_tendencies:0 "Monarchist Tendencies"
  ultranationalist_tendencies:0 "Ultranationalist Tendencies"
+ #National Ideas
+ anti_imperialist_paramilitaries:0 "Anti-Imperialist Paramilitaries"
+ economic_libertarianism:0 "Economic Libertarianism"
+ expanded_welfare_state:0 "Expanded Welfare State"
+ far_right_education_system:0 "Far-Right Education System"
+ five_year_plan:0 "Five-Year Plan"
+ military_mass_mobilization:0 "Military Mass Mobilization"
+ social_democratic_establishment:0 "Social Democratic Establishment"
+ strengthened_local_economies:0 "Strengthened Local Economies"
+ #
  ###
  #Specific Country Ideas
  ##ARM

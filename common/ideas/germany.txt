@@ -323,7 +323,7 @@ ideas = {
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
-				uncompromising_conservative
+				staunch_conservative
 			}
 			on_add = { }
 			do_effect = { }
@@ -450,6 +450,7 @@ ideas = {
 			traits = { 
 				leftist_politician
 				consumption_expert
+				effective_bureaucrat
 			}
 			on_add = { }
 			do_effect = { }

@@ -18,8 +18,8 @@ ideologies = {
 		
 		color = { 255 50 150 }
 		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
 		
 		ai_communist = yes # uses the commie AI behaviour
 		

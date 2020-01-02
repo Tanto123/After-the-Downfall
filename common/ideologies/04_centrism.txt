@@ -30,8 +30,8 @@ ideologies = {
 			can_guarantee_other_ideologies = yes
 		}
 		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
 		
 		modifiers = {
 			generate_wargoal_tension = 1.00

@@ -17,7 +17,7 @@ ideologies = {
 		
 		color = { 130 0 130 }
 		
-		war_impact_on_world_tension = 1.0			#evil!
+		war_impact_on_world_tension = 1.0
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
