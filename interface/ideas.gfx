@@ -3,7 +3,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
-		noOfFrames = 1
+		noOfFrames = 22
 	}
 	
 	#AIR FORCE#
@@ -1015,6 +1015,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_anti_capitalism"
 		texturefile = "gfx/interface/ideas/economy/anti_capitalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_banana_republic"
+		texturefile = "gfx/interface/ideas/economy/banana_republic.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_central_management"
