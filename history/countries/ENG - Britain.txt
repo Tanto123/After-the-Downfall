@@ -61,7 +61,7 @@ create_country_leader = {
 	ideology = social_conservatism
 	traits = {
 		anti_leftist_activist
-		uncompromising_conservative
+		staunch_conservative
 	}
 }
 create_country_leader = {

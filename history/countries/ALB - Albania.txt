@@ -65,7 +65,7 @@ create_country_leader = {
 	name = "Mehdi Bej Frasheri"
 	desc = leader_desc_ALB_Mehdi_Bej_Frasheri
 	picture = "Mehdi_Bej_Frasheri.dds"
-	ideology = islamic_conservative
+	ideology = islamic_conservatism
 	traits = {
 		political_hardliner
 	}
@@ -74,7 +74,7 @@ create_country_leader = {
 	name = "Avni Rustemi"
 	desc = leader_desc_ALB_Xhafer_bej_Ypi
 	picture = "Xhafer_bej_Ypi.dds"
-	ideology = anarcho_syndicalist
+	ideology = anarcho_syndicalism
 	traits = {
 		labor_unionist
 	}
