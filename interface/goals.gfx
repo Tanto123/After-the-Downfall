@@ -209,8 +209,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/army/defense.dds"			
 	}
 	SpriteType = {
+		name = "defense2"
+		texturefile = "gfx/interface/goals/army/defense2.dds"			
+	}
+	SpriteType = {
 		name = "desert_officers"
 		texturefile = "gfx/interface/goals/army/desert_officers.dds"			
+	}
+	SpriteType = {
+		name = "female_soldiers"
+		texturefile = "gfx/interface/goals/army/female_soldiers.dds"			
 	}
 	SpriteType = {
 		name = "general_staff"
@@ -2276,6 +2284,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/politics/communism/communism9.dds"			
 	}
 	SpriteType = {
+		name = "communism10"
+		texturefile = "gfx/interface/goals/politics/communism/communism10.dds"			
+	}
+	SpriteType = {
 		name = "communist_army"
 		texturefile = "gfx/interface/goals/politics/communism/communist_army.dds"			
 	}
@@ -2377,6 +2389,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "anti_democracy3"
 		texturefile = "gfx/interface/goals/politics/democracy/anti_democracy3.dds"			
+	}
+	SpriteType = {
+		name = "anti_democracy4"
+		texturefile = "gfx/interface/goals/politics/democracy/anti_democracy4.dds"			
+	}
+	SpriteType = {
+		name = "anti_democracy5"
+		texturefile = "gfx/interface/goals/politics/democracy/anti_democracy5.dds"			
 	}
 	SpriteType = {
 		name = "democracy"
@@ -2858,6 +2878,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "russian_tyranny"
 		texturefile = "gfx/interface/goals/russia/russian_tyranny.dds"			
+	}
+	SpriteType = {
+		name = "stalin_cult"
+		texturefile = "gfx/interface/goals/russia/stalin_cult.dds"			
 	}
 	SpriteType = {
 		name = "tsarist_russia"

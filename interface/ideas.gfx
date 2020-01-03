@@ -369,7 +369,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/australia/companies/victorian_railways.dds"
 	}
 	
-	#AUSTRALIA#
+	####
+	
+	spriteType = {
+		name = "GFX_idea_australian_infantry"
+		texturefile = "gfx/interface/ideas/australia/australian_infantry.dds"
+	}
+	
+	#AUSTRIA#
 	
 	##ADVISORS##
 
@@ -388,6 +395,50 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_otto_von_habsburg"
 		texturefile = "gfx/interface/ideas/austria/advisors/otto_von_habsburg.dds"
+	}
+	
+	####
+	
+	spriteType = {
+		name = "GFX_idea_doppeladler"
+		texturefile = "gfx/interface/ideas/austria/doppeladler.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_habsburg_monarchy"
+		texturefile = "gfx/interface/ideas/austria/habsburg_monarchy.dds"
+	}
+	
+	#BELGIUM#
+	
+	##ADVISORS##
+
+	spriteType = {
+		name = "GFX_idea_achille_van_acker"
+		texturefile = "gfx/interface/ideas/belgium/advisors/achille_van_acker.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alexandre_galopin"
+		texturefile = "gfx/interface/ideas/belgium/advisors/alexandre_galopin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gaston_eyskins"
+		texturefile = "gfx/interface/ideas/belgium/advisors/gaston_eyskins.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_henri_denis"
+		texturefile = "gfx/interface/ideas/belgium/advisors/henri_denis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_joris_van_severin"
+		texturefile = "gfx/interface/ideas/belgium/advisors/joris_van_severin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_julien_lahout"
+		texturefile = "gfx/interface/ideas/belgium/advisors/julien_lahout.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_paul_henri_spaak"
+		texturefile = "gfx/interface/ideas/belgium/advisors/paul_henri_spaak.dds"
 	}
 	
 	#BRAZIL#
@@ -924,6 +975,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_diplomatic_pressure"
 		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_pressure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_confederacy"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_confederacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_usa"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_usa.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_flexible_foreign_policy"
@@ -2228,6 +2287,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/advisors/alfred_saalwaechter.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_emmy_noether"
+		texturefile = "gfx/interface/ideas/germany/advisors/alfred_saalwaechter.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_erhard_milch"
 		texturefile = "gfx/interface/ideas/germany/advisors/erhard_milch.dds"
 	}
@@ -2526,6 +2589,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/german_imperial_staff.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_german_imperial_staff2"
+		texturefile = "gfx/interface/ideas/germany/german_imperial_staff2.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_german_soldier"
 		texturefile = "gfx/interface/ideas/germany/german_soldier.dds"
 	}
@@ -2542,8 +2609,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/imperial_german_production2.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_iron_cross"
+		texturefile = "gfx/interface/ideas/germany/iron_cross.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_kaiserreich"
 		texturefile = "gfx/interface/ideas/germany/kaiserreich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_luxemburgism"
+		texturefile = "gfx/interface/ideas/germany/luxemburgism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_wilhelm_iii"
@@ -3432,6 +3507,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/japan/japanese_imperial_glory.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_japanese_imperial_glory2"
+		texturefile = "gfx/interface/ideas/japan/japanese_imperial_glory2.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_japanese_militarism"
 		texturefile = "gfx/interface/ideas/japan/japanese_militarism.dds"
 	}
@@ -3532,10 +3611,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_war_economy"
 		texturefile = "gfx/interface/ideas/laws/war_economy.dds"
-	}	
+	}
+	
 	#MEXICO#
 	
 	##ADVISORS##
+	
 	spriteType = {
 		name = "GFX_idea_aaron_saenz_garza"
 		texturefile = "gfx/interface/ideas/mexico/advisors/aaron_saenz_garza.dds"
@@ -3654,6 +3735,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_tnca"
 		texturefile = "gfx/interface/ideas/mexico/companies/tnca.dds"
+	}
+	
+	####
+	
+	spriteType = {
+		name = "GFX_idea_mexican_patriotism"
+		texturefile = "gfx/interface/ideas/mexico/mexican_patriotism.dds"
 	}
 	
 	#NAVY#
@@ -5531,6 +5619,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_anthony_mcauliffe"
 		texturefile = "gfx/interface/ideas/united_states/advisors/anthony_mcauliffe.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_barack_obama"
+		texturefile = "gfx/interface/ideas/united_states/advisors/barack_obama.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_calvin_coolidge"
+		texturefile = "gfx/interface/ideas/united_states/advisors/calvin_coolidge.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_carl_spaatz"
