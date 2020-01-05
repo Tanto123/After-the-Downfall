@@ -143,6 +143,7 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.05
 				leftism_drift = 0.01
+				centrism_drift = 0.01
 			}
 		}
 		

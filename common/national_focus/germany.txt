@@ -1,0 +1,15 @@
+focus_tree = {
+	id = germany_focus
+	
+	country = {
+		base = 0
+		modifier = {
+			original_tag = GER
+			add = 10
+		}
+	}
+	
+	reset_on_civilwar = no
+	
+
+}

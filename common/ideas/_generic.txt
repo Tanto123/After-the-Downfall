@@ -99,6 +99,46 @@ ideas = {
 				training_time_army_factor = -0.05
 			}
 		}
+		civilian_economy_improvements = {
+			picture = consumer_goods
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				consumer_goods_factor = -0.05
+			}
+		}
+		civilian_economy_improvements2 = {
+			picture = consumer_goods
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				consumer_goods_factor = -0.1
+			}
+		}
+		civilian_economy_improvements3 = {
+			picture = consumer_goods
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				consumer_goods_factor = -0.15
+			}
+		}
+		civilian_economy_improvements4 = {
+			picture = consumer_goods
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				consumer_goods_factor = -0.2
+			}
+		}
 		economic_libertarianism = {
 			picture = consumer_goods
 			
@@ -174,6 +214,54 @@ ideas = {
 			modifier = {
 				mobilization_speed = 0.2
 				conscription = 0.01
+			}
+		}
+		research_investments = {
+			picture = research
+			
+			allowed = { always = no }
+			allowed_civil_war = { 
+				has_government = leftism
+			}
+			removal_cost = -1
+			modifier = { 
+				research_speed_factor = 0.05
+			}
+		}
+		research_investments2 = {
+			picture = research
+			
+			allowed = { always = no }
+			allowed_civil_war = { 
+				has_government = leftism
+			}
+			removal_cost = -1
+			modifier = { 
+				research_speed_factor = 0.1
+			}
+		}
+		research_investments3 = {
+			picture = research
+			
+			allowed = { always = no }
+			allowed_civil_war = { 
+				has_government = leftism
+			}
+			removal_cost = -1
+			modifier = { 
+				research_speed_factor = 0.15
+			}
+		}
+		research_investments4 = {
+			picture = research
+			
+			allowed = { always = no }
+			allowed_civil_war = { 
+				has_government = leftism
+			}
+			removal_cost = -1
+			modifier = { 
+				research_speed_factor = 0.2
 			}
 		}
 		social_democratic_establishment = {
