@@ -33,3 +33,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+create_country_leader = {
+	name = "Oscar Adalberto Federico Creydt"
+	desc = leader_desc_PAR_Oscar
+	picture = "Portrait_Oscar.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		
+	}
+}
