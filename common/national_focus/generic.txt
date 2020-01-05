@@ -26,6 +26,45 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
+		id = generic_prepare_international_treaties
+		icon = treaty6
+		x = -2
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_political_effort
+		
+		prerequisite = { focus = generic_political_effort }
+		available = { 
+			if = {
+				limit = { has_idea = totalitarian_rule }
+			}
+			if = {
+				limit = { has_idea = authoritarian_rule }
+				threat > 0.1
+			}
+			if = {
+				limit = { has_idea = oligarchy }
+				threat > 0.2
+			}
+			if = {
+				limit = { has_idea = flawed_democracy }
+				threat > 0.3
+			}
+			if = {
+				limit = { has_idea = democracy }
+				threat > 0.4
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
 		id = generic_ideological_decisions
 		icon = demand_territory2
 		x = 0
@@ -851,6 +890,631 @@ focus_tree = {
 		
 		completion_reward = {
 			switch_government_to_monarchism = yes
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
+	#Government Reform
+	focus = {
+		id = generic_government_reform
+		icon = government_reform
+		x = 9
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_political_effort
+		
+		prerequisite = { focus = generic_political_effort }
+		available = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_crack_down_on_corruption
+		icon = self_management
+		x = -3
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_government_reform
+		
+		prerequisite = { focus = generic_government_reform }
+		available = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_education_reform
+		icon = books
+		x = -1
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_government_reform
+		
+		prerequisite = { focus = generic_government_reform }
+		available = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_ideas = research_investments
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strengthen_the_government
+		icon = anti_democracy5
+		x = 1
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_government_reform
+		
+		prerequisite = { focus = generic_government_reform }
+		available = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			if = {
+				limit = { has_government = anarchism }
+				add_popularity = { ideology = anarchism popularity = 0.05 }
+				decrease_democracy_rating_by_5 = yes
+			}
+			if = {
+				limit = { has_government = communism }
+				add_popularity = { ideology = communism popularity = 0.05 }
+				decrease_democracy_rating_by_5 = yes
+			}
+			if = {
+				limit = { has_government = leftism }
+				add_popularity = { ideology = leftism popularity = 0.05 }
+			}
+			if = {
+				limit = { has_government = centrism }
+				add_popularity = { ideology = centrism popularity = 0.05 }
+			}
+			if = {
+				limit = { has_government = conservatism }
+				add_popularity = { ideology = conservatism popularity = 0.05 }
+			}
+			if = {
+				limit = { has_government = despotism }
+				add_popularity = { ideology = despotism popularity = 0.05 }
+				decrease_democracy_rating_by_5 = yes
+			}
+			if = {
+				limit = { has_government = monarchism }
+				add_popularity = { ideology = monarchism popularity = 0.05 }
+				decrease_democracy_rating_by_5 = yes
+			}
+			if = {
+				limit = { has_government = ultranationalism }
+				add_popularity = { ideology = ultranationalism popularity = 0.05 }
+				decrease_democracy_rating_by_5 = yes
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_new_research_teams
+		icon = research
+		x = -1
+		y = 2
+		cost = 10
+		
+		relative_position_id = generic_government_reform
+		
+		prerequisite = { focus = generic_education_reform }
+		available = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_military_industrial_task_forces
+		icon = research2
+		x = 0
+		y = 3
+		cost = 10
+		
+		relative_position_id = generic_government_reform
+		
+		prerequisite = { focus = generic_new_research_teams }
+		prerequisite = { focus = generic_national_armament_effort }
+		available = { 
+			OR = {
+				num_of_military_factories > 10
+				has_war = yes
+			}
+		}
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			swap_ideas = {
+				add_idea = research_investments3
+				remove_idea = research_investments
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_alliance_wartime_science_councils
+		icon = foreign_scientists
+		x = 0
+		y = 5
+		cost = 10
+		
+		relative_position_id = generic_government_reform
+		
+		prerequisite = { focus = generic_military_industrial_task_forces }
+		available = { 
+			is_in_faction = yes
+			any_enemy_country = {
+				ic_ratio = { 
+					tag = ROOT 
+					ratio > 0.5
+				}
+			}
+		}
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
+	#######################
+	#Economy Branch
+	#######################
+	focus = {
+		id = generic_economic_effort
+		icon = money
+		x = 19
+		y = 0
+		cost = 10
+		
+		prerequisite = { }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	#Industry Branch
+	focus = {
+		id = generic_industrial_effort
+		icon = industry_civilian
+		x = -1
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_economic_effort }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = industrial_complex size > 1 include_locked = yes }
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
+				}
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_infrastructure_investments
+		icon = infrastructure
+		x = -1
+		y = 2
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_industrial_effort }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = infrastructure size > 1 include_locked = yes }
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = infrastructure size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = infrastructure size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = infrastructure size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_national_armament_effort
+		icon = industry_military
+		x = -3
+		y = 3
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_infrastructure_investments }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = arms_factory size > 1 include_locked = yes }
+			}
+			OR = {
+				threat > 0.05
+				has_war = yes
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = arms_factory size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_industrial_effort2
+		icon = industry_civilian
+		x = -1
+		y = 3
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_infrastructure_investments }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = industrial_complex size > 1 include_locked = yes }
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_industrial_effort3
+		icon = industry_civilian
+		x = -2
+		y = 4
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_industrial_effort2 }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = industrial_complex size > 1 include_locked = yes }
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_civilian_economy_improvements
+		icon = consumer_goods
+		x = 0
+		y = 4
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_industrial_effort2 }
+		available = { }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = { add_ideas = civilian_economy_improvements }
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_national_armament_effort2
+		icon = industry_military
+		x = -3
+		y = 5
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_national_armament_effort }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = arms_factory size > 1 include_locked = yes }
+			}
+			OR = {
+				threat > 0.1
+				has_war = yes
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = arms_factory size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_industrial_effort4
+		icon = industry_civilian
+		x = -2
+		y = 6
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_industrial_effort3 }
+		available = { 
+			any_owned_state = {
+				is_core_of = ROOT
+				free_building_slots = { building = industrial_complex size > 1 include_locked = yes }
+			}
+		}
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	#Resource Branch
+	focus = {
+		id = generic_increase_resource_production
+		icon = money3
+		x = 4
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_economic_effort }
+		available = { num_of_civilian_factories > 3 }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_rubber_production
+		icon = rubber_production
+		x = -3
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_increase_resource_production
+		
+		prerequisite = { focus = generic_increase_resource_production }
+		available = { num_of_civilian_factories > 7 }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = { add_resource = { type = rubber amount = 5 } }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_chromium_production
+		icon = chromium_production
+		x = -1
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_increase_resource_production
+		
+		prerequisite = { focus = generic_increase_resource_production }
+		available = { num_of_civilian_factories > 12 }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = { add_resource = { type = chromium amount = 5 } }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_oil_production
+		icon = oil_production
+		x = 1
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_increase_resource_production
+		
+		prerequisite = { focus = generic_increase_resource_production }
+		available = { num_of_civilian_factories > 4 }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = { add_resource = { type = oil amount = 5 } }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_steel_production
+		icon = steel_production
+		x = 3
+		y = 1
+		cost = 10
+		
+		relative_position_id = generic_increase_resource_production
+		
+		prerequisite = { focus = generic_increase_resource_production }
+		available = { num_of_civilian_factories > 4 }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = { add_resource = { type = steel amount = 5 } }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_embrace_the_mining_companies
+		icon = construction2
+		x = 0
+		y = 2
+		cost = 10
+		
+		relative_position_id = generic_increase_resource_production
+		
+		prerequisite = { focus = generic_rubber_production }
+		prerequisite = { focus = generic_chromium_production }
+		prerequisite = { focus = generic_oil_production }
+		prerequisite = { focus = generic_steel_production }
+		available = {
+			amount_taken_ideas = { amount < 6 slots = { social_faction } }
+		}
+		bypass = { has_idea = mining_companies }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_ideas = mining_companies
 		}
 		
 		ai_will_do = { factor = 10 }

@@ -262,9 +262,9 @@ leader_traits = {
 	
 	military_innovator = {
 		random = yes
-		land_equipment_upgrade_xp_cost = 0.25
-		naval_equipment_upgrade_xp_cost = 0.25
-		air_equipment_upgrade_xp_cost = 0.25
+		land_equipment_upgrade_xp_cost = -0.25
+		naval_equipment_upgrade_xp_cost = -0.25
+		air_equipment_upgrade_xp_cost = -0.25
 		ai_will_do = { factor = 1 }
 	}
 	

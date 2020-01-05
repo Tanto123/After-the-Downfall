@@ -799,6 +799,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/china/manchurian_militarism.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_taiping"
+		texturefile = "gfx/interface/ideas/china/taiping.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_warlord_integration"
 		texturefile = "gfx/interface/ideas/china/warlord_integration.dds"
 	}
@@ -959,6 +963,43 @@ spriteTypes = {
 	}
 	
 	#DIPLOMACY#
+	
+	##DIPLOMATIC SENTIMENT##
+	
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_confederacy"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_confederacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_france"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_france.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_german_empire"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_german_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_germany"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_germany.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_japan"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_japan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_uk"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_uk.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_usa"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_usa.dds"
+	}
+	
+	####
 
 	spriteType = {
 		name = "GFX_idea_balkan_conflicts"
@@ -975,14 +1016,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_diplomatic_pressure"
 		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_pressure.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_diplomatic_sentiment_confederacy"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_confederacy.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_diplomatic_sentiment_usa"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_usa.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_flexible_foreign_policy"
@@ -1051,10 +1084,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_war_of_resistance3"
 		texturefile = "gfx/interface/ideas/diplomacy/war_of_resistance3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_wilhelmina"
-		texturefile = "gfx/interface/ideas/diplomacy/wilhelmina.dds"
 	}
 	
 	#ECONOMY#
@@ -2621,6 +2650,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/luxemburgism.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_wilhelm_ii"
+		texturefile = "gfx/interface/ideas/germany/wilhelm_ii.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_wilhelm_iii"
 		texturefile = "gfx/interface/ideas/germany/wilhelm_iii.dds"
 	}
@@ -3293,6 +3326,10 @@ spriteTypes = {
 	##
 
 	spriteType = {
+		name = "GFX_idea_italian_patriotism"
+		texturefile = "gfx/interface/ideas/italy/italian_patriotism.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_papal_question"
 		texturefile = "gfx/interface/ideas/italy/papal_question.dds"
 	}
@@ -3940,6 +3977,10 @@ spriteTypes = {
 		name = "GFX_idea_oranje_boven"
 		texturefile = "gfx/interface/ideas/netherlands/oranje_boven.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_wilhelmina"
+		texturefile = "gfx/interface/ideas/netherlands/wilhelmina.dds"
+	}
 	
 	#NEW ZEALAND#
 	
@@ -4407,41 +4448,133 @@ spriteTypes = {
 	#RELIGION#
 
 	spriteType = {
+		name = "GFX_idea_anglicanism"
+		texturefile = "gfx/interface/ideas/religion/anglicanism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_animism"
+		texturefile = "gfx/interface/ideas/religion/animism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_atheism"
+		texturefile = "gfx/interface/ideas/religion/atheism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_catholicism"
+		texturefile = "gfx/interface/ideas/religion/catholicism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_christian_crisis"
+		texturefile = "gfx/interface/ideas/religion/christian_crisis.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_christian_decadence"
+		texturefile = "gfx/interface/ideas/religion/christian_decadence.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_christian_glory"
+		texturefile = "gfx/interface/ideas/religion/christian_glory.dds"
+	}	
+	spriteType = {
 		name = "GFX_idea_christianity"
 		texturefile = "gfx/interface/ideas/religion/christianity.dds"
 	}	
 	spriteType = {
-		name = "GFX_idea_christianity2"
-		texturefile = "gfx/interface/ideas/religion/christianity2.dds"
-	}	
+		name = "GFX_idea_christianophobia"
+		texturefile = "gfx/interface/ideas/religion/christianophobia.dds"
+	}
 	spriteType = {
-		name = "GFX_idea_christianity3"
-		texturefile = "gfx/interface/ideas/religion/christianity3.dds"
-	}	
+		name = "GFX_idea_confucianism"
+		texturefile = "gfx/interface/ideas/religion/confucianism.dds"
+	}
 	spriteType = {
-		name = "GFX_idea_christianity4"
-		texturefile = "gfx/interface/ideas/religion/christianity4.dds"
-	}	
+		name = "GFX_idea_gelugpa"
+		texturefile = "gfx/interface/ideas/religion/gelugpa.dds"
+	}
 	spriteType = {
-		name = "GFX_idea_christianity5"
-		texturefile = "gfx/interface/ideas/religion/christianity5.dds"
-	}	
+		name = "GFX_idea_hinduism"
+		texturefile = "gfx/interface/ideas/religion/hinduism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ibadism"
+		texturefile = "gfx/interface/ideas/religion/ibadism.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_islamic_marginalization"
 		texturefile = "gfx/interface/ideas/religion/islamic_marginalization.dds"
-	}	
+	}
 	spriteType = {
 		name = "GFX_idea_islamic_unrest"
 		texturefile = "gfx/interface/ideas/religion/islamic_unrest.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_judaism"
+		texturefile = "gfx/interface/ideas/religion/judaism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mahayana"
+		texturefile = "gfx/interface/ideas/religion/mahayana.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mormonism"
+		texturefile = "gfx/interface/ideas/religion/mormonism.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_orthodox_christianity"
 		texturefile = "gfx/interface/ideas/religion/orthodox_christianity.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_orthodox_christianity2"
+		texturefile = "gfx/interface/ideas/religion/orthodox_christianity2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_paganism"
+		texturefile = "gfx/interface/ideas/religion/paganism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_protestantism"
+		texturefile = "gfx/interface/ideas/religion/protestantism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_secularism"
+		texturefile = "gfx/interface/ideas/religion/secularism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shamanism"
+		texturefile = "gfx/interface/ideas/religion/shamanism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shiism"
+		texturefile = "gfx/interface/ideas/religion/shiism.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_shintoism"
 		texturefile = "gfx/interface/ideas/religion/shintoism.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_shintoism2"
+		texturefile = "gfx/interface/ideas/religion/shintoism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sikhism"
+		texturefile = "gfx/interface/ideas/religion/sikhism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sunnism"
+		texturefile = "gfx/interface/ideas/religion/sunnism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_taoism"
+		texturefile = "gfx/interface/ideas/religion/taoism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_theravada"
+		texturefile = "gfx/interface/ideas/religion/theravada.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yazidism"
+		texturefile = "gfx/interface/ideas/religion/yazidism.dds"
+	}
 
 	#ROMANIA#
 	
@@ -5625,6 +5758,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/barack_obama.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_bill_clinton"
+		texturefile = "gfx/interface/ideas/united_states/advisors/bill_clinton.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_calvin_coolidge"
 		texturefile = "gfx/interface/ideas/united_states/advisors/calvin_coolidge.dds"
 	}
@@ -5669,6 +5806,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/dwight_d_eisenhower.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_dwight_d_eisenhower2"
+		texturefile = "gfx/interface/ideas/united_states/advisors/dwight_d_eisenhower2.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_earl_browder"
 		texturefile = "gfx/interface/ideas/united_states/advisors/earl_browder.dds"
 	}
@@ -5683,6 +5824,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_frank_jack_fletcher"
 		texturefile = "gfx/interface/ideas/united_states/advisors/frank_jack_fletcher.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_george_h_w_bush"
+		texturefile = "gfx/interface/ideas/united_states/advisors/george_h_w_bush.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_george_kenney"
@@ -5701,6 +5846,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/george_patton2.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_george_w_bush"
+		texturefile = "gfx/interface/ideas/united_states/advisors/george_w_bush.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gerald_ford"
+		texturefile = "gfx/interface/ideas/united_states/advisors/gerald_ford.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_harold_ickes"
 		texturefile = "gfx/interface/ideas/united_states/advisors/harold_ickes.dds"
 	}
@@ -5709,8 +5862,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/harold_mcclelland.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_harry_truman"
+		texturefile = "gfx/interface/ideas/united_states/advisors/harry_truman.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_henry_morgenthau"
 		texturefile = "gfx/interface/ideas/united_states/advisors/henry_morgenthau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_herbert_hoover"
+		texturefile = "gfx/interface/ideas/united_states/advisors/herbert_hoover.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_holland_smith"
@@ -5745,12 +5906,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/john_cannon.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_john_f_kennedy"
+		texturefile = "gfx/interface/ideas/united_states/advisors/john_f_kennedy.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_joseph_mccarthy"
 		texturefile = "gfx/interface/ideas/united_states/advisors/joseph_mccarthy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_joseph_stilwell"
 		texturefile = "gfx/interface/ideas/united_states/advisors/joseph_stilwell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lyndon_b_johnson"
+		texturefile = "gfx/interface/ideas/united_states/advisors/lyndon_b_johnson.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_marc_mitscher"
@@ -5777,6 +5946,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/robert_oppenheimer.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_ronald_reagan"
+		texturefile = "gfx/interface/ideas/united_states/advisors/ronald_reagan.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_royal_ingersoll"
 		texturefile = "gfx/interface/ideas/united_states/advisors/royal_ingersoll.dds"
 	}
@@ -5789,8 +5962,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/william_halsey.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_william_howard_taft"
+		texturefile = "gfx/interface/ideas/united_states/advisors/william_howard_taft.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_william_knudsen"
 		texturefile = "gfx/interface/ideas/united_states/advisors/william_knudsen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_woodrow_wilson"
+		texturefile = "gfx/interface/ideas/united_states/advisors/woodrow_wilson.dds"
 	}
 	
 	##COMPANIES##

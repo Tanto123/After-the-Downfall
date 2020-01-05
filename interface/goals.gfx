@@ -122,6 +122,18 @@ spriteTypes = {
 		name = "albanian_kosovo"
 		texturefile = "gfx/interface/goals/albania/albanian_kosovo.dds"			
 	}
+	SpriteType = {
+		name = "royal_albanian_air_force"
+		texturefile = "gfx/interface/goals/albania/royal_albanian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_albanian_army"
+		texturefile = "gfx/interface/goals/albania/royal_albanian_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_albanian_navy"
+		texturefile = "gfx/interface/goals/albania/royal_albanian_navy.dds"			
+	}
 	
 	#Argentina
 
@@ -344,8 +356,20 @@ spriteTypes = {
 	#Australia
 
 	SpriteType = {
+		name = "australian_air_force"
+		texturefile = "gfx/interface/goals/australia/australian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "australian_army"
+		texturefile = "gfx/interface/goals/australia/australian_army.dds"			
+	}
+	SpriteType = {
 		name = "rats_of_tobruk"
 		texturefile = "gfx/interface/goals/australia/rats_of_tobruk.dds"			
+	}
+	SpriteType = {
+		name = "royal_australian_navy"
+		texturefile = "gfx/interface/goals/australia/royal_australian_navy.dds"			
 	}
 	SpriteType = {
 		name = "squander_bugs"
@@ -361,6 +385,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "austria2"
 		texturefile = "gfx/interface/goals/austria/austria2.dds"			
+	}
+	SpriteType = {
+		name = "austrian_kriegsmarine"
+		texturefile = "gfx/interface/goals/austria/austrian_kriegsmarine.dds"			
 	}
 	SpriteType = {
 		name = "austria_hungary"
@@ -383,8 +411,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/austria/austro_hungarian_tanks.dds"			
 	}
 	SpriteType = {
+		name = "bundesheer"
+		texturefile = "gfx/interface/goals/austria/bundesheer.dds"			
+	}
+	SpriteType = {
 		name = "danubian_confederation"
 		texturefile = "gfx/interface/goals/austria/danubian_confederation.dds"			
+	}
+	SpriteType = {
+		name = "luftstreitkraefte"
+		texturefile = "gfx/interface/goals/austria/luftstreitkraefte.dds"			
 	}
 	
 	#Brazil
@@ -417,12 +453,20 @@ spriteTypes = {
 	#Belgium
 	
 	SpriteType = {
+		name = "belgian_air_service"
+		texturefile = "gfx/interface/goals/belgium/belgian_air_service.dds"			
+	}
+	SpriteType = {
 		name = "belgian_armed_forces"
 		texturefile = "gfx/interface/goals/belgium/belgian_armed_forces.dds"			
 	}
 	SpriteType = {
 		name = "belgian_armed_forces2"
 		texturefile = "gfx/interface/goals/belgium/belgian_armed_forces2.dds"			
+	}
+	SpriteType = {
+		name = "belgian_army"
+		texturefile = "gfx/interface/goals/belgium/belgian_army.dds"			
 	}
 	SpriteType = {
 		name = "belgian_general_staff"
@@ -443,6 +487,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "belgian_navy2"
 		texturefile = "gfx/interface/goals/belgium/belgian_navy2.dds"			
+	}
+	SpriteType = {
+		name = "belgian_navy3"
+		texturefile = "gfx/interface/goals/belgium/belgian_navy3.dds"			
 	}
 	SpriteType = {
 		name = "belgian_politics"
@@ -478,6 +526,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "british_army3"
 		texturefile = "gfx/interface/goals/britain/british_army3.dds"			
+	}
+	SpriteType = {
+		name = "british_army4"
+		texturefile = "gfx/interface/goals/britain/british_army4.dds"			
 	}
 	SpriteType = {
 		name = "british_bulldog"
@@ -572,6 +624,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/britain/god_save_the_king.dds"			
 	}
 	SpriteType = {
+		name = "royal_air_force"
+		texturefile = "gfx/interface/goals/britain/royal_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_navy"
+		texturefile = "gfx/interface/goals/britain/royal_navy.dds"			
+	}
+	SpriteType = {
 		name = "special_air_service"
 		texturefile = "gfx/interface/goals/britain/special_air_service.dds"			
 	}
@@ -585,6 +645,23 @@ spriteTypes = {
 	}
 	
 	#Bulgaria
+	
+	SpriteType = {
+		name = "bulgarian_air_force"
+		texturefile = "gfx/interface/goals/bulgaria/bulgarian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "bulgarian_army"
+		texturefile = "gfx/interface/goals/bulgaria/bulgarian_army.dds"			
+	}
+	SpriteType = {
+		name = "bulgarian_navy"
+		texturefile = "gfx/interface/goals/bulgaria/bulgarian_navy.dds"			
+	}
+	SpriteType = {
+		name = "bulgarian_navy2"
+		texturefile = "gfx/interface/goals/bulgaria/bulgarian_navy2.dds"			
+	}
 	SpriteType = {
 		name = "bulgarian_republicanism"
 		texturefile = "gfx/interface/goals/bulgaria/bulgarian_republicanism.dds"			
@@ -612,6 +689,18 @@ spriteTypes = {
 		name = "quebec_deal"
 		texturefile = "gfx/interface/goals/canada/quebec_deal.dds"			
 	}
+	SpriteType = {
+		name = "royal_canadian_air_force"
+		texturefile = "gfx/interface/goals/canada/royal_canadian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_canadian_army"
+		texturefile = "gfx/interface/goals/canada/royal_canadian_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_canadian_navy"
+		texturefile = "gfx/interface/goals/canada/royal_canadian_navy.dds"			
+	}
 	
 	#China
 
@@ -628,6 +717,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/china/chinese_bureaucrats.dds"			
 	}
 	SpriteType = {
+		name = "chinese_collaborationist_air_force"
+		texturefile = "gfx/interface/goals/china/chinese_collaborationist_air_force.dds"			
+	}
+	SpriteType = {
+		name = "chinese_collaborationist_army"
+		texturefile = "gfx/interface/goals/china/chinese_collaborationist_army.dds"			
+	}
+	SpriteType = {
+		name = "chinese_collaborationist_navy"
+		texturefile = "gfx/interface/goals/china/chinese_collaborationist_navy.dds"			
+	}
+	SpriteType = {
+		name = "chinese_collaborationist_navy2"
+		texturefile = "gfx/interface/goals/china/chinese_collaborationist_navy2.dds"			
+	}
+	SpriteType = {
+		name = "chinese_collaborationist_navy3"
+		texturefile = "gfx/interface/goals/china/chinese_collaborationist_navy3.dds"			
+	}
+	SpriteType = {
 		name = "chinese_dragon"
 		texturefile = "gfx/interface/goals/china/chinese_dragon.dds"			
 	}
@@ -640,8 +749,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/china/chinese_monarchism.dds"			
 	}
 	SpriteType = {
+		name = "chinese_national_air_force"
+		texturefile = "gfx/interface/goals/china/chinese_national_air_force.dds"			
+	}
+	SpriteType = {
+		name = "chinese_national_army"
+		texturefile = "gfx/interface/goals/china/chinese_national_army.dds"			
+	}
+	SpriteType = {
+		name = "chinese_national_navy"
+		texturefile = "gfx/interface/goals/china/chinese_national_navy.dds"			
+	}
+	SpriteType = {
 		name = "chinese_nationalism"
 		texturefile = "gfx/interface/goals/china/chinese_nationalism.dds"			
+	}
+	SpriteType = {
+		name = "chinese_red_army"
+		texturefile = "gfx/interface/goals/china/chinese_red_army.dds"			
 	}
 	SpriteType = {
 		name = "chinese_rival_government"
@@ -680,8 +805,56 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/china/one_china_policy.dds"			
 	}
 	SpriteType = {
+		name = "peoples_liberation_air_force"
+		texturefile = "gfx/interface/goals/china/peoples_liberation_air_force.dds"			
+	}
+	SpriteType = {
+		name = "peoples_liberation_air_force2"
+		texturefile = "gfx/interface/goals/china/peoples_liberation_air_force2.dds"			
+	}
+	SpriteType = {
+		name = "peoples_liberation_army"
+		texturefile = "gfx/interface/goals/china/peoples_liberation_army.dds"			
+	}
+	SpriteType = {
+		name = "peoples_liberation_army_navy"
+		texturefile = "gfx/interface/goals/china/peoples_liberation_army_navy.dds"			
+	}
+	SpriteType = {
+		name = "peoples_liberation_army_navy2"
+		texturefile = "gfx/interface/goals/china/peoples_liberation_army_navy2.dds"			
+	}
+	SpriteType = {
+		name = "peoples_liberation_army2"
+		texturefile = "gfx/interface/goals/china/peoples_liberation_army2.dds"			
+	}
+	SpriteType = {
 		name = "peoples_republic_of_china"
 		texturefile = "gfx/interface/goals/china/peoples_republic_of_china.dds"			
+	}
+	SpriteType = {
+		name = "qing_imperial_air_force"
+		texturefile = "gfx/interface/goals/china/qing_imperial_air_force.dds"			
+	}
+	SpriteType = {
+		name = "qing_imperial_army"
+		texturefile = "gfx/interface/goals/china/qing_imperial_army.dds"			
+	}
+	SpriteType = {
+		name = "qing_imperial_navy"
+		texturefile = "gfx/interface/goals/china/qing_imperial_navy.dds"			
+	}
+	SpriteType = {
+		name = "sinkiang_army"
+		texturefile = "gfx/interface/goals/china/sinkiang_army.dds"			
+	}
+	SpriteType = {
+		name = "tunganistan_air_force"
+		texturefile = "gfx/interface/goals/china/tunganistan_air_force.dds"			
+	}
+	SpriteType = {
+		name = "tunganistan_national_army"
+		texturefile = "gfx/interface/goals/china/tunganistan_national_army.dds"			
 	}
 	SpriteType = {
 		name = "whampoa_military_academy"
@@ -756,15 +929,29 @@ spriteTypes = {
 		name = "banovina_of_croatia"
 		texturefile = "gfx/interface/goals/croatia/banovina_of_croatia.dds"			
 	}
-
+	SpriteType = {
+		name = "croatian_armed_forces"
+		texturefile = "gfx/interface/goals/croatia/croatian_armed_forces.dds"			
+	}
 	SpriteType = {
 		name = "croatian_auxiliary"
 		texturefile = "gfx/interface/goals/croatia/croatian_auxiliary.dds"			
 	}
-
 	SpriteType = {
 		name = "croatian_monarchy"
 		texturefile = "gfx/interface/goals/croatia/croatian_monarchy.dds"			
+	}
+	SpriteType = {
+		name = "rmndh"
+		texturefile = "gfx/interface/goals/croatia/rmndh.dds"			
+	}
+	SpriteType = {
+		name = "zndh"
+		texturefile = "gfx/interface/goals/croatia/zndh.dds"			
+	}
+	SpriteType = {
+		name = "zndh2"
+		texturefile = "gfx/interface/goals/croatia/zndh2.dds"			
 	}
 	
 	#Czech Republic
@@ -785,12 +972,36 @@ spriteTypes = {
 		name = "czech_republic"
 		texturefile = "gfx/interface/goals/czech_republic/czech_republic.dds"			
 	}
+	SpriteType = {
+		name = "czechoslovak_air_force"
+		texturefile = "gfx/interface/goals/czech_republic/czechoslovak_air_force.dds"			
+	}
+	SpriteType = {
+		name = "czechoslovak_army"
+		texturefile = "gfx/interface/goals/czech_republic/czechoslovak_army.dds"			
+	}
+	SpriteType = {
+		name = "czechoslovak_navy"
+		texturefile = "gfx/interface/goals/czech_republic/czechoslovak_navy.dds"			
+	}
 
 	#Denmark
 
 	SpriteType = {
 		name = "danish_industry"
 		texturefile = "gfx/interface/goals/denmark/danish_industry.dds"			
+	}
+	SpriteType = {
+		name = "royal_danish_air_force"
+		texturefile = "gfx/interface/goals/denmark/royal_danish_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_danish_army"
+		texturefile = "gfx/interface/goals/denmark/royal_danish_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_danish_navy"
+		texturefile = "gfx/interface/goals/denmark/royal_danish_navy.dds"			
 	}
 	
 	#Diplomacy
@@ -1681,9 +1892,48 @@ spriteTypes = {
 		name = "estonia"
 		texturefile = "gfx/interface/goals/estonia/estonia.dds"			
 	}
+	SpriteType = {
+		name = "estonian_air_force"
+		texturefile = "gfx/interface/goals/estonia/estonian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "estonian_land_forces"
+		texturefile = "gfx/interface/goals/estonia/estonian_land_forces.dds"			
+	}
+	SpriteType = {
+		name = "estonian_navy"
+		texturefile = "gfx/interface/goals/estonia/estonian_navy.dds"			
+	}
+	
+	#Ethiopia
+
+	SpriteType = {
+		name = "imperial_ethiopian_air_force"
+		texturefile = "gfx/interface/goals/ethiopia/imperial_ethiopian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "imperial_ethiopian_army"
+		texturefile = "gfx/interface/goals/ethiopia/imperial_ethiopian_army.dds"			
+	}
+	SpriteType = {
+		name = "imperial_ethiopian_navy"
+		texturefile = "gfx/interface/goals/ethiopia/imperial_ethiopian_navy.dds"			
+	}
 	
 	#Finland
 
+	SpriteType = {
+		name = "finnish_air_force"
+		texturefile = "gfx/interface/goals/finland/finnish_air_force.dds"			
+	}
+	SpriteType = {
+		name = "finnish_army"
+		texturefile = "gfx/interface/goals/finland/finnish_army.dds"			
+	}
+	SpriteType = {
+		name = "finnish_navy"
+		texturefile = "gfx/interface/goals/finland/finnish_navy.dds"			
+	}
 	SpriteType = {
 		name = "finnish_officers"
 		texturefile = "gfx/interface/goals/finland/finnish_officers.dds"			
@@ -1716,12 +1966,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/france/devalue_the_franc.dds"			
 	}
 	SpriteType = {
+		name = "french_air_force"
+		texturefile = "gfx/interface/goals/france/french_air_force.dds"			
+	}
+	SpriteType = {
 		name = "french_army"
 		texturefile = "gfx/interface/goals/france/french_army.dds"			
 	}
 	SpriteType = {
 		name = "french_imperials"
 		texturefile = "gfx/interface/goals/france/french_imperials.dds"			
+	}
+	SpriteType = {
+		name = "french_indochinese_air_force"
+		texturefile = "gfx/interface/goals/france/french_indochinese_air_force.dds"			
+	}
+	SpriteType = {
+		name = "french_indochinese_army"
+		texturefile = "gfx/interface/goals/france/french_indochinese_army.dds"			
+	}
+	SpriteType = {
+		name = "french_indochinese_navy"
+		texturefile = "gfx/interface/goals/france/french_indochinese_navy.dds"			
+	}
+	SpriteType = {
+		name = "french_navy"
+		texturefile = "gfx/interface/goals/france/french_navy.dds"			
 	}
 	SpriteType = {
 		name = "french_republic"
@@ -1792,12 +2062,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/france/renault.dds"			
 	}
 	SpriteType = {
+		name = "vichy_air_force"
+		texturefile = "gfx/interface/goals/france/vichy_air_force.dds"			
+	}
+	SpriteType = {
+		name = "vichy_army"
+		texturefile = "gfx/interface/goals/france/vichy_army.dds"			
+	}
+	SpriteType = {
 		name = "vichy_france"
 		texturefile = "gfx/interface/goals/france/vichy_france.dds"			
 	}
 	SpriteType = {
+		name = "vichy_navy"
+		texturefile = "gfx/interface/goals/france/vichy_navy.dds"			
+	}
+	SpriteType = {
 		name = "vichy_terror"
 		texturefile = "gfx/interface/goals/france/vichy_terror.dds"			
+	}
+	
+	#Georgia
+
+	SpriteType = {
+		name = "georgian_air_force"
+		texturefile = "gfx/interface/goals/georgia/georgian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "georgian_army"
+		texturefile = "gfx/interface/goals/georgia/georgian_army.dds"			
+	}
+	SpriteType = {
+		name = "georgian_navy"
+		texturefile = "gfx/interface/goals/georgia/georgian_navy.dds"			
 	}
 	
 	#Germany
@@ -1817,6 +2114,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "british_german_navy"
 		texturefile = "gfx/interface/goals/germany/british_german_navy.dds"			
+	}
+	SpriteType = {
+		name = "bundesmarine"
+		texturefile = "gfx/interface/goals/germany/bundesmarine.dds"			
+	}
+	SpriteType = {
+		name = "bundeswehr"
+		texturefile = "gfx/interface/goals/germany/bundeswehr.dds"			
+	}
+	SpriteType = {
+		name = "bundeswehr2"
+		texturefile = "gfx/interface/goals/germany/bundeswehr2.dds"			
 	}
 	SpriteType = {
 		name = "erich_raeder"
@@ -1843,8 +2152,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/germany/german_confederation2.dds"			
 	}
 	SpriteType = {
+		name = "german_imperial_air_force"
+		texturefile = "gfx/interface/goals/germany/german_imperial_air_force.dds"			
+	}
+	SpriteType = {
+		name = "german_imperial_army"
+		texturefile = "gfx/interface/goals/germany/german_imperial_army.dds"			
+	}
+	SpriteType = {
+		name = "german_imperial_army2"
+		texturefile = "gfx/interface/goals/germany/german_imperial_army2.dds"			
+	}
+	SpriteType = {
 		name = "german_imperial_europe"
 		texturefile = "gfx/interface/goals/germany/german_imperial_europe.dds"			
+	}
+	SpriteType = {
+		name = "german_imperial_navy"
+		texturefile = "gfx/interface/goals/germany/german_imperial_navy.dds"			
 	}
 	SpriteType = {
 		name = "german_military_research"
@@ -1869,6 +2194,42 @@ spriteTypes = {
 	SpriteType = {
 		name = "kaiserreich"
 		texturefile = "gfx/interface/goals/germany/kaiserreich.dds"			
+	}
+	SpriteType = {
+		name = "kriegsmarine"
+		texturefile = "gfx/interface/goals/germany/kriegsmarine.dds"			
+	}
+	SpriteType = {
+		name = "kriegsmarine_nazi"
+		texturefile = "gfx/interface/goals/germany/kriegsmarine_nazi.dds"			
+	}
+	SpriteType = {
+		name = "kriegsmarine2"
+		texturefile = "gfx/interface/goals/germany/kriegsmarine2.dds"			
+	}
+	SpriteType = {
+		name = "luftwaffe"
+		texturefile = "gfx/interface/goals/germany/luftwaffe.dds"			
+	}
+	SpriteType = {
+		name = "luftwaffe_nazi"
+		texturefile = "gfx/interface/goals/germany/luftwaffe_nazi.dds"			
+	}
+	SpriteType = {
+		name = "luftwaffe_republic"
+		texturefile = "gfx/interface/goals/germany/luftwaffe_republic.dds"			
+	}
+	SpriteType = {
+		name = "nationale_volksarmee"
+		texturefile = "gfx/interface/goals/germany/nationale_volksarmee.dds"			
+	}
+	SpriteType = {
+		name = "nationale_volksarmee_lsk"
+		texturefile = "gfx/interface/goals/germany/nationale_volksarmee_lsk.dds"			
+	}
+	SpriteType = {
+		name = "nationale_volksarmee2"
+		texturefile = "gfx/interface/goals/germany/nationale_volksarmee2.dds"			
 	}
 	SpriteType = {
 		name = "nazi_cabinet"
@@ -1899,8 +2260,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/germany/reichstag.dds"			
 	}
 	SpriteType = {
+		name = "reichsmarine"
+		texturefile = "gfx/interface/goals/germany/reichsmarine.dds"			
+	}
+	SpriteType = {
+		name = "reichswehr"
+		texturefile = "gfx/interface/goals/germany/reichswehr.dds"			
+	}
+	SpriteType = {
+		name = "reichswehr2"
+		texturefile = "gfx/interface/goals/germany/reichswehr2.dds"			
+	}
+	SpriteType = {
+		name = "reichswehr3"
+		texturefile = "gfx/interface/goals/germany/reichswehr3.dds"			
+	}
+	SpriteType = {
 		name = "return_of_the_kaiser"
 		texturefile = "gfx/interface/goals/germany/return_of_the_kaiser.dds"			
+	}
+	SpriteType = {
+		name = "volksmarine"
+		texturefile = "gfx/interface/goals/germany/volksmarine.dds"			
 	}
 	SpriteType = {
 		name = "volkssturm"
@@ -1910,12 +2291,44 @@ spriteTypes = {
 		name = "wehrmacht"
 		texturefile = "gfx/interface/goals/germany/wehrmacht.dds"			
 	}
+	SpriteType = {
+		name = "wehrmacht2"
+		texturefile = "gfx/interface/goals/germany/wehrmacht2.dds"			
+	}
+	SpriteType = {
+		name = "wehrmacht3"
+		texturefile = "gfx/interface/goals/germany/wehrmacht3.dds"			
+	}
 	
 	#Greece
 
 	SpriteType = {
 		name = "byzantium"
 		texturefile = "gfx/interface/goals/greece/byzantium.dds"			
+	}
+	SpriteType = {
+		name = "hellenic_air_force"
+		texturefile = "gfx/interface/goals/greece/hellenic_air_force.dds"			
+	}
+	SpriteType = {
+		name = "hellenic_army"
+		texturefile = "gfx/interface/goals/greece/hellenic_army.dds"			
+	}
+	SpriteType = {
+		name = "hellenic_navy"
+		texturefile = "gfx/interface/goals/greece/hellenic_navy.dds"			
+	}
+	SpriteType = {
+		name = "hellenic_republican_air_force"
+		texturefile = "gfx/interface/goals/greece/hellenic_republican_air_force.dds"			
+	}
+	SpriteType = {
+		name = "hellenic_republican_army"
+		texturefile = "gfx/interface/goals/greece/hellenic_republican_army.dds"			
+	}
+	SpriteType = {
+		name = "hellenic_republican_navy"
+		texturefile = "gfx/interface/goals/greece/hellenic_republican_navy.dds"			
 	}
 	
 	#Hungary
@@ -1924,10 +2337,21 @@ spriteTypes = {
 		name = "horthy"
 		texturefile = "gfx/interface/goals/hungary/horthy.dds"			
 	}
-
+	SpriteType = {
+		name = "hungarian_air_force"
+		texturefile = "gfx/interface/goals/hungary/hungarian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "hungarian_army"
+		texturefile = "gfx/interface/goals/hungary/hungarian_army.dds"			
+	}
 	SpriteType = {
 		name = "hungarian_monarchism"
 		texturefile = "gfx/interface/goals/hungary/hungarian_monarchism.dds"			
+	}
+	SpriteType = {
+		name = "hungarian_navy"
+		texturefile = "gfx/interface/goals/hungary/hungarian_navy.dds"			
 	}
 	
 	#India
@@ -1935,6 +2359,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "all_india_forward_bloc"
 		texturefile = "gfx/interface/goals/india/all_india_forward_bloc.dds"			
+	}
+	SpriteType = {
+		name = "british_indian_air_force"
+		texturefile = "gfx/interface/goals/india/british_indian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "british_indian_army"
+		texturefile = "gfx/interface/goals/india/british_indian_army.dds"			
 	}
 	SpriteType = {
 		name = "british_investors_in_india"
@@ -1961,8 +2393,57 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/india/indian_religious_divide.dds"			
 	}
 	SpriteType = {
+		name = "royal_indian_navy"
+		texturefile = "gfx/interface/goals/india/royal_indian_navy.dds"			
+	}
+	SpriteType = {
 		name = "smiling_buddha"
 		texturefile = "gfx/interface/goals/india/smiling_buddha.dds"			
+	}
+	
+	#Iran
+
+	SpriteType = {
+		name = "imperial_iranian_air_force"
+		texturefile = "gfx/interface/goals/iran/imperial_iranian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "imperial_iranian_army"
+		texturefile = "gfx/interface/goals/iran/imperial_iranian_army.dds"			
+	}
+	SpriteType = {
+		name = "imperial_iranian_navy"
+		texturefile = "gfx/interface/goals/iran/imperial_iranian_navy.dds"			
+	}
+	
+	#Iraq
+
+	SpriteType = {
+		name = "royal_iraqi_air_force"
+		texturefile = "gfx/interface/goals/iraq/royal_iraqi_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_iraqi_army"
+		texturefile = "gfx/interface/goals/iraq/royal_iraqi_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_iraqi_navy"
+		texturefile = "gfx/interface/goals/iraq/royal_iraqi_navy.dds"			
+	}
+	
+	#Ireland
+
+	SpriteType = {
+		name = "irish_air_corps"
+		texturefile = "gfx/interface/goals/iraq/irish_air_corps.dds"			
+	}
+	SpriteType = {
+		name = "irish_army"
+		texturefile = "gfx/interface/goals/iraq/irish_army.dds"			
+	}
+	SpriteType = {
+		name = "irish_naval_service"
+		texturefile = "gfx/interface/goals/iraq/irish_naval_service.dds"			
 	}
 	
 	#Italy
@@ -1980,16 +2461,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/italy/italian_nationalism.dds"			
 	}
 	SpriteType = {
-		name = "julius_evola"
-		texturefile = "gfx/interface/goals/italy/julius_evola.dds"			
+		name = "italian_republican_army"
+		texturefile = "gfx/interface/goals/italy/italian_republican_army.dds"			
 	}
 	SpriteType = {
-		name = "julius_evola2"
-		texturefile = "gfx/interface/goals/italy/julius_evola2.dds"			
+		name = "italian_royal_air_force"
+		texturefile = "gfx/interface/goals/italy/italian_royal_air_force.dds"			
 	}
 	SpriteType = {
-		name = "julius_evola3"
-		texturefile = "gfx/interface/goals/italy/julius_evola3.dds"			
+		name = "italian_royal_army"
+		texturefile = "gfx/interface/goals/italy/italian_royal_army.dds"			
+	}
+	SpriteType = {
+		name = "italian_royal_navy"
+		texturefile = "gfx/interface/goals/italy/italian_royal_navy.dds"			
 	}
 	SpriteType = {
 		name = "mussolini"
@@ -2001,6 +2486,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "hirohito"
 		texturefile = "gfx/interface/goals/japan/hirohito.dds"			
+	}
+	SpriteType = {
+		name = "imperial_japanese_army"
+		texturefile = "gfx/interface/goals/japan/imperial_japanese_army.dds"			
+	}
+	SpriteType = {
+		name = "imperial_japanese_navy"
+		texturefile = "gfx/interface/goals/japan/imperial_japanese_navy.dds"			
 	}
 	SpriteType = {
 		name = "japanese_imperial_glory"
@@ -2047,6 +2540,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/japan/zaibatsu.dds"			
 	}
 	
+	#Latvia
+
+	SpriteType = {
+		name = "latvian_air_force"
+		texturefile = "gfx/interface/goals/latvia/latvian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "latvian_land_forces"
+		texturefile = "gfx/interface/goals/latvia/latvian_land_forces.dds"			
+	}
+	SpriteType = {
+		name = "latvian_naval_forces"
+		texturefile = "gfx/interface/goals/latvia/latvian_naval_forces.dds"			
+	}
+	
+	#Lithuania
+
+	SpriteType = {
+		name = "lithuanian_air_force"
+		texturefile = "gfx/interface/goals/lithuania/lithuanian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "lithuanian_army"
+		texturefile = "gfx/interface/goals/lithuania/lithuanian_army.dds"			
+	}
+	SpriteType = {
+		name = "lithuanian_navy"
+		texturefile = "gfx/interface/goals/lithuania/lithuanian_navy.dds"			
+	}
+	
+	#Manchukuo
+
+	SpriteType = {
+		name = "inner_mongolian_army"
+		texturefile = "gfx/interface/goals/manchukuo/inner_mongolian_army.dds"			
+	}
+	SpriteType = {
+		name = "manchukuo_air_force"
+		texturefile = "gfx/interface/goals/manchukuo/manchukuo_air_force.dds"			
+	}
+	SpriteType = {
+		name = "manchukuo_army"
+		texturefile = "gfx/interface/goals/manchukuo/manchukuo_army.dds"			
+	}
+	SpriteType = {
+		name = "manchukuo_navy"
+		texturefile = "gfx/interface/goals/manchukuo/manchukuo_navy.dds"			
+	}
+	
 	#Mexico
 
 	SpriteType = {
@@ -2076,6 +2618,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "support_general_cedillo"
 		texturefile = "gfx/interface/goals/mexico/support_general_cedillo.dds"			
+	}
+	
+	#Mongolia
+
+	SpriteType = {
+		name = "peoples_mongolian_air_force"
+		texturefile = "gfx/interface/goals/mongolia/peoples_mongolian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "peoples_mongolian_army"
+		texturefile = "gfx/interface/goals/mongolia/peoples_mongolian_army.dds"			
 	}
 	
 	#Navy
@@ -2180,6 +2733,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/netherlands/daf.dds"			
 	}
 	SpriteType = {
+		name = "dutch_air_force"
+		texturefile = "gfx/interface/goals/netherlands/dutch_air_force.dds"			
+	}
+	SpriteType = {
+		name = "dutch_army"
+		texturefile = "gfx/interface/goals/netherlands/dutch_army.dds"			
+	}
+	SpriteType = {
+		name = "dutch_east_indies_army"
+		texturefile = "gfx/interface/goals/netherlands/dutch_east_indies_army.dds"			
+	}
+	SpriteType = {
+		name = "dutch_east_indies_army_air_force"
+		texturefile = "gfx/interface/goals/netherlands/dutch_east_indies_army_air_force.dds"			
+	}
+	SpriteType = {
+		name = "dutch_east_indies_navy"
+		texturefile = "gfx/interface/goals/netherlands/dutch_east_indies_navy.dds"			
+	}
+	SpriteType = {
 		name = "dutch_fascism"
 		texturefile = "gfx/interface/goals/netherlands/dutch_fascism.dds"			
 	}
@@ -2190,6 +2763,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "dutch_navy"
 		texturefile = "gfx/interface/goals/netherlands/dutch_navy.dds"			
+	}
+	SpriteType = {
+		name = "dutch_navy2"
+		texturefile = "gfx/interface/goals/netherlands/dutch_navy2.dds"			
 	}
 	SpriteType = {
 		name = "dutch_trade_lines"
@@ -2212,6 +2789,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/netherlands/wilhelmina.dds"			
 	}
 	
+	#New Zealand
+
+	SpriteType = {
+		name = "new_zealand_army"
+		texturefile = "gfx/interface/goals/new_zealand/new_zealand_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_new_zealand_air_force"
+		texturefile = "gfx/interface/goals/new_zealand/royal_new_zealand_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_new_zealand_navy"
+		texturefile = "gfx/interface/goals/new_zealand/royal_new_zealand_navy.dds"			
+	}
+	
+	#Norway
+
+	SpriteType = {
+		name = "norwegian_army"
+		texturefile = "gfx/interface/goals/norway/norwegian_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_norwegian_air_force"
+		texturefile = "gfx/interface/goals/norway/royal_norwegian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_norwegian_navy"
+		texturefile = "gfx/interface/goals/norway/royal_norwegian_navy.dds"			
+	}
+	
 	#Poland
 
 	SpriteType = {
@@ -2221,6 +2828,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "danzig_militia"
 		texturefile = "gfx/interface/goals/poland/danzig_militia.dds"			
+	}
+	SpriteType = {
+		name = "polish_air_force"
+		texturefile = "gfx/interface/goals/poland/polish_air_force.dds"			
+	}
+	SpriteType = {
+		name = "polish_army"
+		texturefile = "gfx/interface/goals/poland/polish_army.dds"			
+	}
+	SpriteType = {
+		name = "polish_navy"
+		texturefile = "gfx/interface/goals/poland/polish_navy.dds"			
 	}
 	
 	#Politics
@@ -2751,6 +3370,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/portugal/portugal2.dds"			
 	}
 	SpriteType = {
+		name = "portuguese_air_force"
+		texturefile = "gfx/interface/goals/portugal/portuguese_air_force.dds"			
+	}
+	SpriteType = {
+		name = "portuguese_army"
+		texturefile = "gfx/interface/goals/portugal/portuguese_army.dds"			
+	}
+	SpriteType = {
 		name = "portuguese_colonialism"
 		texturefile = "gfx/interface/goals/portugal/portuguese_colonialism.dds"			
 	}
@@ -2761,6 +3388,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "portuguese_legion"
 		texturefile = "gfx/interface/goals/portugal/portuguese_legion.dds"			
+	}
+	SpriteType = {
+		name = "portuguese_navy"
+		texturefile = "gfx/interface/goals/portugal/portuguese_navy.dds"			
 	}
 	SpriteType = {
 		name = "the_pink_map"
@@ -2857,8 +3488,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/romania/king_michael_of_romania.dds"			
 	}
 	SpriteType = {
+		name = "romanian_air_force"
+		texturefile = "gfx/interface/goals/romania/romanian_air_force.dds"			
+	}
+	SpriteType = {
+		name = "romanian_army"
+		texturefile = "gfx/interface/goals/romania/romanian_army.dds"			
+	}
+	SpriteType = {
 		name = "romanian_defense"
 		texturefile = "gfx/interface/goals/romania/romanian_defense.dds"			
+	}
+	SpriteType = {
+		name = "romanian_navy"
+		texturefile = "gfx/interface/goals/romania/romanian_navy.dds"			
 	}
 	
 	#Russia
@@ -2874,6 +3517,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "joseph_stalin"
 		texturefile = "gfx/interface/goals/russia/joseph_stalin.dds"			
+	}
+	SpriteType = {
+		name = "red_air_force"
+		texturefile = "gfx/interface/goals/russia/red_air_force.dds"			
+	}
+	SpriteType = {
+		name = "red_army"
+		texturefile = "gfx/interface/goals/russia/red_army.dds"			
+	}
+	SpriteType = {
+		name = "red_navy"
+		texturefile = "gfx/interface/goals/russia/red_navy.dds"			
 	}
 	SpriteType = {
 		name = "russian_tyranny"
@@ -2947,11 +3602,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/science/tech_sharing.dds"			
 	}
 	
+	#Slovakia
+
+	SpriteType = {
+		name = "slovak_air_force"
+		texturefile = "gfx/interface/goals/slovakia/slovak_air_force.dds"			
+	}
+	SpriteType = {
+		name = "slovak_army"
+		texturefile = "gfx/interface/goals/slovakia/slovak_army.dds"			
+	}
+	SpriteType = {
+		name = "slovak_navy"
+		texturefile = "gfx/interface/goals/slovakia/slovak_navy.dds"			
+	}
+	
 	#South Africa
 
 	SpriteType = {
 		name = "oranje_vrystaat"
 		texturefile = "gfx/interface/goals/south_africa/oranje_vrystaat.dds"			
+	}
+	SpriteType = {
+		name = "south_african_air_force"
+		texturefile = "gfx/interface/goals/south_africa/south_african_air_force.dds"			
+	}
+	SpriteType = {
+		name = "south_african_army"
+		texturefile = "gfx/interface/goals/south_africa/south_african_army.dds"			
+	}
+	SpriteType = {
+		name = "south_african_navy"
+		texturefile = "gfx/interface/goals/south_africa/south_african_navy.dds"			
 	}
 	
 	#Spain
@@ -2997,6 +3679,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/spain/spanish_nationalism.dds"			
 	}
 	SpriteType = {
+		name = "spanish_nationalist_air_force"
+		texturefile = "gfx/interface/goals/spain/spanish_nationalist_air_force.dds"			
+	}
+	SpriteType = {
+		name = "spanish_nationalist_air_force2"
+		texturefile = "gfx/interface/goals/spain/spanish_nationalist_air_force2.dds"			
+	}
+	SpriteType = {
+		name = "spanish_nationalist_army"
+		texturefile = "gfx/interface/goals/spain/spanish_nationalist_army.dds"			
+	}
+	SpriteType = {
+		name = "spanish_nationalist_navy"
+		texturefile = "gfx/interface/goals/spain/spanish_nationalist_navy.dds"			
+	}
+	SpriteType = {
+		name = "spanish_republican_air_force"
+		texturefile = "gfx/interface/goals/spain/spanish_republican_air_force.dds"			
+	}
+	SpriteType = {
+		name = "spanish_republican_army"
+		texturefile = "gfx/interface/goals/spain/spanish_republican_army.dds"			
+	}
+	SpriteType = {
+		name = "spanish_republican_navy"
+		texturefile = "gfx/interface/goals/spain/spanish_republican_navy.dds"			
+	}
+	SpriteType = {
 		name = "spanish_republicans"
 		texturefile = "gfx/interface/goals/spain/spanish_republicans.dds"			
 	}
@@ -3007,6 +3717,85 @@ spriteTypes = {
 	SpriteType = {
 		name = "spanish_unity"
 		texturefile = "gfx/interface/goals/spain/spanish_unity.dds"			
+	}
+	
+	#Sweden
+
+	SpriteType = {
+		name = "swedish_air_force"
+		texturefile = "gfx/interface/goals/sweden/swedish_air_force.dds"			
+	}
+	SpriteType = {
+		name = "swedish_army"
+		texturefile = "gfx/interface/goals/sweden/swedish_army.dds"			
+	}
+	SpriteType = {
+		name = "swedish_navy"
+		texturefile = "gfx/interface/goals/sweden/swedish_navy.dds"			
+	}
+	
+	#Switzerland
+
+	SpriteType = {
+		name = "swiss_air_force"
+		texturefile = "gfx/interface/goals/switzerland/swiss_air_force.dds"			
+	}
+	SpriteType = {
+		name = "swiss_army"
+		texturefile = "gfx/interface/goals/switzerland/swiss_army.dds"			
+	}
+	SpriteType = {
+		name = "swiss_navy"
+		texturefile = "gfx/interface/goals/switzerland/swiss_navy.dds"			
+	}
+	
+	#Thailand
+
+	SpriteType = {
+		name = "royal_thai_air_force"
+		texturefile = "gfx/interface/goals/thailand/royal_thai_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_thai_army"
+		texturefile = "gfx/interface/goals/thailand/royal_thai_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_thai_navy"
+		texturefile = "gfx/interface/goals/thailand/royal_thai_navy.dds"			
+	}
+	
+	#Tibet
+
+	SpriteType = {
+		name = "tibetan_army"
+		texturefile = "gfx/interface/goals/tibet/tibetan_army.dds"			
+	}
+	
+	#Turkey
+
+	SpriteType = {
+		name = "ottoman_air_force"
+		texturefile = "gfx/interface/goals/turkey/ottoman_air_force.dds"			
+	}
+	SpriteType = {
+		name = "ottoman_army"
+		texturefile = "gfx/interface/goals/turkey/ottoman_army.dds"			
+	}
+	SpriteType = {
+		name = "ottoman_navy"
+		texturefile = "gfx/interface/goals/turkey/ottoman_navy.dds"			
+	}
+	SpriteType = {
+		name = "turkish_air_force"
+		texturefile = "gfx/interface/goals/turkey/turkish_air_force.dds"			
+	}
+	SpriteType = {
+		name = "turkish_army"
+		texturefile = "gfx/interface/goals/turkey/turkish_army.dds"			
+	}
+	SpriteType = {
+		name = "turkish_navy"
+		texturefile = "gfx/interface/goals/turkey/turkish_navy.dds"			
 	}
 	
 	#United Baltic Duchy
@@ -3159,6 +3948,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/united_states/united_states_air_force3.dds"			
 	}
 	SpriteType = {
+		name = "united_states_army"
+		texturefile = "gfx/interface/goals/united_states/united_states_army.dds"			
+	}
+	SpriteType = {
+		name = "united_states_army2"
+		texturefile = "gfx/interface/goals/united_states/united_states_army2.dds"			
+	}
+	SpriteType = {
 		name = "united_states_dollar"
 		texturefile = "gfx/interface/goals/united_states/united_states_dollar.dds"			
 	}
@@ -3178,6 +3975,14 @@ spriteTypes = {
 		name = "united_states_navy"
 		texturefile = "gfx/interface/goals/united_states/united_states_navy.dds"			
 	}
+	SpriteType = {
+		name = "united_states_navy2"
+		texturefile = "gfx/interface/goals/united_states/united_states_navy2.dds"			
+	}
+	SpriteType = {
+		name = "us_army_air_corps"
+		texturefile = "gfx/interface/goals/united_states/us_army_air_corps.dds"			
+	}
 	
 	#Yugoslavia
 
@@ -3188,6 +3993,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "rogozarski"
 		texturefile = "gfx/interface/goals/yugoslavia/rogozarski.dds"			
+	}
+	SpriteType = {
+		name = "royal_yugoslav_air_force"
+		texturefile = "gfx/interface/goals/yugoslavia/royal_yugoslav_air_force.dds"			
+	}
+	SpriteType = {
+		name = "royal_yugoslav_army"
+		texturefile = "gfx/interface/goals/yugoslavia/royal_yugoslav_army.dds"			
+	}
+	SpriteType = {
+		name = "royal_yugoslav_navy"
+		texturefile = "gfx/interface/goals/yugoslavia/royal_yugoslav_navy.dds"			
 	}
 	SpriteType = {
 		name = "zmaj"

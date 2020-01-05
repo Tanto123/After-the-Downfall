@@ -7,9 +7,9 @@ ideas = {
 		
 			allowed = { NOT = { has_available_idea_with_traits = { idea = anarchist_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { has_completed_focus = generic_left_wing_sympathies }
 			traits = { anarchist_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -23,9 +23,9 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = communist_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { has_completed_focus = generic_left_wing_sympathies }
 			traits = { communist_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -39,9 +39,14 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = leftist_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { 
+				OR = {
+					has_completed_focus = generic_left_wing_sympathies
+					has_completed_focus = generic_centrist_sympathies
+				}
+			}
 			traits = { leftist_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -55,9 +60,9 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = centrist_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { has_completed_focus = generic_centrist_sympathies }
 			traits = { centrist_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -71,9 +76,14 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = conservative_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { 
+				OR = {
+					has_completed_focus = generic_centrist_sympathies
+					has_completed_focus = generic_right_wing_sympathies
+				}
+			}
 			traits = { conservative_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -87,9 +97,9 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = despotic_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { has_completed_focus = generic_right_wing_sympathies }
 			traits = { despotic_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -103,9 +113,9 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = monarchist_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { has_completed_focus = generic_right_wing_sympathies }
 			traits = { monarchist_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -119,9 +129,9 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = ultranationalist_ideologue limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
-			available = { }
+			available = { has_completed_focus = generic_right_wing_sympathies }
 			traits = { ultranationalist_ideologue }
 			on_add = { }
 			do_effect = { }
@@ -135,7 +145,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = foreign_interventionist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { foreign_interventionist }
@@ -151,7 +161,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = machiavellian_diplomat limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { machiavellian_diplomat }
@@ -167,7 +177,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = staunch_imperialist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { staunch_imperialist }
@@ -183,7 +193,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = autarky_proponent limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { autarky_proponent }
@@ -199,7 +209,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = consumption_expert limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { consumption_expert }
@@ -215,7 +225,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = expansionist_landlord limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { expansionist_landlord }
@@ -231,7 +241,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = industrial_lobbyist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { industrial_lobbyist }
@@ -247,7 +257,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = labor_unionist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { labor_unionist }
@@ -263,7 +273,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = militarization_advocate limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { militarization_advocate }
@@ -279,7 +289,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = oil_baron limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { oil_baron }
@@ -295,7 +305,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = research_enthusiast limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { research_enthusiast }
@@ -311,7 +321,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = trade_protectionist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { trade_protectionist }
@@ -327,7 +337,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = administrative_genius limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { administrative_genius }
@@ -343,7 +353,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = effective_bureaucrat limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { effective_bureaucrat }
@@ -359,7 +369,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = freedom_fighter limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { is_subject = yes  }
 			traits = { freedom_fighter }
@@ -375,7 +385,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = ideological_crusader limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { ideological_crusader }
@@ -391,7 +401,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = relentless_optimist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { relentless_optimist }
@@ -407,7 +417,7 @@ ideas = {
 			
 			allowed = { NOT = { has_available_idea_with_traits = { idea = talented_propagandist limit = 1 } } }
 			visible = {
-				NOT = { has_country_flag = custom_advisor_pool }
+				has_focus_tree = generic_focus
 			}
 			available = { }
 			traits = { talented_propagandist }
