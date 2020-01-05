@@ -1129,6 +1129,7 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 			}
 		}
@@ -1160,33 +1161,24 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = infrastructure size > 0 include_locked = yes }
 				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 			random_owned_state = {
 				limit = {
 					is_core_of = ROOT
 					free_building_slots = { building = infrastructure size > 0 include_locked = yes }
 				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 			random_owned_state = {
 				limit = {
 					is_core_of = ROOT
 					free_building_slots = { building = infrastructure size > 0 include_locked = yes }
 				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 		}
 		
@@ -1221,6 +1213,7 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = arms_factory size > 0 include_locked = yes }
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -1256,6 +1249,7 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1291,6 +1285,7 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1316,6 +1311,34 @@ focus_tree = {
 		mutually_exclusive = {  }
 		
 		completion_reward = { add_ideas = civilian_economy_improvements }
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_economic_expansion
+		icon = construction
+		x = 2
+		y = 4
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_industrial_effort2 }
+		available = { }
+		bypass = { }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 		
 		ai_will_do = { factor = 10 }
 	}
@@ -1348,11 +1371,60 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = arms_factory size > 0 include_locked = yes }
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strengthen_the_unions
+		icon = union_negotiations
+		x = -1
+		y = 5
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_civilian_economy_improvements }
+		available = { NOT = { has_idea = labor_unions } }
+		bypass = { }
+		mutually_exclusive = { focus = generic_strengthen_the_banks  }
+		
+		completion_reward = { 
+			add_ideas = labor_unions
+			if = {
+				limit = { has_idea = big_banks }
+				remove_ideas = big_banks
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strengthen_the_banks
+		icon = money2
+		x = 1
+		y = 5
+		cost = 10
+		
+		relative_position_id = generic_economic_effort
+		
+		prerequisite = { focus = generic_civilian_economy_improvements }
+		available = { NOT = { has_idea = big_banks } }
+		bypass = { }
+		mutually_exclusive = { focus = generic_strengthen_the_unions  }
+		
+		completion_reward = { 
+			add_ideas = big_banks
+			if = {
+				limit = { has_idea = labor_unions }
+				remove_ideas = labor_unions
 			}
 		}
 		
@@ -1383,6 +1455,7 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
@@ -1409,7 +1482,7 @@ focus_tree = {
 		mutually_exclusive = {  }
 		
 		completion_reward = {
-			
+			add_ideas = resource_production_focus2
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -1519,5 +1592,1127 @@ focus_tree = {
 		
 		ai_will_do = { factor = 10 }
 	}
-
+	
+	#######################
+	#Military Branch
+	#######################
+	focus = {
+		id = generic_military_reform
+		icon = general_staff
+		x = 37
+		y = 0
+		cost = 10
+		
+		prerequisite = { }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_command_power = 10
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	########## ARMY ##########
+	focus = {
+		id = generic_army_reform
+		icon = army_reform
+		x = -7
+		y = 1
+		cost = 10
+		relative_position_id = generic_military_reform
+		
+		prerequisite = { focus = generic_military_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			army_experience = 20
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_tactical_studies
+		icon = infantry_allies
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { focus = generic_army_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				category = infantry_weapons
+				bonus = 0.5
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_artillery_experiments
+		icon = artillery
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { focus = generic_army_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				category = artillery
+				bonus = 0.5
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_armored_vehicle_experiments
+		icon = tanks
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { focus = generic_army_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				category = armor
+				bonus = 0.5
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strategic_studies
+		icon = motorized
+		x = -2
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { focus = generic_tactical_studies }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				category = motorized_equipment
+				category = cat_mechanized_equipment
+				bonus = 0.5
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_support_formation_studies
+		icon = cavalry
+		x = 0
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { focus = generic_artillery_experiments }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				category = support_tech
+				bonus = 0.5
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_specialized_armored_vehicles
+		icon = artillery2
+		x = 2
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { focus = generic_armored_vehicle_experiments }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				technology = basic_light_td
+				technology = basic_light_art
+				technology = basic_light_spaa
+				technology = improved_light_td
+				technology = improved_light_art
+				technology = improved_light_spaa
+				technology = advanced_light_td
+				technology = advanced_light_art
+				technology = advanced_light_spaa
+				technology = basic_medium_td
+				technology = basic_medium_art
+				technology = basic_medium_spaa
+				technology = improved_medium_td
+				technology = improved_medium_art
+				technology = improved_medium_spaa
+				technology = advanced_medium_td
+				technology = advanced_medium_art
+				technology = advanced_medium_spaa
+				technology = modern_td
+				technology = modern_art
+				technology = modern_spaa
+				technology = basic_heavy_td
+				technology = basic_heavy_art
+				technology = basic_heavy_spaa
+				technology = improved_heavy_td
+				technology = improved_heavy_art
+				technology = improved_heavy_spaa
+				technology = advanced_heavy_td
+				technology = advanced_heavy_art
+				technology = advanced_heavy_spaa
+				bonus = 0.5
+				uses = 3
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	# DOCTRINAL DECISIONS SUB BRANCH #
+	focus = {
+		id = generic_army_doctrine_decisions
+		icon = army_doctrine
+		x = 0
+		y = 3
+		cost = 10
+		relative_position_id = generic_army_reform
+		
+		prerequisite = { 
+			focus = generic_strategic_studies
+			focus = generic_support_formation_studies
+			focus = generic_specialized_armored_vehicles
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			army_experience = 50
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_mobile_warfare_focus
+		icon = tanks4
+		x = -3
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_army_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_superior_firepower_focus }
+		mutually_exclusive = { focus = generic_grand_battleplan_focus }
+		mutually_exclusive = { focus = generic_mass_assault_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mobile_warfare
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_superior_firepower_focus
+		icon = combined_arms
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_army_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_mobile_warfare_focus }
+		mutually_exclusive = { focus = generic_grand_battleplan_focus }
+		mutually_exclusive = { focus = generic_mass_assault_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_superior_firepower
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_grand_battleplan_focus
+		icon = army_logistics
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_army_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_mobile_warfare_focus }
+		mutually_exclusive = { focus = generic_superior_firepower_focus }
+		mutually_exclusive = { focus = generic_mass_assault_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_grand_battle_plan
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_mass_assault_focus
+		icon = entente
+		x = 3
+		y = 1
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_army_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_mobile_warfare_focus }
+		mutually_exclusive = { focus = generic_superior_firepower_focus }
+		mutually_exclusive = { focus = generic_grand_battleplan_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mass_assault
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_focus_on_tank_production
+		icon = tanks
+		x = -3
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_mobile_warfare_focus }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mobile_warfare
+			}
+			add_ideas = tank_production_innovations
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_maximize_military_efficiency
+		icon = bob_semple
+		x = -1
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_superior_firepower_focus }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_superior_firepower
+			}
+			add_ideas = military_efficiency_effort
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_military_masterplans
+		icon = military_academy
+		x = 1
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_grand_battleplan_focus }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_grand_battle_plan
+			}
+			add_ideas = military_planning_efforts
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_more_guns_for_more_men
+		icon = artillery3
+		x = 3
+		y = 2
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_mass_assault_focus }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mass_assault
+			}
+			add_ideas = infantry_army
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_aggressive_tactical_approaches
+		icon = aggressive_diplomacy
+		x = -3
+		y = 3
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_focus_on_tank_production }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mobile_warfare
+			}
+			add_ideas = aggressive_military_tactics
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_elite_support_units
+		icon = cavalry2
+		x = -1
+		y = 3
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_maximize_military_efficiency }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_superior_firepower
+			}
+			add_ideas = elite_military_support_units
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_defensive_tactical_approaches
+		icon = defense2
+		x = 1
+		y = 3
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_military_masterplans }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_grand_battle_plan
+			}
+			add_ideas = defensive_military_tactics
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = general_dogma_of_sacrifice
+		icon = secret_weapons
+		x = 3
+		y = 3
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_more_guns_for_more_men }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mass_assault
+			}
+			add_ideas = dogma_of_sacrifice
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_modern_tank_manufacturing
+		icon = tanks2
+		x = -3
+		y = 4
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_aggressive_tactical_approaches }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mobile_warfare
+			}
+			swap_ideas = {
+				remove_idea = tank_production_innovations
+				add_idea = tank_production_innovations2
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_industrial_mass_assault
+		icon = industry_military2
+		x = -1
+		y = 4
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_elite_support_units }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_superior_firepower
+			}
+			add_ideas = industrial_mass_assault
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_hyper_organized_military
+		icon = infantry_axis2
+		x = 1
+		y = 4
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = generic_defensive_tactical_approaches }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_grand_battle_plan
+			}
+			add_ideas = military_organization_effort3
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_accelerated_basic_training
+		icon = army_officers
+		x = 3
+		y = 4
+		cost = 10
+		relative_position_id = generic_army_doctrine_decisions
+		
+		prerequisite = { focus = general_dogma_of_sacrifice }
+		available = {  }
+		mutually_exclusive = {  }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_mass_assault
+			}
+			add_ideas = accelerated_basic_training
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	########## NAVY ##########
+	focus = {
+		id = generic_navy_reform
+		icon = navy
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = generic_military_reform
+		
+		prerequisite = { focus = generic_military_reform }
+		available = { any_owned_state = { is_core_of = ROOT is_coastal = yes } }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			navy_experience = 20
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_dockyard_construction
+		icon = naval_dockyard
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { focus = generic_navy_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					is_coastal = yes
+					free_building_slots = { building = dockyard size > 1 include_locked = yes }
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = { type = dockyard level = 1 instant_build = yes }
+			}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					is_coastal = yes
+					free_building_slots = { building = dockyard size > 1 include_locked = yes }
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = { type = dockyard level = 1 instant_build = yes }
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_destroyer_experiments
+		icon = destroyers
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { focus = generic_navy_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = dd_tech
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_battleship_research
+		icon = battleships2
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { focus = generic_navy_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = bb_tech
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_naval_base_construction
+		icon = navy2
+		x = -2
+		y = 2
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { focus = generic_dockyard_construction }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = { is_core_of = ROOT is_coastal = yes }
+				add_building_construction = { 
+					type = naval_base
+					level = 1 
+					instant_build = yes
+					province = { limit_to_coastal = yes }
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT is_coastal = yes }
+				add_building_construction = { 
+					type = naval_base
+					level = 1 
+					instant_build = yes
+					province = { limit_to_coastal = yes }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_submarine_force
+		icon = submarines
+		x = 0
+		y = 2
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { focus = generic_destroyer_experiments }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = ss_tech
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_aircraft_carrier_research
+		icon = carriers
+		x = 2
+		y = 2
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { focus = generic_battleship_research }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = ca_tech
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	# DOCTRINAL DECISIONS SUB BRANCH #
+	focus = {
+		id = generic_navy_doctrine_decisions
+		icon = naval_doctrine
+		x = 0
+		y = 3
+		cost = 10
+		relative_position_id = generic_navy_reform
+		
+		prerequisite = { 
+			focus = generic_naval_base_construction
+			focus = generic_submarine_force
+			focus = generic_aircraft_carrier_research
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			navy_experience = 50
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_fleet_in_being_focus
+		icon = battleships
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = generic_navy_doctrine_decisions
+		
+		prerequisite = { focus = generic_navy_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_trade_interdiction_focus }
+		mutually_exclusive = { focus = generic_base_strike_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = fleet_in_being_tree
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_trade_interdiction_focus
+		icon = anti_submarine
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = generic_navy_doctrine_decisions
+		
+		prerequisite = { focus = generic_navy_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_base_strike_focus }
+		mutually_exclusive = { focus = generic_fleet_in_being_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = trade_interdiction_tree
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_base_strike_focus
+		icon = carriers2
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = generic_navy_doctrine_decisions
+		
+		prerequisite = { focus = generic_navy_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_fleet_in_being_focus }
+		mutually_exclusive = { focus = generic_trade_interdiction_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_base_strike
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	########## AIR FORCE ##########
+	focus = {
+		id = generic_air_force_reform
+		icon = air_force
+		x = 6
+		y = 1
+		cost = 10
+		relative_position_id = generic_military_reform
+		
+		prerequisite = { focus = generic_military_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			air_experience = 20
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_tactical_bomber_research
+		icon = bombers2
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_air_force_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = tactical_bomber
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				category = naval_bomber
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_fighter_research
+		icon = fighters
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_air_force_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = light_fighter
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cas_bomber
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_air_base_construction
+		icon = air_defense
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_air_force_reform }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_building_construction = { 
+					type = air_base
+					level = 1 
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_building_construction = { 
+					type = air_base
+					level = 1 
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strategic_bomber_research
+		icon = bombers
+		x = -2
+		y = 2
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_tactical_bomber_research }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_strategic_bomber
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_heavy_fighter_research
+		icon = escort_fighters
+		x = 0
+		y = 2
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_fighter_research }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = cat_heavy_fighter
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_flight_training_reform
+		icon = fighters2
+		x = 2
+		y = 2
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_air_base_construction }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			air_experience = 50
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_carrier_plane_research
+		icon = naval_bombers
+		x = -3
+		y = 3
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { focus = generic_tactical_bomber_research }
+		prerequisite = { focus = generic_aircraft_carrier_research }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				technology = cv_early_fighter
+				technology = cv_fighter1
+				technology = cv_fighter2
+				technology = cv_fighter3
+				technology = cv_CAS1
+				technology = cv_CAS2
+				technology = cv_CAS3
+				technology = cv_naval_bomber1
+				technology = cv_naval_bomber2
+				technology = cv_naval_bomber3
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_air_doctrine_decisions
+		icon = air_doctrine
+		x = 0
+		y = 3
+		cost = 10
+		relative_position_id = generic_air_force_reform
+		
+		prerequisite = { 
+			focus = generic_strategic_bomber_research
+			focus = generic_heavy_fighter_research
+			focus = generic_flight_training_reform
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			air_experience = 50
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_strategic_destruction_focus
+		icon = bombs4
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = generic_air_doctrine_decisions
+		
+		prerequisite = { focus = generic_air_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_battlefield_support_focus }
+		mutually_exclusive = { focus = generic_operational_integrity_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = strategic_destruction_tree
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_battlefield_support_focus
+		icon = close_air_support
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = generic_air_doctrine_decisions
+		
+		prerequisite = { focus = generic_air_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_strategic_destruction_focus }
+		mutually_exclusive = { focus = generic_operational_integrity_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = battlefield_support_tree
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = generic_operational_integrity_focus
+		icon = bombs
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = generic_air_doctrine_decisions
+		
+		prerequisite = { focus = generic_air_doctrine_decisions }
+		available = { }
+		mutually_exclusive = { focus = generic_strategic_destruction_focus }
+		mutually_exclusive = { focus = generic_battlefield_support_focus }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = operational_integrity_tree
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
 }

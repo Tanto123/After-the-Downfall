@@ -179,6 +179,7 @@
  #Generic Ideas
  ###
  #Tendencies
+ aggressive_military_tactics:0 "Aggressive Military Tactics"
  anarchist_tendencies:0 "Anarchist Tendencies"
  communist_tendencies:0 "Communist Tendencies"
  leftist_tendencies:0 "Leftist Tendencies"
@@ -188,22 +189,40 @@
  monarchist_tendencies:0 "Monarchist Tendencies"
  ultranationalist_tendencies:0 "Ultranationalist Tendencies"
  #National Ideas
+ accelerated_basic_training:0 "Accelerated Basic Training"
  anti_imperialist_paramilitaries:0 "Anti-Imperialist Paramilitaries"
  civilian_economy_improvements:0 "Civilian Economy Improvements"
  civilian_economy_improvements2:0 "Civilian Economy Improvements"
  civilian_economy_improvements3:0 "Civilian Economy Improvements"
  civilian_economy_improvements4:0 "Civilian Economy Improvements"
+ defensive_military_tactics:0 "Defensive Military Tactics"
+ dogma_of_sacrifice:0 "Dogma of Sacrifice"
  economic_libertarianism:0 "Economic Libertarianism"
+ elite_military_support_units:0 "Elite Military Support Units"
  expanded_welfare_state:0 "Expanded Welfare State"
  far_right_education_system:0 "Far-Right Education System"
  five_year_plan:0 "Five-Year Plan"
+ industrial_mass_assault:0 "Industrial Mass Assault"
+ infantry_army:0 "Infantry Army"
+ military_efficiency_effort:0 "Military Efficiency Effort"
  military_mass_mobilization:0 "Military Mass Mobilization"
+ military_organization_effort:0 "Military Organization Effort"
+ military_organization_effort2:0 "Military Organization Effort"
+ military_organization_effort3:0 "Military Organization Effort"
+ military_organization_effort4:0 "Military Organization Effort"
+ military_planning_efforts:0 "Military Planning Efforts"
  research_investments:0 "Research Investments"
  research_investments2:0 "Research Investments"
  research_investments3:0 "Research Investments"
  research_investments4:0 "Research Investments"
+ resource_production_focus:0 "Resource Production Focus"
+ resource_production_focus2:0 "Resource Production Focus"
+ resource_production_focus3:0 "Resource Production Focus"
+ resource_production_focus4:0 "Resource Production Focus"
  social_democratic_establishment:0 "Social Democratic Establishment"
  strengthened_local_economies:0 "Strengthened Local Economies"
+ tank_production_innovations:0 "Tank Production Innovations"
+ tank_production_innovations2:0 "Tank Production Innovations"
  #
  ###
  #Specific Country Ideas

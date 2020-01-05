@@ -82,6 +82,29 @@ ideas = {
 		###	NATIONAL IDEAS
 		####################
 	
+		accelerated_basic_training = {
+			picture = army_of_aggression
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				training_time_army_factor = -0.25
+				mobilization_speed = 0.1
+			}
+		}
+		aggressive_military_tactics = {
+			picture = army_of_aggression
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				army_leader_start_attack_level = 1
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+			}
+		}
 		anti_imperialist_paramilitaries = {
 			picture = international_brigades
 			
@@ -139,6 +162,35 @@ ideas = {
 				consumer_goods_factor = -0.2
 			}
 		}
+		defensive_military_tactics = {
+			picture = national_defense
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				army_leader_start_defense_level = 1
+				army_defence_factor = 0.05
+				max_dig_in = 5
+				dig_in_speed_factor = 0.25
+				out_of_supply_factor = -0.1
+				production_speed_bunker_factor = 0.25
+				production_speed_coastal_bunker_factor = 0.25
+			}
+		}
+		dogma_of_sacrifice = {
+			picture = army_morale
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				surrender_limit = 0.05
+				land_reinforce_rate = 0.25
+				supply_consumption_factor = -0.15
+				army_core_defence_factor = 0.2
+			}
+		}
 		economic_libertarianism = {
 			picture = consumer_goods
 			
@@ -155,6 +207,23 @@ ideas = {
 			modifier = { 
 				consumer_goods_factor = -0.1
 				trade_laws_cost_factor = -0.25
+			}
+		}
+		elite_military_support_units = {
+			picture = mass_mobilization2
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				recon_factor = 0.1
+			}
+			equipment_bonus = {
+				category_support_battalions = {
+					max_organisation = 0.25
+					soft_attack = 0.15
+					hard_attack = 0.15
+				}
 			}
 		}
 		expanded_welfare_state = {
@@ -176,6 +245,19 @@ ideas = {
 				production_speed_buildings_factor = 0.2
 			}
 		}
+		far_right_education_system = {
+			picture = fascism2
+			
+			allowed = { always = no }
+			allowed_civil_war = { 
+				has_government = ultranationalism
+			}
+			removal_cost = -1
+			modifier = {
+				ultranationalism_drift = 0.01
+				ultranationalism_acceptance = 20
+			}
+		}
 		five_year_plan = {
 			picture = banana_republic
 			
@@ -190,39 +272,124 @@ ideas = {
 				line_change_production_efficiency_factor = -0.1
 			}
 		}
-		far_right_education_system = {
-			picture = fascism2
+		industrial_mass_assault = {
+			picture = industry
 			
 			allowed = { always = no }
-			allowed_civil_war = { 
-				has_government = leftism
-			}
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
-				ultranationalism_drift = 0.01
-				ultranationalism_acceptance = 20
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		infantry_army = {
+			picture = infantry2
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				conscription_factor = 0.05
+				mobilization_speed = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+		military_efficiency_effort = {
+			picture = tank_industry
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				attrition = -0.1
+			}
+			equipment_bonus = {
+				field_hospital = {
+					casualty_trickleback = 0.10
+					experience_loss_factor = -0.10
+				}
 			}
 		}
 		military_mass_mobilization = {
 			picture = fascism2
 			
 			allowed = { always = no }
-			allowed_civil_war = { 
-				has_government = leftism
-			}
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = {
 				mobilization_speed = 0.2
 				conscription = 0.01
 			}
 		}
+		military_organization_effort = {
+			picture = army_morale
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.1
+			}
+		}
+		military_organization_effort2 = {
+			picture = army_morale
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.2
+			}
+		}
+		military_organization_effort3 = {
+			picture = army_morale
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.3
+			}
+		}
+		military_organization_effort4 = {
+			picture = army_morale
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.4
+			}
+		}
+		military_planning_efforts = {
+			picture = planning_bonus
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_leader_start_planning_level = 1
+				planning_speed = 0.25
+				max_planning = 0.25
+			}
+			equipment_bonus = {
+			}
+		}
 		research_investments = {
 			picture = research
 			
 			allowed = { always = no }
-			allowed_civil_war = { 
-				has_government = leftism
-			}
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = { 
 				research_speed_factor = 0.05
@@ -232,9 +399,7 @@ ideas = {
 			picture = research
 			
 			allowed = { always = no }
-			allowed_civil_war = { 
-				has_government = leftism
-			}
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = { 
 				research_speed_factor = 0.1
@@ -244,9 +409,7 @@ ideas = {
 			picture = research
 			
 			allowed = { always = no }
-			allowed_civil_war = { 
-				has_government = leftism
-			}
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = { 
 				research_speed_factor = 0.15
@@ -256,12 +419,50 @@ ideas = {
 			picture = research
 			
 			allowed = { always = no }
-			allowed_civil_war = { 
-				has_government = leftism
-			}
+			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			modifier = { 
 				research_speed_factor = 0.2
+			}
+		}
+		resource_production_focus = {
+			picture = constructions
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				local_resources_factor = 0.1
+			}
+		}
+		resource_production_focus2 = {
+			picture = constructions
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				local_resources_factor = 0.2
+			}
+		}
+		resource_production_focus3 = {
+			picture = constructions
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				local_resources_factor = 0.3
+			}
+		}
+		resource_production_focus4 = {
+			picture = constructions
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				local_resources_factor = 0.4
 			}
 		}
 		social_democratic_establishment = {
@@ -293,7 +494,37 @@ ideas = {
 				global_building_slots_factor = 0.15
 				production_speed_buildings_factor = 0.15
 			}
-		} 
+		}
+		tank_production_innovations = {
+			picture = tanks
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		tank_production_innovations2 = {
+			picture = tanks
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { 
+				
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
 	
 	}
 	
