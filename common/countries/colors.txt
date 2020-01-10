@@ -182,8 +182,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = rgb { 220 220 220 }
-	color_ui = rgb { 220 220 220 }
+	color = rgb { 235 235 235 }
+	color_ui = rgb { 235 235 235 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -464,8 +464,8 @@ DDR = {
     color_ui = rgb { 150 180 120 }
 }
 KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
+	color = rgb { 20 140 200 }
+	color_ui = rgb { 20 140 200 }	
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -486,6 +486,14 @@ KUB = {
 TAT = {
 	color = rgb { 0 150 200 }
 	color_ui = rgb { 0 150 200 }
+}
+KWA = {
+	color = rgb { 170 50 10 }
+	color_ui = rgb { 170 50 10 }
+}
+FER = {
+	color = rgb { 220 100 0 }
+	color_ui = rgb { 220 100 0 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

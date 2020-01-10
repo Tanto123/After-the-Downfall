@@ -51,6 +51,8 @@
  ENG_ultranationalism_party:0 "BUN"
  ENG_ultranationalism_party_desc:0 "British Union of Nationalists"
  #
+ FER_despotism_party:0 "Japanese Occupation Army"
+ #
  MNT_despotism_party:0 "Austro-Hungarian Military"
  #
  GER_anarchism_party:0 "KFDA"
@@ -68,6 +70,11 @@
  GER_monarchism_party_long:0 "Kaisertreue Volksunion"
  GER_ultranationalism_party:0 "DNVU"
  GER_ultranationalism_party_long:0 "Deutschnationale Volksunion"
+ #
+ KOR_communism_party:0 "Juche Movement"
+ KOR_despotism_party:0 "Japanese Occupation Army"
+ #
+ KWA_despotism_party:0 "Kwantung Army"
  #
  SER_despotism_party:0 "Austro-Hungarian Military"
  #

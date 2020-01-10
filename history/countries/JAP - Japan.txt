@@ -21,7 +21,7 @@ set_variable = { pacifism_rating = 12 }
 
 add_ideas = {	#Laws and Government
 	advised_monarchy
-	volunteer_only
+	limited_conscription
 	civilian_economy
 	limited_exports
 }
@@ -49,6 +49,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+puppet = KWA
+puppet = FER
+puppet = KOR
 
 create_country_leader = {
 	name = "Yasuhito"

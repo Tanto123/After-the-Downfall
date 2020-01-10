@@ -12,12 +12,12 @@ set_convoys = 100
 add_offsite_building = { type = industrial_complex level = 0 }
 add_offsite_building = { type = arms_factory level = 0 }
 
-set_variable = { democracy_rating = 90 }
-set_variable = { pacifism_rating = 61 }
-
 set_technology = {
 	infantry_weapons = 1
 }
+
+set_variable = { democracy_rating = 90 }
+set_variable = { pacifism_rating = 61 }
 
 add_ideas = {
 	parliamentary_monarchy

@@ -49,3 +49,16 @@ YUN_ChineseWarlord = {
 	color = rgb { 225 225 0 }
 	color_ui = rgb { 225 225 0 }
 }
+#Japanese Puppets
+FER_JapanesePuppet = {
+	color = rgb { 235 235 235 }
+	color_ui = rgb { 235 235 235 }
+}
+KOR_JapanesePuppet = {
+	color = rgb { 235 235 235 }
+	color_ui = rgb { 235 235 235 }
+}
+KWA_JapanesePuppet = {
+	color = rgb { 235 235 235 }
+	color_ui = rgb { 235 235 235 }
+}
