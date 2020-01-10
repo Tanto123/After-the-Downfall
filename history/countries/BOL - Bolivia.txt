@@ -33,3 +33,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+create_country_leader = {
+	name = "Hernando Siles Reyes"
+	desc = leader_desc_BOL_Hernando_Siles
+	picture = "Hernando_Siles.dds"
+	ideology = militant_reactionism
+	traits = {
+		
+	}
+}

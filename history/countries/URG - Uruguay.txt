@@ -19,8 +19,8 @@ set_technology = {
 set_popularities = {
 	anarchism = 0
 	communism = 0 
-	leftism = 0
-	centrism = 100
+	leftism = 100
+	centrism = 0
 	conservatism = 0 
 	despotism = 0
 	monarchism = 0
@@ -28,8 +28,18 @@ set_popularities = {
 }
 
 set_politics = { 
-	ruling_party = centrism
+	ruling_party = leftism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Juan Campisteguy"
+	desc = leader_desc_URG_Juan_Campisteguy
+	picture = "Juan.dds"
+	ideology = social_democracy
+	traits = {
+		
+	}
 }

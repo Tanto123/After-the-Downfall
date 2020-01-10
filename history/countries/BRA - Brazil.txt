@@ -21,15 +21,25 @@ set_popularities = {
 	communism = 0 
 	leftism = 0
 	centrism = 0
-	conservatism = 0 
-	despotism = 100
+	conservatism = 100
+	despotism = 0
 	monarchism = 0
 	ultranationalism = 0
 }
 
 set_politics = { 
-	ruling_party = despotism
+	ruling_party = conservatism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Washington Luís"
+	desc = leader_desc_BRA_Washington_Luís
+	picture = "Washington.dds"
+	ideology = national_conservatism
+	traits = {
+		
+	}
 }
