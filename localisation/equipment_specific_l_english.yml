@@ -1,0 +1,351 @@
+﻿l_english:
+ ###########################################
+ ###########################################
+ ####           GER
+ ###########################################
+ ###########################################
+ #
+ ###########################################
+ ##Infantry Tab
+ ###########################################
+ #
+ GER_infantry_equipment_0:0 "Gewehr 98"
+ GER_infantry_equipment_0_desc:0 "The Gewehr 98 is a German bolt-action rifle firing cartridges from a 5-round internal clip-loaded magazine. Produced by armament company Mauser, the G98 was the German service rifle from 1898 until 1925, when it started to be phased out in favor of the Karabiner 25. It served with distinction in the Continental War of 1914 against France and Russia and is remembered fondly by German veterans."
+ GER_infantry_equipment_0_short:0 "G98"
+ GER_infantry_equipment_1:0 "Karabiner 25"
+ GER_infantry_equipment_1_desc:0 "Using the same basic design as the G98, the K25 was a shorter rifle than its predecessor, designed to be easy to mass-produce. Its main strengths include easiness of repair and compactness for transport, while also not sacrificing any of the G98's firepower. It was adapted in 1925, although initial production numbers stayed behind expectations."
+ GER_infantry_equipment_1_short:0 "K25"
+ GER_infantry_equipment_2:0 "Maschinenpistole 31"
+ GER_infantry_equipment_2_desc:0 "While not fully designed to supplement the K25, the MP31 is an infantry weapon that is to be given out to at least a third of German combat infantry, specifically those trained for close-range engagements and urban or night combat. Packing a higher fire rate than its bolt-action rifle predecessors, the MP31 allows for a higher amount of error from the rifleman and doesn't punish a misplaced shot as heavily."
+ GER_infantry_equipment_2_short:0 "MP31"
+ GER_infantry_equipment_3:0 "Sturmgewehr 34"
+ GER_infantry_equipment_3_desc:0 "Designed to accomodate for the weaknesses of the MP31 at longer ranges, the Sturmgewehr 34 is designed to combine the reliability and predictable firepower of a bolt-action rifle with the high fire rate of a machine pistol. This 'assault rifle' design is bound to be revolutionary."
+ GER_infantry_equipment_3_short:0 "StGew34"
+ #
+ GER_infantry_at:0 "Panzerbrecherkanone Ausf. B 'Panzerfaust'"
+ GER_infantry_at2:0 "Panzerbrecherkanone Ausf. G 'Panzerschreck'"
+ #
+ GER_support_weapons:0 "Maschinengewehr 13"
+ GER_support_weapons2:0 "Maschinengewehr 30 Ausf. A"
+ GER_support_weapons3:0 "Maschinengewehr 30 Ausf. B"
+ GER_support_weapons4:0 "Maschinengewehr 34"
+ #
+ GER_night_vision: "Nachtsichtgerät 35 Ausf. A"
+ GER_night_vision2: "Nachtsichtgerät 35 Ausf. E"
+ #
+ GER_infantry_weapons2:0 "Schanzzeug 30"
+ GER_improved_infantry_weapons_2:0 "Kriegsfernglas 1932"
+ GER_advanced_infantry_weapons2:0 "Personenabwehrhandkanone 36"
+ #
+ GER_motorized_equipment_1:0 "Lastkraftwagen Modell 'Deutschland'"
+ GER_motorized_equipment_1_short:0 "LKW DL"
+ GER_motorized_equipment_1_desc:0 "The 'Deutschland' (German: 'Germany') model is the German army's standard-issue truck. It was developed between 1917 and 1925 with the specific goal of having a universal design that could be produced by any corporation, in order for the German armed forces to not be bound to a specific brand or truck manufacturer. The Deutschland Ausf. A is manufactured by Opel, the Ausf. B by Mercedes-Benz, the Ausf. C by BMW and the Ausf. D by SKW. However, although nominally different, these variants are functionally the same."
+ #
+ GER_mechanized_equipment_1:0 "Sonderkraftfahrzeug 11"
+ GER_mechanized_equipment_1_short:0 "Sd.Kfz. 11"
+ GER_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special motorized vehicle) was a German half-track that saw very widespread use in World War II. It could carry eight troops in addition to towing a gun or trailer."
+ GER_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
+ GER_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
+ GER_mechanized_equipment_2_desc:0 "The Sd.Kfz. 251 half-track was an armored fighting vehicle designed and first built by the Hanomag company during World War II, based on their earlier Sd.Kfz. 11 vehicle."
+ GER_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ GER_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ GER_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
+ #
+ GER_amphibious_mechanized_equipment_1:0 "Land-Wasser-Schlepper"
+ GER_amphibious_mechanized_equipment_1_short:0 "LWS"
+ GER_amphibious_mechanized_equipment_1_desc:0 ""
+ GER_amphibious_mechanized_equipment_2:0 "Land-Wasser-Schlepper II"
+ GER_amphibious_mechanized_equipment_2_short:0 "LWS II"
+ GER_amphibious_mechanized_equipment_2_desc:0 ""
+ ###########################################
+ ##Artillery Tab
+ ###########################################
+ #
+ GER_artillery_equipment_1:0 "Feldhaubitze 1921 Ausf. G"
+ GER_artillery_equipment_1_short:0 "Feldhaubitze 21"
+ GER_artillery_equipment_2:0 "Schwere Feldhaubitze 31"
+ GER_artillery_equipment_2_short:0 "Haubitze 31"
+ GER_artillery_equipment_3:0 "Deutsche Feldkanone 1934"
+ GER_artillery_equipment_3_short:0 "Kanone 34"
+ #
+ GER_anti_tank_equipment_1:0 "Panzerabwehrkanone 1928 'Hermann'"
+ GER_anti_tank_equipment_1_short:0 "Hermann"
+ GER_anti_tank_equipment_2:0 "Panzerabwehrkanone 1931 'Cherusker'"
+ GER_anti_tank_equipment_2_short:0 "Cherusker"
+ GER_anti_tank_equipment_3:0 "Panzerabwehrkanone 1935 'Arminius'"
+ GER_anti_tank_equipment_3_short:0 "Arminius"
+ #
+ GER_anti_air_equipment_1:0 "20mm Flugabwehrkanone 28"
+ GER_anti_air_equipment_1_short:0 "FlaK 28"
+ GER_anti_air_equipment_2:0 "20mm Flugabwehrkanone 4-32"
+ GER_anti_air_equipment_2_short:0 "FlaK 4-32"
+ GER_anti_air_equipment_3:0 "88 mm Flugabwehrkanone 35"
+ GER_anti_air_equipment_3_short:0 "FlaK 35"
+ #
+ GER_rocket_artillery_equipment_1:0 "Raketenwerfer 1932"
+ GER_rocket_artillery_equipment_2:0 "Raketenwerfer 1935"
+ #
+ GER_motorized_rocket_equipment_1:0 "Katjascha"
+ GER_motorized_rocket_equipment_1_short:0 "Katja"
+ #
+ ###########################################
+ ##Tank Tab
+ ###########################################
+ #
+ GER_gw_tank_equipment:0 "A7V"
+ GER_gw_tank_equipment_short:0 "A7V"
+ GER_gw_tank_equipment_desc:0 "The A7V was the result of German experimentation with armored vehicles during the Continental War. Although it didn't see combat before the war ended in 1916, some 116 A7V tanks were produced between 1919 and 1921 to form the first five German Panzer Regiments."
+ #
+ ## LIGHT TANK 1
+ #
+ GER_light_tank_equipment_1:0 "Panzerkampfwagen 24 'Biene'"
+ GER_light_tank_equipment_1_short:0 "Pz24 'Biene'"
+ GER_light_tank_equipment_1_desc:0 "Conceptualized as the first mainline tank design since the Continental War, but ultimately delayed to finish prototype stages only three years after its heavy cousin, the Panzer 21, the Pz24 'Biene' (German: 'bee') was a shift away from the heavy tank designs pondered during the war towards light and mobile tank units. The Panzer 24 is armed with two Maschinengewehr 13 machine guns mounted on its main turret. It lacks a conventional main gun."
+ GER_light_tank_artillery_equipment_1:0 "Sturmgeschütz 24 'Königin'"
+ GER_light_tank_artillery_equipment_1_short:0 "Königin Augusta"
+ GER_light_tank_artillery_equipment_1_desc:0 "Protoypes of the Sturmgeschütz 24 were first produced in small numbers in late 1926, by experimentally mounting the gun used in the German Feldhaubitze 21 artillery howitzer onto a Panzer 24 chassis, at the loss of a rotating turret. This vehicle was then designated SG-24 and, keeping with the theme of bees present with Panzer 24 models, nicknamed 'Königin' (German: 'queen'). An unofficial nickname used by the troops is 'Augusta', after Wilhelm II's wife."
+ GER_light_tank_destroyer_equipment_1:0 "Leichter Panzerjäger 24 'Bienenstich'"
+ GER_light_tank_destroyer_equipment_1_short:0 "Bienenstich"
+ GER_light_tank_destroyer_equipment_1_desc:0 "The Bienenstich (German: 'bee sting' (also the name of a popular type of cake)) is an adaption of the Panzer 24 carrying the 1928 anti-tank gun model 'Hermann'. Initially named the Panzerkampfwagen 25 and designed as a separate tank model, the Bienenstich was then repurposed as a subtype of the Panzer 24. It is still referred to as the 25 or the 2-5 by its operators, although its official designation is LPJ-24."
+ GER_light_tank_aa_equipment_1:0 "Luftabwehrpanzer 24 'Drohne'"
+ GER_light_tank_aa_equipment_1_short:0 "Drohne"
+ GER_light_tank_aa_equipment_1_desc:0 "The LAP-24, nicknamed 'Drohne' (German: 'drone') after the male bee, was initially a theoretical consideration first made in 1926 in response to a strengthening of French air force numbers. The Drohne features the chassis of the Panzer 24, mounted by the a 20mm gun similar to that used for the German Model 1928 anti-aircraft gun."
+ #
+ ## LIGHT TANK 2
+ #
+ GER_light_tank_equipment_2:0 "Panzerkampfwagen 28 'Hornisse'"
+ GER_light_tank_equipment_2_short:0 "Pz28 'Hornisse'"
+ GER_light_tank_equipment_2_desc:0 "First designs for the Panzer 28 came about during the development of its predecessor, the Panzer 24. Whereas the 'Biene' featured two 7.92mm caliber machine guns of type Maschinengewehr 13 as its primary armament, the Panzer 28, dubbed 'Hornisse' (German: 'hornet'), was instead armed with a 20mm main gun as well as a supporting 7.92mm Maschinengewehr 30 Ausf A."
+ GER_light_tank_artillery_equipment_2:0 "Sturmgeschütz 28 'Wespe'"
+ GER_light_tank_artillery_equipment_2_short:0 "Wespe"
+ GER_light_tank_artillery_equipment_2_desc:0 "Initially designed as a separate tank model and tentatively designated as Panzerkampfwagen 26, the 'Wespe' (German: 'wasp') project was eventually folded into the Panzer 28 family by mounting a Feldhaubitze 21 Ausf. B on top of the chassis of the Hornisse. It compares favorably to its direct successor, the Königin (or Augusta) artillery wagon, and features a longer effective range as well as better periscopes."
+ GER_light_tank_destroyer_equipment_2:0 "Leichter Panzerjäger 28 'Hindenburg'"
+ GER_light_tank_destroyer_equipment_2_short:0 "Hindenburg"
+ GER_light_tank_destroyer_equipment_2_desc:0 "Initially dubbed 'Hornissenstich' (German: 'hornet sting') in reference to its direct successor, the Bienenstich, the Leichter Panzerjäger 28 was eventually given the project name 'Hindenburg' in honor of the German general of the Continental War. Featuring a Hermann Ausf. C artillery cannon mounted on the chassis of the Panzer 28, the Hindenburg can even hope to contest the armor plating of some hostile medium and heavy tank designs. Although effective in combat, the Hindenburg is not well-liked with its users due to its claustrophobic interior and small entry hatch."
+ GER_light_tank_aa_equipment_2:0 "Luftabwehrpanzer 28 'Schwärmer'"
+ GER_light_tank_aa_equipment_2_short:0 "Schwärmer"
+ GER_light_tank_aa_equipment_2_desc:0 "Dubbed 'Schwärmer' (German: 'swarmer'), the Luftabwehrpanzer 28 is another theoretical design submitted to the German military research division. It features a Panzer 28 chassis mounted by a 20mm FlaK anti-aircraft gun. While enticing as a possible conversion model for when the Panzer 28 is phased out of combat in favor of a successor model, the Schwärmer is criticized as inferior to static anti-aircraft guns by its critics."
+ #
+ ## LIGHT TANK 3
+ #
+ GER_light_tank_equipment_3:0 "Panzerkampfwagen 29 'Wilhelm'"
+ GER_light_tank_equipment_3_short:0 "Pz29 'Wilhelm'"
+ GER_light_tank_equipment_3_desc:0 "The Panzer 29 broke with German tank naming conventions, under which tanks were usually given names of animals, in favor of Germany's ailing emperor Wilhelm II. The 'Wilhelm' was named for the Kaiser on the occasion of His Majesty's 70th birthday in 1929. As a result, it also kept the ordinal designation 29, even though delays during the prototype stage hindered its development and ultimately slowed mass production of the Wilhelm until 1933. Its operators also lovingly refer to it as the 'Kaiser' tank or the 'Old Willy'."
+ GER_light_tank_artillery_equipment_3:0 "Sturmgeschütz 29"
+ GER_light_tank_artillery_equipment_3_short:0 "SG-29"
+ GER_light_tank_artillery_equipment_3_desc:0 ""
+ GER_light_tank_destroyer_equipment_3:0 "Leichter Panzerjäger 29"
+ GER_light_tank_destroyer_equipment_3_short:0 "LPJ-29"
+ GER_light_tank_destroyer_equipment_3_desc:0 ""
+ GER_light_tank_aa_equipment_3:0 "Luftabwehrpanzer 29"
+ GER_light_tank_aa_equipment_3_short:0 "LAP-29"
+ GER_light_tank_aa_equipment_3_desc:0 ""
+ #
+ ## MEDIUM TANK 1
+ #
+ GER_medium_tank_equipment_1:0 "Panzerkampfwagen 30 'Wolf'"
+ GER_medium_tank_equipment_1_short:0 "Pz30 'Wolf'"
+ GER_medium_tank_equipment_1_desc:0 "Revealed to the world in 1930, the Panzerkampfwagen 30 was the first example of a German medium tank design. Its concept combined affordability and a reliance on easily replacable parts with moderate firepower and speed. It was armed with a 50mm gun specifically designed to fight enemy tanks. In late 1930, it was given the name 'Wolf' in response to the designation of the current heavy tank project as 'Gepard' (German: 'cheetah'). It thus started the tradition of naming medium tanks after canines, whereas heavy tanks were named after felines."
+ GER_medium_tank_artillery_equipment_1:0 "Sturmgeschütz 30"
+ GER_medium_tank_artillery_equipment_1_short:0 "SG-30"
+ GER_medium_tank_artillery_equipment_1_desc:0 ""
+ GER_medium_tank_destroyer_equipment_1:0 "Panzerjäger 30"
+ GER_medium_tank_destroyer_equipment_1_short:0 "PJ-30"
+ GER_medium_tank_destroyer_equipment_1_desc:0 ""
+ GER_medium_tank_aa_equipment_1:0 "Luftabwehrpanzer 30"
+ GER_medium_tank_aa_equipment_1_short:0 "LAP-30"
+ GER_medium_tank_aa_equipment_1_desc:0 ""
+ #
+ ## MEDIUM TANK 2
+ #
+ GER_medium_tank_equipment_2:0 "Panzerkampfwagen 32 'Schakal'"
+ GER_medium_tank_equipment_2_short:0 "Pz32 'Schakal'"
+ GER_medium_tank_equipment_2_desc:0 "One of the designs that the German government initially rejected during the development of the Panzer 30 as too heavy, the Panzerkampfwagen 32 was originally submitted under the test name 'Panzer 29 Preußen' (German: 'Prussia'), when neither the number 29 nor 30 had been given by the German high command to specific tank models. The Preußen was then revisited in the aftermath of the adoption of the Panzer 30 model, as the 30's 50mm gun was significantly weaker than the Preußen's 75mm main cannon. The Preußen was then rebranded 'Schakal' (German: 'jackal') and given the ordinal number 32."
+ GER_medium_tank_artillery_equipment_2:0 "Sturmgeschütz 32"
+ GER_medium_tank_artillery_equipment_2_short:0 "SG-32"
+ GER_medium_tank_artillery_equipment_2_desc:0 ""
+ GER_medium_tank_destroyer_equipment_2:0 "Panzerjäger 32"
+ GER_medium_tank_destroyer_equipment_2_short:0 "PJ-32"
+ GER_medium_tank_destroyer_equipment_2_desc:0 ""
+ GER_medium_tank_aa_equipment_2:0 "Luftabwehrpanzer 32"
+ GER_medium_tank_aa_equipment_2_short:0 "LAP-32"
+ GER_medium_tank_aa_equipment_2_desc:0 ""
+ #
+ ## MEDIUM TANK 3
+ #
+ GER_medium_tank_equipment_3:0 "Panzerkampfwagen 34 'Hyäne'"
+ GER_medium_tank_equipment_3_short:0 "Pz34 'Hyäne'"
+ GER_medium_tank_equipment_3_desc:0 "With the introduction of the Wilhelm and the Gepard, German medium tank design was oriented towards heaviness. This was done to reduce the Panzerwaffe's reliance on heavy tanks and to replace them with less expensive medium tank models, whereas heavy tanks would be used exclusively in elite formations and light tanks as infantry assault vehicles. The result was a heavy medium tank, the Panzerkampfwagen 34 'Hyäne' (German: 'hyena'). It continued to use the Schakal's 75mm cannon, but its armor was more similar to that of the Gepard in thickness, while taking notes from French and American designs in angling its armor slopes."
+ GER_medium_tank_artillery_equipment_3:0 "Sturmgeschütz 34"
+ GER_medium_tank_artillery_equipment_3_short:0 "SG-34"
+ GER_medium_tank_artillery_equipment_3_desc:0 ""
+ GER_medium_tank_destroyer_equipment_3:0 "Panzerjäger 34"
+ GER_medium_tank_destroyer_equipment_3_short:0 "PJ-34"
+ GER_medium_tank_destroyer_equipment_3_desc:0 ""
+ GER_medium_tank_aa_equipment_3:0 "Luftabwehrpanzer 34"
+ GER_medium_tank_aa_equipment_3_short:0 "LAP-34"
+ GER_medium_tank_aa_equipment_3_desc:0 ""
+ #
+ ## HEAVY TANK 1
+ #
+ GER_heavy_tank_equipment_1:0 "Panzerkampfwagen 21 'Löwe'"
+ GER_heavy_tank_equipment_1_short:0 "Pz21 'Löwe'"
+ GER_heavy_tank_equipment_1_desc:0 "Named after its designer Wilhelm Löwe (whose surname means 'lion' in German), the Panzer 21 started the German tradition of naming tanks after animals. The Löwe is a slow-moving heavy armored vehicle, characteristically loud and attention-grabbing."
+ GER_heavy_tank_artillery_equipment_1:0 "Gepanzertes Sturmgeschütz 21"
+ GER_heavy_tank_artillery_equipment_1_short:0 "GSG-21"
+ GER_heavy_tank_artillery_equipment_1_desc:0 ""
+ GER_heavy_tank_destroyer_equipment_1:0 "Schwerer Panzerjäger 21"
+ GER_heavy_tank_destroyer_equipment_1_short:0 "SPJ-21"
+ GER_heavy_tank_destroyer_equipment_1_desc:0 ""
+ GER_heavy_tank_aa_equipment_1:0 "Schwerer Luftabwehrpanzer 21"
+ GER_heavy_tank_aa_equipment_1_short:0 "SLAP-21"
+ GER_heavy_tank_aa_equipment_1_desc:0 ""
+ #
+ ## HEAVY TANK 2
+ #
+ GER_heavy_tank_equipment_2:0 "Panzerkampfwagen 33 'Gepard'"
+ GER_heavy_tank_equipment_2_short:0 "Pz33 'Gepard'"
+ GER_heavy_tank_equipment_2_desc:0 "The German government had endeavored to replace the Panzer 21 as its heavy tank model of choice as early as 1924, but the 'Projekt Schwerpanzer' was delayed by numerous factors. In 1930, the ongoing development was dubbed 'Gepard' (German: 'cheetah') and that name published to the German press without further information in the hopes of deceiving hostile intelligence into believing the project was a fast light tank. Instead, it was armed with a mighty 88mm cannon and armored behind as much as 110mm steel. On the flipside, the Gepard, now officially designated Panzerkampfwagen 33, was slow, expensive and prone to mechanical errors."
+ GER_heavy_tank_artillery_equipment_2:0 "Gepanzertes Sturmgeschütz 33"
+ GER_heavy_tank_artillery_equipment_2_short:0 "GSG-33"
+ GER_heavy_tank_artillery_equipment_2_desc:0 ""
+ GER_heavy_tank_destroyer_equipment_2:0 "Schwerer Panzerjäger 33"
+ GER_heavy_tank_destroyer_equipment_2_short:0 "SPJ-33"
+ GER_heavy_tank_destroyer_equipment_2_desc:0 ""
+ GER_heavy_tank_aa_equipment_2:0 "Schwerer Luftabwehrpanzer 33"
+ GER_heavy_tank_aa_equipment_2_short:0 "SLAP-33"
+ GER_heavy_tank_aa_equipment_2_desc:0 ""
+ #
+ ## HEAVY TANK 3
+ #
+ GER_heavy_tank_equipment_3:0 "Panzerkampfwagen 35 'Tiger'"
+ GER_heavy_tank_equipment_3_short:0 "Pz35 'Tiger'"
+ GER_heavy_tank_equipment_3_desc:0 "Developed at the same time as the Hyäne, the Panzerkampfwagen 35, designated 'Tiger', improved the design of the Gepard by introducing the Hyäne's sloped armor, while maximizing armor thickness to 185mm at the front of the tank. It maintained the Gepard's 88mm cannon and proved a formidable foe to any enemy vehicle, with the sole exception being some specific super heavy tank designs. At 70 tons, the Tiger was significantly heavier than the Gepard at 57 tons."
+ GER_heavy_tank_artillery_equipment_3:0 "Gepanzertes Sturmgeschütz 35"
+ GER_heavy_tank_artillery_equipment_3_short:0 "GSG-35"
+ GER_heavy_tank_artillery_equipment_3_desc:0 ""
+ GER_heavy_tank_destroyer_equipment_3:0 "Schwerer Panzerjäger 35"
+ GER_heavy_tank_destroyer_equipment_3_short:0 "SPJ-35"
+ GER_heavy_tank_destroyer_equipment_3_desc:0 ""
+ GER_heavy_tank_aa_equipment_3:0 "Schwerer Luftabwehrpanzer 35"
+ GER_heavy_tank_aa_equipment_3_short:0 "SLAP-35"
+ GER_heavy_tank_aa_equipment_3_desc:0 ""
+ #
+ ## SUPER HEAVY TANK
+ #
+ GER_super_heavy_tank_equipment_1:0 "Panzerkampfwagen 36 'Elefant'"
+ GER_super_heavy_tank_equipment_1_short:0 "Pz36 'Elefant'"
+ GER_super_heavy_tank_equipment_1_desc:0 "The Panzerkampfwagen 36 design was developed to fill a small amount of the most elite and experienced of German tank brigades. With a maximum armor thickness of 220mm and a 128mm cannon, the Panzer 36 is the heaviest German design of its era. It was thus fittingly named after the world's heaviest land animal and dubbed 'Elefant' (German: 'elephant'). At 188 tons, it is too heavy for many small bridges and does significant damage to almost any road it travels on. However, it is essentially invincible in combat and can even withstand direct hits by some aircraft."
+ GER_super_heavy_tank_artillery_equipment_1:0 "Schwerstgepanzertes Sturmgeschütz 36"
+ GER_super_heavy_tank_artillery_equipment_1_short:0 "S-GSG-36"
+ GER_super_heavy_tank_artillery_equipment_1_desc:0 ""
+ GER_super_heavy_tank_destroyer_equipment_1:0 "Superschwerer Panzerjäger 36"
+ GER_super_heavy_tank_destroyer_equipment_1_short:0 "S-SPJ-36"
+ GER_super_heavy_tank_destroyer_equipment_1_desc:0 ""
+ GER_super_heavy_tank_aa_equipment_1:0 "Superschwerer Luftabwehrpanzer 36"
+ GER_super_heavy_tank_aa_equipment_1_short:0 "S-SLAP-36"
+ GER_super_heavy_tank_aa_equipment_1_desc:0 ""
+ #
+ ## MODERN TANK
+ #
+ GER_modern_tank_equipment_1:0 "Panzerkampfwagen 37 'Leopard'"
+ GER_modern_tank_equipment_1_short:0 "Pz37 'Leopard'"
+ GER_modern_tank_equipment_1_desc:0 "The Panzerkampfwagen 37 design was already under consideration during the development of both the Hyäne and the Tiger tanks. Dubbed the 'Leopard', this tank design is the culmination of the union of the medium and heavy tank families. At 51 tons, it falls between the 44 tons of the Hyäne and the 70 tons of the Tiger, while taking over most of the latter's design strengths. It retained the Tiger's 88mm cannon and sloped angular armor, but paired it with the thinner and lighter plating and the more economically affordable mechanical design of the Hyäne."
+ GER_modern_tank_artillery_equipment_1:0 "Sturmgeschütz 37"
+ GER_modern_tank_artillery_equipment_1_short:0 "SG-37"
+ GER_modern_tank_artillery_equipment_1_desc:0 ""
+ GER_modern_tank_destroyer_equipment_1:0 "Panzerjäger 37"
+ GER_modern_tank_destroyer_equipment_1_short:0 "PJ-37"
+ GER_modern_tank_destroyer_equipment_1_desc:0 ""
+ GER_modern_tank_aa_equipment_1:0 "Luftabwehrpanzer 37"
+ GER_modern_tank_aa_equipment_1_short:0 "LAP-37"
+ GER_modern_tank_aa_equipment_1_desc:0 ""
+ #
+ ## AMPHIBIOUS TANKS
+ #
+ GER_amphibious_tank_equipment_1:0 "Amphibien-Panzerkampfwagen 28 'Delfin'"
+ GER_amphibious_tank_equipment_1_short:0 "A-Pz28 'Delfin'"
+ GER_amphibious_tank_equipment_2:0 "Amphibien-Panzerkampfwagen 30 'Hai'"
+ GER_amphibious_tank_equipment_2_short:0 "A-Pz30 'Hai'"
+ #
+ ###########################################
+ ##Air Force Tab
+ ###########################################
+ #
+ GER_fighter_equipment_0:0 "Fokker 26 'Richthofen'"
+ GER_fighter_equipment_0_short:0 "Fokker 26"
+ GER_fighter_equipment_1:0 "Fokker 28 'Udet'"
+ GER_fighter_equipment_1_short:0 "Fokker 28"
+ GER_fighter_equipment_2:0 "Fokker 32 'Löwenhardt'"
+ GER_fighter_equipment_2_short:0 "Fokker 32"
+ GER_fighter_equipment_3:0 "Fokker 36 'Voss'"
+ GER_fighter_equipment_3_short:0 "Fokker 36"
+ GER_heavy_fighter_equipment_1:0 "Fokker 29 'Berthold'"
+ GER_heavy_fighter_equipment_1_short:0 "Fokker 29"
+ GER_heavy_fighter_equipment_2:0 "Fokker 33 'Gontermann'"
+ GER_heavy_fighter_equipment_2_short:0 "Fokker 33"
+ GER_heavy_fighter_equipment_3:0 "Fokker 37 'Buckler'"
+ GER_heavy_fighter_equipment_3_short:0 "Fokker 37"
+ GER_strat_bomber_equipment_1:0 "Gotha G VII (S)"
+ GER_strat_bomber_equipment_1_short:0 "Gotha G VII"
+ GER_strat_bomber_equipment_1_desc:0 "Following the less than successful experimentation that Gotha made with its G.VI bomber plane as an asymmetrical model, the successor G.VII was once again designed as a symmetrical bomber plane. This was indicated by the addition of '(S)' at the end of the model name."
+ GER_strat_bomber_equipment_2:0 "Gotha G VIII (S)"
+ GER_strat_bomber_equipment_2_short:0 "Gotha G VIII"
+ GER_strat_bomber_equipment_3:0 "Gotha G IX (S)"
+ GER_strat_bomber_equipment_3_short:0 "Gotha G IX"
+ GER_jet_fighter_equipment_1:0 "Fokker 38 'Luftkaiser'"
+ GER_jet_fighter_equipment_1_short:0 "Fokker 38"
+ GER_jet_fighter_equipment_2:0 "Fokker 42 'Siegesbringer'"
+ GER_jet_fighter_equipment_2_short:0 "Fokker 42"
+ GER_jet_strat_bomber_equipment_1:0 "Amerikabomber"
+ GER_jet_strat_bomber_equipment_1_short:0 "Amerikabomber"
+ GER_tac_bomber_equipment_0:0 "Friedrichshafen G.IV (FF62)"
+ GER_tac_bomber_equipment_0_short:0 "FF62"
+ GER_tac_bomber_equipment_1:0 "Friedrichshafen G.V (FF71) 'Adler'"
+ GER_tac_bomber_equipment_1_short:0 "FF71 'Adler'"
+ GER_tac_bomber_equipment_2:0 "Friedrichshafen G.VI (FF86) 'Aquila'"
+ GER_tac_bomber_equipment_2_short:0 "FF86 'Aquila'"
+ GER_tac_bomber_equipment_3:0 "Friedrichshafen G.VII (FF101) 'Schreiadler'"
+ GER_tac_bomber_equipment_3_short:0 "FF101 'Schreiadler'"
+ GER_jet_tac_bomber_equipment_1:0 "Friedrichshafen G.VIII (FF120(D)) 'Falke'"
+ GER_jet_tac_bomber_equipment_1_short:0 "FF120(D) 'Falke'"
+ GER_jet_tac_bomber_equipment_2:0 "Friedrichshafen G.IX (FF129(D)) 'Greif'"
+ GER_jet_tac_bomber_equipment_2_short:0 "FF129(D) 'Greif'"
+ GER_nav_bomber_equipment_1:0 "Wilhelmshavener Luftwerke Modell 1928 'Möwe'"
+ GER_nav_bomber_equipment_1_short:0 "W28 'Möwe'"
+ GER_nav_bomber_equipment_2:0 "Wilhelmshavener Luftwerke Modell 1932 'Albatross'"
+ GER_nav_bomber_equipment_2_short:0 "W32 'Albatross'"
+ GER_nav_bomber_equipment_3:0 "Wilhelmshavener Luftwerke Modell 1936 'Schwalbe'"
+ GER_nav_bomber_equipment_3_short:0 "W36 'Schwalbe'"
+ GER_CAS_equipment_1:0 "Junkers Modell 50 'Sturzkampfflugzeug'"
+ GER_CAS_equipment_1_short:0 "Junkers 50"
+ GER_CAS_equipment_2:0 "Junkers Modell 63/2 'Kondor'"
+ GER_CAS_equipment_2_short:0 "Junkers 63/2"
+ GER_CAS_equipment_3:0 "Junkers Modell 79 'Reichsadler'"
+ GER_CAS_equipment_3_short:0 "Junkers 79"
+ GER_rocket_interceptor_equipment_1:0 "Messerschmitt Me 163 'Komet'"
+ GER_rocket_interceptor_equipment_1_short:0 "Me 163 'Komet'"
+ GER_rocket_interceptor_equipment_2:0 "Fliegende Panzerfaust"
+ GER_rocket_interceptor_equipment_2_short:0 "FPF"
+ GER_rocket_interceptor_equipment_3:0 "Focke-Wulf Volksjäger"
+ GER_rocket_interceptor_equipment_3_short:0 "Fw VJ"
+ GER_cv_nav_bomber_equipment_1:0 "Trägermarinebomber 1929"
+ GER_cv_nav_bomber_equipment_1_short:0 "TMB29"
+ GER_cv_nav_bomber_equipment_2:0 "Trägermarinebomber 1930"
+ GER_cv_nav_bomber_equipment_2_short:0 "TMB30"
+ GER_cv_nav_bomber_equipment_3:0 "Trägermarinebomber 1938"
+ GER_cv_nav_bomber_equipment_3_short:0 "TMB38"
+ GER_cv_CAS_equipment_1:0 "Trägersturzbomber Typ Junkers Modell 50b"
+ GER_cv_CAS_equipment_1_short:0 "TSB M50b"
+ GER_cv_CAS_equipment_2:0 "Trägersturzbomber Typ Junkers Modell 63/2b"
+ GER_cv_CAS_equipment_2_short:0 "TSB M63/2b"
+ GER_cv_CAS_equipment_3:0 "Trägersturzbomber Typ Junkers Modell 79b"
+ GER_cv_CAS_equipment_3_short:0 "TSB M79b"
+ GER_cv_fighter_equipment_0:0 "Trägerjagdflugzeug Modell 1919"
+ GER_cv_fighter_equipment_0_short:0 "TJF1919"
+ GER_cv_fighter_equipment_1:0 "Trägerjagdflugzeug Modell 1924"
+ GER_cv_fighter_equipment_1_short:0 "TJF1924"
+ GER_cv_fighter_equipment_2:0 "Trägerjagdflugzeug Modell 1930"
+ GER_cv_fighter_equipment_2_short:0 "TJF1930"
+ GER_cv_fighter_equipment_3:0 "Trägerjagdflugzeug Modell 1935"
+ GER_cv_fighter_equipment_3_short:0 "TJF1935"

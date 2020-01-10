@@ -3,17 +3,28 @@
 on_actions = {
 	on_declare_war = {
 		effect = {
+			###
+		
 			ROOT = { FROM = { news_event = news.1 } }
+			
+			###
+			
 			#Mitteleuropa
 			if = {
 				limit = {
-					FROM = { has_idea = mitteleuropa_member }
+					FROM = {
+						has_idea = mitteleuropa_member
+						is_mitteleuropa_leader = no
+					}
 					ROOT = { NOT = { has_idea = mitteleuropa_member } }
 				}
 				hidden_effect = { #We don't want this to show up for tooltip reasons.
-					ROOT = { #This guy will be FROM.FROM
-						FROM = { #This guy will be FROM
-							every_country = { #The country that gets the event
+					ROOT = { 
+						#This guy will be FROM.FROM
+						FROM = { 
+							#This guy will be FROM
+							every_country = {
+								#The country that gets the event
 								limit = { is_mitteleuropa_leader = yes }
 								country_event = germany.1
 							}
@@ -21,32 +32,90 @@ on_actions = {
 					}
 				}
 				effect_tooltip = { 		#The tooltip looks weird otherwise.
-					every_country = { limit = { is_mitteleuropa_leader = yes } country_event = germany.1 } 
+					every_country = {
+						limit = { is_mitteleuropa_leader = yes } 
+						country_event = germany.1
+					} 
 				}
 			}
+			
+			###
+			
 			#Triple Alliance
 			if = {
 				limit = {
 					FROM = { has_idea = triple_alliance_member }
 					ROOT = { NOT = { has_idea = triple_alliance_member } }
 				}
-				hidden_effect = { #We don't want this to show up for tooltip reasons.
-					ROOT = { #This guy will be FROM.FROM
-						FROM = { #This guy will be FROM
-							every_country = { #The country that gets the event
-								limit = { 
-									has_idea = triple_alliance_member 
-									NOT = { tag = FROM } 
-								}
-								country_event = germany.2
-							}
+				if = {
+					limit = { 
+						FROM = { original_tag = GER }
+						GER = { has_idea = triple_alliance_member }
+					}
+					if = {
+						limit = {
+							AUS = { has_idea = triple_alliance_member }
+							AUS = { NOT = { has_war_with = GER } }
+							AUS = { NOT = { is_in_faction_with = GER } }	#We dont want this to trigger if they're in a faction anyway
 						}
+						AUS = { country_event = { id = germany.2 hours = 6 } }
+					}
+					if = {
+						limit = {
+							ITA = { has_idea = triple_alliance_member }
+							ITA = { NOT = { has_war_with = GER } }
+							ITA = { NOT = { is_in_faction_with = GER } }	#We dont want this to trigger if they're in a faction anyway
+						}
+						ITA = { country_event = { id = germany.2 hours = 6 } }
 					}
 				}
-				effect_tooltip = {		#The tooltip looks weird otherwise.
-					every_country = { limit = { has_idea = triple_alliance_member NOT = { tag = ROOT } } country_event = germany.1 } 
+				if = {
+					limit = {
+						FROM = { original_tag = AUS }
+						AUS = { has_idea = triple_alliance_member }
+					}
+					if = {
+						limit = {
+							GER = { has_idea = triple_alliance_member }
+							GER = { NOT = { has_war_with = AUS } }
+							GER = { NOT = { is_in_faction_with = AUS } }	#We dont want this to trigger if they're in a faction anyway
+						}
+						GER = { country_event = { id = germany.2 hours = 6 } }
+					}
+					if = {
+						limit = {
+							ITA = { has_idea = triple_alliance_member }
+							ITA = { NOT = { has_war_with = AUS } }
+							ITA = { NOT = { is_in_faction_with = AUS } }	#We dont want this to trigger if they're in a faction anyway
+						}
+						ITA = { country_event = { id = germany.2 hours = 6 } }
+					}
+				}
+				if = {
+					limit = { 
+						FROM = { original_tag = ITA }
+						ITA = { has_idea = triple_alliance_member }
+					}
+					if = {
+						limit = {
+							GER = { has_idea = triple_alliance_member }
+							GER = { NOT = { has_war_with = ITA } }
+							GER = { NOT = { is_in_faction_with = ITA } }	#We dont want this to trigger if they're in a faction anyway
+						}
+						GER = { country_event = { id = germany.2 hours = 6 } }
+					}
+					if = {
+						limit = {
+							AUS = { has_idea = triple_alliance_member }
+							AUS = { NOT = { has_war_with = ITA } }
+							AUS = { NOT = { is_in_faction_with = ITA } }	#We dont want this to trigger if they're in a faction anyway
+						}
+						AUS = { country_event = { id = germany.2 hours = 6 } }
+					}
 				}
 			}
+			
+			###
 		}
 	}
 }

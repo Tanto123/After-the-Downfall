@@ -1,1 +1,306 @@
-﻿
+﻿GER_INF_01 = {
+	name = "GER Imperial Div."
+	for_countries = { GER }
+	
+	can_use = {
+		NOT = { has_government = anarchism }
+		NOT = { has_government = communism }
+	}
+
+	division_types = { "infantry" }
+	fallback_name = "%d. Infanteriedivision"
+	
+	ordered = {
+		1 = { "%d. Gardedivision" }
+		2 = { "%d. Gardedivision" }
+		3 = { "%d. Infanteriedivision" }
+		4 = { "%d. Infanteriedivision" }
+		5 = { "%d. Infanteriedivision" }
+		6 = { "%d. Infanteriedivision" }
+		7 = { "%d. Grenzschutzdivision" }
+		8 = { "%d. Infanteriedivision" }
+		9 = { "%d. Grenzschutzdivision" }
+		10 = { "%d. Infanteriedivision" }
+		11 = { "%d. Grenzschutzdivision" }
+		12 = { "%d. Gardedivision" }
+		13 = { "%d. Infanteriedivision" }
+		14 = { "%d. Infanteriedivision" }
+		15 = { "%d. Grenzschutzdivision" }
+		16 = { "%d. Gardedivision" }
+		17 = { "%d. Infanteriedivision" }
+		18 = { "%d. Infanteriedivision" }
+		19 = { "%d. Grenzschutzdivision" }
+		20 = { "%d. Infanteriedivision" }
+		21 = { "%d. Gardedivision" }
+		22 = { "%d. Gardedivision" }
+		23 = { "%d. Infanteriedivision" }
+		24 = { "%d. Grenzschutzdivision" }
+		25 = { "%d. Grenzschutzdivision" }
+		26 = { "%d. Infanteriedivision" }
+		27 = { "%d. Infanteriedivision" }
+		28 = { "%d. Infanteriedivision" }
+		29 = { "%d. Infanteriedivision" }
+		30 = { "%d. Infanteriedivision" }
+		31 = { "%d. Infanteriedivision" }
+		32 = { "%d. Grenzschutzdivision" }
+		33 = { "%d. Infanteriedivision" }
+		34 = { "%d. Infanteriedivision" }
+		35 = { "%d. Infanteriedivision" }
+		36 = { "%d. Gardedivision" }
+		37 = { "%d. Infanteriedivision" }
+		38 = { "%d. Infanteriedivision" }
+		39 = { "%d. Infanteriedivision" }
+		40 = { "%d. Infanteriedivision" }
+		41 = { "%d. Infanteriedivision" }
+		42 = { "%d. Infanteriedivision" }
+		43 = { "%d. Gardedivision" }
+		44 = { "%d. Infanteriedivision" }
+		45 = { "%d. Infanteriedivision" }
+		46 = { "%d. Infanteriedivision" }
+		47 = { "%d. Infanteriedivision" }
+		48 = { "%d. Infanteriedivision" }
+		49 = { "%d. Infanteriedivision" }
+		50 = { "%d. Gardedivision" }
+		88 = { "%d. Infanteriedivision" }
+		93 = { "%d. Reichsschutzdivision" }
+		96 = { "%d. Infanteriedivision" }
+		100 = { "%d. Gardedivision" }
+		101 = { "%d. Infanteriedivision" }
+		147 = { "%d. Reichsschutzdivision" }
+		51 = { "%d. Infanteriedivision" }
+		52 = { "%d. Division 'Theodor'" }
+		53 = { "%d. Infanteriedivision" }
+		54 = { "%d. Infanteriedivision" }
+		55 = { "%d. Reichsschutzdivision" }
+		64 = { "%d. Infanteriedivision" }
+		56 = { "%d. Infanteriedivision" }
+		57 = { "%d. Infanteriedivision" }
+		63 = { "%d. Reichsschutzdivision" }
+		58 = { "%d. Infanteriedivision" }
+		59 = { "%d. Infanteriedivision" }
+		60 = { "%d. Infanteriedivision" }
+		123 = { "%d. Reichsschutzdivision" }
+		124 = { "%d. Reichsschutzdivision" }
+		165 = { "%d. Reichsschutzdivision" }
+		133 = { "%d. Reichsschutzdivision" }
+		153 = { "%d. Reichsschutzdivision" }
+		134 = { "%d. Reichsschutzdivision" }
+		136 = { "%d. Reichsschutzdivision" }
+		137 = { "%d. Infanteriedivision" }
+		152 = { "%d. Infanteriedivision" }
+		138 = { "%d. Reichsschutzdivision" }
+		139 = { "%d. Infanteriedivision" }
+		125 = { "%d. Reichsschutzdivision" }
+		61 = { "%d. Infanteriedivision" }
+		164 = { "%d. Reichsschutzdivision" }
+		62 = { "%d. Infanteriedivision" }
+		154 = { "%d. Reichsschutzdivision" }
+		155 = { "%d. Reichsschutzdivision" }
+		135 = { "%d. Reichsschutzdivision" }
+		65 = { "%d. Infanteriedivision" }
+		66 = { "%d. Infanteriedivision" }
+		118 = { "%d. Infanteriedivision" }
+		119 = { "%d. Reichsschutzdivision" }
+		70 = { "%d. Infanteriedivision" }
+		151 = { "%d. Infanteriedivision" }
+		71 = { "%d. Infanteriedivision" }
+		113 = { "%d. Infanteriedivision" }
+		126 = { "%d. Reichsschutzdivision" }
+		127 = { "%d. Reichsschutzdivision" }
+		128 = { "%d. Infanteriedivision" }
+		129 = { "%d. Reichsschutzdivision" }
+		130 = { "%d. Reichsschutzdivision" }
+		131 = { "%d. Infanteriedivision" }
+		159 = { "%d. Infanteriedivision" }
+		114 = { "%d. Reichsschutzdivision" }
+		163 = { "%d. Reichsschutzdivision" }
+		141 = { "%d. Reichsschutzdivision" }
+		142 = { "%d. Reichsschutzdivision" }
+		143 = { "%d. Infanteriedivision" }
+		144 = { "%d. Reichsschutzdivision" }
+		156 = { "%d. Infanteriedivision" }
+		157 = { "%d. Infanteriedivision" }
+		145 = { "%d. Infanteriedivision" }
+		146 = { "%d. Reichsschutzdivision" }
+		115 = { "%d. Infanteriedivision" }
+		116 = { "%d. Infanteriedivision" }
+		117 = { "%d. Reichsschutzdivision" }
+		75 = { "%d. Infanteriedivision" }
+		76 = { "%d. Reichsschutzdivision" }
+		77 = { "%d. Infanteriedivision" }
+		121 = { "%d. Reichsschutzdivision" }
+		158 = { "%d. Reichsschutzdivision" }
+		72 = { "%d. Infanteriedivision" }
+		73 = { "%d. Infanteriedivision" }
+		122 = { "%d. Infanteriedivision" }
+		132 = { "%d. Infanteriedivision" }
+		74 = { "%d. Infanteriedivision" }
+		78 = { "%d. Infanteriedivision" }
+		79 = { "%d. Infanteriedivision" }
+		80 = { "%d. Infanteriedivision" }
+		105 = { "%d. Reichsschutzdivision" }
+		106 = { "%d. Infanteriedivision" }
+		91 = { "%d. Infanteriedivision" }
+		94 = { "%d. Reichsschutzdivision" }
+		161 = { "%d. Reichsschutzdivision" }
+		95 = { "%d. Reichsschutzdivision" }
+		92 = { "%d. Infanteriedivision" }
+		162 = { "%d. Reichsschutzdivision" }
+		107 = { "%d. Reichsschutzdivision" }
+		120 = { "%d. Reichsschutzdivision" }
+		67 = { "%d. Infanteriedivision" }
+		148 = { "%d. Reichsschutzdivision" }
+		150 = { "%d. Gardedivision" }
+		112 = { "%d. Reichsschutzdivision" }
+		68 = { "%d. Infanteriedivision" }
+		69 = { "%d. Reichsschutzdivision" }
+		111 = { "%d. Reichsschutzdivision" }
+		81 = { "%d. Infanteriedivision" }
+		82 = { "%d. Reichsschutzdivision" }
+		108 = { "%d. Infanteriedivision" }
+		109 = { "%d. Reichsschutzdivision" }
+		110 = { "%d. Reichsschutzdivision" }
+		83 = { "%d. Infanteriedivision" }
+		84 = { "%d. Infanteriedivision" }
+		85 = { "%d. Infanteriedivision" }
+		102 = { "%d. Infanteriedivision" }
+		89 = { "%d. Infanteriedivision" }
+		90 = { "%d. Infanteriedivision" }
+		103 = { "%d. Reichsschutzdivision" }
+		104 = { "%d. Reichsschutzdivision" }
+		86 = { "%d. Reichsschutzdivision" }
+		87 = { "%d. Infanteriedivision" }
+		97 = { "%d. Reichsschutzdivision" }
+		98 = { "%d. Reichsschutzdivision" }
+		99 = { "%d. Infanteriedivision" }
+		140 = { "%d. Reichsschutzdivision" }
+		149 = { "%d. Reichsschutzdivision" }
+		160 = { "%d. Reichsschutzdivision" }
+		200 = { "%d. Gardedivision" }
+		250 = { "%d. Gardedivision" }
+		300 = { "%d. Gardedivision" }
+		350 = { "%d. Gardedivision" }
+	}
+}
+GER_INF_BRI_01 = {
+	name = "GER Infantry Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	division_types = { "infantry" }
+	fallback_name = "%d. Infanteriebrigade"
+
+	link_numbering_with = { GER_INF_01 }
+	
+	ordered = { }
+}
+GER_INF_BRI_02 = {
+	name = "GER Colonial Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	division_types = { "infantry" }
+	fallback_name = "%d. Festungsbrigade"
+
+	link_numbering_with = { GER_INF_01 }
+	
+	ordered = {
+		181 = { "%d. Festungsbrigade" }
+		182 = { "%d. Festungsbrigade" }
+		108 = { "%d. Festungsbrigade" }
+		111 = { "%d. Festungsbrigade" }
+		134 = { "%d. Festungsbrigade" }
+		151 = { "%d. Festungsbrigade" }
+		101 = { "%d. Festungsbrigade" }
+		102 = { "%d. Festungsbrigade" }
+		103 = { "%d. Festungsbrigade" }
+		104 = { "%d. Festungsbrigade" }
+		281 = { "%d. Festungsbrigade" }
+		282 = { "%d. Festungsbrigade" }
+		208 = { "%d. Festungsbrigade" }
+		211 = { "%d. Festungsbrigade" }
+		234 = { "%d. Festungsbrigade" }
+		251 = { "%d. Festungsbrigade" }
+		301 = { "%d. Festungsbrigade" }
+		302 = { "%d. Festungsbrigade" }
+		303 = { "%d. Festungsbrigade" }
+		304 = { "%d. Festungsbrigade" }
+	}
+}
+GER_CAV_BRI_01 = {
+	name = "GER Cavalry Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	division_types = { "infantry" "cavalry" }
+	fallback_name = "%d. Kavalleriebrigade"
+	
+	ordered = { }
+}
+GER_ARM_01 = {
+	name = "GER Armored Car Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	division_types = { "light_armor" }
+	fallback_name = "%d. Kampfwagenbrigade"
+	
+	ordered = { }
+}
+GER_ARM_02 = {
+	name = "GER Armor Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	link_numbering_with = { GER_ARM_01 }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	fallback_name = "%d. Panzerbrigade"
+	
+	ordered = { }
+}
+GER_ARM_03 = {
+	name = "GER Light Armor Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	link_numbering_with = { GER_ARM_01 }
+
+	division_types = { "light_armor" }
+	fallback_name = "%d. Leichte Panzerbrigade"
+	
+	ordered = { }
+}
+GER_ARM_04 = {
+	name = "GER Heavy Armor Brig."
+	for_countries = { GER }
+	
+	can_use = {
+		always = yes
+	}
+
+	link_numbering_with = { GER_ARM_01 }
+
+	division_types = { "heavy_armor" "modern_armor" }
+	fallback_name = "%d. Schwere Panzerbrigade"
+	
+	ordered = { }
+}

@@ -76,6 +76,21 @@ ideas = {
 			}
 		}
 	
+		wilhelm_ii = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = wilhelm_ii
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+	
 	}
 	
 	political_advisor = {
@@ -178,6 +193,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		franz_halder = {
 			allowed = { original_tag = GER }
@@ -190,6 +206,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		franz_stoehr = {
 			picture = amadeo_bordiga
@@ -203,6 +220,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		franz_von_papen = {
 			picture = zoltan_tildy
@@ -216,6 +234,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		friedrich_ebert_jr = {
 			picture = norris_stephen_falla
@@ -229,6 +248,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		fritz_todt = {
 			allowed = { original_tag = GER }
@@ -241,6 +261,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		gustav_noske = {
 			picture = aaron_saenz_garza
@@ -254,6 +275,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		heinrich_himmler = {
 			allowed = { original_tag = GER }
@@ -266,6 +288,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		heinz_guderian = {
 			allowed = { original_tag = GER }
@@ -278,6 +301,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		hermann_duncker = {
 			picture = kalman_kanya
@@ -291,6 +315,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		hermann_fleissner = {
 			picture = keith_jacka_holyoake
@@ -304,6 +329,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		hermann_goering = {
 			allowed = { original_tag = GER }
@@ -316,6 +342,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		hermann_goertz = {
 			allowed = { original_tag = GER }
@@ -328,6 +355,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		hjalmar_schacht = {
 			allowed = { original_tag = GER }
@@ -340,6 +368,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		hugo_eberlein = {
 			picture = gyula_gombos_de_jakfa
@@ -568,6 +597,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		rosa_luxemburg = {
 			picture = generic_female_advisor
@@ -581,6 +611,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		rudolf_hess = {
 			allowed = { original_tag = GER }
@@ -593,6 +624,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		rudolf_rocker = {
 			picture = nicolas_molero
@@ -606,6 +638,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		walther_funk = {
 			allowed = { original_tag = GER }
@@ -618,6 +651,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		walther_von_brauchitsch = {
 			allowed = { original_tag = GER }
@@ -642,6 +676,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		wernher_von_braun = {
 			allowed = { original_tag = GER }
@@ -654,6 +689,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		wilhelm_kuelz = {
 			picture = marius_raaijmakers
@@ -667,6 +703,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		wilhelm_marx = {
 			picture = herbert_vere_evatt
@@ -680,6 +717,7 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
+			
 		}
 		
 	}

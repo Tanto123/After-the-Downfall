@@ -1,0 +1,320 @@
+﻿division_template = {
+	name = "Infanteriedivision"
+	
+	division_names_group = GER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Kavalleriebrigade"
+	
+	division_names_group = GER_CAV_BRI_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "Infanteriebrigade"
+	
+	division_names_group = generic_INF_BRI_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "Festungsbrigade"
+	
+	division_names_group = GER_INF_BRI_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "Kampfwagenbrigade"
+	
+	division_names_group = GER_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 1 }
+		location = 6521		#Berlin
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 2 }
+		location = 6332		#Königsberg
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 3 }
+		location = 6488		#Frankfurt
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.75
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 4 }
+		location = 587		#Köln
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.75
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 5 }
+		location = 692		#Munich
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 6 }
+		location = 11388	#Münster
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 7 }
+		location = 9503		#Straßburg
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 8 }
+		location = 362		#Danzig
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 9 }
+		location = 11502	#East of Metz
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 10 }
+		location = 6469		#Essen
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 11 }
+		location = 1346		#Straßburg Airfield
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 12 }
+		location = 3326		#Bremen
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.65
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 13 }
+		location = 9347		#Hamburg
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 14 }
+		location = 11499	#Ulm
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 15 }
+		location = 9559		#Metz
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 16 }
+		location = 9517		#Stuttgart
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 17 }
+		location = 6558		#Posen
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 18 }
+		location = 3561		#Erfurt
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 19 }
+		location = 678		#Mülhausen
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 20 }
+		location = 495		#Dortmund
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 21 }
+		location = 9570		#Breslau
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 22 }
+		location = 6375		#Allenstein
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 23 }
+		location = 279		#Biddegosch
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 23 }
+		location = 6529		#North of Mülhausen
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 24 }
+		location = 11531	#Saarbrücken
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.57
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 25 }
+		location = 11544	#Nuremberg
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.52
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 26 }
+		location = 564		#Kassel
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.52
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 27 }
+		location = 6282		#Stettin
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.52
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 28 }
+		location = 514		#Dresden
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.52
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 29 }
+		location = 11467	#Gleiwitz
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.46
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 30 }
+		location = 3535		#Leipzig
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.46
+	}
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 31 }
+		location = 3629		#North of Straßburg Airfield
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.08
+		start_equipment_factor = 0.46
+	}
+	
+	division= {	
+		division_name = { is_name_ordered = yes name_order = 1 }
+		location = 6521		#Berlin
+		division_template = "Kampfwagenbrigade"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect = {
+}

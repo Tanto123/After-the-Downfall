@@ -968,35 +968,35 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_confederacy"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_confederacy.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_confederacy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_france"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_france.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_france.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_german_empire"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_german_empire.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_german_empire.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_germany"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_germany.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_germany.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_japan"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_japan.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_japan.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_uk"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_uk.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_uk.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_usa"
-		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment_usa.dds"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_usa.dds"
 	}
 	
 	####
@@ -1537,6 +1537,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_french_imperials"
 		texturefile = "gfx/interface/ideas/france/french_imperials.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_french_patriotism"
+		texturefile = "gfx/interface/ideas/france/french_patriotism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_girondists"
@@ -2813,188 +2817,302 @@ spriteTypes = {
 		name = "GFX_idea_hungarian_swedish_ties"
 		texturefile = "gfx/interface/ideas/hungary/hungarian_swedish_ties.dds"
 	}	
+	
 	#IDEOLOGY#
 	
-	##COMMUNISM##
-
 	spriteType = {
 		name = "GFX_idea_anarchism"
-		texturefile = "gfx/interface/ideas/ideology/communism/anarchism.dds"
+		texturefile = "gfx/interface/ideas/ideology/anarchism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anarchist_council"
-		texturefile = "gfx/interface/ideas/ideology/communism/anarchist_council.dds"
+		texturefile = "gfx/interface/ideas/ideology/anarchist_council.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_anarcho_communism"
+		texturefile = "gfx/interface/ideas/ideology/anarcho_communism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_communism"
-		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_communism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_communism2"
-		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism2.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_communism2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_communism3"
-		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism3.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_communism3.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_communism4"
-		texturefile = "gfx/interface/ideas/ideology/communism/anti_communism4.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_communism4.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_communism"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism2"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism3"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism4"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism4.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism5"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism5.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism6"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism6.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism7"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism7.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism8"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism8.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism9"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism9.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism10"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism10.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communism11"
-		texturefile = "gfx/interface/ideas/ideology/communism/communism11.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_army"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_army.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_army2"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_army2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_cooperation"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_cooperation.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_cuisine"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_cuisine.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_industry"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_industry.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_propaganda"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_propaganda.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_communist_purge"
-		texturefile = "gfx/interface/ideas/ideology/communism/communist_purge.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_fourth_international"
-		texturefile = "gfx/interface/ideas/ideology/communism/fourth_international.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_international_brigades"
-		texturefile = "gfx/interface/ideas/ideology/communism/international_brigades.dds"
-	}
-	
-	##DEMOCRACY##
-
-	spriteType = {
-		name = "GFX_idea_democracy"
-		texturefile = "gfx/interface/ideas/ideology/democracy/democracy.dds"
-	}	
-	spriteType = {
-		name = "GFX_idea_democracy2"
-		texturefile = "gfx/interface/ideas/ideology/democracy/democracy2.dds"
-	}	
-	spriteType = {
-		name = "GFX_idea_democracy3"
-		texturefile = "gfx/interface/ideas/ideology/democracy/democracy3.dds"
-	}	
-	
-	##FASCISM##
-
 	spriteType = {
 		name = "GFX_idea_anti_fascism"
-		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_fascism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_fascism2"
-		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism2.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_fascism2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_fascism3"
-		texturefile = "gfx/interface/ideas/ideology/fascism/anti_fascism3.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_fascism3.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_fascism"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_fascism2"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_fascism3"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism3.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_fascism4"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism4.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_fascism5"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism5.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_fascism6"
-		texturefile = "gfx/interface/ideas/ideology/fascism/fascism6.dds"
-	}	
-	##MONARCHISM##
-
 	spriteType = {
 		name = "GFX_idea_anti_monarchism"
-		texturefile = "gfx/interface/ideas/ideology/monarchism/anti_monarchism.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_monarchism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_anti_monarchism2"
-		texturefile = "gfx/interface/ideas/ideology/monarchism/anti_monarchism2.dds"
+		texturefile = "gfx/interface/ideas/ideology/anti_monarchism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arab_socialism"
+		texturefile = "gfx/interface/ideas/ideology/arab_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism"
+		texturefile = "gfx/interface/ideas/ideology/communism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism2"
+		texturefile = "gfx/interface/ideas/ideology/communism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism3"
+		texturefile = "gfx/interface/ideas/ideology/communism3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism4"
+		texturefile = "gfx/interface/ideas/ideology/communism4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism5"
+		texturefile = "gfx/interface/ideas/ideology/communism5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism6"
+		texturefile = "gfx/interface/ideas/ideology/communism6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism7"
+		texturefile = "gfx/interface/ideas/ideology/communism7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism8"
+		texturefile = "gfx/interface/ideas/ideology/communism8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism9"
+		texturefile = "gfx/interface/ideas/ideology/communism9.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism10"
+		texturefile = "gfx/interface/ideas/ideology/communism10.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism11"
+		texturefile = "gfx/interface/ideas/ideology/communism11.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism12"
+		texturefile = "gfx/interface/ideas/ideology/communism12.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism13"
+		texturefile = "gfx/interface/ideas/ideology/communism13.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism14"
+		texturefile = "gfx/interface/ideas/ideology/communism14.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism15"
+		texturefile = "gfx/interface/ideas/ideology/communism15.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communism16"
+		texturefile = "gfx/interface/ideas/ideology/communism16.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_army"
+		texturefile = "gfx/interface/ideas/ideology/communist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_army2"
+		texturefile = "gfx/interface/ideas/ideology/communist_army2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_cooperation"
+		texturefile = "gfx/interface/ideas/ideology/communist_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_cuisine"
+		texturefile = "gfx/interface/ideas/ideology/communist_cuisine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_industry"
+		texturefile = "gfx/interface/ideas/ideology/communist_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_propaganda"
+		texturefile = "gfx/interface/ideas/ideology/communist_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_purge"
+		texturefile = "gfx/interface/ideas/ideology/communist_purge.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy"
+		texturefile = "gfx/interface/ideas/ideology/democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy2"
+		texturefile = "gfx/interface/ideas/ideology/democracy2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy3"
+		texturefile = "gfx/interface/ideas/ideology/democracy3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy4"
+		texturefile = "gfx/interface/ideas/ideology/democracy4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy5"
+		texturefile = "gfx/interface/ideas/ideology/democracy5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democracy6"
+		texturefile = "gfx/interface/ideas/ideology/democracy6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_democratic_socialism"
+		texturefile = "gfx/interface/ideas/ideology/democratic_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_despotism"
+		texturefile = "gfx/interface/ideas/ideology/despotism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_clerical_fascism"
+		texturefile = "gfx/interface/ideas/ideology/clerical_fascism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_falangism"
+		texturefile = "gfx/interface/ideas/ideology/falangism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism"
+		texturefile = "gfx/interface/ideas/ideology/fascism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism2"
+		texturefile = "gfx/interface/ideas/ideology/fascism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism3"
+		texturefile = "gfx/interface/ideas/ideology/fascism3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism4"
+		texturefile = "gfx/interface/ideas/ideology/fascism4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism5"
+		texturefile = "gfx/interface/ideas/ideology/fascism5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism6"
+		texturefile = "gfx/interface/ideas/ideology/fascism6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism7"
+		texturefile = "gfx/interface/ideas/ideology/fascism7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascism8"
+		texturefile = "gfx/interface/ideas/ideology/fascism8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fourth_international"
+		texturefile = "gfx/interface/ideas/ideology/fourth_international.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_integralism"
+		texturefile = "gfx/interface/ideas/ideology/integralism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_international_brigades"
+		texturefile = "gfx/interface/ideas/ideology/international_brigades.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_juche"
+		texturefile = "gfx/interface/ideas/ideology/juche.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_labor_zionism"
+		texturefile = "gfx/interface/ideas/ideology/labor_zionism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maoism"
+		texturefile = "gfx/interface/ideas/ideology/maoism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_marxism_leninism"
+		texturefile = "gfx/interface/ideas/ideology/marxism_leninism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_monarchism"
-		texturefile = "gfx/interface/ideas/ideology/monarchism/monarchism.dds"
-	}	
-	##
-
+		texturefile = "gfx/interface/ideas/ideology/monarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_monarchism2"
+		texturefile = "gfx/interface/ideas/ideology/monarchism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nazism"
+		texturefile = "gfx/interface/ideas/ideology/nazism.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_non_alignment"
 		texturefile = "gfx/interface/ideas/ideology/non_alignment.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_pagan_fascism"
+		texturefile = "gfx/interface/ideas/ideology/pagan_fascism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rexism"
+		texturefile = "gfx/interface/ideas/ideology/rexism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_salafism"
+		texturefile = "gfx/interface/ideas/ideology/salafism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_democracy"
+		texturefile = "gfx/interface/ideas/ideology/social_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_socialism"
+		texturefile = "gfx/interface/ideas/ideology/socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_socialism2"
+		texturefile = "gfx/interface/ideas/ideology/socialism2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_strasserism"
+		texturefile = "gfx/interface/ideas/ideology/strasserism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_syndicalism"
+		texturefile = "gfx/interface/ideas/ideology/syndicalism.dds"
+	}
+	
 	#INDIA#
 	
 	##ADVISORS##
@@ -4252,6 +4370,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_anti_nationalism"																	
 		texturefile = "gfx/interface/ideas/politics/anti_nationalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_authoritarian_government"																	
+		texturefile = "gfx/interface/ideas/politics/authoritarian_government.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_buccaneers"																	

@@ -2,11 +2,49 @@
 # FORMS OF GOVERNMENT
 ##############
 
+is_monarchy = {
+	custom_trigger_tooltip = {
+		tooltip = TT_is_monarchy
+		OR = {
+			has_government = monarchism
+			has_idea = absolute_monarchy
+			has_idea = advised_monarchy
+			has_idea = constitutional_monarchy
+			has_idea = parliamentary_monarchy
+		}
+	}
+}
 is_republic = {
-	NOT = { has_idea = absolute_monarchy }
-	NOT = { has_idea = advised_monarchy }
-	NOT = { has_idea = constitutional_monarchy }
-	NOT = { has_idea = parliamentary_monarchy }
+	custom_trigger_tooltip = {
+		tooltip = TT_is_republic
+		NOT = { has_government = monarchism }
+		NOT = { has_idea = absolute_monarchy }
+		NOT = { has_idea = advised_monarchy }
+		NOT = { has_idea = constitutional_monarchy }
+		NOT = { has_idea = parliamentary_monarchy }
+	}
+}
+has_muslim_religious_movement_as_social_faction = {
+	custom_trigger_tooltip = {
+		tooltip = TT_has_muslim_religious_movement_as_social_faction
+		OR = {
+			has_idea = sunni_islam
+			has_idea = shia_islam
+		}
+	}
+}
+has_religious_movement_as_social_faction = {
+	custom_trigger_tooltip = {
+		tooltip = TT_has_religious_movement_as_social_faction
+		OR = {
+			has_idea = orthodox_christianity
+			has_idea = roman_catholicism
+			has_idea = protestantism
+			has_idea = sunni_islam
+			has_idea = shia_islam
+			has_idea = shintoism
+		}
+	}
 }
 
 ##############
@@ -102,4 +140,189 @@ can_hire_ultranationalist_advisors = {
 		has_country_flag = ultranationalist_advisors_allowed
 	}
 	NOT = { has_country_flag = ultranationalist_advisors_banned }
+}
+
+##############
+# DEMOCRACY RATING
+##############
+
+democracy_rating_less_than_10 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_10
+		check_variable = {
+			var = democracy_rating
+			value = 10
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_20 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_20
+		check_variable = {
+			var = democracy_rating
+			value = 20
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_30 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_30
+		check_variable = {
+			var = democracy_rating
+			value = 30
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_40 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_40
+		check_variable = {
+			var = democracy_rating
+			value = 40
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_50 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_50
+		check_variable = {
+			var = democracy_rating
+			value = 50
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_60 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_60
+		check_variable = {
+			var = democracy_rating
+			value = 60
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_70 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_70
+		check_variable = {
+			var = democracy_rating
+			value = 70
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_80 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_80
+		check_variable = {
+			var = democracy_rating
+			value = 80
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_less_than_90 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_less_than_90
+		check_variable = {
+			var = democracy_rating
+			value = 90
+			compare = less_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_10 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_10
+		check_variable = {
+			var = democracy_rating
+			value = 10
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_20 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_20
+		check_variable = {
+			var = democracy_rating
+			value = 20
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_30 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_30
+		check_variable = {
+			var = democracy_rating
+			value = 30
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_40 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_40
+		check_variable = {
+			var = democracy_rating
+			value = 40
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_50 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_50
+		check_variable = {
+			var = democracy_rating
+			value = 50
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_60 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_60
+		check_variable = {
+			var = democracy_rating
+			value = 60
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_70 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_70
+		check_variable = {
+			var = democracy_rating
+			value = 70
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_80 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_80
+		check_variable = {
+			var = democracy_rating
+			value = 80
+			compare = greater_than_or_equals
+		}
+	}
+}
+democracy_rating_greater_than_90 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_DR_greater_than_90
+		check_variable = {
+			var = democracy_rating
+			value = 90
+			compare = greater_than_or_equals
+		}
+	}
 }

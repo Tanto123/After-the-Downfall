@@ -7,15 +7,10 @@ state={
 
 	history={
 		owner = GER
-		victory_points = {
-			241 5 
-		}
-		victory_points = {
-			11360 1
-		}
-		victory_points = {
-			11388 5
-		}
+		add_core_of = GER
+		victory_points = { 241 5 }		#Wilhelmshaven
+		victory_points = { 11360 1 }	#Emden
+		victory_points = { 11388 5 }	#Osnabrück
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -27,13 +22,6 @@ state={
 			}
 			air_base = 3
 
-		}
-		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				dockyard = 3
-			}
 		}
 	}
 

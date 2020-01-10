@@ -7,10 +7,12 @@ bookmarks = {
 		default_country = "USA"
 		default = yes
 		
-		"CSA"={
-			history = "CSA_1928_DESC"
+		"AUS"={
+			history = "AUS_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				mitteleuropa_member
+				triple_alliance_member
 			}
 			focuses = {
 			}
@@ -19,8 +21,8 @@ bookmarks = {
 			history = "GER_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				wilhelm_ii
 				german_military_hubris
-				mitteleuropa_member
 				rechtsfront
 			}
 			focuses = {
@@ -48,6 +50,8 @@ bookmarks = {
 			history = "SOV_1928_DESC"
 			ideology = conservatism
 			ideas = {
+				russian_republican_movement
+				treaty_of_riga
 			}
 			focuses = {
 			}
@@ -82,17 +86,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"AUS"={
-			minor = yes
-			history = "AUS_1928_DESC"
-			ideology = conservatism
-			ideas = {
-				mitteleuropa_member
-				triple_alliance_member
-			}
-			focuses = {
-			}
-		}
 		"BEL"={
 			minor = yes
 			history = "BEL_1928_DESC"
@@ -123,6 +116,15 @@ bookmarks = {
 		"CHI"={
 			minor = yes
 			history = "CHI_1928_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CSA"={
+			minor = yes
+			history = "CSA_1928_DESC"
 			ideology = conservatism
 			ideas = {
 			}

@@ -1,10 +1,16 @@
 ﻿l_english:
+ #####
+ ## DEBUG
+ #####
  debug.1.t:0 "Democracy Rating Cheat"
  debug.1.d:0 "You have arrived in the cheat menu to quickly adapt your Democracy Rating, you dirty cheater."
  debug.1.o1:0 "Increase DR by 1."
  debug.1.o2:0 "Decrease DR by 1."
  debug.1.o3:0 "Increase DR by 10."
  debug.1.o4:0 "Decrease DR by 10."
+ #####
+ ## DEMOCRACY
+ #####
  democracy.1.t:0 "Democracy"
  democracy.1.d:0 "The people have prevailed through darker, more authoritarian times, when the government told them what to do, what to think and what to want. Today, they wake up in a freer society, where their newspapers are neither censored nor biased, where their access to the ballot box is unrestricted, and where corruption is at a historic low. Life is good."
  democracy.1.o1:0 "I love democracy."
@@ -23,6 +29,36 @@
  democracy.5.t:0 "Totalitarianism"
  democracy.5.d:0 "At least 472 inhabitants of the country's capital city have mysteriously disappeared over the past few weeks. The only common factor between these numerous cases, that the government does not seem particularly interested in, is that black automobiles were seen close to the apartments of the victims closely before the incidents. In the meantime, the government is reinstating draconic punishments, including the death penalty for most offenses, and is forming fifteen new offices in the national secret police service. The administration has also given out new contracts to a company that excels at designing wiretaps. A true surveillance state is the real freedom."
  democracy.5.o1:0 "The state is always right."
+ #####
+ ## ELECTIONS
+ #####
+ election.1.t:0 "Anarchist Electoral Triumph"
+ election.1.d:0 "In the recent national elections, the anarchists have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.1.o1:0 "Is this the end of the state?"
+ election.2.t:0 "Communist Electoral Triumph"
+ election.2.d:0 "In the recent national elections, the communists have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.2.o1:0 "A revolutionary moment."
+ election.3.t:0 "Leftist Electoral Triumph"
+ election.3.d:0 "In the recent national elections, the leftists have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.3.o1:0 "This is the victory of the working class."
+ election.4.t:0 "Centrist Electoral Triumph"
+ election.4.d:0 "In the recent national elections, the centrists have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.4.o1:0 "Capitalists like this."
+ election.5.t:0 "Conservative Electoral Triumph"
+ election.5.d:0 "In the recent national elections, the conservatives have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.5.o1:0 "But what will we conserve?"
+ election.6.t:0 "Despotic Electoral Triumph"
+ election.6.d:0 "In the recent national elections, the despots have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.6.o1:0 "What even is a despot?"
+ election.7.t:0 "Monarchist Electoral Triumph"
+ election.7.d:0 "In the recent national elections, the monarchists have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.7.o1:0 "Long live the monarchy."
+ election.8.t:0 "Ultranationalist Electoral Triumph"
+ election.8.d:0 "In the recent national elections, the ultranationalists have won a complete and decisive victory. They will be able to govern without the help of other parties."
+ election.8.o1:0 "Let's hope they don't lose a world war."
+ #####
+ ## GERMANY
+ #####
  germany.1.t:0 "Mitteleuropa under attack"
  germany.1.d:0 "A member of the Mitteleuropa agreement is under attack by an outside nation. As the agreement's most powerful state, it is up to us to make sure that the defensive obligations of Mitteleuropa are observed properly. We must come to the aid of our partners."
  germany.1.o1:0 "Come to their aid."
@@ -31,6 +67,9 @@
  germany.2.d:0 "One of our fellow members of the Triple Alliance has fallen under attack. We are required by treaty to aid them."
  germany.2.o1:0 "We stand with our allies."
  germany.2.o2:0 "This is not possible right now."
+ #####
+ ## NEWS
+ #####
  news.1.t:0 "[From.GetNameDef] declares war on [Root.GetNameDef]"
  news.1.d:0 "[From.GetNameDef] has declared war on [Root.GetNameDef]."
  news.1.o1:0 "They will regret this."

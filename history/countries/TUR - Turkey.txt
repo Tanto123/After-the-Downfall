@@ -27,6 +27,11 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+add_ideas = {	#Social Factions
+	sunni_islam
+	robber_barons
+}
+
 set_cosmetic_tag = TUR_OttomanEmpire
 
 set_popularities = {

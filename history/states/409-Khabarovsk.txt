@@ -10,7 +10,9 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = FER
+		add_core_of = FER
+		add_core_of = SOV
 		victory_points = {
 			12189 1
 		}
@@ -18,14 +20,11 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 4
-			9604 ={
-				naval_base = 1
-			}
+			9604 = { naval_base = 1 }
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		725 739 753 1267 1325 1343 1397 1504 3756 3963 4404 6774 7249 7266 7309 9589 9604 9733 9749 10466 11575 11719 12136 12189 
+		725 739 753 1267 1325 1343 1397 1504 3756 3963 4404 4841 6774 7249 7266 7309 7868 9589 9604 9733 9749 10466 11575 11719 12136 12189 
 	}
 }

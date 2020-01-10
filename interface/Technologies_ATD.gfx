@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_machine_gun_barrel_changing_system_medium"
+		texturefile = "gfx/interface/technologies/machine_gun_barrel_changing_system.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_armor_piercing_shell_medium"
+		texturefile = "gfx/interface/technologies/light_armor_shell.dds"
+	}
+	SpriteType = {
+		name = "GFX_vehicle_mounted_machine_guns_medium"
+		texturefile = "gfx/interface/technologies/vehicle_mounted_machine_guns.dds"
+	}
+}

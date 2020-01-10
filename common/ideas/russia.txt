@@ -1,0 +1,41 @@
+ideas = {
+	
+	country = {
+	
+		russian_republican_movement = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = vladimir_lenin
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				anarchism_drift = 0.01
+				communism_drift = 0.01
+				centrism_drift = 0.01
+				conservatism_drift = 0.01
+			}
+		}
+	
+		treaty_of_riga = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = treaty2
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+			}
+		}
+	
+	}
+	
+}

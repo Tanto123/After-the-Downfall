@@ -37,7 +37,7 @@ set_politics = {
 create_country_leader = {
 	name = "Iosif Djugashvili"
 	desc = leader_desc_GEO_Iosif_Djugashvili
-	picture = "generals/Iosif_Djugashvili.dds"
+	picture = "Iosif_Djugashvili.dds"
 	ideology = vanguardism
 	traits = {
 		

@@ -10,11 +10,19 @@ on_actions = {
 				drop_cosmetic_tag = yes
 			}
 			if = { 
+				limit = { original_tag = FER } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
 				limit = { original_tag = GXC } 
 				drop_cosmetic_tag = yes
 			}
 			if = { 
 				limit = { original_tag = HUN } 
+				drop_cosmetic_tag = yes
+			}
+			if = { 
+				limit = { original_tag = KWA } 
 				drop_cosmetic_tag = yes
 			}
 			if = { 
