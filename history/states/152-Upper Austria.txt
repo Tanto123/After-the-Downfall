@@ -17,21 +17,11 @@ state={
 			infrastructure = 6
 			industrial_complex = 3
 		}
-		victory_points = {
-			688 10 
-		}
-		victory_points = {
-			3673 3
-		}
-		victory_points = {
-			9665 3
-		}
-		victory_points = {
-			732 10
-		}
-		#victory_points = {
-		#	11612 3
-		#}
+		victory_points = { 688 20 }		#Salzburg
+		victory_points = { 3673 3 }		#Klagenfurt
+		victory_points = { 9665 1 }		#Wels
+		victory_points = { 6708 1 }		#Braunau
+		victory_points = { 732 10 }		#Linz
 		add_core_of = AUS
 
 		1938.3.12 = {

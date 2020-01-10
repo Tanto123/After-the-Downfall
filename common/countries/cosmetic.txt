@@ -22,30 +22,30 @@ RAJ_BritishRaj = {
 }
 #Chinese Warlords
 GXC_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }
 MAN_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }
 MEN_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }
 SIK_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }
 SHX_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }
 XSM_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }
 YUN_ChineseWarlord = {
-	color = rgb { 235 224 170 }
-	color_ui = rgb { 235 224 170 }
+	color = rgb { 225 225 0 }
+	color_ui = rgb { 225 225 0 }
 }

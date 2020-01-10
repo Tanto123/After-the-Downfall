@@ -13,18 +13,13 @@ state={
 
 	history={
 		owner = GER
-		victory_points = { 3561 5 }
-		victory_points = { 425 3 }
+		add_core_of = GER
+		victory_points = { 6524 5 }		#Erfurt
+		victory_points = { 538 3 }		#Jena
+		victory_points = { 6501 3 }		#Gera
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-		}
-		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 3
-				arms_factory = 2
-			}
 		}
 	}
 

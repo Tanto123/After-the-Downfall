@@ -1,6 +1,6 @@
 ﻿generic_INF_DIV_01 = 
 {
-	name = "Infantry Division"
+	name = "Infantry Div."
 
 	can_use = { always = yes }
 
@@ -8,7 +8,7 @@
 
 	#link_numbering_with = { }
 
-	fallback_name = "%d Infantry Division"
+	fallback_name = "%dth Infantry Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -218,7 +218,7 @@
 
 generic_INF_DIV_02 = 
 {
-	name = "Infantry Division (Democracy)"
+	name = "Infantry Div. Liberty"
 
 	can_use = { always = yes }
 
@@ -226,7 +226,7 @@ generic_INF_DIV_02 =
 
 	link_numbering_with = { generic_INF_DIV_01 }
 
-	fallback_name = "%d Infantry Division"
+	fallback_name = "%dth Liberty Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -253,7 +253,7 @@ generic_INF_DIV_02 =
 
 generic_INF_DIV_03 = 
 {
-	name = "Infantry Division (Nationalism)"
+	name = "Infantry Div. Fascism"
 
 	can_use = { always = yes }
 
@@ -261,7 +261,7 @@ generic_INF_DIV_03 =
 
 	link_numbering_with = { generic_INF_DIV_01 }
 
-	fallback_name = "%d Infantry Division"
+	fallback_name = "%dth National Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -295,7 +295,7 @@ generic_INF_DIV_03 =
 
 generic_INF_DIV_04 = 
 {
-	name = "Infantry Division (Communism)"
+	name = "Infantry Div. Leftism"
 
 	can_use = { always = yes }
 
@@ -303,7 +303,7 @@ generic_INF_DIV_04 =
 
 	link_numbering_with = { generic_INF_DIV_01 }
 
-	fallback_name = "%d Infantry Division"
+	fallback_name = "%dth Revolutionary Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -330,7 +330,7 @@ generic_INF_DIV_04 =
 
 generic_INF_BRI_01 = 
 {
-	name = "Infantry Brigade"
+	name = "Infantry Brig."
 
 	can_use = { always = yes }
 
@@ -548,7 +548,7 @@ generic_INF_BRI_01 =
 
 generic_CAV_DIV_01 = 
 {
-	name = "Cavalry Division"
+	name = "Cavalry Div."
 
 	can_use = { always = yes }
 
@@ -556,7 +556,7 @@ generic_CAV_DIV_01 =
 
 	#link_numbering_with = { }
 
-	fallback_name = "%d Cavalry Division"
+	fallback_name = "%dth Cavalry Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -766,7 +766,7 @@ generic_CAV_DIV_01 =
 
 generic_CAV_BRI_01 = 
 {
-	name = "Cavalry Brigade"
+	name = "Cavalry Brig."
 
 	can_use = { always = yes }
 
@@ -774,7 +774,7 @@ generic_CAV_BRI_01 =
 
 	#link_numbering_with = { }
 
-	fallback_name = "%d Cavalry Brigade"
+	fallback_name = "%dth Cavalry Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.

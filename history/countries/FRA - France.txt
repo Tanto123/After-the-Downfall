@@ -44,21 +44,21 @@ add_ideas = {	#National Ideas
 }
 
 set_popularities = {
-	anarchism = 0
-	communism = 10
-	leftism = 40
-	centrism = 10
+	anarchism = 2
+	communism = 13
+	leftism = 37
+	centrism = 3
 	conservatism = 10
-	despotism = 0 
-	monarchism = 0 
-	ultranationalism = 30
+	despotism = 1
+	monarchism = 1
+	ultranationalism = 33
 }
 
 set_politics = { 
 	ruling_party = leftism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {

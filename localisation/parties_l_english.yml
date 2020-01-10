@@ -71,6 +71,15 @@
  #
  SER_despotism_party:0 "Austro-Hungarian Military"
  #
+ SOV_anarchism_party:0 "Zeloniks"
+ SOV_communism_party:0 "Bolsheviks"
+ SOV_leftism_party:0 "Mensheviks"
+ SOV_centrism_party:0 "Democratic Republicans"
+ SOV_conservative_party:0 "Liberal Monarchists"
+ SOV_despotism_party:0 "Government of Collaboration"
+ SOV_monarchism_party:0 "Romanov Dynasty"
+ SOV_ultranationalism_party:0 "Revanchists"
+ #
  USA_anarchism_party:0 "Syndicate Party"
  USA_communism_party:0 "Radical Labour Party"
  USA_leftism_party:0 "Labour Party"

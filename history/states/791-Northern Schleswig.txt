@@ -10,8 +10,10 @@ state={
 	history = {
 		owner = GER
 		add_core_of = GER
+		victory_points = { 11251 1 }		#Apenrade
 		buildings = {
 			infrastructure = 6
+			industrial_complex = 1
 		}
 	}
 	manpower=342132

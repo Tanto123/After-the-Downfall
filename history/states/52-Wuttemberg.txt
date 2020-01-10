@@ -1,7 +1,7 @@
 
 state={
 	id=52
-	name="STATE_52"
+	name="STATE_52"			#Oberbayern
 	manpower = 2679413
 	resources={
 		aluminium=18 # was: 30
@@ -11,24 +11,17 @@ state={
 
 	history={
 		owner = GER
-		victory_points = {
-			692 20
-		}
-		victory_points = {
-			708 3 #10
-		}
+		add_core_of = GER
+		victory_points = { 692 20 }		#Munich
+		victory_points = { 708 3 }		#Augsburg
+		victory_points = { 707 1 }		#Berchtesgaden
+		victory_points = { 9652 1 }		#Rosenheim
+		victory_points = { 11638 1 }	#Oberstdorf
 		buildings = {
 			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 3
+			arms_factory = 1
 			air_base = 6
-		}
-		add_core_of = GER
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-			}
 		}
 	}
 

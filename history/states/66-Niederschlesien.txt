@@ -12,28 +12,12 @@ state={
 
 	history={
 		owner = GER
-		victory_points = {
-			9570 10 
-		}
-		#victory_points = {
-		#	552 1
-		#}
-		#victory_points = {
-		#	3545 1
-		#}
+		add_core_of = GER
+		victory_points = { 9570 20 }	#Breslau
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			industrial_complex = 4
 			air_base = 6
-		}
-		add_core_of = GER
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-				arms_factory = 3
-				industrial_complex = 3
-			}
 		}
 	}
 

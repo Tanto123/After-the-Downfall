@@ -14,29 +14,16 @@ state={
 
 	history={
 		owner = ITA
-		victory_points = {
-			6788 10 
-		}
-		victory_points = {
-			6780 5 
-		}
+		add_core_of = ITA
+		victory_points = { 6788 10 }
+		victory_points = { 6780 5 }
 		buildings = {
 			infrastructure = 7
 			arms_factory = 7
 			industrial_complex = 1
 			dockyard = 2
 			air_base = 8
-			6788 = {
-				naval_base = 8
-			}
-		}
-		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 10
-				industrial_complex = 2
-				dockyard = 3
-			}
+			6788 = { naval_base = 8 }
 		}
 	}
 

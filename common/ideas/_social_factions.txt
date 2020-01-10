@@ -166,6 +166,22 @@ ideas = {
 			}
 		}
 		
+		monarchists = {
+			picture = monarchism
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				monarchism_drift = 0.02
+				conservatism_drift = 0.02
+			}
+		}
+		
 		mining_companies = {
 			picture = resource_production
 			
@@ -235,7 +251,6 @@ ideas = {
 		}
 	
 		protestantism = {
-			picture = christianity4
 			
 			allowed = {}
 			visible = { always = yes }
@@ -265,6 +280,21 @@ ideas = {
 			}
 		}
 		
+		republicans = {
+			picture = democracy2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				monarchism_drift = -0.02
+			}
+		}
+		
 		robber_barons = {
 			picture = mefo_bills_payment
 			
@@ -283,7 +313,7 @@ ideas = {
 		}
 	
 		roman_catholicism = {
-			picture = christianity5
+			picture = catholicism
 			
 			allowed = {}
 			visible = { always = yes }
@@ -298,7 +328,7 @@ ideas = {
 		}
 	
 		shia_islam = {
-			picture = islamic_unrest
+			picture = shiism
 			
 			allowed = {}
 			visible = { always = yes }
@@ -328,7 +358,7 @@ ideas = {
 		}
 	
 		sunni_islam = {
-			picture = islamic_marginalization
+			picture = sunnism
 			
 			allowed = {}
 			visible = { always = yes }

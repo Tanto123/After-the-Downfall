@@ -11,29 +11,14 @@ state={
 	
 	history={
 		owner = AUS
-		victory_points = {
-			11666 30.0 
-		}
-		victory_points = {
-			9648 5 
-		}
+		add_core_of = AUS
+		victory_points = { 11666 30 }	#Wien
+		victory_points = { 9648 20 }	#Graz
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
 			industrial_complex = 5
 			air_base = 6
-		}
-		add_core_of = AUS
-
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
 		}
 	}
 

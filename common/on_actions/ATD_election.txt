@@ -1,0 +1,50 @@
+on_actions = {
+	on_new_term_election = {
+		effect = {
+			if = {
+				limit = { anarchism > 0.5 }
+				country_event = election.1
+			}
+			if = {
+				limit = { communism > 0.5 }
+				country_event = election.2
+			}
+			if = {
+				limit = { leftism > 0.5 }
+				country_event = election.3
+			}
+			if = {
+				limit = { centrism > 0.5 }
+				country_event = election.4
+			}
+			if = {
+				limit = { conservatism > 0.5 }
+				country_event = election.5
+			}
+			if = {
+				limit = { despotism > 0.5 }
+				country_event = election.6
+			}
+			if = {
+				limit = { monarchism > 0.5 }
+				country_event = election.7
+			}
+			if = {
+				limit = { ultranationalism > 0.5 }
+				country_event = election.8
+			}
+			if = {
+				limit = { 
+					anarchism < 0.5
+					communism < 0.5
+					leftism < 0.5
+					centrism < 0.5
+					conservatism < 0.5
+					despotism < 0.5
+					monarchism < 0.5
+					ultranationalism < 0.5
+				}
+			}
+		}
+	}
+}

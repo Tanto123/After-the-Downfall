@@ -11,22 +11,13 @@ state={
 
 	history={
 		owner = USA
+		add_core_of = USA
+		victory_points = { 4740 3 }
+		victory_points = { 7834 1 }
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
-		}
-		add_core_of = USA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
-		victory_points = {
-			4740 3
-		}
-		victory_points = {
-			7834 1
 		}
 	}
 

@@ -16,11 +16,6 @@ state={
 			industrial_complex = 2
 			air_base = 8
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

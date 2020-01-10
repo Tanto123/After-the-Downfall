@@ -11,19 +11,8 @@ state={
 		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
-
 		}
-		victory_points = {
-			10856 1
-		}
-		1939.1.1 = {
-			buildings = {
-				infrastructure = 2
-
-			}
-
-		}
-
+		victory_points = { 10856 1 }
 	}
 
 	provinces={

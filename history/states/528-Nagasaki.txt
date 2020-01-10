@@ -17,28 +17,11 @@ state={
 			dockyard = 4
 			arms_factory = 2
 			industrial_complex = 2
-			9950 = {
-				naval_base = 6
-
-			}
-
+			9950 = { naval_base = 6 }
 		}
-		victory_points = {
-			1025 10 
-		}
-		victory_points = {
-			4102 15 
-		}
-		victory_points = {
-			9950 30
-		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 4
-				industrial_complex = 3
-			}
-		}
-
+		victory_points = { 1025 10 }
+		victory_points = { 4102 15 }
+		victory_points = { 9950 30 }
 	}
 
 	provinces={
