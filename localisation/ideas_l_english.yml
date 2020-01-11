@@ -9,6 +9,8 @@
  advised_monarchy:0 "Advised Monarchy"
  JAP_advised_monarchy:0 "Neo-Shogunate"
  advised_monarchy_desc:0 "While nominally an Absolute Monarchy, the Advised Monarchy has established customs in which the monarch rules through their advisors. Such a system is most associated with the Japanese Emperors.\n\nIn Japan, this system is decried by advocates of a more complete Absolute Monarchy as a 'Neo-Shogunate'.\n"
+ banana_republic:0 "Banana Republic"
+ banana_republic_desc:0 ""
  clerical_fascism:0 "Clerical Fascism"
  clerical_fascism_desc:0 "Clerical Fascism combines the teachings of the Italian fascist movement of a nationalistically inspired self-subjugation of the individual to an all-powerful paternal state with radical fundamentalist religious teachings and traditionalism. Clerical Fascist movements are typically, albeit not necessarily, Roman Catholic."
  defensive_anarchism:0 "Defensive Anarchism"
@@ -317,9 +319,3 @@
  ##SWE
  pori_corridor_question:0 "Pori Corridor Question"
  pori_corridor_question_desc:0 "Ever since Sweden's successful 1915 intervention in the European War, the Swedish-speaking parts of what was once Russian Finland have been part of Sweden.\n\nHowever, the German government, allied with both Sweden and Finland, forced Swedish troops to retreat to only two coastal strips with the highest concentration of ethnic Swedes.\n\nThese two territories, the Turku and Vaasa areas, are divided by the Pori region, which the Germans awarded to Finland. Ever since, a growing lobby of Swedish nationalists have voiced demands to connect the two colonial regions by acquiring what they refer to as the 'Pori Corridor'."
- ##Central America
- banana_republic_influence:0 "Grip of the Banana Republic"
- banana_republic_influence_desc:0 ""
- ##South America
- military_junta:0 "Military Junta"
- military_junta_desc:0 ""

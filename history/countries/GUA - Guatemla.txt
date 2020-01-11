@@ -9,17 +9,15 @@ set_war_support = 0.5
 
 set_convoys = 100
 
-add_ideas = {	#National Ideas
-
-	banana_republic_influence
-
-}
-
 add_offsite_building = { type = industrial_complex level = 0 }
 add_offsite_building = { type = arms_factory level = 0 }
 
 set_technology = {
 	infantry_weapons = 1
+}
+
+add_ideas = {	#Government Properties
+	banana_republic
 }
 
 set_popularities = {

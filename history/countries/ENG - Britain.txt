@@ -49,6 +49,7 @@ create_faction = commonwealth_faction
 
 puppet = AST
 puppet = CAN
+puppet = IRE
 puppet = MAL
 puppet = NZL
 puppet = RAJ

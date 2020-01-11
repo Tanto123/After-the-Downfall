@@ -24,6 +24,7 @@ set_variable = { pacifism_rating = 89 }
 
 add_ideas = {	#Social Factions
 	protestantism
+	naval_industry
 }
 
 set_popularities = {
@@ -36,10 +37,82 @@ set_popularities = {
 	monarchism = 0
 	ultranationalism = 0
 }
-
 set_politics = { 
 	ruling_party = conservatism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {	#Anarchism
+	name = "Ivar Mortensson-Egnund"
+	desc = leader_desc_NOR_Ivar_Mortensson_Egnund
+	picture = "Ivar_Mortensson_Egnund.dds"
+	ideology = christian_anarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Communism
+	name = "Olav Scheflo"
+	desc = leader_desc_NOR_Olav_Scheflo
+	picture = "Olav_Scheflo.dds"
+	ideology = christian_communism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Leftism
+	name = "Christopher Hornsrud"
+	desc = leader_desc_NOR_Christopher_Hornsrud
+	picture = "Christopher_Hornsrud.dds"
+	ideology = democratic_socialism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Centrism
+	name = "Ivar Lykke"
+	desc = leader_desc_NOR_Ivar_Lykke
+	picture = "Ivar_Lykke.dds"
+	ideology = social_liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Conservatism
+	name = "Karl-Wilhelm Wefring"
+	desc = leader_desc_NOR_Karl_Wilhelm_Wefring
+	picture = "Karl_Wilhelm_Wefring.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Despotism
+	name = "William Steffens"
+	desc = leader_desc_NOR_William_Steffens
+	picture = "generals/William_Steffens.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Monarchism
+	name = "Haakon VII"
+	desc = leader_desc_NOR_Haakon_VII
+	picture = "Haakon_VII.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Ultranationalism
+	name = "Vidkun Quisling"
+	desc = leader_desc_NOR_Vidkun_Quisling
+	picture = "Vidkun_Quisling.dds"
+	ideology = militant_reactionism
+	traits = {
+		
+	}
 }

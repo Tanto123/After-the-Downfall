@@ -43,3 +43,76 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+create_country_leader = {	#Anarchism
+	name = "Marie Nielsen"
+	desc = leader_desc_DEN_Marie_Nielsen
+	picture = "Marie_Nielsen.dds"
+	ideology = christian_anarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Communism
+	name = "Aksel Larsen"
+	desc = leader_desc_DEN_Aksel_Larsen
+	picture = "Aksel_Larsen.dds"
+	ideology = christian_communism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Leftism
+	name = "Thorvald Stauning"
+	desc = leader_desc_DEN_Thorvald_Stauning
+	picture = "Thorvald_Stauning.dds"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Centrism
+	name = "Niels Neergaard"
+	desc = leader_desc_DEN_Niels_Neergaard
+	picture = "Niels_Neergaard.dds"
+	ideology = market_liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Conservatism
+	name = "Thomas Madsen-Mygdal"
+	desc = leader_desc_DEN_Thomas_Madsen_Mygdal
+	picture = "Thomas_Madsen_Mygdal.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Despotism
+	name = "Erhard Qvistgaard"
+	desc = leader_desc_DEN_Erhard_Qvistgaard
+	picture = "admirals/Erhard_Qvistgaard.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Monarchism
+	name = "Christian X"
+	desc = leader_desc_DEN_Christian_X
+	picture = "Christian_X.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Ultranationalism
+	name = "Erik Scavenius"
+	desc = leader_desc_DEN_Erik_Scavenius
+	picture = "Erik_Scavenius.dds"
+	ideology = national_socialism
+	traits = {
+		
+	}
+}

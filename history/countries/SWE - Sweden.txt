@@ -4,8 +4,8 @@ OOB = "generic_1928"
 
 set_research_slots = 3
 
-set_stability = 0.6
-set_war_support = 0.4
+set_stability = 0.35
+set_war_support = 0.45
 
 set_convoys = 100
 
@@ -34,6 +34,8 @@ set_variable = { pacifism_rating = 91 }
 
 add_ideas = {	#Social Factions
 	protestantism
+	intellectuals
+	ultranationalists
 }
 add_ideas = {	#National Ideas
 	pori_corridor_question
@@ -56,4 +58,77 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {	#Anarchism
+	name = "Hinke Bergegren"
+	desc = leader_desc_SWE_Hinke_Bergegren
+	picture = "Hinke_Bergegren.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Communism
+	name = "Zeth Höglund"
+	desc = leader_desc_SWE_Zeth_Hoglund
+	picture = "Zeth_Hoglund.dds"
+	ideology = christian_communism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Leftism
+	name = "Gustav Möller"
+	desc = leader_desc_SWE_Gustav_Moller
+	picture = "Gustav_Moller.dds"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Centrism
+	name = "Axel Pehrsson-Bramstorp"
+	desc = leader_desc_SWE_Axel_Pehrsson_Bramstorp
+	picture = "Axel_Pehrsson_Bramstorp.dds"
+	ideology = market_liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Conservatism
+	name = "Fritiof Domö"
+	desc = leader_desc_SWE_Fritiof_Domo
+	picture = "Fritiof_Domo.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Despotism
+	name = "Olof Thoernell"
+	desc = leader_desc_SWE_Olof_Thoernell
+	picture = "generals/Olof_Thoernell.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Monarchism
+	name = "Gustaf V"
+	desc = leader_desc_SWE_Gustaf_V
+	picture = "Gustaf_V.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Ultranationalism
+	name = "Birger Furugård"
+	desc = leader_desc_SWE_Birger_Furugard
+	picture = "Birger_Furugard.dds"
+	ideology = national_socialism
+	traits = {
+		
+	}
 }

@@ -26,9 +26,9 @@ set_popularities = {
 	anarchism = 0 
 	communism = 12 
 	leftism = 0
-	centrism = 0 
-	conservatism = 0
-	despotism = 88
+	centrism = 9
+	conservatism = 10
+	despotism = 69
 	monarchism = 0
 	ultranationalism = 0
 }
@@ -37,4 +37,41 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hanzo Kanaya"
+	desc = leader_desc_KOR_Hanzo_Kanaya
+	picture = "Hanzo_Kanaya.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Ree Syng-man"
+	desc = leader_desc_KOR_Rhee_Syng_Man
+	picture = "Rhee_Syng_Man.dds"
+	ideology = vanguardism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Kim Hyong-jik"
+	desc = leader_desc_KOR_Kim_Hyong_Jik
+	picture = "Kim_Hyong_Jik.dds"
+	ideology = vanguardism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Yun Posun"
+	desc = leader_desc_KOR_Yun_Posun
+	picture = "Yun_Posun.dds"
+	ideology = democratic_centrism
+	traits = {
+		
+	}
 }

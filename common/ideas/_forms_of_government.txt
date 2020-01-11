@@ -45,6 +45,25 @@ ideas = {
 			}
 		}
 	
+		banana_republic = {
+			picture = xxx
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				is_republic = yes
+				is_subject = yes
+			}
+			cancel = {}
+			
+			cost = 600
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	
 		clerical_fascism = {
 			picture = clerical_fascism
 			

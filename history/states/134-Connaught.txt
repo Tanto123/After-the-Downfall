@@ -9,7 +9,7 @@ state=
 
 	history=
 	{
-		owner = ENG
+		owner = IRE
 		add_core_of = IRE
 		buildings = {
 			infrastructure = 6
