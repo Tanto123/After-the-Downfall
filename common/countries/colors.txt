@@ -303,6 +303,21 @@ RAJ = {
 	color_ui = rgb { 255 128 0 }
 }
 
+BRM = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+
+GUJ = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+
+TRA = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+
 CRO = {
 	color = rgb { 230  70  180 }
 	color_ui = rgb { 230 255 122 }

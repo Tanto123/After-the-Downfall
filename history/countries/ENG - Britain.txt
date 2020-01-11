@@ -54,6 +54,9 @@ puppet = MAL
 puppet = NZL
 puppet = RAJ
 puppet = SAF
+puppet = BRM
+puppet = GUJ
+puppet = TRA
 
 create_country_leader = {
 	name = "Austen Chamberlain"
