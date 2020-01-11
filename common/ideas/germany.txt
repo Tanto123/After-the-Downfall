@@ -567,7 +567,7 @@ ideas = {
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
-				exclusionary_communist
+				autarky_proponent
 			}
 			on_add = { }
 			do_effect = { }

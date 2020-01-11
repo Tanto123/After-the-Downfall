@@ -91,6 +91,7 @@ add_ideas = {	#Starting Cabinet
 	walther_funk
 }
 add_ideas = {	#Social Factions
+	protestantism
 	aristocrats
 	army_officers
 	big_banks

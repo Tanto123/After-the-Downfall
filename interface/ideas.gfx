@@ -975,6 +975,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_confederacy.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_finland"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_finland.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_france"
 		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_france.dds"
 	}
@@ -989,6 +993,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_japan"
 		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_japan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_diplomatic_sentiment_sweden"
+		texturefile = "gfx/interface/ideas/diplomacy/diplomatic_sentiment/diplomatic_sentiment_sweden.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_sentiment_uk"
@@ -2599,6 +2607,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/companies/siemens.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_volkswagen"
+		texturefile = "gfx/interface/ideas/germany/companies/volkswagen.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_walther"
 		texturefile = "gfx/interface/ideas/germany/companies/walther.dds"
 	}
@@ -2652,6 +2664,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_luxemburgism"
 		texturefile = "gfx/interface/ideas/germany/luxemburgism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stasi"
+		texturefile = "gfx/interface/ideas/germany/stasi.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_wilhelm_ii"
@@ -5865,7 +5881,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_special_air_service"
 		texturefile = "gfx/interface/ideas/united_kingdom/special_air_service.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_special_air_service2"
+		texturefile = "gfx/interface/ideas/united_kingdom/special_air_service2.dds"
+	}
 	
 	#UNITED STATES#
 	

@@ -22,6 +22,9 @@ set_variable = { pacifism_rating = 91 }
 add_ideas = {	#Social Factions
 	roman_catholicism
 }
+add_ideas = {	#Government
+	advised_monarchy
+}
 
 set_popularities = {
 	anarchism = 0

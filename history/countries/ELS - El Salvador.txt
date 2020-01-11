@@ -19,6 +19,9 @@ set_technology = {
 add_ideas = {	#Government Properties
 	banana_republic
 }
+add_ideas = {	#Social Factions
+	roman_catholicism
+}
 
 set_popularities = {
 	anarchism = 0

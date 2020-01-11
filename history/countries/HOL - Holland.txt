@@ -19,12 +19,16 @@ set_technology = {
 set_variable = { democracy_rating = 80 }
 set_variable = { pacifism_rating = 95 }
 
+add_ideas = {	#Social Factions
+	protestantism
+}
+
 set_popularities = {
 	anarchism = 0
-	communism = 0 
-	leftism = 100
-	centrism = 0
-	conservatism = 0 
+	communism = 2
+	leftism = 47
+	centrism = 19
+	conservatism = 32 
 	despotism = 0
 	monarchism = 0
 	ultranationalism = 0

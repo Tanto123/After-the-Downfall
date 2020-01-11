@@ -121,6 +121,7 @@ leader_traits = {
 		targeted_modifier = { tag = CSA generate_wargoal_tension_against = -0.1 }
 		targeted_modifier = { tag = CSA attack_bonus_against = 0.05 }
 		targeted_modifier = { tag = CSA defense_bonus_against = 0.05 }
+		ai_strategy = { type = antagonize id = "CSA" value = 50 }
 	}
 	
 	effective_bureaucrat = {
@@ -183,6 +184,7 @@ leader_traits = {
 		targeted_modifier = { tag = FRA generate_wargoal_tension_against = -0.1 }
 		targeted_modifier = { tag = FRA attack_bonus_against = 0.05 }
 		targeted_modifier = { tag = FRA defense_bonus_against = 0.05 }
+		ai_strategy = { type = antagonize id = "FRA" value = 50 }
 	}
 	
 	freedom_fighter = {
@@ -210,6 +212,7 @@ leader_traits = {
 		targeted_modifier = { tag = GER generate_wargoal_tension_against = -0.1 }
 		targeted_modifier = { tag = GER attack_bonus_against = 0.05 }
 		targeted_modifier = { tag = GER defense_bonus_against = 0.05 }
+		ai_strategy = { type = antagonize id = "GER" value = 50 }
 	}
 	
 	ideological_crusader = {
@@ -458,6 +461,7 @@ leader_traits = {
 		targeted_modifier = { tag = USA generate_wargoal_tension_against = -0.1 }
 		targeted_modifier = { tag = USA attack_bonus_against = 0.05 }
 		targeted_modifier = { tag = USA defense_bonus_against = 0.05 }
+		ai_strategy = { type = antagonize id = "USA" value = 50 }
 	}
 	
 }

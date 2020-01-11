@@ -109,6 +109,34 @@ ideas = {
 			}
 		}
 	
+		buddhism = {
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+			}
+		}
+	
+		confucianism = {
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+			}
+		}
+	
 		farmers = {
 			picture = agrarian_reform
 			
@@ -125,6 +153,35 @@ ideas = {
 				monthly_population = 0.1
 				industrial_capacity_factory = -0.05
 				conservatism_drift = 0.01
+			}
+		}
+	
+		hinduism = {
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
+			}
+		}
+	
+		ibadi_islam = {
+			picture = ibadism
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.01
 			}
 		}
 		
@@ -236,7 +293,7 @@ ideas = {
 		}
 	
 		orthodox_christianity = {
-			picture = orthodox_christianity
+			picture = orthodox_christianity2
 			
 			allowed = {}
 			visible = { always = yes }

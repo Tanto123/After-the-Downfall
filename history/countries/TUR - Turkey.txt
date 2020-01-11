@@ -31,6 +31,9 @@ add_ideas = {	#Social Factions
 	sunni_islam
 	robber_barons
 }
+add_ideas = {	#Government
+	advised_monarchy
+}
 
 set_cosmetic_tag = TUR_OttomanEmpire
 

@@ -18,6 +18,10 @@ set_technology = {
 
 set_cosmetic_tag = RAJ_BritishRaj
 
+add_ideas = {	#Social Factions
+	hinduism
+}
+
 set_popularities = {
 	anarchism = 0
 	communism = 0 

@@ -16,6 +16,13 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+set_variable = { democracy_rating = 82 }
+set_variable = { pacifism_rating = 81 }
+
+add_ideas = {	#Social Factions
+	roman_catholicism
+}
+
 set_popularities = {
 	anarchism = 0
 	communism = 10

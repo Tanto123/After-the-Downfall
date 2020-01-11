@@ -18,6 +18,7 @@ set_technology = {
 
 add_ideas = {	#Social Factions
 	baltic_germans
+	protestantism
 }
 add_ideas = {	#National Ideas
 	mitteleuropa_member
