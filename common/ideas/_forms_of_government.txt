@@ -46,7 +46,7 @@ ideas = {
 		}
 	
 		banana_republic = {
-			picture = xxx
+			picture = corrupt_militias
 			
 			allowed = {}
 			visible = { always = yes }
@@ -60,7 +60,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_factor = -0.25
 			}
 		}
 	

@@ -1,0 +1,23 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		11832 11857 11868 
+	}
+	manpower=185000
+	state_category = rural
+
+	history={
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = SER
+		victory_points = { 11868 1 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			11868 = { bunker = 1 }
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+}

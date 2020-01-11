@@ -63,9 +63,9 @@ puppet = SER
 puppet = MNT
 
 create_country_leader = {
-	name = "Otto von Habsburg"
-	desc = leader_desc_AUS_Otto_Habsburg
-	picture = "Otto_Habsburg.dds"
+	name = "Karl von Habsburg"
+	desc = leader_desc_AUS_Karl_von_Habsburg
+	picture = "Karl_Habsburg.dds"
 	ideology = social_conservatism
 	traits = {
 		apolitical_monarch
