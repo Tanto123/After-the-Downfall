@@ -1,7 +1,7 @@
 
 state={
-	id=425
-	name="STATE_425" # Mysore
+	id=797
+	name="STATE_797" # Mysore
 	manpower = 12348200
 	
 	state_category = rural
@@ -13,9 +13,6 @@ state={
 
 	history={
 		owner = RAJ
-		victory_points = {
-			8011 1
-		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -24,6 +21,6 @@ state={
 	}
 
 	provinces={
-		4278 4291 4315 4344 4395 7244 7250 7391 7395 7411 10190 10259 10799 12105 12208 12295 
+		1412 5032 8011 8100 10208 12146 12734
 	}
 }
