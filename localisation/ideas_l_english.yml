@@ -320,3 +320,6 @@
  ##Central America
  banana_republic_influence:0 "Grip of the Banana Republic"
  banana_republic_influence_desc:0 ""
+ ##South America
+ military_junta:0 "Military Junta"
+ military_junta_desc:0 ""
