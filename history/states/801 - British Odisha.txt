@@ -1,15 +1,14 @@
 
 state={
-	id=426
-	name="STATE_426" # Orissa
+	id=801
+	name="STATE_801" # Orissa
 	manpower = 4840033
 	
 	state_category = rural
 	
 	resources={
-		steel=9 # was: 44
-		chromium=7 # was: 36
-		aluminium=1 # was: 2
+		steel=8 # was: 44
+		chromium=6 # was: 36
 	}
 
 	history={
@@ -22,6 +21,6 @@ state={
 	}
 
 	provinces={
-		4237 7428 7465 10001 10116 10255 11978 12462 
+		1059 1101 1538 4104 12063
 	}
 }
