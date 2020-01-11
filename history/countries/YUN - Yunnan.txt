@@ -35,3 +35,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Long Jiguang"
+	desc = leader_desc_YUN_Long_Jiguang
+	picture = "Long_Jiguang.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}

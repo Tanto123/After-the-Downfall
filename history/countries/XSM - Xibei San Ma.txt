@@ -35,3 +35,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Ma Bufang"
+	desc = leader_desc_XSM_Ma_Bufang
+	picture = "Ma_Bufang.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
