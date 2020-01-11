@@ -35,3 +35,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Yang Zengxin"
+	desc = leader_desc_SIK_Yang_Zengxin
+	picture = "Yang_Zengxin.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}

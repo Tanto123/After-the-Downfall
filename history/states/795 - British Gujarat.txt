@@ -1,0 +1,31 @@
+
+state={
+	id=795
+	name="STATE_795"
+	manpower = 5295100
+	
+	
+	state_category = town
+	resources={
+		oil=1 # was: 4
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			9975 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			9975 = {
+				naval_base = 2
+			}
+		}
+
+	}
+
+	provinces={
+		4187 7150 9975 11952 
+	}
+}

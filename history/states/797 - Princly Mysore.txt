@@ -1,0 +1,26 @@
+
+state={
+	id=797
+	name="STATE_797" # Mysore
+	manpower = 12348200
+	
+	state_category = rural
+	
+	resources={
+		chromium=5 # was: 20
+		tungsten=38 # was: 128
+	}
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1412 5032 8011 8100 10208 12146 12734
+	}
+}

@@ -38,3 +38,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Mutō Nobuyoshi"
+	desc = leader_desc_KWA_Muto_Nobuyoshi
+	picture = "Muto_Nobuyoshi.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}

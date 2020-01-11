@@ -54,6 +54,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Yan Huiqing"
+	desc = leader_desc_CHI_Yan_Huiqing
+	picture = "Yan_Huiqing.dds"
+	ideology = military_dictatorship
+	traits = {
+		autarky_proponent
+		conscription_advocate
+	}
+}
+create_country_leader = {
 	name = "Chen Duxiu"
 	desc = leader_desc_CHI_Chen_Duxiu
 	picture = "Chen_Duxiu.dds"
