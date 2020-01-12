@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = CSA
+		owner = MEX
+		add_claim_by = CSA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
