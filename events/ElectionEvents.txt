@@ -12,6 +12,7 @@ country_event = {
 	option = {
 		name = election.0.o1
 		hold_election = ROOT
+		log = "[Root.GetName]: Snap Election (election.0)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -29,6 +30,7 @@ country_event = {
 		name = election.1.o1
 		switch_government_to_anarchism = yes
 		add_popularity = { ideology = anarchism popularity = 0.03 }
+		log = "[Root.GetName]: Anarchist Electoral Victory (election.1)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -46,6 +48,7 @@ country_event = {
 		name = election.2.o1
 		switch_government_to_communism = yes
 		add_popularity = { ideology = communism popularity = 0.03 }
+		log = "[Root.GetName]: Communist Electoral Victory (election.2)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -63,6 +66,7 @@ country_event = {
 		name = election.3.o1
 		switch_government_to_leftism = yes
 		add_popularity = { ideology = leftism popularity = 0.03 }
+		log = "[Root.GetName]: Leftist Electoral Victory (election.3)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -80,6 +84,7 @@ country_event = {
 		name = election.4.o1
 		switch_government_to_centrism = yes
 		add_popularity = { ideology = centrism popularity = 0.03 }
+		log = "[Root.GetName]: Centrist Electoral Victory (election.4)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -97,6 +102,7 @@ country_event = {
 		name = election.5.o1
 		switch_government_to_conservatism = yes
 		add_popularity = { ideology = conservatism popularity = 0.03 }
+		log = "[Root.GetName]: Conservative Electoral Victory (election.5)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -114,6 +120,7 @@ country_event = {
 		name = election.6.o1
 		switch_government_to_despotism = yes
 		add_popularity = { ideology = despotism popularity = 0.03 }
+		log = "[Root.GetName]: Despotic Electoral Victory (election.6)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -131,6 +138,7 @@ country_event = {
 		name = election.7.o1
 		switch_government_to_monarchism = yes
 		add_popularity = { ideology = monarchism popularity = 0.03 }
+		log = "[Root.GetName]: Monarchist Electoral Victory (election.7)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -148,6 +156,7 @@ country_event = {
 		name = election.8.o1
 		switch_government_to_ultranationalism = yes
 		add_popularity = { ideology = ultranationalism popularity = 0.03 }
+		log = "[Root.GetName]: Ultranationalist Electoral Victory (election.8)"
 		ai_chance = { base = 10 }
 	}
 }
@@ -175,10 +184,12 @@ country_event = {
 			}
 			switch_government_to_leftism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: Social Liberal Front led by Leftists (election.9)"
 		}
 		else = {
 			switch_government_to_centrism = yes
 			add_government_membership_leftism = yes
+			log = "[Root.GetName]: Social Liberal Front led by Centrists (election.9)"
 		}
 		ai_chance = { base = 10 }
 	}
@@ -205,10 +216,12 @@ country_event = {
 			}
 			switch_government_to_conservatism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: Liberal Conservative Front led by Conservatives (election.10)"
 		}
 		else = {
 			switch_government_to_centrism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Liberal Conservative Front led by Centrists (election.10)"
 		}
 		ai_chance = { base = 10 }
 	}
@@ -235,10 +248,12 @@ country_event = {
 			}
 			switch_government_to_conservatism = yes
 			add_government_membership_monarchism = yes
+			log = "[Root.GetName]: National Conservative Front led by Conservatives (election.11)"
 		}
 		else = {
 			switch_government_to_monarchism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: National Conservative Front led by Monarchists (election.11)"
 		}
 		ai_chance = { base = 10 }
 	}
@@ -265,10 +280,12 @@ country_event = {
 			}
 			switch_government_to_communism = yes
 			add_government_membership_leftism = yes
+			log = "[Root.GetName]: Labor Front led by Communists (election.12)"
 		}
 		else = {
 			switch_government_to_leftism = yes
 			add_government_membership_communism = yes
+			log = "[Root.GetName]: Labor Front led by Leftists (election.12)"
 		}
 		ai_chance = { base = 10 }
 	}
@@ -295,10 +312,12 @@ country_event = {
 			}
 			switch_government_to_anarchism = yes
 			add_government_membership_communism = yes
+			log = "[Root.GetName]: Revolutionary Front led by Anarchists (election.13)"
 		}
 		else = {
 			switch_government_to_communism = yes
 			add_government_membership_anarchism = yes
+			log = "[Root.GetName]: Revolutionary Front led by Communists (election.13)"
 		}
 		ai_chance = { base = 10 }
 	}
@@ -331,6 +350,7 @@ country_event = {
 			switch_government_to_leftism = yes
 			add_government_membership_centrism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Democratic Front led by Leftists (election.14)"
 		}
 		else_if = {
 			limit = {
@@ -348,11 +368,13 @@ country_event = {
 			switch_government_to_centrism = yes
 			add_government_membership_leftism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Democratic Front led by Centrists (election.14)"
 		}
 		else = {
 			switch_government_to_conservatism = yes
 			add_government_membership_leftism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: Democratic Front led by Conservatives (election.14)"
 		}
 	}
 }
@@ -384,6 +406,7 @@ country_event = {
 			switch_government_to_anarchism = yes
 			add_government_membership_communism = yes
 			add_government_membership_leftism = yes
+			log = "[Root.GetName]: Left Front led by Anarchists (election.15)"
 		}
 		else_if = {
 			limit = {
@@ -401,11 +424,13 @@ country_event = {
 			switch_government_to_communism = yes
 			add_government_membership_anarchism = yes
 			add_government_membership_leftism = yes
+			log = "[Root.GetName]: Left Front led by Communists (election.15)"
 		}
 		else = {
 			switch_government_to_leftism = yes
 			add_government_membership_anarchism = yes
 			add_government_membership_communism = yes
+			log = "[Root.GetName]: Left Front led by Leftists (election.15)"
 		}
 	}
 }
@@ -443,6 +468,7 @@ country_event = {
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Right Front led by Conservatives (election.16)"
 		}
 		else_if = {
 			limit = {
@@ -466,6 +492,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Right Front led by Despots (election.16)"
 		}
 		else_if = {
 			limit = {
@@ -489,12 +516,14 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_despotism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Right Front led by Monarchists (election.16)"
 		}
 		else = {
 			switch_government_to_ultranationalism = yes
 			add_government_membership_conservatism = yes
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
+			log = "[Root.GetName]: Right Front led by Ultranationalists (election.16)"
 		}
 	}
 }
@@ -538,6 +567,7 @@ country_event = {
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: National Front led by Centrists (election.17)"
 		}
 		else_if = {
 			limit = {
@@ -567,6 +597,7 @@ country_event = {
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: National Front led by Conservatives (election.17)"
 		}
 		else_if = {
 			limit = {
@@ -596,6 +627,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: National Front led by Despots (election.17)"
 		}
 		else_if = {
 			limit = {
@@ -625,6 +657,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_despotism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: National Front led by Monarchists (election.17)"
 		}
 		else = {
 			switch_government_to_ultranationalism = yes
@@ -632,6 +665,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
+			log = "[Root.GetName]: National Front led by Ultranationalists (election.17)"
 		}
 	}
 }
@@ -646,7 +680,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = election.16.o1
+		name = election.18.o1
 		if = {
 			limit = {
 				check_variable = {
@@ -669,6 +703,7 @@ country_event = {
 			add_government_membership_communism = yes
 			add_government_membership_leftism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: National Front led by Anarchists (election.18)"
 		}
 		else_if = {
 			limit = {
@@ -692,6 +727,7 @@ country_event = {
 			add_government_membership_anarchism = yes
 			add_government_membership_leftism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: National Front led by Communists (election.18)"
 		}
 		else_if = {
 			limit = {
@@ -715,12 +751,14 @@ country_event = {
 			add_government_membership_anarchism = yes
 			add_government_membership_communism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: National Front led by Leftists (election.18)"
 		}
 		else = {
 			switch_government_to_centrism = yes
 			add_government_membership_anarchism = yes
 			add_government_membership_communism = yes
 			add_government_membership_leftism = yes
+			log = "[Root.GetName]: National Front led by Centrists (election.18)"
 		}
 	}
 }
@@ -770,6 +808,7 @@ country_event = {
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Anti-Revolutionary Front led by Leftists (election.19)"
 		}
 		else_if = {
 			limit = {
@@ -805,6 +844,7 @@ country_event = {
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Anti-Revolutionary Front led by Centrists (election.19)"
 		}
 		else_if = {
 			limit = {
@@ -840,6 +880,7 @@ country_event = {
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Anti-Revolutionary Front led by Conservatives (election.19)"
 		}
 		else_if = {
 			limit = {
@@ -875,6 +916,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_monarchism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Anti-Revolutionary Front led by Despots (election.19)"
 		}
 		else_if = {
 			limit = {
@@ -910,6 +952,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_despotism = yes
 			add_government_membership_ultranationalism = yes
+			log = "[Root.GetName]: Anti-Revolutionary Front led by Monarchists (election.19)"
 		}
 		else = {
 			switch_government_to_ultranationalism = yes
@@ -918,6 +961,7 @@ country_event = {
 			add_government_membership_conservatism = yes
 			add_government_membership_despotism = yes
 			add_government_membership_monarchism = yes
+			log = "[Root.GetName]: Anti-Revolutionary Front led by Ultranationalists (election.19)"
 		}
 	}
 }
@@ -961,6 +1005,7 @@ country_event = {
 			add_government_membership_leftism = yes
 			add_government_membership_centrism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Anti-Chauvinist Front led by Anarchists (election.20)"
 		}
 		else_if = {
 			limit = {
@@ -990,6 +1035,7 @@ country_event = {
 			add_government_membership_leftism = yes
 			add_government_membership_centrism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Anti-Chauvinist Front led by Communists (election.20)"
 		}
 		else_if = {
 			limit = {
@@ -1019,6 +1065,7 @@ country_event = {
 			add_government_membership_communism = yes
 			add_government_membership_centrism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Anti-Chauvinist Front led by Leftists (election.20)"
 		}
 		else_if = {
 			limit = {
@@ -1048,6 +1095,7 @@ country_event = {
 			add_government_membership_communism = yes
 			add_government_membership_leftism = yes
 			add_government_membership_conservatism = yes
+			log = "[Root.GetName]: Anti-Chauvinist Front led by Centrists (election.20)"
 		}
 		else = {
 			switch_government_to_conservatism = yes
@@ -1055,6 +1103,7 @@ country_event = {
 			add_government_membership_communism = yes
 			add_government_membership_leftism = yes
 			add_government_membership_centrism = yes
+			log = "[Root.GetName]: Anti-Chauvinist Front led by Conservatives (election.20)"
 		}
 	}
 }

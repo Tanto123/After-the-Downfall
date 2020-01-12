@@ -38,3 +38,76 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+create_country_leader = {	#Anarchism
+	name = "Otto Wille Kuusinen"
+	desc = leader_desc_FIN_Otto_Wille_Kuusinen
+	picture = "Otto_Wille_Kuusinen.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Communism
+	name = "Juho Sunila"
+	desc = leader_desc_FIN_Juho_Sunila
+	picture = "Juho_Sunila.dds"
+	ideology = christian_communism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Leftism
+	name = "Aimo Cajander"
+	desc = leader_desc_FIN_Aimo_Cajander
+	picture = "Aimo_Cajander.dds"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Centrism
+	name = "Juho Kusti Paasikivi"
+	desc = leader_desc_FIN_Juho_Kusti_Paasikivi
+	picture = "Juho_Kusti_Paasikivi.dds"
+	ideology = market_liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Conservatism
+	name = "Lauri Kristian Relander"
+	desc = leader_desc_FIN_Lauri_Kristian_Relander
+	picture = "Lauri_Kristian_Relander.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Despotism
+	name = "Carl Mannerheim"
+	desc = leader_desc_FIN_Carl_Mannerheim
+	picture = "generals/Carl_Mannerheim.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Monarchism
+	name = "Frederik Kaarle"
+	desc = leader_desc_FIN_Frederik_Kaarle
+	picture = "Frederik_Kaarle.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Ultranationalism
+	name = "Toivo Mikael Kivimäki"
+	desc = leader_desc_FIN_Toivo_Mikael_Kivimaki
+	picture = "Toivo_Mikael_Kivimaki.dds"
+	ideology = ethnopurism
+	traits = {
+		
+	}
+}

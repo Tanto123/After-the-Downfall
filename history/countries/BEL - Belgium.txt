@@ -26,11 +26,11 @@ add_ideas = {	#Social Factions
 set_popularities = {
 	anarchism = 0
 	communism = 10
-	leftism = 57
+	leftism = 41
 	centrism = 5
-	conservatism = 28 
+	conservatism = 38 
 	despotism = 0
-	monarchism = 0
+	monarchism = 6
 	ultranationalism = 0
 }
 
@@ -41,12 +41,75 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
+create_country_leader = {	#Anarchism
+	name = "Jacques Mesnil"
+	desc = leader_desc_BEL_Jacques_Mesnil
+	picture = "Jacques_Mesnil.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Communism
+	name = "Joseph Jacquemotte"
+	desc = leader_desc_BEL_Joseph_Jacquemotte
+	picture = "Joseph_Jacquemotte.dds"
+	ideology = vanguardism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Leftism
 	name = "Charles de Broqueville"
 	desc = leader_desc_BEL_Charles_de_Broqueville
 	picture = "Charles_de_Broqueville.dds"
 	ideology = social_democracy
 	traits = {
 		relentless_technocrat
+	}
+}
+create_country_leader = {	#Centrism
+	name = "Hubert Pierlot"
+	desc = leader_desc_BEL_Hubert_Pierlot
+	picture = "Hubert_Pierlot.dds"
+	ideology = social_liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Conservatism
+	name = "Prosper Poullet"
+	desc = leader_desc_BEL_Prosper_Poullet
+	picture = "Prosper_Poullet.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Despotism
+	name = "George Timmermans"
+	desc = leader_desc_BEL_George_Timmermans
+	picture = "admirals/George_Timmermans.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Monarchism
+	name = "Albert"
+	desc = leader_desc_BEL_Albert
+	picture = "Albert.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Ultranationalism
+	name = "Leon Degrelle"
+	desc = leader_desc_BEL_Leon_Degrelle
+	picture = "Leon_Degrelle.dds"
+	ideology = ethnopurism
+	traits = {
+		
 	}
 }

@@ -48,3 +48,76 @@ set_politics = {
 }
 
 puppet = INS
+
+create_country_leader = {	#Anarchism
+	name = "Christaan Cornelissen"
+	desc = leader_desc_HOL_Christiaan_Cornelissen
+	picture = "Christiaan_Cornelissen.dds"
+	ideology = anarcho_syndicalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Communism
+	name = "Paul de Groot"
+	desc = leader_desc_HOL_Paul_de_Groot
+	picture = "Paul_de_Groot.dds"
+	ideology = christian_communism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Leftism
+	name = "Willem Drees"
+	desc = leader_desc_HOL_Willem_Drees
+	picture = "Willem_Drees.dds"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Centrism
+	name = "Charles Ruijs de Beerenbrouck"
+	desc = leader_desc_HOL_Charles_Ruijs_de_Beerenbrouck
+	picture = "Charles_Ruijs_de_Beerenbrouck.dds"
+	ideology = social_liberalism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Conservatism
+	name = "Hendrikus Colijn"
+	desc = leader_desc_HOL_Hendrikus_Colijn
+	picture = "Hendrikus_Colijn.dds"
+	ideology = christian_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Despotism
+	name = "Henri Winkelman"
+	desc = leader_desc_HOL_Henri_Winkelman
+	picture = "generals/Henri_Winkelman.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Monarchism
+	name = "Wilhelmina"
+	desc = leader_desc_HOL_Wilhelmina
+	picture = "Wilhelmina.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {	#Ultranationalism
+	name = "Jan Baars"
+	desc = leader_desc_HOL_Jan_Baars
+	picture = "Jan_Baars.dds"
+	ideology = ethnopurism
+	traits = {
+		
+	}
+}
