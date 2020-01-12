@@ -1,0 +1,7 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			every_country = { calculate_coalition_popularity = yes }
+		}
+	}
+}

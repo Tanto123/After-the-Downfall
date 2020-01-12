@@ -127,7 +127,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Pierre-Etienne Flandin"
 	desc = leader_desc_FRA_Pierre_Etienne_Flandin
-	picture = "Kurt_von_Schleicher.dds"
+	picture = "Pierre_Etienne_Flandin.dds"
 	ideology = ethnopurism
 	traits = {
 		babbling_buffoon

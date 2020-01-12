@@ -4658,12 +4658,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/religion/mormonism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_orthodox_christianity"
-		texturefile = "gfx/interface/ideas/religion/orthodox_christianity.dds"
+		name = "GFX_idea_orthodoxy"
+		texturefile = "gfx/interface/ideas/religion/orthodoxy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_orthodox_christianity2"
-		texturefile = "gfx/interface/ideas/religion/orthodox_christianity2.dds"
+		name = "GFX_idea_orthodoxy2"
+		texturefile = "gfx/interface/ideas/religion/orthodoxy2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_paganism"

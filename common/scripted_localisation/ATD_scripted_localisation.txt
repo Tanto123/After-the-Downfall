@@ -33,3 +33,198 @@ defined_text = { # Country
 		localization_key = CustomLoc_MitteleuropaLeader_FIN
 	}
 }
+
+####################
+#	GOVERNMENT (NON-)MEMBERSHIPS
+###################
+defined_text = {
+	name = GetGovernmentMembershipList
+	text = {
+		trigger = { always = yes }
+		localization_key = CustomLoc_GovernmentMembershipList
+	}
+}
+#	ANARCHISM
+defined_text = {
+	name = GetGovernmentMembershipAnarchism
+	text = {
+		trigger = { has_country_flag = anarchism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Anarchism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = anarchism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipAnarchism
+	text = {
+		trigger = { NOT = { has_country_flag = anarchism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Anarchism
+	}
+	text = {
+		trigger = { has_country_flag = anarchism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	COMMUNISM
+defined_text = {
+	name = GetGovernmentMembershipCommunism
+	text = {
+		trigger = { has_country_flag = communism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Communism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = communism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipCommunism
+	text = {
+		trigger = { NOT = { has_country_flag = communism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Communism
+	}
+	text = {
+		trigger = { has_country_flag = communism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	LEFTISM
+defined_text = {
+	name = GetGovernmentMembershipLeftism
+	text = {
+		trigger = { has_country_flag = leftism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Leftism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = leftism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipLeftism
+	text = {
+		trigger = { NOT = { has_country_flag = leftism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Leftism
+	}
+	text = {
+		trigger = { has_country_flag = leftism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	CENTRISM
+defined_text = {
+	name = GetGovernmentMembershipCentrism
+	text = {
+		trigger = { has_country_flag = centrism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Centrism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = centrism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipCentrism
+	text = {
+		trigger = { NOT = { has_country_flag = centrism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Centrism
+	}
+	text = {
+		trigger = { has_country_flag = centrism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	CONSERVATISM
+defined_text = {
+	name = GetGovernmentMembershipConservatism
+	text = {
+		trigger = { has_country_flag = conservatism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Conservatism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = conservatism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipConservatism
+	text = {
+		trigger = { NOT = { has_country_flag = conservatism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Conservatism
+	}
+	text = {
+		trigger = { has_country_flag = conservatism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	DESPOTISM
+defined_text = {
+	name = GetGovernmentMembershipDespotism
+	text = {
+		trigger = { has_country_flag = despotism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Despotism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = despotism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipDespotism
+	text = {
+		trigger = { NOT = { has_country_flag = despotism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Despotism
+	}
+	text = {
+		trigger = { has_country_flag = despotism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	MONARCHISM
+defined_text = {
+	name = GetGovernmentMembershipMonarchism
+	text = {
+		trigger = { has_country_flag = monarchism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Monarchism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = monarchism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipMonarchism
+	text = {
+		trigger = { NOT = { has_country_flag = monarchism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Monarchism
+	}
+	text = {
+		trigger = { has_country_flag = monarchism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+#	ULTRANATIONALISM
+defined_text = {
+	name = GetGovernmentMembershipUltranationalism
+	text = {
+		trigger = { has_country_flag = ultranationalism_government_membership }
+		localization_key = CustomLoc_GovernmentMembership_Ultranationalism
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = ultranationalism_government_membership } }
+		localization_key = CustomLoc_EMPTY
+	}
+}
+defined_text = {
+	name = GetGovernmentNonMembershipUltranationalism
+	text = {
+		trigger = { NOT = { has_country_flag = ultranationalism_government_membership } }
+		localization_key = CustomLoc_GovernmentNonMembership_Ultranationalism
+	}
+	text = {
+		trigger = { has_country_flag = ultranationalism_government_membership }
+		localization_key = CustomLoc_EMPTY
+	}
+}

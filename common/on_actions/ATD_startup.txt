@@ -2,8 +2,21 @@ on_actions = {
 	on_startup = {
 		effect = {
 			set_global_flag = mitteleuropa_leader_germany
-		
+			########
+			#Government Members
+			########
+			every_country = {
+				limit = { has_no_government_membership_flags = yes }
+				set_ruling_party_as_sole_government_member = yes
+			}
+			log = "STARTUP: Government Membership Flags completed"
+			every_country = {
+				calculate_coalition_popularity = yes
+			}
+			log = "STARTUP: Coalition Popularity completed"
+			########
 			#Democracy Rating
+			########
 			every_country = {
 				#Set DR to 30 for autocratic ideologies and 50 for democratic ideologies if it doesnt exist.
 				if = {
@@ -50,12 +63,30 @@ on_actions = {
 					add_ideas = democracy
 				}
 			}
+			log = "STARTUP: Democracy Rating completed"
+			########
 			#Pacifism Rating
+			########
 			every_country = {
 				#Set PR to 65 if it doesnt exist.
 				if = {
 					limit = { NOT = { has_variable = pacifism_rating } }
-					set_variable = { pacifism_rating = 65 }
+					if = {
+						limit = { OR = { has_government = anarchism has_government = conservatism } }
+						set_variable = { pacifism_rating = 65 }
+					}
+					if = {
+						limit = { OR = { has_government = leftism has_government = conservatism } }
+						set_variable = { pacifism_rating = 55 }
+					}
+					if = {
+						limit = { OR = { has_government = despotism has_government = monarchism } }
+						set_variable = { pacifism_rating = 45 }
+					}
+					if = {
+						limit = { OR = { has_government = communism has_government = ultranationalism } }
+						set_variable = { pacifism_rating = 35 }
+					}
 				}
 				#Read PR to assign correct Diplomatic Stance idea.
 				if = {
@@ -83,7 +114,12 @@ on_actions = {
 					add_ideas = pacifism
 				}
 			}
+			log = "STARTUP: Pacifism Rating completed"
 			#Form of Government if not set
+			every_country = {
+				limit = { amount_taken_ideas = { amount < 1 slots = { form_of_government } } }
+				add_ideas = unitary_republic
+			}
 		}
 	}
 }

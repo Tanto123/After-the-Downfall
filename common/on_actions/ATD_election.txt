@@ -1,49 +1,88 @@
 on_actions = {
 	on_new_term_election = {
 		effect = {
+			calculate_coalition_popularity = yes	#Just make sure all values are correct yo
 			if = {
 				limit = { anarchism > 0.5 }
 				country_event = election.1
 			}
-			if = {
+			else_if = {
 				limit = { communism > 0.5 }
 				country_event = election.2
 			}
-			if = {
+			else_if = {
 				limit = { leftism > 0.5 }
 				country_event = election.3
 			}
-			if = {
+			else_if = {
 				limit = { centrism > 0.5 }
 				country_event = election.4
 			}
-			if = {
+			else_if = {
 				limit = { conservatism > 0.5 }
 				country_event = election.5
 			}
-			if = {
+			else_if = {
 				limit = { despotism > 0.5 }
 				country_event = election.6
 			}
-			if = {
+			else_if = {
 				limit = { monarchism > 0.5 }
 				country_event = election.7
 			}
-			if = {
+			else_if = {
 				limit = { ultranationalism > 0.5 }
 				country_event = election.8
 			}
-			if = {
-				limit = { 
-					anarchism < 0.5
-					communism < 0.5
-					leftism < 0.5
-					centrism < 0.5
-					conservatism < 0.5
-					despotism < 0.5
-					monarchism < 0.5
-					ultranationalism < 0.5
-				}
+			#2 Party Coalitions
+			else_if = {
+				limit = { check_variable = { var = social_liberal_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.9
+			}
+			else_if = {
+				limit = { check_variable = { var = liberal_conservative_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.10
+			}
+			else_if = {
+				limit = { check_variable = { var = national_conservative_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.11
+			}
+			else_if = {
+				limit = { check_variable = { var = labor_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.12
+			}
+			else_if = {
+				limit = { check_variable = { var = revolutionary_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.13
+			}
+			#Bigger Coalitions
+			else_if = {
+				limit = { check_variable = { var = democratic_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.14
+			}
+			else_if = {
+				limit = { check_variable = { var = left_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.15
+			}
+			else_if = {
+				limit = { check_variable = { var = right_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.16
+			}
+			else_if = {
+				limit = { check_variable = { var = national_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.17
+			}
+			else_if = {
+				limit = { check_variable = { var = popular_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.18
+			}
+			else_if = {
+				limit = { check_variable = { var = anti_revolutionary_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.19
+			}
+			else_if = {
+				limit = { check_variable = { var = anti_chauvinist_front_popularity value = 0.5 compare = greater_than_or_equals } }
+				country_event = election.20
 			}
 		}
 	}

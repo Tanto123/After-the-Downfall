@@ -1,5 +1,21 @@
 ﻿add_namespace = election
 
+#Snap Election
+country_event = {
+	id = election.0
+	title = election.0.t
+	desc = election.0.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.0.o1
+		hold_election = ROOT
+		ai_chance = { base = 10 }
+	}
+}
+
 #Anarchist Complete Victory
 country_event = {
 	id = election.1
@@ -133,5 +149,912 @@ country_event = {
 		switch_government_to_ultranationalism = yes
 		add_popularity = { ideology = ultranationalism popularity = 0.03 }
 		ai_chance = { base = 10 }
+	}
+}
+
+#Coalition Victories
+
+##Coalition Victory: Social Liberal Front
+country_event = {
+	id = election.9
+	title = election.9.t
+	desc = election.9.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.9.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+			}
+			switch_government_to_leftism = yes
+			add_government_membership_centrism = yes
+		}
+		else = {
+			switch_government_to_centrism = yes
+			add_government_membership_leftism = yes
+		}
+		ai_chance = { base = 10 }
+	}
+}
+
+##Coalition Victory: Liberal Conservatism Front
+country_event = {
+	id = election.10
+	title = election.10.t
+	desc = election.10.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.10.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+			}
+			switch_government_to_conservatism = yes
+			add_government_membership_centrism = yes
+		}
+		else = {
+			switch_government_to_centrism = yes
+			add_government_membership_conservatism = yes
+		}
+		ai_chance = { base = 10 }
+	}
+}
+
+##Coalition Victory: National Conservatism Front
+country_event = {
+	id = election.11
+	title = election.11.t
+	desc = election.11.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.11.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+			}
+			switch_government_to_conservatism = yes
+			add_government_membership_monarchism = yes
+		}
+		else = {
+			switch_government_to_monarchism = yes
+			add_government_membership_conservatism = yes
+		}
+		ai_chance = { base = 10 }
+	}
+}
+
+##Coalition Victory: Labor Front
+country_event = {
+	id = election.12
+	title = election.12.t
+	desc = election.12.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.12.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+			}
+			switch_government_to_communism = yes
+			add_government_membership_leftism = yes
+		}
+		else = {
+			switch_government_to_leftism = yes
+			add_government_membership_communism = yes
+		}
+		ai_chance = { base = 10 }
+	}
+}
+
+##Coalition Victory: Revolutionary Front
+country_event = {
+	id = election.13
+	title = election.13.t
+	desc = election.13.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.13.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+			}
+			switch_government_to_anarchism = yes
+			add_government_membership_communism = yes
+		}
+		else = {
+			switch_government_to_communism = yes
+			add_government_membership_anarchism = yes
+		}
+		ai_chance = { base = 10 }
+	}
+}
+
+##Coalition Victory: Democratic Front
+country_event = {
+	id = election.14
+	title = election.14.t
+	desc = election.14.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.14.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+			}
+			switch_government_to_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+			}
+			switch_government_to_centrism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_conservatism = yes
+		}
+		else = {
+			switch_government_to_conservatism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+		}
+	}
+}
+
+##Coalition Victory: Left Front
+country_event = {
+	id = election.15
+	title = election.15.t
+	desc = election.15.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.15.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+			}
+			switch_government_to_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_leftism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@anarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+			}
+			switch_government_to_communism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_leftism = yes
+		}
+		else = {
+			switch_government_to_leftism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_communism = yes
+		}
+	}
+}
+
+##Coalition Victory: Right Front
+country_event = {
+	id = election.16
+	title = election.16.t
+	desc = election.16.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.16.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_despotism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_monarchism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else = {
+			switch_government_to_ultranationalism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+		}
+	}
+}
+
+##Coalition Victory: National Front
+country_event = {
+	id = election.17
+	title = election.17.t
+	desc = election.17.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.17.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_conservatism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_despotism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_monarchism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else = {
+			switch_government_to_ultranationalism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+		}
+	}
+}
+
+##Coalition Victory: Popular Front
+country_event = {
+	id = election.18
+	title = election.18.t
+	desc = election.18.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.16.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+			}
+			switch_government_to_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@anarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+			}
+			switch_government_to_communism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@anarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+			}
+			switch_government_to_leftism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_centrism = yes
+		}
+		else = {
+			switch_government_to_centrism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_leftism = yes
+		}
+	}
+}
+
+##Coalition Victory: Anti-Revolutionary Front
+country_event = {
+	id = election.19
+	title = election.19.t
+	desc = election.19.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.19.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_centrism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@conservatism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_conservatism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@monarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@despotism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_despotism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_monarchism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@despotism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@monarchism
+					value = party_popularity@ultranationalism
+					compare = greater_than
+				}
+			}
+			switch_government_to_monarchism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		else = {
+			switch_government_to_ultranationalism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_monarchism = yes
+		}
+	}
+}
+
+##Coalition Victory: Anti-Chauvinist Front
+country_event = {
+	id = election.20
+	title = election.20.t
+	desc = election.20.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.20.o1
+		if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@anarchism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+			}
+			switch_government_to_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@anarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@communism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+			}
+			switch_government_to_communism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@anarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@centrism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@leftism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+			}
+			switch_government_to_leftism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@anarchism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@communism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@leftism
+					compare = greater_than
+				}
+				check_variable = {
+					var = party_popularity@centrism
+					value = party_popularity@conservatism
+					compare = greater_than
+				}
+			}
+			switch_government_to_centrism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_conservatism = yes
+		}
+		else = {
+			switch_government_to_conservatism = yes
+			add_government_membership_anarchism = yes
+			add_government_membership_communism = yes
+			add_government_membership_leftism = yes
+			add_government_membership_centrism = yes
+		}
 	}
 }

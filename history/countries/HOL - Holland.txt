@@ -19,6 +19,12 @@ set_technology = {
 set_variable = { democracy_rating = 80 }
 set_variable = { pacifism_rating = 95 }
 
+add_ideas = {	#Laws and Government
+	parliamentary_monarchy
+	volunteer_only
+	civilian_economy
+	free_trade
+}
 add_ideas = {	#Social Factions
 	protestantism
 }

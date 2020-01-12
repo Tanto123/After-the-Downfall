@@ -22,6 +22,9 @@ ideas = {
 			modifier = {
 				experience_gain_air = 0.01
 				max_command_power = 5
+				production_speed_air_base_factor = 0.1
+				industrial_capacity_dockyard = -0.15
+				despotism_drift = 0.01
 			}
 		}
 	
@@ -43,7 +46,7 @@ ideas = {
 				consumer_goods_factor = -0.01
 				stability_factor = -0.05
 				war_support_factor = -0.05
-				conservatism_drift = 0.01
+				conservatism_drift = 0.04
 			}
 		}
 	
@@ -63,6 +66,8 @@ ideas = {
 			modifier = {
 				experience_gain_army = 0.01
 				max_command_power = 5
+				industrial_capacity_dockyard = -0.15
+				despotism_drift = 0.01
 			}
 		}
 	
@@ -86,7 +91,9 @@ ideas = {
 			}
 			modifier = {
 				experience_gain_army_factor = 0.05
-				production_speed_arms_factory_factor = 0.05
+				production_speed_infrastructure_factor = 0.1
+				production_speed_naval_base_factor = -0.15
+				production_speed_air_base_factor = -0.15
 			}
 		}
 	
@@ -105,11 +112,13 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.05
 				stability_factor = -0.05
-				centrism_drift = 0.01
+				min_export = 0.05
+				centrism_drift = 0.04
 			}
 		}
 	
 		buddhism = {
+			picture = gelugpa
 			
 			allowed = {}
 			visible = { always = yes }
@@ -119,6 +128,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				stability_factor = 0.05
+				war_support_factor = -0.05
 				communism_drift = -0.01
 			}
 		}
@@ -133,6 +144,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = -0.05
 				communism_drift = -0.01
 			}
 		}
@@ -150,9 +163,11 @@ ideas = {
 			research_bonus = { }
 			equipment_bonus = { }
 			modifier = {
-				monthly_population = 0.1
+				monthly_population = 0.15
+				production_speed_buildings_factor = -0.05
 				industrial_capacity_factory = -0.05
-				conservatism_drift = 0.01
+				anarchism_drift = 0.04
+				conservatism_drift = 0.04
 			}
 		}
 	
@@ -166,7 +181,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				stability_factor = 0.1
 				communism_drift = -0.01
+				war_support_factor = -0.05
+				mobilization_speed = -0.05
+				conscription_factor = -0.05
 			}
 		}
 	
@@ -199,8 +218,9 @@ ideas = {
 			equipment_bonus = { }
 			modifier = {
 				research_speed_factor = 0.05
-				leftism_drift = 0.01
-				centrism_drift = 0.01
+				conscription_factor = -0.05
+				leftism_drift = 0.04
+				centrism_drift = 0.04
 			}
 		}
 		
@@ -216,26 +236,10 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = 0.05
-				anarchism_drift = 0.01
-				communism_drift = 0.01
-				leftism_drift = 0.01
+				anarchism_drift = 0.04
+				communism_drift = 0.04
+				leftism_drift = 0.04
 				war_support_factor = -0.05
-			}
-		}
-		
-		monarchists = {
-			picture = monarchism
-			
-			allowed = {}
-			visible = { always = yes }
-			available = { always = no }
-			cancel = {}
-			
-			removal_cost = -1
-			
-			modifier = {
-				monarchism_drift = 0.02
-				conservatism_drift = 0.02
 			}
 		}
 		
@@ -255,6 +259,22 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
+		
+		monarchists = {
+			picture = monarchism
+			
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				monarchism_drift = 0.04
+				conservatism_drift = 0.04
+			}
+		}
 	
 		naval_industry = {
 			picture = escort_effort
@@ -267,8 +287,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_dockyard = 0.1
-				production_speed_dockyard_factor = 0.05
+				industrial_capacity_dockyard = 0.15
+				production_speed_dockyard_factor = 0.15
 				production_speed_arms_factory_factor = -0.05
 			}
 		}
@@ -289,11 +309,14 @@ ideas = {
 			modifier = {
 				experience_gain_navy = 0.01
 				max_command_power = 5
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = -0.1
+				despotism_drift = 0.01
 			}
 		}
 	
 		orthodox_christianity = {
-			picture = orthodox_christianity2
+			picture = orthodoxy
 			
 			allowed = {}
 			visible = { always = yes }
@@ -303,6 +326,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				army_core_defence_factor = 0.05
 				communism_drift = -0.01
 			}
 		}
@@ -317,6 +341,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				research_speed_factor = 0.05
 				communism_drift = -0.01
 			}
 		}
@@ -363,8 +388,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.03
-				local_resources_factor = 0.15
+				local_resources_factor = 0.1
 				stability_factor = -0.05
 			}
 		}
@@ -380,6 +404,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				monthly_population = 0.05
 				communism_drift = -0.01
 			}
 		}
@@ -395,6 +420,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				special_forces_min = 15
 				communism_drift = -0.01
 			}
 		}
@@ -410,6 +436,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				war_support_factor = 0.05
 				communism_drift = -0.01
 			}
 		}
@@ -425,6 +452,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				political_power_gain = 0.1
 				communism_drift = -0.01
 			}
 		}
@@ -440,9 +468,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				ultranationalism_drift = 0.02
+				generate_wargoal_tension = -0.05
+				justify_war_goal_time = -0.05
+				ultranationalism_drift = 0.04
 				despotism_acceptance = 5
 				ultranationalism_acceptance = 5
+				research_speed_factor = -0.1
+				opinion_gain_monthly_factor = -0.25
 			}
 		}
 		

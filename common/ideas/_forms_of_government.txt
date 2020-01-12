@@ -73,6 +73,12 @@ ideas = {
 			visible = { always = yes }
 			available = {
 				has_stability > 0.3
+				OR = {
+					has_government = conservatism
+					has_government = despotism
+					has_government = monarchism
+					has_government = ultranationalism
+				}
 				democracy_rating_less_than_20 = yes
 				OR = {
 					has_government = ultranationalism
@@ -182,6 +188,8 @@ ideas = {
 				has_stability > 0.3
 				democracy_rating_greater_than_40 = yes
 				democracy_rating_less_than_60 = yes
+				NOT = { has_government = despotism }
+				NOT = { has_government = monarchism }
 			}
 			cancel = {}
 			
@@ -265,7 +273,9 @@ ideas = {
 			available = {
 				has_stability > 0.3
 				NOT = { has_idea = disarmed_nation }
+				has_government = despotism
 				has_army_manpower = { size > 100000 }
+				democracy_rating_less_than_40 = yes
 			}
 			cancel = {}
 			
@@ -342,6 +352,7 @@ ideas = {
 				has_stability > 0.3
 				is_republic = yes
 				has_civil_war = no
+				NOT = { has_government = anarchism }
 			}
 			cancel = {}
 			
@@ -360,14 +371,8 @@ ideas = {
 			visible = { always = yes }
 			available = {
 				has_stability > 0.3
-				democracy_rating_less_than_30 = yes
+				democracy_rating_less_than_40 = yes
 				has_government = communism
-				NOT = { has_idea = orthodox_christianity }
-				NOT = { has_idea = protestantism }
-				NOT = { has_idea = roman_catholicism }
-				NOT = { has_idea = shia_islam }
-				NOT = { has_idea = shintoism }
-				NOT = { has_idea = sunni_islam }
 			}
 			cancel = {}
 			

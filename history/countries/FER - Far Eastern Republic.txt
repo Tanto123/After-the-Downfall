@@ -18,6 +18,9 @@ set_technology = {
 
 set_cosmetic_tag = FER_JapanesePuppet
 
+add_ideas = {	#Laws and Government
+	military_dictatorship
+}
 add_ideas = {	#National Ideas
 	japanese_autonomous_army
 }
