@@ -2,14 +2,15 @@
 state={
 	id=490
 	name="STATE_490"
-	manpower = 70020
+	manpower = 30020
 	
 	state_category = pastoral
 
 	history={
 		owner = PRU
+		add_claim_by = ECU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			air_base = 1
 		}
@@ -17,6 +18,6 @@ state={
 	}
 
 	provinces={
-		8149 10942 
+		8149 10942
 	}
 }

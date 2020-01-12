@@ -1,0 +1,21 @@
+
+state={
+	id=804
+	name="STATE_804"
+	manpower = 30020
+	
+	state_category = pastoral
+
+	history={
+		owner = ECU
+		add_claim_by = PRU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ECU
+	}
+
+	provinces={
+		13218 13219 13220
+	}
+}
