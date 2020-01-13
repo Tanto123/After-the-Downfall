@@ -1,0 +1,10 @@
+domestic_policy_decisions = {
+	icon = DCI_mefo
+	picture = DCP_political_support
+	allowed = { always = yes } 
+}
+foreign_policy_decisions = {
+	icon = DCI_politics
+	picture = DCP_case_anton
+	allowed = { always = yes } 
+}

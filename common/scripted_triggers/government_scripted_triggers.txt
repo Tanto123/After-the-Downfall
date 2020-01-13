@@ -2,6 +2,36 @@
 # FORMS OF GOVERNMENT
 ##############
 
+can_pass_laws = {
+	custom_trigger_tooltip = {
+		tooltip = TT_can_pass_laws
+		OR = {
+			democracy_rating_less_than_40 = yes
+			government_more_popular_than_opposition = yes
+			has_idea = imperial_parliamentary_oversight_act		#Idea for Germany in the focus tree
+		}
+	}
+}
+government_more_popular_than_opposition = {
+	custom_trigger_tooltip = {
+		tooltip = TT_government_popularity_greater_than_opposition
+		check_variable = {
+			var = coalition_popularity
+			value = opposition_popularity
+			compare = greater_than_or_equals
+		}
+	}
+}
+government_less_popular_than_opposition = {
+	custom_trigger_tooltip = {
+		tooltip = TT_government_popularity_less_than_opposition
+		check_variable = {
+			var = coalition_popularity
+			value = opposition_popularity
+			compare = less_than_or_equals
+		}
+	}
+}
 has_muslim_religious_movement_as_social_faction = {
 	custom_trigger_tooltip = {
 		tooltip = TT_has_muslim_religious_movement_as_social_faction
@@ -64,33 +94,61 @@ is_republic = {
 can_hire_anarchist_advisors = {
 	OR = {
 		has_government = anarchism
-		has_government = communism
-		has_government = leftism
-		has_country_flag = anarchist_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_anarchism
+			has_country_flag = anarchism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_anarchism
+			has_country_flag = anarchist_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = anarchist_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_anarchism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 can_hire_communist_advisors = {
 	OR = {
-		has_government = anarchism
 		has_government = communism
-		has_government = leftism
-		has_country_flag = communist_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_communism
+			has_country_flag = communism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_communism
+			has_country_flag = communist_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = communist_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_communism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 can_hire_leftist_advisors = {
 	OR = {
-		has_government = anarchism
-		has_government = communism
 		has_government = leftism
-		has_government = centrism
-		has_government = conservatism
-		has_country_flag = leftist_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_leftism
+			has_country_flag = leftism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_leftism
+			has_country_flag = anarchist_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = leftist_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_leftism
+			has_country_flag = leftist_advisors_banned
+		}
+	}
 	if = {
 		limit = { original_tag = GER }
 		NOT = { has_idea = rechtsfront }
@@ -99,57 +157,102 @@ can_hire_leftist_advisors = {
 
 can_hire_centrist_advisors = {
 	OR = {
-		has_government = leftism
 		has_government = centrism
-		has_government = conservatism
-		has_government = despotism
-		has_country_flag = centrist_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_centrism
+			has_country_flag = centrism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_centrism
+			has_country_flag = centrist_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = centrist_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_centrism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 can_hire_conservative_advisors = {
 	OR = {
-		has_government = leftism
-		has_government = centrism
 		has_government = conservatism
-		has_government = despotism
-		has_government = monarchism
-		has_country_flag = conservative_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_conservatism
+			has_country_flag = conservatism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_conservatism
+			has_country_flag = conservative_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = conservative_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_conservatism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 can_hire_despotic_advisors = {
 	OR = {
-		has_government = conservatism
 		has_government = despotism
-		has_government = monarchism
-		has_government = ultranationalism
-		has_country_flag = despotic_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_despotism
+			has_country_flag = despotism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_despotism
+			has_country_flag = despotic_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = despotic_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_despotism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 can_hire_monarchist_advisors = {
 	OR = {
-		has_government = conservatism
-		has_government = despotism
 		has_government = monarchism
-		has_government = ultranationalism
-		has_country_flag = monarchist_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_monarchism
+			has_country_flag = monarchism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_monarchism
+			has_country_flag = monarchist_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = monarchist_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_monarchism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 can_hire_ultranationalist_advisors = {
 	OR = {
-		has_government = despotism
-		has_government = monarchism
 		has_government = ultranationalism
-		has_country_flag = ultranationalist_advisors_allowed
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_ultranationalism
+			has_country_flag = ultranationalism_government_membership
+		}
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_allowed_ultranationalism
+			has_country_flag = ultranationalist_advisors_allowed
+		}
 	}
-	NOT = { has_country_flag = ultranationalist_advisors_banned }
+	NOT = {
+		custom_trigger_tooltip = {
+			tooltip = TT_advisors_banned_ultranationalism
+			has_country_flag = anarchist_advisors_banned
+		}
+	}
 }
 
 ##############

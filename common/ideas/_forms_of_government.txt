@@ -2,6 +2,11 @@ ideas = {
 
 	form_of_government = {
 	
+		#
+		#	ABSOLUTE MONARCHY
+		#
+		#	Can pass laws if the monarch is happy.
+		#
 		absolute_monarchy = {
 			picture = monarchism2
 			
@@ -24,6 +29,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	ADVISED MONARCHY
+		#
+		#	Can pass laws if the monarch is happy and the cabinet is happy OR if one of the two is happy and the parliament is in favor.
+		#
 		advised_monarchy = {
 			picture = anti_monarchism
 			
@@ -45,6 +55,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	BANANA REPUBLIC
+		#
+		#	Can always pass laws.
+		#
 		banana_republic = {
 			picture = corrupt_militias
 			
@@ -60,12 +75,18 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				local_resources_factor = 0.15
 				stability_factor = -0.05
 				war_support_factor = -0.05
 				political_power_factor = -0.25
 			}
 		}
 	
+		#
+		#	CLERICAL FASCISM
+		#
+		#	Can pass laws if the religious authorities are happy.
+		#
 		clerical_fascism = {
 			picture = clerical_fascism
 			
@@ -98,6 +119,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	CONFEDERACY
+		#
+		#	Can pass laws if the confederacy members are happy.
+		#
 		confederacy = {
 			picture = low_popular_support3
 			
@@ -116,6 +142,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	CONSTITUTIONAL MONARCHY
+		#
+		#	Can pass laws if the parliament is in favor and the monarch is happy OR if the parliament has a supermajority.
+		#
 		constitutional_monarchy = {
 			picture = hungarian_royal_democracy
 			
@@ -135,6 +166,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	COUNCIL REPUBLIC
+		#
+		#	Can pass laws if the communist party is happy.
+		#
 		council_republic = {
 			picture = communism14
 			
@@ -156,6 +192,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	DEFENSIVE ANARCHISM
+		#
+		#	Can pass laws if the anarchist party is happy.
+		#
 		defensive_anarchism = {
 			picture = anarcho_communism
 			
@@ -179,6 +220,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	ELECTOCRACY
+		#
+		#	Can pass laws if the parliament is in favor.
+		#
 		electocracy = {
 			picture = democracy3
 			
@@ -202,6 +248,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	FEDERAL REPUBLIC
+		#
+		#	Can pass laws if the parliament is in favor and if the federal subjects are in favor.
+		#
 		federal_republic = {
 			picture = flexible_foreign_policy2
 			
@@ -222,6 +273,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	INDUSTRIAL REPUBLIC
+		#
+		#	Can pass laws if the communist party is happy.
+		#
 		industrial_republic = {
 			picture = communism12
 			
@@ -244,6 +300,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	ISLAMIC REPUBLIC
+		#
+		#	Can pass laws if the religious authorities are happy.
+		#
 		islamic_republic = {
 			picture = salafism
 			
@@ -265,6 +326,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	MILITARY DICTATORSHIP
+		#
+		#	Can pass laws if the military is happy.
+		#
 		military_dictatorship = {
 			picture = manpower
 			
@@ -273,6 +339,12 @@ ideas = {
 			available = {
 				has_stability > 0.3
 				NOT = { has_idea = disarmed_nation }
+				count_triggers = {
+					amount = 1
+					has_idea = army_officers
+					has_idea = air_force_officers
+					has_idea = navy_officers
+				}
 				has_government = despotism
 				has_army_manpower = { size > 100000 }
 				democracy_rating_less_than_40 = yes
@@ -293,6 +365,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	PARLIAMENTARY MONARCHY
+		#
+		#	Can pass laws if the parliament is in favor.
+		#
 		parliamentary_monarchy = {
 			picture = deluge
 			
@@ -313,6 +390,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	PEASANT REPUBLIC
+		#
+		#	Can pass laws if the parliament is in favor.
+		#
 		peasant_republic = {
 			picture = communist_cuisine
 			
@@ -343,6 +425,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	UNITARY REPUBLIC
+		#
+		#	Can pass laws if the parliament is in favor.
+		#
 		unitary_republic = {
 			picture = democracy5
 			
@@ -364,6 +451,11 @@ ideas = {
 			}
 		}
 	
+		#
+		#	VANGUARD STATE
+		#
+		#	Can pass laws if the communist party is in favor.
+		#
 		vanguard_state = {
 			picture = marxism_leninism
 			

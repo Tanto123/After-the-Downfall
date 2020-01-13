@@ -1,0 +1,47 @@
+domestic_policy_decisions = {
+	
+	domestic_policy_overview = {
+
+		icon = DI_political_discourse
+
+		visible = {
+			always = yes
+		}
+		available = {
+			always = no
+		}
+		
+		cost = 0
+		
+		complete_effect = {
+		
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+}
+
+foreign_policy_decisions = {
+	
+	foreign_policy_overview = {
+
+		icon = DI_border_war
+
+		visible = {
+			always = yes
+		}
+		available = {
+			always = no
+		}
+		
+		cost = 0
+		
+		complete_effect = {
+		
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+}

@@ -22,6 +22,20 @@ ideas = {
 			}
 		}
 	
+		imperial_parliamentary_oversight_act = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = treaty2
+			
+			modifier = {
+				
+			}
+		}
+	
 		mitteleuropa_member = {
 			
 			allowed = { always = no }
@@ -86,8 +100,9 @@ ideas = {
 			picture = wilhelm_ii
 			
 			modifier = {
-				stability_factor = -0.05
 				war_support_factor = -0.05
+				anarchism_drift = -0.01
+				communism_drift = -0.01
 			}
 		}
 	

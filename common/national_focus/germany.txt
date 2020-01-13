@@ -9,7 +9,1283 @@ focus_tree = {
 		}
 	}
 	
+	continuous_focus_position = { x = 1 y = 0 }
 	reset_on_civilwar = no
 	
-
+	#################
+	#Mitteleuropa Diplomacy
+	#################
+	focus = {
+		id = GER_mitteleuropa_diplomacy
+		icon = trade3
+		cost = 10
+		
+		x = 3
+		y = 3
+		
+		prerequisite = { }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			every_other_country = { 
+				limit = { has_idea = mitteleuropa_member }
+				add_opinion_modifier = {
+					target = GER
+					modifier = mitteleuropa_diplomacy
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_side_with_sweden
+		icon = align_with_sweden
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { focus = GER_mitteleuropa_diplomacy }
+		available = { }
+		mutually_exclusive = { focus = GER_northern_neutrality }
+		mutually_exclusive = { focus = GER_side_with_finland }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_northern_neutrality
+		icon = neutrality
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { focus = GER_mitteleuropa_diplomacy }
+		available = { }
+		mutually_exclusive = { focus = GER_side_with_sweden }
+		mutually_exclusive = { focus = GER_side_with_finland }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_side_with_finland
+		icon = align_with_finland
+		cost = 10
+		
+		x = 2
+		y = 1
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { focus = GER_mitteleuropa_diplomacy }
+		available = { }
+		mutually_exclusive = { focus = GER_side_with_sweden }
+		mutually_exclusive = { focus = GER_northern_neutrality }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_germanic_unity
+		icon = cooperation
+		cost = 10
+		
+		x = -1
+		y = 2
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { 
+			focus = GER_side_with_sweden
+			focus = GER_northern_neutrality
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_baltic_reassurances }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_baltic_reassurances
+		icon = baltic_states
+		cost = 10
+		
+		x = 1
+		y = 2
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { 
+			focus = GER_northern_neutrality
+			focus = GER_side_with_finland
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_germanic_unity }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_strengthen_the_united_baltic_duchy
+		icon = united_baltic_duchy
+		cost = 10
+		
+		x = -1
+		y = 3
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { 
+			focus = GER_germanic_unity
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_baltic_reassurances }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_call_the_baltic_germans_home
+		icon = kaiserreich
+		cost = 10
+		
+		x = 1
+		y = 3
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { 
+			focus = GER_baltic_reassurances
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_germanic_unity }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_alliance_with_sweden
+		icon = align_with_sweden
+		cost = 10
+		
+		x = -2
+		y = 4
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = {
+			focus = GER_side_with_sweden
+		}
+		prerequisite = { 
+			focus = GER_germanic_unity
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_northern_neutrality }
+		mutually_exclusive = { focus = GER_side_with_finland }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_alliance_with_finland
+		icon = align_with_finland
+		cost = 10
+		
+		x = 2
+		y = 4
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = {
+			focus = GER_side_with_finland
+		}
+		prerequisite = { 
+			focus = GER_baltic_reassurances
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_northern_neutrality }
+		mutually_exclusive = { focus = GER_side_with_finland }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
+	#################
+	#1928 Elections
+	#################
+	focus = {
+		id = GER_1928_elections
+		icon = elections
+		cost = 10
+		
+		x = 10
+		y = 0
+		
+		prerequisite = { }
+		available = { always = no }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			custom_effect_tooltip = TT_GER_elections_1928
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_land_reform
+		icon = land_reform
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_1928_elections
+		
+		prerequisite = { focus = GER_1928_elections }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_create_a_national_narrative
+		icon = national_flag
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_1928_elections
+		
+		prerequisite = { focus = GER_1928_elections }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_replace_key_reichsrat_members
+		icon = legislation
+		cost = 10
+		
+		x = 2
+		y = 1
+		relative_position_id = GER_1928_elections
+		
+		prerequisite = { focus = GER_1928_elections }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	##################
+	#Break the Rechtsfront Branch
+	##################
+	focus = {
+		id = GER_establish_a_political_national_unity
+		icon = brandenburg_gate
+		cost = 10
+		
+		x = -1
+		y = 2
+		relative_position_id = GER_1928_elections
+		
+		prerequisite = { focus = GER_create_a_national_narrative }
+		available = { }
+		mutually_exclusive = { focus = GER_further_the_imperial_government }
+		
+		completion_reward = {
+			custom_effect_tooltip = TT_GER_establish_a_political_national_unity
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_strengthen_the_intellectual_class
+		icon = intellectualism2
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_establish_a_political_national_unity }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_ideas = intellectuals
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_invite_the_spd_to_local_governments
+		icon = social_democracy2
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_establish_a_political_national_unity }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_popularity = { ideology = leftism popularity = 0.03 }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_increase_education_spending
+		icon = scientific_exchange
+		cost = 10
+		
+		x = -2
+		y = 2
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_strengthen_the_intellectual_class }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_banking_control_act
+		icon = treaty6
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_invite_the_spd_to_local_governments }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			remove_ideas = big_banks
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_break_the_rechtsfront
+		icon = social_democracy3
+		cost = 10
+		
+		x = -1
+		y = 3
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_strengthen_the_intellectual_class }
+		prerequisite = { focus = GER_banking_control_act }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			remove_ideas = rechtsfront
+			add_government_membership_leftism = yes
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_enact_womens_suffrage
+		icon = womens_suffrage
+		cost = 10
+		
+		x = -1
+		y = 4
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_break_the_rechtsfront }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_popularity = { ideology = despotism popularity = -0.05 }
+			add_popularity = { ideology = ultranationalism popularity = -0.05 }
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_establish_state_secularism
+		icon = national_unity
+		cost = 10
+		
+		x = 1
+		y = 4
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_break_the_rechtsfront }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			remove_ideas = protestantism
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_mobilize_the_working_class
+		icon = working_class
+		cost = 10
+		
+		x = -2
+		y = 5
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_enact_womens_suffrage }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_end_imperial_influence_in_military_doctrine
+		icon = army_experience
+		cost = 10
+		
+		x = 0
+		y = 5
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_enact_womens_suffrage }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = land_doctrine
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_expand_industrial_centers
+		icon = industry_civilian
+		cost = 10
+		
+		x = -1
+		y = 6
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_mobilize_the_working_class }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_pro_catholic_diplomacy
+		icon = catholicism
+		cost = 10
+		
+		x = 2
+		y = 6
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { 
+			focus = GER_establish_state_secularism
+			focus = GER_national_christianity_act
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_radical_protestantism }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_ally_the_communists
+		icon = communism
+		cost = 10
+		
+		x = -2
+		y = 7
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_mobilize_the_working_class }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_break_noble_privileges_in_military_leaderships
+		icon = military_academy
+		cost = 10
+		
+		x = 0
+		y = 7
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_end_imperial_influence_in_military_doctrine }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_tuition_free_universities
+		icon = research2
+		cost = 10
+		
+		x = -3
+		y = 8
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_ally_the_communists }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_raise_taxes_on_the_rich
+		icon = business_elite
+		cost = 10
+		
+		x = -1
+		y = 8
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_ally_the_communists }
+		prerequisite = { focus = GER_break_noble_privileges_in_military_leaderships }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			remove_ideas = aristocrats
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_egalitarian_national_culture
+		icon = family
+		cost = 10
+		
+		x = 1
+		y = 8
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_break_noble_privileges_in_military_leaderships }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_kaiserfrage
+		icon = monarchism3
+		cost = 10
+		
+		x = -1
+		y = 9
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_tuition_free_universities }
+		prerequisite = { focus = GER_raise_taxes_on_the_rich }
+		prerequisite = { focus = GER_egalitarian_national_culture }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	##################
+	#Republic Branch
+	##################
+	focus = {
+		id = GER_republicanism
+		icon = self_management
+		cost = 10
+		
+		x = -3
+		y = 10
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_kaiserfrage }
+		available = { }
+		mutually_exclusive = { focus = GER_abdication_over_abolition }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_revoke_noble_titles
+		icon = anti_monarchism2
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_republicanism
+		
+		prerequisite = { 
+			focus = GER_republicanism
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_revoke_imperial_rights
+		icon = anti_monarchism3
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_republicanism
+		
+		prerequisite = { 
+			focus = GER_republicanism
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_establish_a_republic
+		icon = german_confederation
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = GER_republicanism
+		
+		prerequisite = { focus = GER_revoke_noble_titles }
+		prerequisite = { focus = GER_revoke_imperial_rights }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	##################
+	#Wilhelm III Branch
+	##################
+	focus = {
+		id = GER_abdication_over_abolition
+		icon = monarchism
+		cost = 10
+		
+		x = 1
+		y = 10
+		relative_position_id = GER_establish_a_political_national_unity
+		
+		prerequisite = { focus = GER_kaiserfrage }
+		available = { }
+		mutually_exclusive = { focus = GER_republicanism }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_parliamentary_monarchy_act
+		icon = treaty2
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_abdication_over_abolition
+		
+		prerequisite = { 
+			focus = GER_abdication_over_abolition
+		}
+		available = { can_pass_laws = yes }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_abdication_act
+		icon = treaty3
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_abdication_over_abolition
+		
+		prerequisite = { 
+			focus = GER_abdication_over_abolition
+		}
+		available = { can_pass_laws = yes }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_wilhelm_iii
+		icon = monarchism2
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = GER_abdication_over_abolition
+		
+		prerequisite = { focus = GER_parliamentary_monarchy_act }
+		prerequisite = { focus = GER_abdication_act }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	##################
+	#Further the Imperial Government
+	##################
+	focus = {
+		id = GER_further_the_imperial_government
+		icon = return_of_the_kaiser
+		cost = 10
+		
+		x = 1
+		y = 2
+		relative_position_id = GER_1928_elections
+		
+		prerequisite = { focus = GER_create_a_national_narrative }
+		available = { }
+		mutually_exclusive = { focus = GER_establish_a_political_national_unity }
+		
+		completion_reward = {
+			custom_effect_tooltip = TT_GER_further_the_imperial_government
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_pass_the_friedrichs_act
+		icon = treaty4
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_further_the_imperial_government }
+		prerequisite = { focus = GER_replace_key_reichsrat_members }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_stack_the_cabinet
+		icon = anti_democracy5
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_further_the_imperial_government }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_end_vertical_separation_of_powers
+		icon = anti_democracy6
+		cost = 10
+		
+		x = 2
+		y = 2
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_pass_the_friedrichs_act }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_imperial_military_consultation_act
+		icon = treaty8
+		cost = 10
+		
+		x = 1
+		y = 3
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_stack_the_cabinet }
+		prerequisite = { focus = GER_end_vertical_separation_of_powers }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_imperial_parliamentary_oversight_act
+		icon = treaty
+		cost = 10
+		
+		x = 1
+		y = 4
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_imperial_military_consultation_act }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_ideas = imperial_parliamentary_oversight_act
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_naval_primacy
+		icon = naval_treaty
+		cost = 10
+		
+		x = 3
+		y = 4
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_imperial_military_consultation_act }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				category = naval_doctrine
+			}
+			remove_ideas = army_officers
+			add_ideas = navy_officers
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_national_christianity_act
+		icon = treaty7
+		cost = 10
+		
+		x = 1
+		y = 5
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_imperial_parliamentary_oversight_act }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_radical_protestantism
+		icon = protestantism
+		cost = 10
+		
+		x = 5
+		y = 6
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_national_christianity_act }
+		available = { }
+		mutually_exclusive = { focus = GER_pro_catholic_diplomacy }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_strengthen_the_dual_alliance
+		icon = austria_hungary
+		cost = 10
+		
+		x = 1
+		y = 7
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { 
+			focus = GER_pro_catholic_diplomacy
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	##################
+	#German Patriotism
+	##################
+	focus = {
+		id = GER_german_patriotism
+		icon = reichsmarine
+		cost = 10
+		
+		x = 3
+		y = 7
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { 
+			focus = GER_pro_catholic_diplomacy
+			focus = GER_radical_protestantism
+		}
+		available = { }
+		mutually_exclusive = { focus = GER_germanic_nationalism }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_habsburg_ties
+		icon = align_with_austria
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_german_patriotism
+		
+		prerequisite = { 
+			focus = GER_strengthen_the_dual_alliance
+		}
+		prerequisite = { 
+			focus = GER_german_patriotism
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_military_cooperation_with_the_kuk_armee
+		icon = bundesheer
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_german_patriotism
+		
+		prerequisite = { 
+			focus = GER_german_patriotism
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	##################
+	#German Nationalism
+	##################
+	focus = {
+		id = GER_germanic_nationalism
+		icon = fascism6
+		cost = 10
+		
+		x = 7
+		y = 7
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = {
+			focus = GER_radical_protestantism
+		}
+		available = {
+			has_completed_focus = GER_germanic_unity
+		}
+		mutually_exclusive = { focus = GER_german_patriotism }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_renounce_the_dual_alliance
+		icon = renounce_treaty5
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_germanic_nationalism
+		
+		prerequisite = { 
+			focus = GER_germanic_nationalism
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_political_influence_in_scandinavia
+		icon = demand_territory
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_germanic_nationalism
+		
+		prerequisite = { 
+			focus = GER_germanic_nationalism
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_claim_german_austria
+		icon = revanchism
+		cost = 10
+		
+		x = -1
+		y = 2
+		relative_position_id = GER_germanic_nationalism
+		
+		prerequisite = { 
+			focus = GER_renounce_the_dual_alliance
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_influence_denmark
+		icon = align_with_denmark
+		cost = 10
+		
+		x = 1
+		y = 2
+		relative_position_id = GER_germanic_nationalism
+		
+		bypass = { is_in_faction_with = DEN }
+		prerequisite = { 
+			focus = GER_political_influence_in_scandinavia
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_influence_norway
+		icon = align_with_norway
+		cost = 10
+		
+		x = 3
+		y = 2
+		relative_position_id = GER_germanic_nationalism
+		
+		bypass = { is_in_faction_with = NOR }
+		prerequisite = { 
+			focus = GER_political_influence_in_scandinavia
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_influence_sweden
+		icon = align_with_sweden2
+		cost = 10
+		
+		x = 5
+		y = 2
+		relative_position_id = GER_germanic_nationalism
+		
+		bypass = { is_in_faction_with = SWE }
+		prerequisite = { 
+			focus = GER_political_influence_in_scandinavia
+		}
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
 }

@@ -8,12 +8,20 @@ opinion_modifiers = {
 		value = -50
 	}
 	
+	diplomatic_endorsement = {
+		value = 50
+	}
+	
 	former_allies_in_the_european_war = {
 		value = 15
 	}
 	
 	former_enemies_in_the_european_war = {
 		value = -15
+	}
+	
+	mitteleuropa_diplomacy = {
+		value = 10
 	}
 	
 	scandinavian_cultural_ties = {

@@ -86,9 +86,9 @@ add_ideas = {	#Laws and Government
 	free_trade
 }
 add_ideas = {	#Starting Cabinet
-	alfred_hugenberg
 	ernst_scholz
-	walther_funk
+	franz_von_papen
+	wilhelm_marx
 }
 add_ideas = {	#Social Factions
 	protestantism
@@ -118,7 +118,7 @@ set_popularities = {
 
 set_politics = { 
 	ruling_party = conservatism
-	last_election = "1925.1.1"
+	last_election = "1924.2.13"
 	election_frequency = 48
 	elections_allowed = yes
 }

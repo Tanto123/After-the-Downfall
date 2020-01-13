@@ -24,7 +24,6 @@ country_event = {
 		ai_chance = { base = 0 }
 	}
 }
-
 #Triple Alliance member under attack
 country_event = {
 	id = germany.2
@@ -47,5 +46,61 @@ country_event = {
 		name = germany.2.o2
 		add_stability = -0.05
 		ai_chance = { base = 0 }
+	}
+}
+#1928 Reichstag Election
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	trigger = {
+		tag = GER
+		date > 1928.1.1
+		date < 1929.1.1
+	}
+	
+	option = {	#Continue the DVP government
+		name = germany.3.o1
+		switch_government_to_conservatism = yes
+		complete_national_focus = GER_1928_elections
+		hidden_effect = { country_event = { id = germany.4 days = 5 } }
+	}
+}
+#Reaction to the Reichstag Elections
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	#Oh well
+		name = germany.4.o1
+		add_stability = -0.05
+		add_government_membership_centrism = yes
+		add_government_membership_monarchism = yes
+		hidden_effect = { country_event = { id = germany.5 days = 2 } }
+	}
+}
+#DNLP and KVU join the government with ministers
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	trigger = {
+		amount_taken_ideas = { amount < 5 slots = { political_advisor } }
+	}
+	
+	option = {	#Welcome to the government
+		name = germany.5.o1
+		add_ideas = alfred_hugenberg
+		add_ideas = otto_gessler
 	}
 }

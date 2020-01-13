@@ -46,7 +46,7 @@ ideas = {
 				consumer_goods_factor = -0.01
 				stability_factor = -0.05
 				war_support_factor = -0.05
-				conservatism_drift = 0.04
+				conservatism_drift = 0.03
 			}
 		}
 	
@@ -113,7 +113,9 @@ ideas = {
 				consumer_goods_factor = -0.05
 				stability_factor = -0.05
 				min_export = 0.05
-				centrism_drift = 0.04
+				centrism_drift = 0.03
+				communism_drift = -0.01
+				anarchism_drift = -0.01
 			}
 		}
 	
@@ -166,8 +168,8 @@ ideas = {
 				monthly_population = 0.15
 				production_speed_buildings_factor = -0.05
 				industrial_capacity_factory = -0.05
-				anarchism_drift = 0.04
-				conservatism_drift = 0.04
+				anarchism_drift = 0.03
+				conservatism_drift = 0.03
 			}
 		}
 	
@@ -181,11 +183,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.1
+				stability_factor = 0.05
 				communism_drift = -0.01
-				war_support_factor = -0.05
-				mobilization_speed = -0.05
-				conscription_factor = -0.05
+				conscription_factor = -0.1
 			}
 		}
 	
@@ -219,8 +219,8 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.05
 				conscription_factor = -0.05
-				leftism_drift = 0.04
-				centrism_drift = 0.04
+				leftism_drift = 0.03
+				centrism_drift = 0.03
 			}
 		}
 		
@@ -236,9 +236,10 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = 0.05
-				anarchism_drift = 0.04
-				communism_drift = 0.04
-				leftism_drift = 0.04
+				anarchism_drift = 0.03
+				communism_drift = 0.03
+				leftism_drift = 0.03
+				centrism_drift = -0.01
 				war_support_factor = -0.05
 			}
 		}
@@ -271,8 +272,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				monarchism_drift = 0.04
-				conservatism_drift = 0.04
+				monarchism_drift = 0.03
+				conservatism_drift = 0.03
 			}
 		}
 	
@@ -390,6 +391,8 @@ ideas = {
 			modifier = {
 				local_resources_factor = 0.1
 				stability_factor = -0.05
+				communism_drift = -0.01
+				anarchism_drift = -0.01
 			}
 		}
 	
@@ -470,7 +473,7 @@ ideas = {
 			modifier = {
 				generate_wargoal_tension = -0.05
 				justify_war_goal_time = -0.05
-				ultranationalism_drift = 0.04
+				ultranationalism_drift = 0.03
 				despotism_acceptance = 5
 				ultranationalism_acceptance = 5
 				research_speed_factor = -0.1
@@ -494,6 +497,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				stability_factor = -0.05
 			}
 		}
 	
