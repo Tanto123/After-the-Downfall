@@ -1,117 +1,68 @@
 calculate_coalition_popularity = {
-	#######
-	#Coalition Popularity starts at 0 and goes all the way up to 1 (100%)
-	#######
-	set_variable = { coalition_popularity = 0 }
-	if = {
-		limit = { has_country_flag = anarchism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@anarchism }
-	}
-	if = {
-		limit = { has_country_flag = communism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@communism }
-	}
-	if = {
-		limit = { has_country_flag = leftism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@leftism }
-	}
-	if = {
-		limit = { has_country_flag = centrism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@centrism }
-	}
-	if = {
-		limit = { has_country_flag = conservatism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@conservatism }
-	}
-	if = {
-		limit = { has_country_flag = despotism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@despotism }
-	}
-	if = {
-		limit = { has_country_flag = monarchism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@monarchism }
-	}
-	if = {
-		limit = { has_country_flag = ultranationalism_government_membership }
-		add_to_variable = { var = coalition_popularity value = party_popularity@ultranationalism }
-	}
-	#######
-	#Opposition Popularity is just the opposite of Coalition Popularity
-	#######
-	set_variable = { opposition_popularity = 1 }
-	subtract_from_variable = {
-		var = opposition_popularity
-		value = coalition_popularity
-	}
-	#######
-	#COALITION TYPE POPULARITIES
-	#######
+	set_variable = { coalition_popularity = 0 }		#Goes from 0 to 1.
+	if = { limit = { has_country_flag = anarchism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@anarchism } }
+	if = { limit = { has_country_flag = communism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@communism } }
+	if = { limit = { has_country_flag = leftism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@leftism } }
+	if = { limit = { has_country_flag = centrism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@centrism } }
+	if = { limit = { has_country_flag = conservatism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@conservatism } }
+	if = { limit = { has_country_flag = despotism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@despotism } }
+	if = { limit = { has_country_flag = monarchism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@monarchism } }
+	if = { limit = { has_country_flag = ultranationalism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@ultranationalism } }
+	set_variable = { opposition_popularity = 1 }	#Starts at 1, coalition_popularity subtracted from 1.
+	subtract_from_variable = { var = opposition_popularity value = coalition_popularity }
 	#
-	#"Revolutionary Front" includes Anarchism and Communism.
-	#"Labor Front" includes Communist and Leftist.
-	#"Social Liberal Front" includes Leftist and Centrist.
-	#"Liberal Conservative Front" includes Conservative and Centrist.
-	#"National Conservative Front" includes Conservative and Monarchist.
-	#
-	#"Left Front" includes the three leftmost parties.
-	#"Democratic Front" includes the three democratic parties.
-	#"Right Front" includes the four rightmost parties.
-	#
-	#"National Front" is the Right Front with additional Centrist support.
-	#"Popular Front" is the Left Front with additional Centrist support.
-	#
-	#"Anti-Revolutionary Front" is the National Front with additional Leftist support.
-	#"Anti-Chauvinist Front" is the Popular Front with additional Conservative support.
+	update_government_popularity_idea = yes
 	#
 	set_variable = { revolutionary_front_popularity = 0 }				#A + Com
-	set_variable = { labor_front_popularity = 0 }						#Com + L
-	set_variable = { social_liberal_front_popularity = 0 }				#L + Ce
-	set_variable = { liberal_conservative_front_popularity = 0 }		#Ce + Con
-	set_variable = { national_conservative_front_popularity = 0 }		#Con + M
-	set_variable = { left_front_popularity = 0 }						#A + Com + L
-	set_variable = { democratic_front_popularity = 0 }					#L + Ce + Con
-	set_variable = { right_front_popularity = 0 }						#Con + D + M + U
-	set_variable = { national_front_popularity = 0 }					#Ce + Con + D + M + U
-	set_variable = { popular_front_popularity = 0 }						#A + Com + L + Ce
-	set_variable = { anti_revolutionary_front_popularity = 0 }			#Le + Ce + Con + D + M + U		
-	set_variable = { anti_chauvinist_front_popularity = 0 }				#A + Com + L + Ce + Con
-	#
 	add_to_variable = { var = revolutionary_front_popularity value = party_popularity@anarchism }
 	add_to_variable = { var = revolutionary_front_popularity value = party_popularity@communism }
-	#
+	set_variable = { labor_front_popularity = 0 }						#Com + L
 	add_to_variable = { var = labor_front_popularity value = party_popularity@communism }
 	add_to_variable = { var = labor_front_popularity value = party_popularity@leftism }
-	#
+	set_variable = { social_liberal_front_popularity = 0 }				#L + Ce
 	add_to_variable = { var = social_liberal_front_popularity value = party_popularity@leftism }
 	add_to_variable = { var = social_liberal_front_popularity value = party_popularity@centrism }
-	#
+	set_variable = { liberal_conservative_front_popularity = 0 }		#Ce + Con
 	add_to_variable = { var = liberal_conservative_front_popularity value = party_popularity@centrism }
 	add_to_variable = { var = liberal_conservative_front_popularity value = party_popularity@conservatism }
-	#
+	set_variable = { national_conservative_front_popularity = 0 }		#Con + M
 	add_to_variable = { var = national_conservative_front_popularity value = party_popularity@conservatism }
 	add_to_variable = { var = national_conservative_front_popularity value = party_popularity@monarchism }
-	#
+	set_variable = { left_front_popularity = 0 }						#A + Com + L
 	add_to_variable = { var = left_front_popularity value = revolutionary_front_popularity }
 	add_to_variable = { var = left_front_popularity value = party_popularity@leftism }
-	#
+	set_variable = { democratic_front_popularity = 0 }					#L + Ce + Con
 	add_to_variable = { var = democratic_front_popularity value = social_liberal_front_popularity }
 	add_to_variable = { var = democratic_front_popularity value = party_popularity@conservatism }
-	#
+	set_variable = { right_front_popularity = 0 }						#Con + D + M + U
 	add_to_variable = { var = right_front_popularity value = national_conservative_front_popularity }
 	add_to_variable = { var = right_front_popularity value = party_popularity@despotism }
 	add_to_variable = { var = right_front_popularity value = party_popularity@ultranationalism }
-	#
+	set_variable = { national_front_popularity = 0 }					#Ce + Con + D + M + U
 	add_to_variable = { var = national_front_popularity value = right_front_popularity }
 	add_to_variable = { var = national_front_popularity value = party_popularity@centrism }
-	#
+	set_variable = { popular_front_popularity = 0 }						#A + Com + L + Ce
 	add_to_variable = { var = popular_front_popularity value = left_front_popularity }
 	add_to_variable = { var = popular_front_popularity value = party_popularity@centrism }
-	#
+	set_variable = { anti_revolutionary_front_popularity = 0 }			#Le + Ce + Con + D + M + U	
 	add_to_variable = { var = anti_revolutionary_front_popularity value = national_front_popularity }
-	add_to_variable = { var = anti_revolutionary_front_popularity value = party_popularity@leftism }
-	#
+	add_to_variable = { var = anti_revolutionary_front_popularity value = party_popularity@leftism }	
+	set_variable = { anti_chauvinist_front_popularity = 0 }				#A + Com + L + Ce + Con
 	add_to_variable = { var = anti_chauvinist_front_popularity value = popular_front_popularity }
 	add_to_variable = { var = anti_chauvinist_front_popularity value = party_popularity@conservatism }
+}
+
+update_government_popularity_idea = {
+	if = { limit = { check_variable = { var = coalition_popularity value = 0.10 compare = less_than } } add_ideas = government_popularity0 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.20 compare = less_than } } add_ideas = government_popularity1 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.30 compare = less_than } } add_ideas = government_popularity2 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.40 compare = less_than } } add_ideas = government_popularity3 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.50 compare = less_than } } add_ideas = government_popularity4 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.60 compare = less_than } } add_ideas = government_popularity5 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.70 compare = less_than } } add_ideas = government_popularity6 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.80 compare = less_than } } add_ideas = government_popularity7 }
+	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.90 compare = less_than } } add_ideas = government_popularity8 }
+	else = { add_ideas = government_popularity9 }
 }
 
 remove_all_government_members = {
@@ -125,6 +76,7 @@ remove_all_government_members = {
 	clr_country_flag = monarchism_government_membership
 	clr_country_flag = ultranationalism_government_membership
 }
+
 ###
 # Add Government Membership
 ###
@@ -160,6 +112,7 @@ add_government_membership_ultranationalism = {
 	set_country_flag = ultranationalism_government_membership
 	custom_effect_tooltip = TT_government_membership_add_ultranationalism
 }
+
 ###
 # Clear Government Membership
 ###
@@ -198,38 +151,14 @@ clear_government_membership_ultranationalism = {
 
 set_ruling_party_as_sole_government_member = {
 	remove_all_government_members = yes
-	if = {
-		limit = { has_government = anarchism }
-		set_country_flag = anarchism_government_membership
-	}
-	if = {
-		limit = { has_government = communism }
-		set_country_flag = communism_government_membership
-	}
-	if = {
-		limit = { has_government = leftism }
-		set_country_flag = leftism_government_membership
-	}
-	if = {
-		limit = { has_government = centrism }
-		set_country_flag = centrism_government_membership
-	}
-	if = {
-		limit = { has_government = conservatism }
-		set_country_flag = conservatism_government_membership
-	}
-	if = {
-		limit = { has_government = despotism }
-		set_country_flag = despotism_government_membership
-	}
-	if = {
-		limit = { has_government = monarchism }
-		set_country_flag = monarchism_government_membership
-	}
-	if = {
-		limit = { has_government = ultranationalism }
-		set_country_flag = ultranationalism_government_membership
-	}
+	if = { limit = { has_government = anarchism } set_country_flag = anarchism_government_membership }
+	if = { limit = { has_government = communism } set_country_flag = communism_government_membership }
+	if = { limit = { has_government = leftism } set_country_flag = leftism_government_membership }
+	if = { limit = { has_government = centrism } set_country_flag = centrism_government_membership }
+	if = { limit = { has_government = conservatism } set_country_flag = conservatism_government_membership }
+	if = { limit = { has_government = despotism } set_country_flag = despotism_government_membership }
+	if = { limit = { has_government = monarchism } set_country_flag = monarchism_government_membership }
+	if = { limit = { has_government = ultranationalism } set_country_flag = ultranationalism_government_membership }
 	calculate_coalition_popularity = yes
 }
 
@@ -238,24 +167,15 @@ switch_government_to_anarchism = {
 	add_government_membership_anarchism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = anarchism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = anarchism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = anarchism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = anarchism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = anarchism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -265,24 +185,15 @@ switch_government_to_communism = {
 	add_government_membership_communism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = communism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = communism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = communism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = communism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = communism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = communism elections_allowed = no }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -292,24 +203,15 @@ switch_government_to_leftism = {
 	add_government_membership_leftism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = leftism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = leftism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = leftism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = leftism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = leftism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = leftism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -319,24 +221,15 @@ switch_government_to_centrism = {
 	add_government_membership_centrism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = centrism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = centrism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = centrism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = centrism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = centrism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = centrism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -346,24 +239,15 @@ switch_government_to_conservatism = {
 	add_government_membership_conservatism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = conservatism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = conservatism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = conservatism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = conservatism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = conservatism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = conservatism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -373,24 +257,15 @@ switch_government_to_despotism = {
 	add_government_membership_despotism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = despotism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = despotism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = despotism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = despotism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = despotism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = despotism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -400,24 +275,15 @@ switch_government_to_monarchism = {
 	add_government_membership_monarchism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = monarchism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = monarchism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = monarchism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = monarchism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = monarchism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = monarchism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }
@@ -427,24 +293,15 @@ switch_government_to_ultranationalism = {
 	add_government_membership_ultranationalism = yes
 	if = {	#DR > 40
 		limit = { OR = { has_idea = democracy has_idea = flawed_democracy has_idea = oligarchy } }
-		set_politics = {
-			ruling_party = ultranationalism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = ultranationalism elections_allowed = yes }
 	}
 	if = {	#DR < 40
 		limit = { OR = { has_idea = totalitarian_rule has_idea = authoritarian_rule } }
-		set_politics = {
-			ruling_party = ultranationalism
-			elections_allowed = no
-		}
+		set_politics = { ruling_party = ultranationalism elections_allowed = no }
 	}
 	if = {	#Failsafe
 		limit = { NOT = { has_idea = democracy } NOT = { has_idea = flawed_democracy } NOT = { has_idea = oligarchy } NOT = { has_idea = authoritarian_rule } NOT = { has_idea = totalitarian_rule } }
-		set_politics = {
-			ruling_party = ultranationalism
-			elections_allowed = yes
-		}
+		set_politics = { ruling_party = ultranationalism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
 }

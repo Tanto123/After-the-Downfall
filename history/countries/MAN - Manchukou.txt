@@ -20,11 +20,11 @@ set_cosmetic_tag = MAN_ChineseWarlord
 
 set_popularities = {
 	anarchism = 0 
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 100 
+	communism = 27
+	leftism = 4 
+	centrism = 16 
+	conservatism = 20 
+	despotism = 33 
 	monarchism = 0 
 	ultranationalism = 0
 }

@@ -49,12 +49,19 @@ focus_tree = {
 		relative_position_id = GER_mitteleuropa_diplomacy
 		
 		prerequisite = { focus = GER_mitteleuropa_diplomacy }
-		available = { }
+		available = {
+			NOT = { is_in_faction_with = FIN }
+			NOT = { has_war_with = SWE }
+		}
 		mutually_exclusive = { focus = GER_northern_neutrality }
 		mutually_exclusive = { focus = GER_side_with_finland }
 		
 		completion_reward = {
-			
+			SWE = { add_opinion_modifier = { target = ROOT modifier = diplomatic_endorsement } }
+			if = {
+				limit = { NOT = { has_war_with = FIN } }
+				FIN = { add_opinion_modifier = { target = ROOT modifier = diplomatic_betrayal } }
+			}
 		}
 		
 		ai_will_do = { factor = 10 }
@@ -69,7 +76,12 @@ focus_tree = {
 		relative_position_id = GER_mitteleuropa_diplomacy
 		
 		prerequisite = { focus = GER_mitteleuropa_diplomacy }
-		available = { }
+		available = { 
+			OR = {
+				NOT = { has_war_with = FIN }
+				NOT = { has_war_with = SWE }
+			}
+		}
 		mutually_exclusive = { focus = GER_side_with_sweden }
 		mutually_exclusive = { focus = GER_side_with_finland }
 		
@@ -89,9 +101,37 @@ focus_tree = {
 		relative_position_id = GER_mitteleuropa_diplomacy
 		
 		prerequisite = { focus = GER_mitteleuropa_diplomacy }
-		available = { }
+		available = {
+			NOT = { is_in_faction_with = SWE }
+			NOT = { has_war_with = FIN }
+		}
 		mutually_exclusive = { focus = GER_side_with_sweden }
 		mutually_exclusive = { focus = GER_northern_neutrality }
+		
+		completion_reward = {
+			FIN = { add_opinion_modifier = { target = ROOT modifier = diplomatic_endorsement } }
+			if = {
+				limit = { NOT = { has_war_with = SWE } }
+				SWE = { add_opinion_modifier = { target = ROOT modifier = diplomatic_betrayal } }
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_cooperate_with_the_swedish_army
+		icon = swedish_army
+		cost = 10
+		
+		x = -3
+		y = 2
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { 
+			focus = GER_side_with_sweden
+		}
+		available = { }
+		mutually_exclusive = {  }
 		
 		completion_reward = {
 			
@@ -136,6 +176,27 @@ focus_tree = {
 		}
 		available = { }
 		mutually_exclusive = { focus = GER_germanic_unity }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_cooperate_with_the_finnish_army
+		icon = finnish_army
+		cost = 10
+		
+		x = 3
+		y = 2
+		relative_position_id = GER_mitteleuropa_diplomacy
+		
+		prerequisite = { 
+			focus = GER_side_with_finland
+		}
+		available = { }
+		mutually_exclusive = {  }
 		
 		completion_reward = {
 			
@@ -194,13 +255,14 @@ focus_tree = {
 		y = 4
 		relative_position_id = GER_mitteleuropa_diplomacy
 		
-		prerequisite = {
-			focus = GER_side_with_sweden
+		bypass = { is_in_faction_with = SWE }
+		prerequisite = { focus = GER_side_with_sweden }
+		prerequisite = { focus = GER_germanic_unity }
+		available = { 
+			is_faction_leader = yes
+			NOT = { has_war_with = SWE }
+			SWE = { is_in_faction = no }
 		}
-		prerequisite = { 
-			focus = GER_germanic_unity
-		}
-		available = { }
 		mutually_exclusive = { focus = GER_northern_neutrality }
 		mutually_exclusive = { focus = GER_side_with_finland }
 		
@@ -219,13 +281,14 @@ focus_tree = {
 		y = 4
 		relative_position_id = GER_mitteleuropa_diplomacy
 		
-		prerequisite = {
-			focus = GER_side_with_finland
+		bypass = { is_in_faction_with = FIN }
+		prerequisite = { focus = GER_side_with_finland }
+		prerequisite = { focus = GER_baltic_reassurances }
+		available = { 
+			is_faction_leader = yes
+			NOT = { has_war_with = FIN }
+			FIN = { is_in_faction = no }
 		}
-		prerequisite = { 
-			focus = GER_baltic_reassurances
-		}
-		available = { }
 		mutually_exclusive = { focus = GER_northern_neutrality }
 		mutually_exclusive = { focus = GER_side_with_finland }
 		
@@ -343,7 +406,7 @@ focus_tree = {
 		icon = intellectualism2
 		cost = 10
 		
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = GER_establish_a_political_national_unity
 		
@@ -362,7 +425,7 @@ focus_tree = {
 		icon = social_democracy2
 		cost = 10
 		
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = GER_establish_a_political_national_unity
 		
@@ -547,7 +610,7 @@ focus_tree = {
 		icon = catholicism
 		cost = 10
 		
-		x = 2
+		x = 1
 		y = 6
 		relative_position_id = GER_establish_a_political_national_unity
 		
@@ -585,7 +648,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_break_noble_privileges_in_military_leaderships
-		icon = military_academy
+		icon = anti_monarchism4
 		cost = 10
 		
 		x = 0
@@ -958,6 +1021,27 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
+		id = GER_labor_reform_act
+		icon = treaty5
+		cost = 10
+		
+		x = 4
+		y = 3
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_end_vertical_separation_of_powers }
+		available = {
+			can_pass_laws = yes
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
 		id = GER_imperial_parliamentary_oversight_act
 		icon = treaty
 		cost = 10
@@ -1003,18 +1087,57 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 	}
 	focus = {
-		id = GER_national_christianity_act
-		icon = treaty7
+		id = GER_unify_the_secret_services
+		icon = espionage
 		cost = 10
 		
-		x = 1
+		x = 0
 		y = 5
 		relative_position_id = GER_further_the_imperial_government
 		
 		prerequisite = { focus = GER_imperial_parliamentary_oversight_act }
+		available = { is_subject = no }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_national_christianity_act
+		icon = treaty7
+		cost = 10
+		
+		x = 2
+		y = 5
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_imperial_parliamentary_oversight_act }
+		prerequisite = { focus = GER_naval_primacy }
 		available = {
 			can_pass_laws = yes
 		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_reassure_the_upper_class
+		icon = monopoly
+		cost = 10
+		
+		x = 4
+		y = 5
+		relative_position_id = GER_further_the_imperial_government
+		
+		prerequisite = { focus = GER_labor_reform_act }
+		available = { }
 		mutually_exclusive = { }
 		
 		completion_reward = {
@@ -1028,11 +1151,12 @@ focus_tree = {
 		icon = protestantism
 		cost = 10
 		
-		x = 5
+		x = 3
 		y = 6
 		relative_position_id = GER_further_the_imperial_government
 		
 		prerequisite = { focus = GER_national_christianity_act }
+		prerequisite = { focus = GER_reassure_the_upper_class }
 		available = { }
 		mutually_exclusive = { focus = GER_pro_catholic_diplomacy }
 		
@@ -1047,7 +1171,7 @@ focus_tree = {
 		icon = austria_hungary
 		cost = 10
 		
-		x = 1
+		x = 0
 		y = 7
 		relative_position_id = GER_further_the_imperial_government
 		
@@ -1071,7 +1195,7 @@ focus_tree = {
 		icon = reichsmarine
 		cost = 10
 		
-		x = 3
+		x = 2
 		y = 7
 		relative_position_id = GER_further_the_imperial_government
 		
@@ -1133,6 +1257,112 @@ focus_tree = {
 		
 		ai_will_do = { factor = 10 }
 	}
+	focus = {
+		id = GER_hohenzollern_unity
+		icon = align_with_romania
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = GER_german_patriotism
+		
+		prerequisite = { focus = GER_habsburg_ties }
+		prerequisite = { focus = GER_military_cooperation_with_the_kuk_armee }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_kaiserreich
+		icon = divine_right
+		cost = 10
+		
+		x = 0
+		y = 4
+		relative_position_id = GER_german_patriotism
+		
+		prerequisite = { focus = GER_hohenzollern_unity }
+		available = {
+			OR = {
+				has_government = centrism
+				has_government = conservatism
+				has_government = monarchism
+				has_government = despotism
+				has_government = ultranationalism
+			}
+			OR = {
+				has_idea = absolute_monarchy
+				democracy_rating_less_than_40 = yes
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			if = { 
+				limit = { NOT = { has_idea = absolute_monarchy } }
+				add_ideas = absolute_monarchy
+			}
+			add_popularity = { ideology = monarchism popularity = 0.1 }
+			switch_government_to_monarchism = yes
+			add_government_membership_centrism = yes
+			add_government_membership_conservatism = yes
+			add_government_membership_despotism = yes
+			add_government_membership_ultranationalism = yes
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_subjugate_the_russians
+		icon = war_against_the_soviet_union
+		cost = 10
+		
+		x = -1
+		y = 5
+		relative_position_id = GER_german_patriotism
+		
+		prerequisite = { focus = GER_kaiserreich }
+		available = {
+			SOV = { exists = yes }
+			NOT = { is_in_faction_with = SOV }
+			has_completed_focus = GER_oppose_the_russians
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_subjugate_the_french
+		icon = war_against_france
+		cost = 10
+		
+		x = 1
+		y = 5
+		relative_position_id = GER_german_patriotism
+		
+		prerequisite = { focus = GER_kaiserreich }
+		available = {
+			FRA = { exists = yes }
+			NOT = { is_in_faction_with = FRA }
+			has_completed_focus = GER_oppose_the_french
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
 	##################
 	#German Nationalism
 	##################
@@ -1141,7 +1371,7 @@ focus_tree = {
 		icon = fascism6
 		cost = 10
 		
-		x = 7
+		x = 6
 		y = 7
 		relative_position_id = GER_further_the_imperial_government
 		
@@ -1185,7 +1415,7 @@ focus_tree = {
 		icon = demand_territory
 		cost = 10
 		
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = GER_germanic_nationalism
 		
@@ -1280,6 +1510,452 @@ focus_tree = {
 			focus = GER_political_influence_in_scandinavia
 		}
 		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_national_socialism
+		icon = fascism4
+		cost = 10
+		
+		x = 2
+		y = 3
+		relative_position_id = GER_germanic_nationalism
+		
+		bypass = { }
+		prerequisite = { focus = GER_claim_german_austria }
+		prerequisite = { focus = GER_influence_denmark }
+		prerequisite = { focus = GER_influence_norway }
+		prerequisite = { focus = GER_influence_sweden }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_nordic_racial_pact
+		icon = fascism
+		cost = 10
+		
+		x = 2
+		y = 4
+		relative_position_id = GER_germanic_nationalism
+		
+		bypass = { }
+		prerequisite = { focus = GER_national_socialism }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	
+	#################
+	#National Defense Policy
+	#################
+	focus = {
+		id = GER_national_defense_policy
+		icon = defense3
+		cost = 10
+		
+		x = 16
+		y = 0
+		
+		prerequisite = { }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_military_armament_programs
+		icon = industry_military
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = GER_national_defense_policy
+		
+		prerequisite = { focus = GER_national_defense_policy }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_rejuvenate_the_officer_corps
+		icon = military_academy
+		cost = 10
+		
+		x = 5
+		y = 1
+		relative_position_id = GER_national_defense_policy
+		
+		prerequisite = { focus = GER_national_defense_policy }
+		available = {
+			OR = {
+				has_completed_focus = GER_naval_primacy
+				has_completed_focus = GER_end_imperial_influence_in_military_doctrine
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			remove_ideas = german_military_hubris
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	#################
+	#Oppose the French
+	#################
+	focus = {
+		id = GER_oppose_the_french
+		icon = ultimatum
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = GER_national_defense_policy
+		
+		prerequisite = { focus = GER_national_defense_policy }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_rhine_line
+		icon = military_fort2
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_oppose_the_french }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			50 = {
+				add_building_construction = { type = bunker level = 1 province = 11640 instant_build = yes }
+				add_building_construction = { type = bunker level = 1 province = 6712 instant_build = yes }
+				add_building_construction = { type = bunker level = 1 province = 6542 instant_build = yes }
+				add_building_construction = { type = bunker level = 1 province = 3530 instant_build = yes }
+				add_building_construction = { type = bunker level = 1 province = 6568 instant_build = yes }
+			}
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_fortify_the_alsatian_border
+		icon = alsace_lorraine
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_oppose_the_french }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_handstreich_in_luxembourg
+		icon = wehrmacht_soldier
+		cost = 10
+		
+		x = -1
+		y = 2
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_fortify_the_alsatian_border }
+		available = {
+			has_opinion = { target = LUX value < 21 }
+			is_neighbor_of = LUX
+			NOT = { is_in_faction_with = LUX }
+			OR = { LUX = { is_subject = no } LUX = { NOT = { is_subject_of = GER } } }
+			OR = {
+				divisions_in_border_state = {
+					size > 2
+					state = 42
+					border_state = 8
+				}
+				divisions_in_border_state = {
+					size > 2
+					state = 28
+					border_state = 8
+				}
+				AND = {
+					divisions_in_border_state = {
+						size > 1
+						state = 42
+						border_state = 8
+					}
+					divisions_in_border_state = {
+						size > 1
+						state = 28
+						border_state = 8
+					}
+				}
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_influence_belgium
+		icon = belgian_monarchy
+		cost = 10
+		
+		x = 1
+		y = 2
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_fortify_the_alsatian_border }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_subjugate_belgium
+		icon = demand_territory5
+		cost = 10
+		
+		x = 0
+		y = 3
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_influence_belgium }
+		available = {
+			OR = {
+				has_completed_focus = GER_handstreich_in_luxembourg			#Either do the Handstreich
+				AND = {														#Or offer an Alliance that gets rejected
+					has_completed_focus = GER_alliance_with_belgium
+					NOT = { is_in_faction_with = BEL }
+				}
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_alliance_with_belgium
+		icon = align_with_belgium
+		cost = 10
+		
+		x = 2
+		y = 3
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_influence_belgium }
+		available = { NOT = { has_completed_focus = GER_subjugate_belgium } }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_military_presence_in_belgium
+		icon = military_agreement
+		cost = 10
+		
+		x = 2
+		y = 4
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_alliance_with_belgium }
+		available = {  }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_offer_ruhr_laborers_to_belgium
+		icon = working_class_families
+		cost = 10
+		
+		x = 1
+		y = 5
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_labor_reform_act }
+		prerequisite = { focus = GER_military_presence_in_belgium }
+		available = {  }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_fortify_belgium
+		icon = military_fort
+		cost = 10
+		
+		x = 3
+		y = 5
+		relative_position_id = GER_oppose_the_french
+		
+		prerequisite = { focus = GER_military_presence_in_belgium }
+		available = {  }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	#################
+	#Oppose the Russians
+	#################
+	focus = {
+		id = GER_oppose_the_russians
+		icon = ultimatum2
+		cost = 10
+		
+		x = 3
+		y = 1
+		relative_position_id = GER_national_defense_policy
+		
+		prerequisite = { focus = GER_national_defense_policy }
+		available = { }
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_military_mission_to_ukraine
+		icon = improve_relations_blue
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = GER_oppose_the_russians
+		
+		prerequisite = { focus = GER_oppose_the_russians }
+		available = {
+			UKR = {
+				exists = yes
+				NOT = { is_in_faction_with = SOV }
+				NOT = { has_war_with = ROOT }
+				has_opinion = { target = ROOT value > 9 }
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_military_mission_to_the_cossacks
+		icon = improve_relations_purple
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_oppose_the_russians
+		
+		prerequisite = { focus = GER_oppose_the_russians }
+		available = {
+			OR = {
+				DON = {
+					exists = yes
+					NOT = { is_in_faction_with = SOV }
+					NOT = { has_war_with = ROOT }
+					has_opinion = { target = ROOT value > 9 }
+				}
+				KUB = {
+					exists = yes
+					NOT = { is_in_faction_with = SOV }
+					NOT = { has_war_with = ROOT }
+					has_opinion = { target = ROOT value > 9 }
+				}
+			}
+		}
+		mutually_exclusive = { }
+		
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = { factor = 10 }
+	}
+	focus = {
+		id = GER_military_mission_to_belarus
+		icon = improve_relations_green
+		cost = 10
+		
+		x = 2
+		y = 1
+		relative_position_id = GER_oppose_the_russians
+		
+		prerequisite = { focus = GER_oppose_the_russians }
+		available = {
+			BLR = {
+				exists = yes
+				NOT = { is_in_faction_with = SOV }
+				NOT = { has_war_with = ROOT }
+				has_opinion = { target = ROOT value > 9 }
+			}
+		}
 		mutually_exclusive = { }
 		
 		completion_reward = {

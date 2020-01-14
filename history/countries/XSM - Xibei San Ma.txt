@@ -24,11 +24,11 @@ set_cosmetic_tag = XSM_ChineseWarlord
 
 set_popularities = {
 	anarchism = 0 
-	communism = 0 
+	communism = 3 
 	leftism = 0 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 100 
+	centrism = 10 
+	conservatism = 69
+	despotism = 18
 	monarchism = 0 
 	ultranationalism = 0
 }

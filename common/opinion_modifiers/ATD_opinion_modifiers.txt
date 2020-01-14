@@ -8,6 +8,10 @@ opinion_modifiers = {
 		value = -50
 	}
 	
+	diplomatic_betrayal = {
+		value = -50
+	}
+	
 	diplomatic_endorsement = {
 		value = 50
 	}

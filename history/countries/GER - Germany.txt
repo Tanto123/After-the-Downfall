@@ -108,9 +108,9 @@ add_ideas = {	#National Ideas
 set_popularities = {
 	anarchism = 3
 	communism = 12
-	leftism = 38
+	leftism = 28
 	centrism = 8
-	conservatism = 31
+	conservatism = 41
 	despotism = 1
 	monarchism = 2
 	ultranationalism = 5
@@ -122,6 +122,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+add_government_membership_conservatism = yes
+add_government_membership_centrism = yes
+add_government_membership_monarchism = yes
 
 create_faction = dual_alliance
 add_to_faction = AUS

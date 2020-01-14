@@ -1,0 +1,161 @@
+ideas = {
+
+	government_popularity = {
+	
+		government_popularity0 = {	#0 to 9
+			picture = war_of_resistance3
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				research_speed_factor = -0.05
+				industrial_capacity_factory = -0.12
+				industrial_capacity_dockyard = -0.12
+				mobilization_speed = -0.15
+				political_power_factor = -0.2
+			}
+		}
+		government_popularity1 = {	#10 to 11
+			picture = war_of_resistance2
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = -0.08
+				war_support_factor = -0.08
+				research_speed_factor = -0.04
+				industrial_capacity_factory = -0.09
+				industrial_capacity_dockyard = -0.09
+				mobilization_speed = -0.12
+				political_power_factor = -0.15
+			}
+		}
+		government_popularity2 = {	#20 to 29
+			picture = war_of_resistance
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = -0.06
+				war_support_factor = -0.06
+				research_speed_factor = -0.03
+				industrial_capacity_factory = -0.06
+				industrial_capacity_dockyard = -0.06
+				mobilization_speed = -0.09
+				political_power_factor = -0.10
+			}
+		}
+		government_popularity3 = {	#30 to 39
+			picture = political_power_malus
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = -0.04
+				war_support_factor = -0.04
+				research_speed_factor = -0.02
+				industrial_capacity_factory = -0.04
+				industrial_capacity_dockyard = -0.04
+				mobilization_speed = -0.06
+				political_power_factor = -0.05
+			}
+		}
+		government_popularity4 = {	#40 to 49
+			picture = civil_war_republicans
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = -0.02
+				research_speed_factor = -0.01
+				industrial_capacity_factory = -0.02
+				industrial_capacity_dockyard = -0.02
+				mobilization_speed = -0.03
+			}
+		}
+		government_popularity5 = {	#50 to 59
+			picture = ideology_drift_defense
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+		government_popularity6 = {	#60 to 69
+			picture = political_force
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = 0.02
+				war_support_factor = 0.02
+				research_speed_factor = 0.01
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+				mobilization_speed = 0.03
+				political_power_factor = 0.1
+			}
+		}
+		government_popularity7 = {	#70 to 79
+			picture = volunteers
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.04
+				research_speed_factor = 0.02
+				industrial_capacity_factory = 0.04
+				industrial_capacity_dockyard = 0.04
+				mobilization_speed = 0.06
+				political_power_factor = 0.15
+			}
+		}
+		government_popularity8 = {	#80 to 89
+			picture = chinese_imperial_legitimacy4
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = 0.06
+				war_support_factor = 0.06
+				research_speed_factor = 0.03
+				industrial_capacity_factory = 0.06
+				industrial_capacity_dockyard = 0.06
+				mobilization_speed = 0.09
+				political_power_factor = 0.2
+			}
+		}
+		government_popularity9 = {	#90+
+			picture = chinese_imperial_legitimacy5
+			allowed = {}
+			visible = { always = yes }
+			available = { always = no }
+			cancel = {}
+			modifier = {
+				stability_factor = 0.08
+				war_support_factor = 0.08
+				research_speed_factor = 0.04
+				industrial_capacity_factory = 0.08
+				industrial_capacity_dockyard = 0.08
+				mobilization_speed = 0.12
+				political_power_factor = 0.25
+			}
+		}
+		
+	}
+	
+}

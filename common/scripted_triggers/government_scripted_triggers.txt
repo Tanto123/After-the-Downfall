@@ -88,6 +88,83 @@ is_republic = {
 }
 
 ##############
+# GOVERNMENT MEMBERSHIPS
+##############
+
+has_government_membership_anarchism = {
+	OR = {
+		has_government = anarchism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_anarchism
+			has_country_flag = anarchism_government_membership
+		}
+	}
+}
+has_government_membership_communism = {
+	OR = {
+		has_government = communism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_communism
+			has_country_flag = communism_government_membership
+		}
+	}
+}
+has_government_membership_leftism = {
+	OR = {
+		has_government = leftism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_leftism
+			has_country_flag = leftism_government_membership
+		}
+	}
+}
+has_government_membership_centrism = {
+	OR = {
+		has_government = centrism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_centrism
+			has_country_flag = centrism_government_membership
+		}
+	}
+}
+has_government_membership_conservatism = {
+	OR = {
+		has_government = conservatism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_conservatism
+			has_country_flag = conservatism_government_membership
+		}
+	}
+}
+has_government_membership_despotism = {
+	OR = {
+		has_government = despotism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_despotism
+			has_country_flag = despotism_government_membership
+		}
+	}
+}
+has_government_membership_monarchism = {
+	OR = {
+		has_government = monarchism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_monarchism
+			has_country_flag = monarchism_government_membership
+		}
+	}
+}
+has_government_membership_ultranationalism = {
+	OR = {
+		has_government = ultranationalism
+		custom_trigger_tooltip = {
+			tooltip = TT_government_membership_has_ultranationalism
+			has_country_flag = ultranationalism_government_membership
+		}
+	}
+}
+
+##############
 # ADVISORS
 ##############
 

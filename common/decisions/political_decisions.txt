@@ -1,22 +1,121 @@
 domestic_policy_decisions = {
 	
 	domestic_policy_overview = {
-
 		icon = DI_political_discourse
-
+		visible = { always = yes }
+		available = { always = no }
+		cost = 0
+		complete_effect = {  }
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_anarchist_party_to_government = {
+		icon = DI_civil_support
 		visible = {
-			always = yes
+			NOT = { has_government = anarchism }
+			has_government_membership_anarchism = no
+		}
+		available = { 
+			if = { limit = { original_tag = GER } NOT = { has_idea = rechtsfront } }
+		}
+		cost = 150
+		complete_effect = {
+			add_government_membership_anarchism = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_communist_party_to_government = {
+		icon = DI_civil_support
+		visible = {
+			NOT = { has_government = communism }
+			has_government_membership_communism = no
+		}
+		available = { 
+			if = { limit = { original_tag = GER } NOT = { has_idea = rechtsfront } }
+		}
+		cost = 150
+		complete_effect = {
+			add_government_membership_communism = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_leftist_party_to_government = {
+		icon = DI_political_discourse
+		visible = {
+			NOT = { has_government = leftism }
+			has_government_membership_leftism = no
 		}
 		available = {
-			always = no
+			if = { limit = { original_tag = GER } NOT = { has_idea = rechtsfront } }
 		}
-		
-		cost = 0
-		
+		cost = 150
 		complete_effect = {
-		
+			add_government_membership_leftism = yes
 		}
-		
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_centrist_party_to_government = {
+		icon = DI_political_discourse
+		visible = {
+			NOT = { has_government = centrism }
+			has_government_membership_centrism = no
+		}
+		available = { }
+		cost = 150
+		complete_effect = {
+			add_government_membership_centrism = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_conservative_party_to_government = {
+		icon = DI_political_discourse
+		visible = {
+			NOT = { has_government = conservatism }
+			has_government_membership_conservatism = no
+		}
+		available = { }
+		cost = 150
+		complete_effect = {
+			add_government_membership_conservatism = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_despotic_party_to_government = {
+		icon = DI_army
+		visible = {
+			NOT = { has_government = despotism }
+			has_government_membership_despotism = no
+		}
+		available = { }
+		cost = 150
+		complete_effect = {
+			add_government_membership_despotism = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_monarchist_party_to_government = {
+		icon = DI_nationalism
+		visible = {
+			NOT = { has_government = monarchism }
+			has_government_membership_monarchism = no
+		}
+		available = { }
+		cost = 150
+		complete_effect = {
+			add_government_membership_monarchism = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+	invite_the_ultranationalist_party_to_government = {
+		icon = DI_nazism
+		visible = {
+			NOT = { has_government = ultranationalism }
+			has_government_membership_ultranationalism = no
+		}
+		available = { }
+		cost = 150
+		complete_effect = {
+			add_government_membership_ultranationalism = yes
+		}
 		ai_will_do = { factor = 0 }
 	}
 	
@@ -25,22 +124,11 @@ domestic_policy_decisions = {
 foreign_policy_decisions = {
 	
 	foreign_policy_overview = {
-
 		icon = DI_border_war
-
-		visible = {
-			always = yes
-		}
-		available = {
-			always = no
-		}
-		
+		visible = { always = yes }
+		available = { always = no }
 		cost = 0
-		
-		complete_effect = {
-		
-		}
-		
+		complete_effect = {  }
 		ai_will_do = { factor = 0 }
 	}
 	

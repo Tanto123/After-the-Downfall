@@ -19,7 +19,7 @@
  ##GENERIC
  #
  domestic_policy_decisions:0 "Domestic Policy Decisions"
- domestic_policy_decisions_desc:0 "A country's 'domestic policy' is an accumulated term for domestic party politics, the form of government, support for the government in the streets and in the centers of political power.\n\n--------\n\n[Root.GetGovernmentMembershipList]"
+ domestic_policy_decisions_desc:0 "A country's 'domestic policy' is an accumulated term for domestic party politics, the form of government, support for the government in the streets and in the centers of political power.\n\n[Root.GetGovernmentMembershipList]"
  foreign_policy_decisions:0 "Foreign Policy Decisions"
  foreign_policy_decisions_desc:0 "A country's 'foreign policy' is an accumulation of the nation's global trade, the government's international security and alliance policy, and the stance on the idea of containment of ideologies considered hostile to the nation."
  #
@@ -31,5 +31,22 @@
  #
  domestic_policy_overview:0 "Domestic Policy Overview"
  domestic_policy_overview_desc:0 "Coalition Popularity: §G[?Root.coalition_popularity|%1]§!\nOpposition Popularity: §R[?Root.opposition_popularity|%1]§!"
+ invite_the_anarchist_party_to_government:0 "Invite the Anarchist Party to Government"
+ invite_the_anarchist_party_to_government_desc:0 ""
+ invite_the_communist_party_to_government:0 "Invite the Communist Party to Government"
+ invite_the_communist_party_to_government_desc:0 "WIP"
+ invite_the_leftist_party_to_government:0 "Invite the Leftist Party to Government"
+ invite_the_leftist_party_to_government_desc:0 "WIP"
+ invite_the_centrist_party_to_government:0 "Invite the Centrist Party to Government"
+ invite_the_centrist_party_to_government_desc:0 "WIP"
+ invite_the_conservative_party_to_government:0 "Invite the Conservative Party to Government"
+ invite_the_conservative_party_to_government_desc:0 "WIP"
+ invite_the_despotic_party_to_government:0 "Invite the Despotic Party to Government"
+ invite_the_despotic_party_to_government_desc:0 "WIP"
+ invite_the_monarchist_party_to_government:0 "Invite the Monarchist Party to Government"
+ invite_the_monarchist_party_to_government_desc:0 "WIP"
+ invite_the_ultranationalist_party_to_government:0 "Invite the Ultranationalist Party to Government"
+ invite_the_ultranationalist_party_to_government_desc:0 "WIP"
+ #
  foreign_policy_overview:0 "Foreign Policy Overview"
  foreign_policy_overview_desc:0 ""
