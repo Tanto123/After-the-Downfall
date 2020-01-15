@@ -21,14 +21,14 @@ add_ideas = {	#Social Factions
 }
 
 set_popularities = {
-	anarchism = 0 
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 0 
-	monarchism = 100 
-	ultranationalism = 0
+	anarchism = 1
+	communism = 17
+	leftism = 0
+	centrism = 1
+	conservatism = 5
+	despotism = 0
+	monarchism = 71 
+	ultranationalism = 5
 }
 
 set_politics = { 

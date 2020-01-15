@@ -19,7 +19,7 @@ domestic_policy_decisions = {
 		}
 		cost = 150
 		complete_effect = {
-			add_government_membership_anarchism = yes
+			country_event = politics.1
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -34,7 +34,7 @@ domestic_policy_decisions = {
 		}
 		cost = 150
 		complete_effect = {
-			add_government_membership_communism = yes
+			country_event = politics.4
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -49,7 +49,7 @@ domestic_policy_decisions = {
 		}
 		cost = 150
 		complete_effect = {
-			add_government_membership_leftism = yes
+			country_event = politics.7
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -62,7 +62,7 @@ domestic_policy_decisions = {
 		available = { }
 		cost = 150
 		complete_effect = {
-			add_government_membership_centrism = yes
+			country_event = politics.10
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -75,7 +75,7 @@ domestic_policy_decisions = {
 		available = { }
 		cost = 150
 		complete_effect = {
-			add_government_membership_conservatism = yes
+			country_event = politics.13
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -88,7 +88,7 @@ domestic_policy_decisions = {
 		available = { }
 		cost = 150
 		complete_effect = {
-			add_government_membership_despotism = yes
+			country_event = politics.16
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -101,7 +101,7 @@ domestic_policy_decisions = {
 		available = { }
 		cost = 150
 		complete_effect = {
-			add_government_membership_monarchism = yes
+			country_event = politics.19
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -114,7 +114,7 @@ domestic_policy_decisions = {
 		available = { }
 		cost = 150
 		complete_effect = {
-			add_government_membership_ultranationalism = yes
+			country_event = politics.22
 		}
 		ai_will_do = { factor = 0 }
 	}

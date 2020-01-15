@@ -1331,6 +1331,7 @@ focus_tree = {
 			SOV = { exists = yes }
 			NOT = { is_in_faction_with = SOV }
 			has_completed_focus = GER_oppose_the_russians
+			pacifism_rating_less_than_40 = yes
 		}
 		mutually_exclusive = { }
 		
@@ -1354,6 +1355,7 @@ focus_tree = {
 			FRA = { exists = yes }
 			NOT = { is_in_faction_with = FRA }
 			has_completed_focus = GER_oppose_the_french
+			pacifism_rating_less_than_40 = yes
 		}
 		mutually_exclusive = { }
 		
@@ -1639,7 +1641,10 @@ focus_tree = {
 		relative_position_id = GER_national_defense_policy
 		
 		prerequisite = { focus = GER_national_defense_policy }
-		available = { }
+		available = {
+			pacifism_rating_less_than_80 = yes
+			NOT = { is_in_faction_with = FRA }
+		}
 		mutually_exclusive = { }
 		
 		completion_reward = {
@@ -1869,7 +1874,10 @@ focus_tree = {
 		relative_position_id = GER_national_defense_policy
 		
 		prerequisite = { focus = GER_national_defense_policy }
-		available = { }
+		available = {
+			pacifism_rating_less_than_80 = yes
+			NOT = { is_in_faction_with = SOV }
+		}
 		mutually_exclusive = { }
 		
 		completion_reward = {

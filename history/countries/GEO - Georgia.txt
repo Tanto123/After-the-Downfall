@@ -18,11 +18,11 @@ set_technology = {
 
 set_popularities = {
 	anarchism = 0 
-	communism = 13 
+	communism = 46 
 	leftism = 0 
-	centrism = 0 
+	centrism = 20 
 	conservatism = 0 
-	despotism = 87
+	despotism = 34
 	monarchism = 0 
 	ultranationalism = 0
 }

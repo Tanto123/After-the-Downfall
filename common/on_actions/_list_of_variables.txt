@@ -1,0 +1,23 @@
+#################
+##	VARIABLES
+#################
+#	
+#	democracy_rating
+#	pacifism_rating
+#	
+#	coalition_popularity
+#	opposition_popularity
+#	
+#	revolutionary_front_popularity
+#	labor_front_popularity
+#	social_liberal_front_popularity
+#	liberal_conservative_front_popularity
+#	national_conservative_front_popularity
+#	left_front_popularity
+#	democratic_front_popularity
+#	right_front_popularity
+#	national_front_popularity
+#	popular_front_popularity
+#	anti_revolutionary_front_popularity
+#	anti_chauvinist_front_popularity
+#	

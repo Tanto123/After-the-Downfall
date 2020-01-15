@@ -1,1 +1,575 @@
-﻿
+﻿add_namespace = politics
+
+country_event = { #Anarchist Party Invitation
+	id = politics.1
+	title = politics.1.t
+	desc = politics.1.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.1.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.2 hours = 6 }
+				modifier = { add = 40 has_government = anarchism }
+				modifier = {
+					add = 5 
+					OR = {
+						has_government = communism
+						has_government = leftism
+					}
+				}
+				modifier = { add = 2 has_idea = farmers }
+				modifier = { add = 2 has_idea = labor_unions }
+				modifier = { add = 1 has_idea = republicans }
+				modifier = { add = 1 pacifism_rating_greater_than_70 = yes }
+				modifier = { add = 1 pacifism_rating_greater_than_80 = yes }
+				modifier = { add = 1 pacifism_rating_greater_than_90 = yes }
+			}
+			5 = { #Decline
+				country_event = { id = politics.3 hours = 6 }
+				modifier = { factor = 0 has_government = anarchism }
+				modifier = { add = 3 has_government_membership_ultranationalism = yes }
+				modifier = { add = 3 has_government_membership_monarchism = yes }
+				modifier = { add = 2 has_government_membership_despotism = yes }
+				modifier = { add = 2 has_government_membership_conservatism = yes }
+				modifier = { 
+					add = 3
+					OR = {
+						has_government = conservatism
+						has_government = monarchism
+						has_government = despotism
+						has_government = ultranationalism
+					}
+				}
+				modifier = { add = 2 has_government = ultranationalism }
+				modifier = { add = 3 has_religious_movement_as_social_faction = yes }
+				modifier = { add = 2 has_idea = big_banks }
+				modifier = { add = 2 has_idea = robber_barons }
+				modifier = { add = 2 has_idea = monarchists }
+				modifier = { add = 1 pacifism_rating_less_than_50 = yes }
+				modifier = { add = 1 pacifism_rating_less_than_40 = yes }
+				modifier = { add = 1 pacifism_rating_less_than_30 = yes }
+				modifier = { add = 1 democracy_rating_less_than_50 = yes }
+				modifier = { add = 1 democracy_rating_less_than_40 = yes }
+				modifier = { add = 1 democracy_rating_less_than_30 = yes }
+			}
+		}
+	}
+}
+country_event = { #Anarchist Party joins government
+	id = politics.2
+	title = politics.2.t
+	desc = politics.2.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.2.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_anarchism = yes
+	}
+}
+country_event = { #Anarchist Party joins government
+	id = politics.3
+	title = politics.3.t
+	desc = politics.3.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.3.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Communist Party Invitation
+	id = politics.4
+	title = politics.4.t
+	desc = politics.4.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.4.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.5 hours = 6 }
+				modifier = { add = 40 has_government = communism }
+				modifier = { add = 4 has_government = anarchism }
+				modifier = { add = 4 has_government = leftism }
+				modifier = { add = 2 has_idea = farmers }
+				modifier = { add = 2 has_idea = labor_unions }
+				modifier = { add = 1 has_idea = republicans }
+			}
+			5 = { #Decline
+				country_event = { id = politics.6 hours = 6 }
+				modifier = { factor = 0 has_government = communism }
+				modifier = { 
+					factor = 2
+					OR = {
+						has_government = despotism
+						has_government = monarchism
+						has_government = ultranationalism
+					}
+				}
+				modifier = { add = 2 has_religious_movement_as_social_faction = yes }
+				modifier = { add = 2 has_idea = monarchists }
+				modifier = { add = 2 has_idea = robber_barons }
+				modifier = { add = 2 has_idea = ultranationalists }
+				modifier = { add = 4 has_government_membership_conservatism = yes }
+				modifier = { add = 4 has_government_membership_despotism = yes }
+				modifier = { add = 4 has_government_membership_monarchism = yes }
+				modifier = { add = 4 has_government_membership_ultranationalism = yes }
+			}
+		}
+	}
+}
+country_event = { #Communist Party joins government
+	id = politics.5
+	title = politics.5.t
+	desc = politics.5.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.5.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_communism = yes
+	}
+}
+country_event = { #Communist Party joins government
+	id = politics.6
+	title = politics.6.t
+	desc = politics.6.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.6.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Leftist Party Invitation
+	id = politics.7
+	title = politics.7.t
+	desc = politics.7.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.7.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.8 hours = 6 }
+				modifier = { add = 40 has_government = leftism }
+				modifier = { add = 4 has_idea = labor_unions }
+				modifier = { add = 2 has_idea = intellectuals }
+				modifier = { add = 1 democracy_rating_greater_than_90 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_80 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_70 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_60 = yes }
+			}
+			5 = { #Decline
+				country_event = { id = politics.9 hours = 6 }
+				modifier = { factor = 0 has_government = leftism }
+				modifier = { 
+					factor = 2
+					OR = {
+						has_government = despotism
+						has_government = monarchism
+						has_government = ultranationalism
+					}
+				}
+				modifier = { add = 1 democracy_rating_less_than_20 = yes }
+				modifier = { add = 1 democracy_rating_less_than_30 = yes }
+				modifier = { add = 1 democracy_rating_less_than_40 = yes }
+				modifier = { add = 1 democracy_rating_less_than_50 = yes }
+				modifier = { add = 1 has_idea = robber_barons }
+				modifier = { add = 1 has_idea = big_banks }
+			}
+		}
+	}
+}
+country_event = { #Leftist Party joins government
+	id = politics.8
+	title = politics.8.t
+	desc = politics.8.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.8.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_leftism = yes
+	}
+}
+country_event = { #Leftist Party joins government
+	id = politics.9
+	title = politics.9.t
+	desc = politics.9.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.9.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Centrist Party Invitation
+	id = politics.10
+	title = politics.10.t
+	desc = politics.10.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.10.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.11 hours = 6 }
+				modifier = { add = 40 has_government = centrism }
+				modifier = { add = 2 has_idea = intellectuals }
+				modifier = { add = 2 has_idea = big_banks }
+				modifier = { add = 2 has_idea = automotive_industry }
+				modifier = { add = 2 has_idea = naval_industry }
+				modifier = { add = 1 democracy_rating_greater_than_90 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_80 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_70 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_60 = yes }
+			}
+			5 = { #Decline
+				country_event = { id = politics.12 hours = 6 }
+				modifier = { factor = 0 has_government = centrism }
+				modifier = { add = 2 has_idea = ultranationalists }
+				modifier = { add = 2 democracy_rating_less_than_20 = yes }
+				modifier = { add = 2 democracy_rating_less_than_30 = yes }
+				modifier = { add = 2 democracy_rating_less_than_40 = yes }
+				modifier = { add = 2 democracy_rating_less_than_50 = yes }
+				modifier = { add = 1 has_government_membership_anarchism = yes }
+				modifier = { add = 1 has_government_membership_communism = yes }
+				modifier = { add = 1 has_government_membership_ultranationalism = yes }
+			}
+		}
+	}
+}
+country_event = { #Centrist Party joins government
+	id = politics.11
+	title = politics.11.t
+	desc = politics.11.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.11.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_centrism = yes
+	}
+}
+country_event = { #Centrist Party joins government
+	id = politics.12
+	title = politics.12.t
+	desc = politics.12.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.12.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Conservative Party Invitation
+	id = politics.13
+	title = politics.13.t
+	desc = politics.13.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.13.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.14 hours = 6 }
+				modifier = { add = 40 has_government = conservatism }
+				modifier = { add = 4 has_religious_movement_as_social_faction = yes }
+				modifier = { add = 2 has_idea = army_officers }
+				modifier = { add = 2 has_idea = navy_officers }
+				modifier = { add = 2 has_idea = air_force_officers }
+				modifier = { add = 1 democracy_rating_greater_than_90 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_80 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_70 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_60 = yes }
+			}
+			5 = { #Decline
+				country_event = { id = politics.15 hours = 6 }
+				modifier = { add = 1 democracy_rating_less_than_20 = yes }
+				modifier = { add = 1 democracy_rating_less_than_30 = yes }
+				modifier = { add = 1 democracy_rating_less_than_40 = yes }
+				modifier = { add = 1 democracy_rating_less_than_50 = yes }
+				modifier = { factor = 0 has_government = conservatism }
+			}
+		}
+	}
+}
+country_event = { #Conservative Party joins government
+	id = politics.14
+	title = politics.14.t
+	desc = politics.14.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.14.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_conservatism = yes
+	}
+}
+country_event = { #Conservative Party joins government
+	id = politics.15
+	title = politics.15.t
+	desc = politics.15.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.15.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Despotic Party Invitation
+	id = politics.16
+	title = politics.16.t
+	desc = politics.16.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.16.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.17 hours = 6 }
+				modifier = { add = 40 has_government = despotism }
+				modifier = { add = 2 has_idea = army_officers }
+				modifier = { add = 2 has_idea = navy_officers }
+				modifier = { add = 2 has_idea = air_force_officers }
+				modifier = { add = 1 democracy_rating_less_than_50 = yes }
+				modifier = { add = 1 democracy_rating_less_than_40 = yes }
+			}
+			5 = { #Decline
+				country_event = { id = politics.18 hours = 6 }
+				modifier = { factor = 0 has_government = despotism }
+				modifier = { 
+					factor = 2 
+					OR = { 
+						has_government = anarchism
+						has_government = communism
+						has_government = leftism 
+					}
+				}
+				modifier = { add = 2 has_idea = intellectuals }
+				modifier = { add = 1 has_government_membership_anarchism = yes }
+				modifier = { add = 1 has_government_membership_communism = yes }
+				modifier = { add = 1 has_government_membership_leftism = yes }
+			}
+		}
+	}
+}
+country_event = { #Despotic Party joins government
+	id = politics.17
+	title = politics.17.t
+	desc = politics.17.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.17.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_despotism = yes
+	}
+}
+country_event = { #Despotic Party joins government
+	id = politics.18
+	title = politics.18.t
+	desc = politics.18.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.18.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Monarchist Party Invitation
+	id = politics.19
+	title = politics.19.t
+	desc = politics.19.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.19.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.20 hours = 6 }
+				modifier = { factor = 2 is_monarchy = yes }
+				modifier = { add = 40 has_government = monarchism }
+				modifier = { add = 2 has_government = absolute_monarchy }
+				modifier = { add = 2 has_idea = monarchists }
+				modifier = { add = 1 has_idea = army_officers }
+				modifier = { add = 1 has_idea = navy_officers }
+				modifier = { add = 1 has_idea = air_force_officers }
+				modifier = { add = 1 democracy_rating_less_than_30 = yes }
+			}
+			5 = { #Decline
+				country_event = { id = politics.21 hours = 6 }
+				modifier = { factor = 0 has_government = monarchism }
+				modifier = { 
+					factor = 2 
+					OR = { has_government = anarchism has_government = communism has_government = leftism }
+				}
+				modifier = { add = 2 has_idea = republicans }
+				modifier = { add = 2 has_idea = intellectuals }
+				modifier = { add = 1 has_government_membership_anarchism = yes }
+				modifier = { add = 1 has_government_membership_communism = yes }
+				modifier = { add = 1 has_government_membership_leftism = yes }
+			}
+		}
+	}
+}
+country_event = { #Monarchist Party joins government
+	id = politics.20
+	title = politics.20.t
+	desc = politics.20.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.20.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_monarchism = yes
+	}
+}
+country_event = { #Monarchist Party joins government
+	id = politics.21
+	title = politics.21.t
+	desc = politics.21.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.21.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}
+country_event = { #Ultranationalist Party Invitation
+	id = politics.22
+	title = politics.22.t
+	desc = politics.22.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.22.o1
+		random_list = {
+			0 = { #Accept
+				country_event = { id = politics.23 hours = 6 }
+				modifier = { add = 40 has_government = ultranationalism }
+				modifier = { 
+					add = 5
+					OR = {
+						has_government = absolute_monarchy
+						has_government = clerical_fascism
+					}
+				}
+				modifier = { add = 3 democracy_rating_less_than_40 = yes }
+				modifier = { add = 2 has_idea = ultranationalists }
+				modifier = { add = 1 has_idea = ultranationalists }
+			}
+			5 = { #Decline
+				country_event = { id = politics.24 hours = 6 }
+				modifier = { factor = 0 has_government = ultranationalism }
+				modifier = { 
+					factor = 2 
+					OR = { 
+						has_government = anarchism 
+						has_government = communism 
+						has_government = leftism 
+					}
+				}
+				modifier = { add = 2 has_idea = intellectuals }
+				modifier = { add = 1 has_government_membership_anarchism = yes }
+				modifier = { add = 1 has_government_membership_communism = yes }
+				modifier = { add = 1 has_government_membership_leftism = yes }
+				modifier = { add = 1 democracy_rating_greater_than_90 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_80 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_70 = yes }
+				modifier = { add = 1 democracy_rating_greater_than_60 = yes }
+			}
+		}
+	}
+}
+country_event = { #Ultranationalist Party joins government
+	id = politics.23
+	title = politics.23.t
+	desc = politics.23.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.23.o1
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_government_membership_ultranationalism = yes
+	}
+}
+country_event = { #Ultranationalist Party joins government
+	id = politics.24
+	title = politics.24.t
+	desc = politics.24.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = politics.24.o1
+		add_stability = -0.01
+		add_war_support = -0.01
+	}
+}

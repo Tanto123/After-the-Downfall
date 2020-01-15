@@ -19,14 +19,14 @@ set_technology = {
 set_cosmetic_tag = YUN_ChineseWarlord
 
 set_popularities = {
-	anarchism = 0 
-	communism = 0 
+	anarchism = 4 
+	communism = 37 
 	leftism = 0 
-	centrism = 0 
-	conservatism = 0 
-	despotism = 100 
+	centrism = 3
+	conservatism = 22 
+	despotism = 31
 	monarchism = 0 
-	ultranationalism = 0
+	ultranationalism = 3
 }
 
 set_politics = { 
