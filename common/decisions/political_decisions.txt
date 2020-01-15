@@ -1,7 +1,7 @@
 domestic_policy_decisions = {
 	
 	domestic_policy_overview = {
-		icon = DI_political_discourse
+		icon = decision_politics
 		visible = { always = yes }
 		available = { always = no }
 		cost = 0
@@ -9,7 +9,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_anarchist_party_to_government = {
-		icon = DI_civil_support
+		icon = decision_popular_movement
 		visible = {
 			NOT = { has_government = anarchism }
 			has_government_membership_anarchism = no
@@ -24,7 +24,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_communist_party_to_government = {
-		icon = DI_civil_support
+		icon = decision_blackshirts
 		visible = {
 			NOT = { has_government = communism }
 			has_government_membership_communism = no
@@ -39,7 +39,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_leftist_party_to_government = {
-		icon = DI_political_discourse
+		icon = decision_rally
 		visible = {
 			NOT = { has_government = leftism }
 			has_government_membership_leftism = no
@@ -54,7 +54,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_centrist_party_to_government = {
-		icon = DI_political_discourse
+		icon = decision_investments
 		visible = {
 			NOT = { has_government = centrism }
 			has_government_membership_centrism = no
@@ -67,7 +67,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_conservative_party_to_government = {
-		icon = DI_political_discourse
+		icon = decision_nationalism
 		visible = {
 			NOT = { has_government = conservatism }
 			has_government_membership_conservatism = no
@@ -80,7 +80,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_despotic_party_to_government = {
-		icon = DI_army
+		icon = decision_army
 		visible = {
 			NOT = { has_government = despotism }
 			has_government_membership_despotism = no
@@ -93,7 +93,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_monarchist_party_to_government = {
-		icon = DI_nationalism
+		icon = decision_crown_support
 		visible = {
 			NOT = { has_government = monarchism }
 			has_government_membership_monarchism = no
@@ -106,7 +106,7 @@ domestic_policy_decisions = {
 		ai_will_do = { factor = 0 }
 	}
 	invite_the_ultranationalist_party_to_government = {
-		icon = DI_nazism
+		icon = decision_nazism
 		visible = {
 			NOT = { has_government = ultranationalism }
 			has_government_membership_ultranationalism = no

@@ -1,8 +1,8 @@
 domestic_policy_decisions = {
-	icon = DCI_politics
+	icon = decision_category_treaty
 	allowed = { always = yes } 
 }
 foreign_policy_decisions = {
-	icon = DCI_border_war
+	icon = decision_category_foreign_policy
 	allowed = { always = yes } 
 }

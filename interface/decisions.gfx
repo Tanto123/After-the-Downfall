@@ -4,146 +4,208 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_unknown"
-		texturefile = "gfx/interface/decisions/DI_generic.dds"
+		texturefile = "gfx/interface/decisions/decision.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_generic_decision"
-		texturefile = "gfx/interface/decisions/decision_generic_decision.dds"
-	}
-	
-	#economy
-
-	spriteType = {
-		name = "GFX_decision_DI_aluminium"
-		texturefile = "gfx/interface/decisions/economy/DI_aluminium.dds"
+		name = "GFX_decision_decision"
+		texturefile = "gfx/interface/decisions/decision.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_chromium"
-		texturefile = "gfx/interface/decisions/economy/DI_chromium.dds"
+		name = "GFX_decision_decision_air_force"
+		texturefile = "gfx/interface/decisions/decision_air_force.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_construction"
-		texturefile = "gfx/interface/decisions/economy/DI_construction.dds"
+		name = "GFX_decision_decision_aluminium"
+		texturefile = "gfx/interface/decisions/decision_aluminium.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_industry"
-		texturefile = "gfx/interface/decisions/economy/DI_industry.dds"
+		name = "GFX_decision_decision_army"
+		texturefile = "gfx/interface/decisions/decision_army.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_mefo"
-		texturefile = "gfx/interface/decisions/economy/DI_mefo.dds"
+		name = "GFX_decision_decision_blackshirts"
+		texturefile = "gfx/interface/decisions/decision_blackshirts.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_military_industry"
-		texturefile = "gfx/interface/decisions/economy/DI_military_industry.dds"
+		name = "GFX_decision_decision_border_war"
+		texturefile = "gfx/interface/decisions/decision_border_war.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_oil"
-		texturefile = "gfx/interface/decisions/economy/DI_oil.dds"
+		name = "GFX_decision_decision_break_treaty"
+		texturefile = "gfx/interface/decisions/decision_break_treaty.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_research"
-		texturefile = "gfx/interface/decisions/economy/DI_research.dds"
+		name = "GFX_decision_decision_bullets"
+		texturefile = "gfx/interface/decisions/decision_bullets.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_rubber"
-		texturefile = "gfx/interface/decisions/economy/DI_rubber.dds"
+		name = "GFX_decision_decision_chromium"
+		texturefile = "gfx/interface/decisions/decision_chromium.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_steel"
-		texturefile = "gfx/interface/decisions/economy/DI_steel.dds"
+		name = "GFX_decision_decision_civil_war"
+		texturefile = "gfx/interface/decisions/decision_civil_war.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_tungsten"
-		texturefile = "gfx/interface/decisions/economy/DI_tungsten.dds"
-	}
-	
-	#ideology
-	
-	spriteType = {
-		name = "GFX_decision_DI_nationalism"
-		texturefile = "gfx/interface/decisions/ideology/DI_nationalism.dds"
+		name = "GFX_decision_decision_civil_war2"
+		texturefile = "gfx/interface/decisions/decision_civil_war2.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_nazism"
-		texturefile = "gfx/interface/decisions/ideology/DI_nazism.dds"
-	}
-	
-	#military
-	
-	spriteType = {
-		name = "GFX_decision_DI_air_force"
-		texturefile = "gfx/interface/decisions/military/DI_air_force.dds"
+		name = "GFX_decision_decision_construction"
+		texturefile = "gfx/interface/decisions/decision_construction.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_army"
-		texturefile = "gfx/interface/decisions/military/DI_army.dds"
+		name = "GFX_decision_decision_crown"
+		texturefile = "gfx/interface/decisions/decision_crown.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_navy"
-		texturefile = "gfx/interface/decisions/military/DI_navy.dds"
+		name = "GFX_decision_decision_crown_support"
+		texturefile = "gfx/interface/decisions/decision_crown_support.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_tank"
-		texturefile = "gfx/interface/decisions/military/DI_tank.dds"
-	}
-	
-	#politics
-	
-	spriteType = {
-		name = "GFX_decision_DI_border_war"
-		texturefile = "gfx/interface/decisions/politics/DI_border_war.dds"
+		name = "GFX_decision_decision_eagle"
+		texturefile = "gfx/interface/decisions/decision_eagle.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_break_treaty"
-		texturefile = "gfx/interface/decisions/politics/DI_break_treaty.dds"
+		name = "GFX_decision_decision_fascist_dictator"
+		texturefile = "gfx/interface/decisions/decision_fascist_dictator.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_civil_support"
-		texturefile = "gfx/interface/decisions/politics/DI_civil_support.dds"
+		name = "GFX_decision_decision_imperial_federation"
+		texturefile = "gfx/interface/decisions/decision_imperial_federation.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_civil_war"
-		texturefile = "gfx/interface/decisions/politics/DI_civil_war.dds"
+		name = "GFX_decision_decision_explosion"
+		texturefile = "gfx/interface/decisions/decision_explosion.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_ignite_civil_war"
-		texturefile = "gfx/interface/decisions/politics/DI_ignite_civil_war.dds"
+		name = "GFX_decision_decision_independence"
+		texturefile = "gfx/interface/decisions/decision_independence.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_independence"
-		texturefile = "gfx/interface/decisions/politics/DI_independence.dds"
+		name = "GFX_decision_decision_invasion"
+		texturefile = "gfx/interface/decisions/decision_invasion.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_infiltrate_state"
-		texturefile = "gfx/interface/decisions/politics/DI_infiltrate_state.dds"
+		name = "GFX_decision_decision_investments"
+		texturefile = "gfx/interface/decisions/decision_investments.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_operation"
-		texturefile = "gfx/interface/decisions/politics/DI_operation.dds"
+		name = "GFX_decision_decision_japan"
+		texturefile = "gfx/interface/decisions/decision_japan.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_oppression"
-		texturefile = "gfx/interface/decisions/politics/DI_oppression.dds"
+		name = "GFX_decision_decision_king_edward_viii"
+		texturefile = "gfx/interface/decisions/decision_king_edward_viii.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_political_discourse"
-		texturefile = "gfx/interface/decisions/politics/DI_political_discourse.dds"
+		name = "GFX_decision_decision_mefo"
+		texturefile = "gfx/interface/decisions/decision_mefo.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_scorched_earth"
-		texturefile = "gfx/interface/decisions/politics/DI_scorched_earth.dds"
-	}
-	
-	#specific_countries
-	
-	spriteType = {
-		name = "GFX_decision_DI_CHI_war"
-		texturefile = "gfx/interface/decisions/specific_countries/DI_CHI_war.dds"
+		name = "GFX_decision_decision_nationalism"
+		texturefile = "gfx/interface/decisions/decision_nationalism.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_DI_JAP"
-		texturefile = "gfx/interface/decisions/specific_countries/DI_JAP.dds"
+		name = "GFX_decision_decision_nationalism2"
+		texturefile = "gfx/interface/decisions/decision_nationalism2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_navy"
+		texturefile = "gfx/interface/decisions/decision_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_nazism"
+		texturefile = "gfx/interface/decisions/decision_nazism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_negotiations"
+		texturefile = "gfx/interface/decisions/decision_negotiations.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_oil"
+		texturefile = "gfx/interface/decisions/decision_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_operation"
+		texturefile = "gfx/interface/decisions/decision_operation.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_operation2"
+		texturefile = "gfx/interface/decisions/decision_operation2
+		.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_oppression"
+		texturefile = "gfx/interface/decisions/decision_oppression.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_pistol"
+		texturefile = "gfx/interface/decisions/decision_pistol.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_politics"
+		texturefile = "gfx/interface/decisions/decision_politics.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_popular_movement"
+		texturefile = "gfx/interface/decisions/decision_popular_movement.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_propaganda"
+		texturefile = "gfx/interface/decisions/decision_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_rally"
+		texturefile = "gfx/interface/decisions/decision_rally.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_research"
+		texturefile = "gfx/interface/decisions/decision_research.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_rifles"
+		texturefile = "gfx/interface/decisions/decision_rifles.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_rubber"
+		texturefile = "gfx/interface/decisions/decision_rubber.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_scorched_earth"
+		texturefile = "gfx/interface/decisions/decision_scorched_earth.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_spy"
+		texturefile = "gfx/interface/decisions/decision_spy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_steel"
+		texturefile = "gfx/interface/decisions/decision_steel.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_tank"
+		texturefile = "gfx/interface/decisions/decision_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_tungsten"
+		texturefile = "gfx/interface/decisions/decision_tungsten.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_united_states_congress"
+		texturefile = "gfx/interface/decisions/decision_united_states_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_war_in_china"
+		texturefile = "gfx/interface/decisions/decision_war_in_china.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_water_lines"
+		texturefile = "gfx/interface/decisions/decision_water_lines.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_decision_westminster"
+		texturefile = "gfx/interface/decisions/decision_westminster.dds"
 	}
 	
 }
