@@ -60,6 +60,8 @@
  unitary_republic_desc:0 "§YYou can pass laws with parliamentary approval.§!\n\nUnitary Republics, also sometimes called 'Gallic Republics' after the most famous example of a Unitary Republic - France -, are large political entities without a monarch that are not organized in a federal fashion. In Unitary Republics, subservient federal subjects are not protected from the federal government by measurements of vertical separation of powers, like they would be in a Federal Republic. Countries that are considered Unitary Republics are usually democracies, even though there is no hard line after which a country would be too autocratic to be a Unitary Republic."
  vanguard_state:0 "Vanguard State"
  vanguard_state_desc:0 "§YYou can pass laws if the communist party is in favor.§!\n\nIn authoritarian communist ideologies, the 'Vanguard State' is the all-powerful totalitarian government that is required to protect the socialist revolution in the transitional period from capitalism to utopian communism. The Vanguard State does not allow horizontal or vertical separation of powers, legitimizes itself with sham elections, and deals in the oppression of political dissidents through the establishment of a surveillance state and a feared secret police."
+ warlordism:0 "Warlordism"
+ warlordism_desc:0 "Warlordism, also called 'Tribal Despotism' or 'Semicivilizational Monarcho-Confederism', is an autocratic form of rule usually observed in unruly provinces of unstable states in which provincial governors are de facto independent.\n\nThe most famous example of a warlordist arrangement is the Republic of China, where large parts of the country, usually close to the borders and far away from the capital Nanjing, have local governors or generals that can do what they want although they still nominally owe allegiance to the central government. Other examples of such de facto provincial independences are to be found in the deserts of Arabia or the mountains of Afghanistan."
  ##################################################
  ##Government Popularity
  ##################################################
@@ -304,20 +306,31 @@
  #########################  SPECIFIC NATIONAL IDEAS
  ##################################################
  #
+ ##########
  ##ARM
+ ##########
  legacy_of_the_armenian_genocide:0 "Legacy of the Armenian Genocide"
  legacy_of_the_armenian_genocide_desc:0 "After the Ottoman Empire entered the European War of 1914 on the side of the Germans against the Russians, the Armenian minority in the northeast of the Ottoman Empire quickly became the target of racial hatred, persecution and eventually genocide on the grounds of an alleged sympathy towards the Russian Empire. After Russia's defeat in 1916, the outright murder of Armenians was replaced with a mass deportation from Turkish territory into the area designated by the victorious Central Powers as an Armenian state."
+ ##########
  ##CSA
+ ##########
  ##CSA Advisors
+ ##########
  alexander_shirah:0 "Alexander Shirah"
  alexander_shirah_desc:0 "The grind dont stop"
+ ##########
  ##FIN
+ ##########
  finnish_nationalism:0 "Finnish Nationalism"
  finnish_nationalism_desc:0 "Finnish Nationalism, combined with the Finnish national spirit of 'Sisu', has been culturally dominant with the Finnish people ever since the German arbitration at the Russo-German peace negotiations awarded the Turku and Vaasa regions to Sweden instead of Finland. With a revanchist Russia on one side and a lobby of Swedish nationalists demanding the Pori region for Sweden on the other, Finland will not run out of enemies any time soon."
+ ##########
  ##FRA
+ ##########
  french_revanchism:0 "French Revanchism"
  french_revanchism_desc:0 "France made peace with Germany and Italy in early 1917, after the Central Powers defeated France's Russian ally in the east. The French government agreed to peace negotiations while the French army remained in the field, giving birth to the French nationalist tale of the 'armée invaincue', the 'undefeated army' that was betrayed by French politicians.\n\nThe cultural shock of defeat has given birth to a new generation of highly talented officers and generals that seek opportunies to seek vengeance on Germany for the lost wars of 1870 and 1914."
+ ##########
  ##GER
+ ##########
  german_military_hubris:0 "German Military Hubris"
  german_military_hubris_desc:0 "Germany is the main victor of the European War of 1914 to 1917, also known as the 'Continental War' in English, the 'Great War' ('guerre grande') in French, or the 'World War' ('Weltkrieg') in German. Along with its Austro-Hungarian and later Bulgarian, Ottoman and Swedish allies, the Germans stood victorious over the coalition formed by Russia and France, while the United Kingdom, Italy and the two American republics looked on from neutrality.\n\nGermany first focussed on beating Russia in the east, while defending against relentless French assaults against the western border in Alsace-Lorraine. By 1916, Russia was beaten and agreed to peace negotiations. In the west, France and Germany agreed to peace arbitration by the Belgian and British government in late 1917 after several failed German offensives against French defensive lines, and Germany took large amounts of colonial territory from France.\n\nHowever, whereas revanchism and patriotic militarism remains strong in France, Germany has been overtaken by defeatist attitudes in a complacent military high command. While France is developing new tank models and preparing new forms of warfare, German generals still think their country invincible."
  imperial_parliamentary_oversight_act:0 "Imperial Parliamentary Oversight Act"
@@ -330,12 +343,13 @@
  triple_alliance_member_desc:0 "The Triple Alliance of 1882 between Germany, Austria-Hungary and Italy was renewed in 1915, 1919 and most recently 1924. However, the actions of Italy in the Continental War between 1914 and 1917, in which the Italians initially declined to join the Austrian and German cause in favor of neutrality and only entered the conflict when the victory of the Central Powers was evident in late 1916, have made German and Austrian planners cast aside any pretenses of Italian usefulness in offensive diplomatic actions. The Triple Alliance is purely defensive in nature, and Austria and Germany have instead chosen their Dual Alliance as their main diplomatic tool of choice."
  wilhelm_ii:0 "Wilhelm II"
  wilhelm_ii_desc:0 "Although Wilhelm II, Emperor of Germany and King of Prussia, saw his popularity peak in 1917, after the victory in the Continental War, his popularity has since sharply declined.\n\nTo leftists, his controlling role in the establishment of the Rechtsfront governments and advocacy of colonialism and imperialism make him an uncomfortable head of state, whereas conservatives take issue with his inconsistent foreign policy positions, especially when it comes to religious issues (Wilhelm II is even rumored to be a secret Muslim sometimes) and the German position in eastern Europe."
+ ##########
  ##GER Advisors
+ ##########
  albert_speer:0 "Albert Speer"
  alexander_von_falkenhausen:0 "Alex v. Falkenhausen"
  alfred_hugenberg:0 "Alfred Hugenberg"
  erich_muehsam:0 "Erich Mühsam"
- erich_von_manstein:0 "Erich v. Manstein"
  ernst_scholz:0 "Ernst Scholz"
  ernst_thaelmann:0 "Ernst Thälmann"
  erwin_rommel:0 "Erwin Rommel"
@@ -369,7 +383,6 @@
  otto_gessler:0 "Otto Gessler"
  paul_lange:0 "Paul Lange"
  paul_levi:0 "Paul Levi"
- ritter_von_greim:0 "Ritter v. Greim"
  rosa_luxemburg:0 "Rosa Luxemburg"
  rudolf_hess:0 "Rudolf Hess"
  rudolf_rocker:0 "Rudolf Rocker"
@@ -379,19 +392,86 @@
  wernher_von_braun:0 "Wernher v. Braun"
  wilhelm_kuelz:0 "Wilhelm Külz"
  wilhelm_marx:0 "Wilhelm Marx"
+ ##########
+ ##GER Manufacturers
+ ##########
+ adlerwerke:0 "Adlerwerke"
+ aeg_gmbh:0 "AEG GmbH"
+ aeg_gmbh_desc:0 "Allgemeine Elektrizitäts-Gesellschaft GmbH"
+ blohm_und_voss:0 "Blohm und Voss"
+ braun_ag:0 "Braun AG"
+ carl_walther_gmbh:0 "Carl Walther GmbH"
+ dornier_werke_gmbh:0 "Dornier-Werke GmbH"
+ focke_wulf:0 "Focke-Wulf"
+ focke_wulf_desc:0 "Focke-Wulf Flugzeugbau"
+ germaniawerft:0 "Germaniawerft"
+ heinkel_flugzeugbau:0 "Heinkel Flugzeugbau"
+ henschel_und_sohn:0 "Henschel & Sohn"
+ ig_farbenindustrie_ag:0 "IG Farbenindustrie AG"
+ jfm_ag:0 "JFM AG"
+ jfm_ag_desc:0 "Junkers Flugzeug- und Motorenwerke AG ('JFM AG')"
+ krupp_ag:0 "Krupp AG"
+ man_ag:0 "MAN AG"
+ man_ag_desc:0 "Maschinenfabrik Augsburg-Nürnberg AG"
+ mauser:0 "Mauser"
+ mercedes_benz:0 "Mercedes-Benz"
+ messerschmitt_ag:0 "Messerschmitt AG"
+ opel_automobile_gmbh:0 "Opel Automobile GmbH"
+ porsche_ag:0 "Porsche AG"
+ rheinmetall_ag:0 "Rheinmetall AG"
+ siemens_ag:0 "Siemens AG"
+ volkswagen:0 "Volkswagen"
+ ##########
+ ##GER Military Staff
+ ##########
+ #
+ erich_von_manstein:0 "Erich v. Manstein"
+ gerd_von_rundstedt:0 "Gerd v. Rundstedt"
+ paul_von_hindenburg:0 "Paul v. Hindenburg"
+ #
+ alfred_saalwaechter:0 "Alfred Saalwächter"
+ erich_raeder:0 "Erich Raeder"
+ karl_doenitz:0 "Karl Dönitz"
+ #
+ ernst_udet:0 "Ernst Udet"
+ manfred_von_richthofen:0 "Manfred v. Richthofen"
+ ritter_von_greim:0 "Ritter v. Greim"
+ #
+ albert_kesselring:0 "Albert Kesselring"
+ erhard_milch:0 "Erhard Milch"
+ erwin_rommel:0 "Erwin Rommel"
+ ferdinand_schoerner:0 "Ferdinand Schörner"
+ guenther_luetjens:0 "Günther Lütjens"
+ hugo_sperrle:0 "Hugo Sperrle"
+ konrad_henlein:0 "Konrad Henlein"
+ otto_ciliax:0 "Otto Ciliax"
+ walther_von_reichenau:0 "Walther v. Reichenau"
+ walther_wever:0 "Walther Wever"
+ werner_von_fritsch:0 "Werner v. Fritsch"
+ wilhelm_keitel:0 "Wilhelm Keitel"
+ wolfram_von_richthofen:0 "Wolfram v. Richthofen"
+ #
+ ##########
  ##ITA
+ ##########
  vittoria_dimezzata:0 "Vittoria Dimezzata"
  vittoria_dimezzata_desc:0 "The vittoria dimezzata, the 'halved victory', is the derogatory term used by Italian nationalists for the outcome of the Continental War of 1914.\n\nItaly had initially stayed neutral, refusing to aid her German and Austro-Hungarian allies on the grounds of the aggressive nature of their conquest. However, after Russia's defeat was complete and with only France on the Entente side left fighting, Italy entered the war in December 1916. Whereas Germany took for itself French colonies in central and southern Africa as well as Indochina, Italy was awarded control of Corsica, Savoy and colonial Tunisia.\n\nWhile the enthusiasm about the victory was great, the territories acquired were ultimately largely French-speaking areas, whereas Italian-speaking lands like South Tyrol and Dalmatia remain firmly in the hands of Italy's supposed ally Austria-Hungary. Perhaps, Italy's war is not yet over."
+ ##########
  ##JAP
+ ##########
  aftermath_of_the_chichibu_coup:0 "Aftermath of the Chichibu Coup"
  aftermath_of_the_chichibu_coup_desc:0 "Emperor Yasuhito came to power in 1927, when the military forced his older brother Hirohito, the Showa Emperor, into abdication over the Emperor's disagreements with the army's conduct during the Second Kwantung Campaign of 1926. The Japanese people at large see this intervention as an unjustified attempt by the military to meddle in the divine imperial house and in Japanese politics.\n\nAfter Hirohito's abdication, the throne went to his younger brother Yasuhito, then known as Prince Chichibu. As a result, the new emperor's ascendance to the throne was dubbed the 'Chichibu Coup' by international observers."
  japanese_autonomous_army:0 "Japanese Autonomous Army"
  japanese_autonomous_army_desc:0 "During the 1910s and 1920s, Japan repeatedly violated the national sovereignity of Russia and China during the Vladivostok Campaign of 1916, the First Kwantung Campaign of 1919 and the Second Kwantung Campaign of 1926.\n\nThe military actions against China were undertaken autonomously by the local commanders of the Vladivostok, Kwantung and Korean armies and none of them had central government consent. These three entities are now effectively self-governing territorial dependencies of Japan under control of the Imperial Japanese Army's local commanders."
+ ##########
  ##SOV
+ ##########
  russian_republican_movement:0 "Russian Republican Movement"
  russian_republican_movement_desc:0 "After Russia's defeat in the Continental War in 1916, the tsarist regime fell from grace in the public eye. Only through the extensive use of the remaining loyalist forces in the Imperial Army, along with generous help from the former enemies in Berlin and Vienna, could Nicholas II hold on to a fragile power base.\n\nThe opposition to Russia's government, decried as the 'Republican Movement' by the government in spite of the fact that not all members are anti-monarchist, has formed a government-in-exile in Geneva, Switzerland. This rival government consists of §Yliberal monarchists§! who want Nicholas to abdicate in favor of his son to restart Russia's monarchy on a constitutional basis, §Mdemocratic republicans§! who want the abolition of the monarchy and the establishment of a democratic republic with free elections, the anarchist and agrarian §G'Green Movement'§! that wants to establish a decentralized agricultural society, and finally the socialist and communist §R'Red Movement'§! ('Bolsheviks') around Leon Trotzky, who want to convert Russia into a communist state.\n\nThese four movements all agree on the removal of Tsar Nicholas from the throne and want to cooperatively form a National Assembly to democratically establish a new constitution, but it seems doubtful that they trust each other. All four movements operate behind each others' backs."
  treaty_of_riga:0 "Treaty of Riga"
  treaty_of_riga_desc:0 "The Treaty of Riga, signed in February 1919, replaced the December 1916 Armistice of Smolensk, in which Russia had surrendered to the Central Powers.\n\nThe Peace Treaty, much harsher than the one that the Central Powers gave to France, robbed Russia of many territories and freed many new nations, including Finland, Estonia, Latvia, Lithuania, Poland, Belarus, Ukraine, Crimea, Don, Kuban, Georgia, Armenia and Azerbaijan.\n\nFurthermore, the Central Powers forced Russia to accept the status quo in the far east, where the Japanese Empire had made territorial gains at Russia's expense during 1916 and 1917.\n\nThe treaty also imposes economic and military restrictions and assigns the Central Powers administrative and economic oversight roles in select Russian provinces and their governments. Some of the treaty's harshest conditions are bound to expire after 10 years, in February 1929. But it remains to be seen whether the Central Powers will keep their end of the bargain."
+ ##########
  ##SWE
+ ##########
  pori_corridor_question:0 "Pori Corridor Question"
  pori_corridor_question_desc:0 "Ever since Sweden's successful 1915 intervention in the European War, the Swedish-speaking parts of what was once Russian Finland have been part of Sweden.\n\nHowever, the German government, allied with both Sweden and Finland, forced Swedish troops to retreat to only two coastal strips with the highest concentration of ethnic Swedes.\n\nThese two territories, the Turku and Vaasa areas, are divided by the Pori region, which the Germans awarded to Finland. Ever since, a growing lobby of Swedish nationalists have voiced demands to connect the two colonial regions by acquiring what they refer to as the 'Pori Corridor'."

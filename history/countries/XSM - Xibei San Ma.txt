@@ -16,6 +16,9 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+add_ideas = {	#Laws and Government
+	warlordism
+}
 add_ideas = {	#Social Factions
 	sunni_islam
 }

@@ -827,6 +827,105 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/china/whampoa_military_academy.dds"
 	}
 	
+	#COLORED DOTS#
+
+	spriteType = {
+		name = "GFX_idea_colored_dot_aqua"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_aqua.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_blue"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_brown"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_brown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_dark_cyan"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_dark_cyan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_dark_green"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_dark_green.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_dark_pink"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_dark_pink.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_dark_purple"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_dark_purple.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_dark_violet"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_dark_violet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_jade"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_jade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_lawn"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_lawn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_lime"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_lime.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_magenta"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_magenta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_maroon"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_maroon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_navy"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_olive"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_olive.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_orange"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_orange.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_pink"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_pink.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_prussian_blue"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_prussian_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_purple"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_purple.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_red"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_red.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_sand"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_sand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_sky_blue"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_sky_blue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_violet"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_violet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_colored_dot_yellow"
+		texturefile = "gfx/interface/ideas/colored_dots/colored_dot_yellow.dds"
+	}
+	
 	#CZECHOSLOVAKIA#
 	
 	##ADVISORS##
@@ -2360,8 +2459,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/germany/advisors/erwin_rommel.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_ferdinand_schorner"
-		texturefile = "gfx/interface/ideas/germany/advisors/ferdinand_schorner.dds"
+		name = "GFX_idea_ferdinand_schoerner"
+		texturefile = "gfx/interface/ideas/germany/advisors/ferdinand_schoerner.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_franz_halder"
@@ -2446,6 +2545,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ludwig_beck"
 		texturefile = "gfx/interface/ideas/germany/advisors/ludwig_beck.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manfred_von_richthofen"
+		texturefile = "gfx/interface/ideas/germany/advisors/manfred_von_richthofen.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_martin_bormann"
@@ -4486,6 +4589,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_political_power_bonus"
 		texturefile = "gfx/interface/ideas/politics/political_power_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_political_power_bonus2"
+		texturefile = "gfx/interface/ideas/politics/political_power_bonus2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_political_power_malus"

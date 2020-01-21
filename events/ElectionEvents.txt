@@ -1,5 +1,17 @@
 ﻿add_namespace = election
 
+#Force Election
+country_event = {
+	id = election.999
+	title = "Election forced"
+	desc = "You're a dirty cheater."
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = "Guilty as charged."
+		hold_election = ROOT
+	}
+}
 #Majority Election
 country_event = {
 	id = election.0
@@ -14,6 +26,7 @@ country_event = {
 		name = election.0.o1
 		log = "[Root.GetName]: Snap Election (election.0)"
 		calculate_coalition_popularity = yes	#Just make sure all values are correct yo
+		calculate_coalition_models = yes
 		if = {
 			limit = { anarchism > 0.5 }
 			country_event = election.1
@@ -96,6 +109,7 @@ country_event = {
 			limit = { check_variable = { var = anti_chauvinist_front_popularity value = 0.5 compare = greater_than_or_equals } }
 			country_event = election.20
 		}
+		delete_coalition_models = yes
 		ai_chance = { base = 10 }
 	}
 }

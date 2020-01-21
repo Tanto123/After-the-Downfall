@@ -4,7 +4,7 @@ ideas = {
 	
 		generic_artillery_company = {
 			picture = artillery_manufacturer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 } } }
 			available = { }
 			research_bonus = { artillery = 0.2 }
@@ -13,7 +13,7 @@ ideas = {
 		}
 		generic_construction_company = {
 			picture = production
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = construction_company limit = 1 } } }
 			available = { }
 			traits = { construction_company }
@@ -21,7 +21,7 @@ ideas = {
 		}
 		generic_electronics_company = {
 			picture = industrial_concern2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = electronics_concern limit = 1 } } }
 			available = { }
 			research_bonus = {
@@ -32,7 +32,7 @@ ideas = {
 		}
 		generic_industrial_company = {
 			picture = industrial_concern
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = industrial_concern limit = 1 } } }
 			available = { }
 			research_bonus = {
@@ -43,7 +43,7 @@ ideas = {
 		}
 		generic_infantry_equipment_company = {
 			picture = infantry_equipment_manufacturer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 } } }
 			available = { }
 			research_bonus = { infantry_weapons = 0.2 }
@@ -52,7 +52,7 @@ ideas = {
 		}
 		generic_refinery_concern = {
 			picture = refining_concern
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = refinery_concern limit = 1 } } }
 			available = { }
 			research_bonus = {
@@ -63,7 +63,7 @@ ideas = {
 		}
 		generic_support_company = {
 			picture = electronics_concern
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = support_equipment_manufacturer limit = 1 } } }
 			available = { }
 			research_bonus = { support_tech = 0.2 }
@@ -72,7 +72,7 @@ ideas = {
 		}
 		generic_vehicle_company = {
 			picture = motorized_equipment_manufacturer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 } } }
 			available = { }
 			research_bonus = { motorized_equipment = 0.2 }
@@ -82,7 +82,7 @@ ideas = {
 	
 		generic_allround_tank_manufacturer = {
 			picture = tank_manufacturer2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = allround_tank_manufacturer limit = 1 } } }
 			available = { }
 			traits = { allround_tank_manufacturer }
@@ -90,7 +90,7 @@ ideas = {
 		}
 		generic_fast_tank_manufacturer = {
 			picture = tank_manufacturer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = fast_tank_manufacturer limit = 1 } } }
 			available = { }
 			traits = { fast_tank_manufacturer }
@@ -98,7 +98,7 @@ ideas = {
 		}
 		generic_heavy_tank_manufacturer = {
 			picture = tank_manufacturer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = heavy_tank_manufacturer limit = 1 } } }
 			available = { }
 			traits = { heavy_tank_manufacturer }
@@ -106,7 +106,7 @@ ideas = {
 		}
 		generic_medium_tank_manufacturer = {
 			picture = porsche
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = medium_tank_manufacturer limit = 1 } } }
 			available = { }
 			traits = { medium_tank_manufacturer }
@@ -115,7 +115,7 @@ ideas = {
 	
 		generic_atlantic_designer = {
 			picture = coastal_defense_ships
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = atlantic_designer limit = 1 } } }
 			available = { }
 			traits = { atlantic_designer }
@@ -123,7 +123,7 @@ ideas = {
 		}
 		generic_battlefleet_designer = {
 			picture = navy
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = battlefleet_designer limit = 1 } } }
 			available = { }
 			traits = { battlefleet_designer }
@@ -131,7 +131,7 @@ ideas = {
 		}
 		generic_coastal_designer = {
 			picture = coastal_navy
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = coastal_designer limit = 1 } } }
 			available = { }
 			traits = { coastal_designer }
@@ -139,7 +139,7 @@ ideas = {
 		}
 		generic_convoy_designer = {
 			picture = naval_progress
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = convoy_designer limit = 1 } } }
 			available = { }
 			traits = { convoy_designer }
@@ -147,7 +147,7 @@ ideas = {
 		}
 		generic_pacific_designer = {
 			picture = coastal_defense_ships2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = pacific_designer limit = 1 } } }
 			available = { }
 			traits = { pacific_designer }
@@ -155,7 +155,7 @@ ideas = {
 		}
 		generic_raiding_fleet_designer = {
 			picture = liberty_ships
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = raiding_fleet_designer limit = 1 } } }
 			available = { }
 			traits = { raiding_fleet_designer }
@@ -164,7 +164,7 @@ ideas = {
 		
 		generic_air_support_designer = {
 			picture = bomber_production
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = air_support_designer limit = 1 } } }
 			available = { }
 			traits = { air_support_designer }
@@ -172,7 +172,7 @@ ideas = {
 		}
 		generic_air_range_designer = {
 			picture = airplanes
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = air_range_designer limit = 1 } } }
 			available = { }
 			traits = { air_range_designer }
@@ -180,7 +180,7 @@ ideas = {
 		}
 		generic_heavy_aircraft_designer = {
 			picture = air_manufacturer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = heavy_aircraft_designer limit = 1 } } }
 			available = { }
 			traits = { heavy_aircraft_designer }
@@ -188,7 +188,7 @@ ideas = {
 		}
 		generic_light_aircraft_designer = {
 			picture = air_manufacturer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = light_aircraft_designer limit = 1 } } }
 			available = { }
 			traits = { light_aircraft_designer }
@@ -196,7 +196,7 @@ ideas = {
 		}
 		generic_medium_aircraft_designer = {
 			picture = air_manufacturer2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = medium_aircraft_designer limit = 1 } } }
 			available = { }
 			traits = { medium_aircraft_designer }
@@ -204,7 +204,7 @@ ideas = {
 		}
 		generic_naval_aircraft_designer = {
 			picture = long_lance
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { NOT = { has_available_idea_with_traits = { idea = naval_aircraft_designer limit = 1 } } }
 			available = { }
 			traits = { naval_aircraft_designer }

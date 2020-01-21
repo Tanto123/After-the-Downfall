@@ -112,7 +112,7 @@ ideas = {
 	
 		albert_speer = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_ultranationalist_advisors = yes }
 			available = { can_hire_ultranationalist_advisors = yes }
 			traits = { 
 				ultranationalist_politician
@@ -122,22 +122,10 @@ ideas = {
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
-		alexander_von_falkenhausen = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_despotic_advisors = yes }
-			traits = { 
-				despotic_politician
-				foreign_legionnaire
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-		}
 		alfred_hugenberg = {
 			picture = william_andrew_veitch
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_monarchist_advisors = yes }
 			available = { can_hire_monarchist_advisors = yes }
 			traits = { 
 				monarchist_politician
@@ -150,7 +138,7 @@ ideas = {
 		erich_muehsam = {
 			picture = pierre_pucheu
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_anarchist_advisors = yes }
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
@@ -160,22 +148,10 @@ ideas = {
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
-		erich_von_manstein = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_monarchist_advisors = yes }
-			traits = { 
-				monarchist_politician
-				prussian_traditionalist
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-		}
 		ernst_scholz = {
 			picture = josef_frantisek
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_conservative_advisors = yes }
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
@@ -187,7 +163,7 @@ ideas = {
 		}
 		ernst_thaelmann = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_communist_advisors = yes }
 			available = { can_hire_communist_advisors = yes }
 			traits = { 
 				communist_politician
@@ -197,36 +173,10 @@ ideas = {
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
-		erwin_rommel = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_despotic_advisors = yes }
-			traits = { 
-				despotic_politician
-				militarization_advocate
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-			
-		}
-		franz_halder = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_despotic_advisors = yes }
-			traits = { 
-				despotic_politician
-				aerial_recon
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-			
-		}
 		franz_stoehr = {
 			picture = amadeo_bordiga
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_ultranationalist_advisors = yes }
 			available = { can_hire_ultranationalist_advisors = yes }
 			traits = { 
 				ultranationalist_politician
@@ -235,12 +185,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		franz_von_papen = {
 			picture = zoltan_tildy
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_conservative_advisors = yes }
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
@@ -249,12 +198,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		friedrich_ebert_jr = {
 			picture = norris_stephen_falla
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_leftist_advisors = yes }
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
@@ -263,11 +211,10 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		fritz_todt = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_conservative_advisors = yes }
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
@@ -276,12 +223,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		gustav_noske = {
 			picture = aaron_saenz_garza
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_leftist_advisors = yes }
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
@@ -290,11 +236,10 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		heinrich_himmler = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_ultranationalist_advisors = yes }
 			available = { can_hire_ultranationalist_advisors = yes }
 			traits = { 
 				ultranationalist_politician
@@ -303,25 +248,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
-		}
-		heinz_guderian = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_despotic_advisors = yes }
-			traits = { 
-				despotic_politician
-				officer_educator
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-			
 		}
 		hermann_duncker = {
 			picture = kalman_kanya
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_anarchist_advisors = yes }
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
@@ -330,12 +261,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		hermann_fleissner = {
 			picture = keith_jacka_holyoake
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_leftist_advisors = yes }
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
@@ -344,11 +274,10 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		hermann_goering = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_monarchist_advisors = yes }
 			available = { can_hire_monarchist_advisors = yes }
 			traits = { 
 				monarchist_politician
@@ -357,11 +286,10 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		hermann_goertz = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_conservative_advisors = yes }
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
@@ -370,11 +298,10 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		hjalmar_schacht = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_centrist_advisors = yes }
 			available = { can_hire_centrist_advisors = yes }
 			traits = { 
 				centrist_politician
@@ -383,12 +310,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		hugo_eberlein = {
 			picture = gyula_gombos_de_jakfa
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_communist_advisors = yes }
 			available = { can_hire_communist_advisors = yes }
 			traits = { 
 				communist_politician
@@ -400,11 +326,11 @@ ideas = {
 		}
 		joachim_von_ribbentrop = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_conservative_advisors = yes }
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
-				militarization_advocate
+				talented_propagandist
 			}
 			on_add = { }
 			do_effect = { }
@@ -413,7 +339,7 @@ ideas = {
 		johannes_hoffmann = {
 			picture = augusto_de_vasconcelos
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_leftist_advisors = yes }
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
@@ -425,7 +351,7 @@ ideas = {
 		}
 		joseph_goebbels = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_ultranationalist_advisors = yes }
 			available = { can_hire_ultranationalist_advisors = yes }
 			traits = { 
 				ultranationalist_politician
@@ -438,7 +364,7 @@ ideas = {
 		karl_liebknecht = {
 			picture = jose_hipolito_raposo
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_communist_advisors = yes }
 			available = { can_hire_communist_advisors = yes }
 			traits = { 
 				communist_politician
@@ -451,7 +377,7 @@ ideas = {
 		karl_radek = {
 			picture = pierre_pucheu
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_communist_advisors = yes }
 			available = { can_hire_communist_advisors = yes }
 			traits = { 
 				communist_politician
@@ -464,7 +390,7 @@ ideas = {
 		kuno_von_westarp = {
 			picture = ernest_marsden
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_monarchist_advisors = yes }
 			available = { can_hire_monarchist_advisors = yes }
 			traits = { 
 				monarchist_politician
@@ -477,7 +403,7 @@ ideas = {
 		kurt_loewenstein = {
 			picture = elyesa_bazna
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_leftist_advisors = yes }
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
@@ -489,7 +415,7 @@ ideas = {
 		}
 		kurt_schumacher = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_leftist_advisors = yes }
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
@@ -503,7 +429,7 @@ ideas = {
 		leo_jogiches = {
 			picture = jose_antonio_primo_de_rivera
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_communist_advisors = yes }
 			available = { can_hire_communist_advisors = yes }
 			traits = { 
 				communist_politician
@@ -513,21 +439,9 @@ ideas = {
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
-		ludwig_beck = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_despotic_advisors = yes }
-			traits = { 
-				despotic_politician
-				paranoid_veteran
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-		}
 		martin_bormann = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_ultranationalist_advisors = yes }
 			available = { can_hire_ultranationalist_advisors = yes }
 			traits = { 
 				ultranationalist_politician
@@ -540,7 +454,7 @@ ideas = {
 		martin_schiele = {
 			picture = petru_groza
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_monarchist_advisors = yes }
 			available = { can_hire_monarchist_advisors = yes }
 			traits = { 
 				monarchist_politician
@@ -552,7 +466,7 @@ ideas = {
 		}
 		otto_braun = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_communist_advisors = yes }
 			available = { can_hire_communist_advisors = yes }
 			traits = { 
 				communist_politician
@@ -565,7 +479,7 @@ ideas = {
 		otto_gessler = {
 			picture = charles_burnett
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_centrist_advisors = yes }
 			available = { can_hire_centrist_advisors = yes }
 			traits = { 
 				centrist_politician
@@ -578,7 +492,7 @@ ideas = {
 		paul_lange = {
 			picture = laszlo_rajk
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_anarchist_advisors = yes }
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
@@ -591,7 +505,7 @@ ideas = {
 		paul_levi = {
 			picture = clarence_howe
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_anarchist_advisors = yes }
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
@@ -601,23 +515,10 @@ ideas = {
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
-		ritter_von_greim = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_monarchist_advisors = yes }
-			traits = { 
-				monarchist_politician
-				repurposer
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-			
-		}
 		rosa_luxemburg = {
 			picture = generic_female_advisor
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_anarchist_advisors = yes }
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
@@ -630,7 +531,7 @@ ideas = {
 		}
 		rudolf_hess = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_ultranationalist_advisors = yes }
 			available = { can_hire_ultranationalist_advisors = yes }
 			traits = { 
 				ultranationalist_politician
@@ -644,7 +545,7 @@ ideas = {
 		rudolf_rocker = {
 			picture = nicolas_molero
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_anarchist_advisors = yes }
 			available = { can_hire_anarchist_advisors = yes }
 			traits = { 
 				anarchist_politician
@@ -657,7 +558,7 @@ ideas = {
 		}
 		walther_funk = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_centrist_advisors = yes }
 			available = { can_hire_centrist_advisors = yes }
 			traits = { 
 				centrist_politician
@@ -668,21 +569,9 @@ ideas = {
 			ai_will_do = { factor = 1 }
 			
 		}
-		walther_von_brauchitsch = {
-			allowed = { original_tag = GER }
-			visible = { }
-			available = { can_hire_despotic_advisors = yes }
-			traits = { 
-				despotic_politician
-				anti_aircraft_expert
-			}
-			on_add = { }
-			do_effect = { }
-			ai_will_do = { factor = 1 }
-		}
 		werner_heisenberg = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_centrist_advisors = yes }
 			available = { can_hire_centrist_advisors = yes }
 			traits = { 
 				centrist_politician
@@ -691,11 +580,10 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		wernher_von_braun = {
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_centrist_advisors = yes }
 			available = { can_hire_centrist_advisors = yes }
 			traits = { 
 				centrist_politician
@@ -704,12 +592,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		wilhelm_kuelz = {
 			picture = marius_raaijmakers
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_centrist_advisors = yes }
 			available = { can_hire_centrist_advisors = yes }
 			traits = { 
 				centrist_politician
@@ -718,12 +605,11 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		wilhelm_marx = {
 			picture = herbert_vere_evatt
 			allowed = { original_tag = GER }
-			visible = { }
+			visible = { can_hire_conservative_advisors = yes }
 			available = { can_hire_conservative_advisors = yes }
 			traits = { 
 				conservative_politician
@@ -732,9 +618,543 @@ ideas = {
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
-			
 		}
 		
+	}
+	
+	manufacturer = {
+	
+		adlerwerke = {
+			picture = adler
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { heavy_aircraft_designer }
+			cost = 150
+		}
+		aeg_gmbh = {
+			picture = aeg
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { electronics = 0.35 }
+			traits = { electronics_concern }
+			cost = 150
+		}
+		blohm_und_voss = {
+			picture = blohm_und_voss
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = {  }
+			traits = { battlefleet_designer }
+			cost = 150
+		}
+		braun_ag = {
+			picture = braun
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { industry = 0.2 }
+			traits = { industrial_concern }
+			cost = 150
+		}
+		carl_walther_gmbh = {
+			picture = walther
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { infantry_weapons = 0.2 }
+			traits = { infantry_equipment_manufacturer }
+			cost = 150
+		}
+		dornier_werke_gmbh = {
+			picture = dornier
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = {  }
+			traits = { naval_aircraft_designer }
+			cost = 150
+		}
+		focke_wulf = {
+			picture = focke_wulf
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { light_aircraft_designer }
+			cost = 150
+		}
+		germaniawerft = {
+			picture = germaniawerft
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { atlantic_designer }
+			cost = 150
+		}
+		heinkel_flugzeugbau = {
+			picture = heinkel
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { air_range_designer }
+			cost = 150
+		}
+		henschel_und_sohn = {
+			picture = henschel
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { raiding_fleet_designer }
+			cost = 150
+		}
+		ig_farbenindustrie_ag = {
+			picture = ig_farben
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { synth_resources = 0.2 }
+			traits = { refinery_concern }
+			cost = 150
+		}
+		jfm_ag = {
+			picture = junkers
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { air_support_designer }
+			cost = 150
+		}
+		krupp_ag = {
+			picture = krupp
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { construction_company }
+			cost = 150
+		}
+		man_ag = {
+			picture = man
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { motorized_equipment = 0.2 }
+			traits = { motorized_equipment_manufacturer }
+			cost = 150
+		}
+		mauser = {
+			picture = mauser
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { infantry_weapons = 0.2 }
+			traits = { infantry_equipment_manufacturer }
+			cost = 150
+		}
+		mercedes_benz = {
+			picture = mercedes_benz
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { motorized_equipment = 0.2 }
+			traits = { motorized_equipment_manufacturer }
+			cost = 150
+		}
+		messerschmitt_ag = {
+			picture = messerschmitt
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { medium_aircraft_designer }
+			cost = 150
+		}
+		opel_automobile_gmbh = {
+			picture = opel
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { allround_tank_manufacturer }
+			cost = 150
+		}
+		porsche_ag = {
+			picture = porsche
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { heavy_tank_manufacturer }
+			cost = 150
+		}
+		rheinmetall_ag = {
+			picture = rheinmetall
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { support_tech = 0.2 }
+			traits = { support_equipment_manufacturer }
+			cost = 150
+		}
+		siemens_ag = {
+			picture = siemens
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { artillery = 0.2 }
+			traits = { artillery_manufacturer }
+			cost = 150
+		}
+		volkswagen = {
+			picture = volkswagen
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			research_bonus = { }
+			traits = { medium_tank_manufacturer }
+			cost = 150
+		}
+		
+	}
+	
+	theorist = {
+		
+		alexander_von_falkenhausen = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				mass_assault_theorist
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		franz_halder = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = { 
+				grand_battleplan_theorist
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		heinz_guderian = {
+			allowed = { original_tag = GER }
+			visible = {  }
+			available = {  }
+			traits = { 
+				mobile_warfare_theorist
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		ludwig_beck = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = { 
+				superior_firepower_theorist
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	army_chief = {
+		
+		erich_von_manstein = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = { 
+				army_chief_maneuver
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		gerd_von_rundstedt = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = { 
+				army_chief_defensive
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		paul_von_hindenburg = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = { 
+				army_chief_old_guard
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	navy_chief = {
+		
+		alfred_saalwaechter = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				navy_chief_decisive_battle
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		erich_raeder = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				navy_chief_maneuver
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		karl_doenitz = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				navy_chief_commerce_raiding
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	air_chief = {
+		
+		ernst_udet = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				air_chief_safety
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		manfred_von_richthofen = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				air_chief_all_weather
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		ritter_von_greim = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				air_chief_ground_support
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	high_command = {
+	
+		albert_kesselring = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_air_superiority
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		erhard_milch = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_air_close_air_support
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		erwin_rommel = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_army_armored
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		ferdinand_schoerner = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_army_infantry
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		guenther_luetjens = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_navy_anti_submarine
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		
+		hugo_sperrle = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = {  }
+			traits = {
+				generic_high_command_air_combat_training
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		konrad_henlein = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_army_entrenchment
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		otto_ciliax = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_navy_capital_ship
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		walther_von_reichenau = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_army_logistics
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		walther_wever = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_air_strategic_bombing
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		werner_von_fritsch = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_army_commando
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		wilhelm_keitel = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_army_regrouping
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
+		wolfram_von_richthofen = {
+			allowed = { original_tag = GER }
+			visible = { }
+			available = { }
+			traits = {
+				generic_high_command_air_bomber_interception
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	
 	}
 	
 }

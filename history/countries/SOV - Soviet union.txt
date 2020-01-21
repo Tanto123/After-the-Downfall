@@ -60,6 +60,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+add_government_membership_despotism = yes
+add_government_membership_monarchism = yes
+add_government_membership_conservatism = yes
 
 create_country_leader = {
 	name = "Nicholas II"

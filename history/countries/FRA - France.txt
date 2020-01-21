@@ -32,6 +32,10 @@ set_variable = { pacifism_rating = 13 }
 
 add_ideas = {	#Social Factions
 	roman_catholicism
+	army_officers
+	intellectuals
+	labor_unions
+	republicans
 }
 add_ideas = {	#Government
 	unitary_republic
@@ -60,6 +64,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+add_government_membership_leftism = yes
+add_government_membership_centrism = yes
 
 create_country_leader = {
 	name = "Ludovic-Oscar Frossard"

@@ -222,6 +222,12 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	incompetent_monarch = {
+		random = no
+		political_power_factor = -0.15
+		ai_will_do = { factor = 1 }
+	}
+	
 	industrial_lobbyist = {
 		random = yes
 		production_speed_industrial_complex_factor = 0.1

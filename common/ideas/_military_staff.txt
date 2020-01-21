@@ -4,56 +4,56 @@ ideas = {
 	
 		generic_defensive_army_chief = {
 			picture = generic_general
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_defensive }
 		}
 		generic_drill_army_chief = {
 			picture = generic_general2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_drill }
 		}
 		generic_maneuver_army_chief = {
 			picture = generic_general3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_maneuver }
 		}
 		generic_morale_army_chief = {
 			picture = generic_general4
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_morale }
 		}
 		generic_offensive_army_chief = {
 			picture = generic_general5
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_offensive }
 		}
 		generic_old_guard_army_chief = {
 			picture = generic_general6
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_old_guard }
 		}
 		generic_organization_army_chief = {
 			picture = generic_general7
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_organization }
 		}
 		generic_reform_army_chief = {
 			picture = generic_general3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { army_chief_reform }
@@ -65,42 +65,42 @@ ideas = {
 	
 		generic_commerce_raiding_navy_chief = {
 			picture = generic_admiral
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { navy_chief_commerce_raiding }
 		}
 		generic_decisive_battle_navy_chief = {
 			picture = generic_admiral2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { navy_chief_decisive_battle }
 		}
 		generic_maneuver_navy_chief = {
 			picture = generic_admiral3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { navy_chief_maneuver }
 		}
 		generic_naval_aviation_navy_chief = {
 			picture = generic_admiral
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { navy_chief_naval_aviation }
 		}
 		generic_old_guard_navy_chief = {
 			picture = generic_admiral2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { navy_chief_old_guard }
 		}
 		generic_reform_navy_chief = {
 			picture = generic_admiral3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { navy_chief_reform }
@@ -112,42 +112,42 @@ ideas = {
 		
 		generic_all_weather_air_chief = {
 			picture = generic_air_force_officer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { air_chief_all_weather }
 		}
 		generic_ground_support_air_chief = {
 			picture = generic_air_force_officer2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { air_chief_ground_support }
 		}
 		generic_night_operations_air_chief = {
 			picture = generic_air_force_officer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { air_chief_night_operations }
 		}
 		generic_old_guard_air_chief = {
 			picture = generic_air_force_officer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { air_chief_old_guard }
 		}
 		generic_reform_air_chief = {
 			picture = generic_air_force_officer2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { air_chief_reform }
 		}
 		generic_safety_air_chief = {
 			picture = generic_air_force_officer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { air_chief_safety }
@@ -159,63 +159,63 @@ ideas = {
 		
 		generic_high_command_armor = {
 			picture = generic_general
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_armored }
 		}
 		generic_high_command_artillery = {
 			picture = generic_general2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_artillery }
 		}
 		generic_high_command_cavalry = {
 			picture = generic_general3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_cavalry }
 		}
 		generic_high_command_commando = {
 			picture = generic_general4
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_commando }
 		}
 		generic_high_command_concealment = {
 			picture = generic_general5
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_concealment }
 		}
 		generic_high_command_entrenchment = {
 			picture = generic_general6
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_entrenchment }
 		}
 		generic_high_command_infantry = {
 			picture = generic_general
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_infantry }
 		}
 		generic_high_command_logistics = {
 			picture = generic_general2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_logistics }
 		}
 		generic_high_command_regrouping = {
 			picture = generic_general3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_army_regrouping }
@@ -223,56 +223,56 @@ ideas = {
 		
 		generic_high_command_amphibious_assault = {
 			picture = generic_admiral
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_amphibious_assault }
 		}
 		generic_high_command_anti_submarine = {
 			picture = generic_admiral2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_anti_submarine }
 		}
 		generic_high_command_capital_ship = {
 			picture = generic_admiral3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_capital_ship }
 		}
 		generic_high_command_carrier = {
 			picture = generic_admiral
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_carrier }
 		}
 		generic_high_command_naval_logistics = {
 			picture = generic_admiral2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_fleet_logistics }
 		}
 		generic_high_command_naval_air_defense = {
 			picture = generic_admiral3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_naval_air_defense }
 		}
 		generic_high_command_screens = {
 			picture = generic_admiral
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_screen }
 		}
 		generic_high_command_submarine = {
 			picture = generic_admiral2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_navy_submarine }
@@ -280,49 +280,49 @@ ideas = {
 		
 		generic_high_command_air_training = {
 			picture = generic_air_force_officer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_combat_training }
 		}
 		generic_high_command_aerial_naval_strike = {
 			picture = generic_air_force_officer2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_naval_strike }
 		}
 		generic_high_command_aerial_interception = {
 			picture = generic_air_force_officer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_bomber_interception }
 		}
 		generic_high_command_aerial_superiority = {
 			picture = generic_air_force_officer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_superiority }
 		}
 		generic_high_command_aerial_support = {
 			picture = generic_air_force_officer2
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_close_air_support }
 		}
 		generic_high_command_strategic_bombing = {
 			picture = generic_air_force_officer3
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_strategic_bombing }
 		}
 		generic_high_command_airborne_commander = {
 			picture = generic_air_force_officer
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			traits = { generic_high_command_air_airborne }

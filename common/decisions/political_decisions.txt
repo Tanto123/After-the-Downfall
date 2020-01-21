@@ -14,12 +14,13 @@ domestic_policy_decisions = {
 			NOT = { has_government = anarchism }
 			has_government_membership_anarchism = no
 		}
-		available = { 
+		available = {
+			anarchism_happiness_greater_than_3 = yes
 			if = { limit = { original_tag = GER } NOT = { has_idea = rechtsfront } }
 		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.1
+			country_event = politics.2
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -29,12 +30,13 @@ domestic_policy_decisions = {
 			NOT = { has_government = communism }
 			has_government_membership_communism = no
 		}
-		available = { 
+		available = {
+			communism_happiness_greater_than_3 = yes
 			if = { limit = { original_tag = GER } NOT = { has_idea = rechtsfront } }
 		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.4
+			country_event = politics.5
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -45,11 +47,12 @@ domestic_policy_decisions = {
 			has_government_membership_leftism = no
 		}
 		available = {
+			leftism_happiness_greater_than_3 = yes
 			if = { limit = { original_tag = GER } NOT = { has_idea = rechtsfront } }
 		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.7
+			country_event = politics.8
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -59,10 +62,12 @@ domestic_policy_decisions = {
 			NOT = { has_government = centrism }
 			has_government_membership_centrism = no
 		}
-		available = { }
+		available = {
+			centrism_happiness_greater_than_3 = yes
+		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.10
+			country_event = politics.11
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -72,10 +77,12 @@ domestic_policy_decisions = {
 			NOT = { has_government = conservatism }
 			has_government_membership_conservatism = no
 		}
-		available = { }
+		available = {
+			conservatism_happiness_greater_than_3 = yes
+		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.13
+			country_event = politics.14
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -85,10 +92,12 @@ domestic_policy_decisions = {
 			NOT = { has_government = despotism }
 			has_government_membership_despotism = no
 		}
-		available = { }
+		available = {
+			despotism_happiness_greater_than_3 = yes
+		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.16
+			country_event = politics.17
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -98,10 +107,12 @@ domestic_policy_decisions = {
 			NOT = { has_government = monarchism }
 			has_government_membership_monarchism = no
 		}
-		available = { }
+		available = { 
+			monarchism_happiness_greater_than_3 = yes
+		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.19
+			country_event = politics.20
 		}
 		ai_will_do = { factor = 0 }
 	}
@@ -111,10 +122,219 @@ domestic_policy_decisions = {
 			NOT = { has_government = ultranationalism }
 			has_government_membership_ultranationalism = no
 		}
-		available = { }
+		available = {
+			ultranationalism_happiness_greater_than_3 = yes
+		}
 		cost = 150
 		complete_effect = {
-			country_event = politics.22
+			country_event = politics.23
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	political_concessions_to_the_anarchists = {
+		icon = decision_popular_movement
+		visible = {
+			NOT = { has_government = anarchism }
+			OR = {
+				anarchism > 0.02
+				has_government_membership_anarchism = yes
+			}
+		}
+		available = {
+			OR = {
+				anarchism > 0.05
+				has_government_membership_anarchism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			anarchism_happiness_add_050 = yes
+			centrism_happiness_subtract_010 = yes
+			conservatism_happiness_subtract_010 = yes
+			despotism_happiness_subtract_010 = yes
+			monarchism_happiness_subtract_020 = yes
+			ultranationalism_happiness_subtract_020 = yes
+			add_popularity = { ideology = anarchism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_communists = {
+		icon = decision_blackshirts
+		visible = {
+			NOT = { has_government = communism }
+			OR = {
+				communism > 0.02
+				has_government_membership_communism = yes
+			}
+		}
+		available = {
+			OR = {
+				communism > 0.05
+				has_government_membership_communism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			communism_happiness_add_050 = yes
+			centrism_happiness_subtract_010 = yes
+			conservatism_happiness_subtract_010 = yes
+			despotism_happiness_subtract_010 = yes
+			monarchism_happiness_subtract_020 = yes
+			ultranationalism_happiness_subtract_020 = yes
+			add_popularity = { ideology = communism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_leftists = {
+		icon = decision_rally
+		visible = {
+			NOT = { has_government = leftism }
+			OR = {
+				leftism > 0.02
+				has_government_membership_leftism = yes
+			}
+		}
+		available = {
+			OR = {
+				leftism > 0.05
+				has_government_membership_leftism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			leftism_happiness_add_050 = yes
+			conservatism_happiness_subtract_010 = yes
+			despotism_happiness_subtract_010 = yes
+			monarchism_happiness_subtract_010 = yes
+			ultranationalism_happiness_subtract_010 = yes
+			add_popularity = { ideology = leftism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_centrists = {
+		icon = decision_investments
+		visible = {
+			NOT = { has_government = centrism }
+			OR = {
+				centrism > 0.02
+				has_government_membership_centrism = yes
+			}
+		}
+		available = {
+			centrism > 0.05
+		}
+		cost = 50
+		complete_effect = {
+			centrism_happiness_add_050 = yes
+			anarchism_happiness_subtract_010 = yes
+			communism_happiness_subtract_010 = yes
+			ultranationalism_happiness_subtract_010 = yes
+			add_popularity = { ideology = centrism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_conservatives = {
+		icon = decision_nationalism
+		visible = {
+			NOT = { has_government = conservatism }
+			OR = {
+				conservatism > 0.02
+				has_government_membership_conservatism = yes
+			}
+		}
+		available = {
+			OR = {
+				conservatism > 0.05
+				has_government_membership_conservatism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			conservatism_happiness_add_050 = yes
+			anarchism_happiness_subtract_010 = yes
+			communism_happiness_subtract_010 = yes
+			ultranationalism_happiness_subtract_010 = yes
+			add_popularity = { ideology = conservatism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_despots = {
+		icon = decision_army
+		visible = {
+			NOT = { has_government = despotism }
+			OR = {
+				despotism > 0.02
+				has_government_membership_despotism = yes
+			}
+		}
+		available = {
+			OR = {
+				despotism > 0.05
+				has_government_membership_despotism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			despotism_happiness_add_050 = yes
+			anarchism_happiness_subtract_020 = yes
+			communism_happiness_subtract_020 = yes
+			leftism_happiness_subtract_010 = yes
+			centrism_happiness_subtract_010 = yes
+			add_popularity = { ideology = despotism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_monarchists = {
+		icon = decision_crown_support
+		visible = {
+			NOT = { has_government = monarchism }
+			OR = {
+				monarchism > 0.02
+				has_government_membership_monarchism = yes
+			}
+		}
+		available = {
+			OR = {
+				monarchism > 0.05
+				has_government_membership_monarchism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			monarchism_happiness_add_050 = yes
+			anarchism_happiness_subtract_020 = yes
+			communism_happiness_subtract_020 = yes
+			leftism_happiness_subtract_010 = yes
+			centrism_happiness_subtract_010 = yes
+			add_popularity = { ideology = monarchism popularity = 0.01 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	political_concessions_to_the_ultranationalists = {
+		icon = decision_nazism
+		visible = {
+			NOT = { has_government = ultranationalism }
+			OR = {
+				ultranationalism > 0.02
+				has_government_membership_ultranationalism = yes
+			}
+		}
+		available = {
+			OR = {
+				ultranationalism > 0.05
+				has_government_membership_ultranationalism = yes
+			}
+		}
+		cost = 50
+		complete_effect = {
+			ultranationalism_happiness_add_050 = yes
+			anarchism_happiness_subtract_020 = yes
+			communism_happiness_subtract_020 = yes
+			leftism_happiness_subtract_010 = yes
+			centrism_happiness_subtract_010 = yes
+			conservatism_happiness_subtract_010 = yes
+			add_popularity = { ideology = ultranationalism popularity = 0.01 }
 		}
 		ai_will_do = { factor = 0 }
 	}

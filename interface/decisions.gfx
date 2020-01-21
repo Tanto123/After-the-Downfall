@@ -132,8 +132,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_decision_decision_operation2"
-		texturefile = "gfx/interface/decisions/decision_operation2
-		.dds"
+		texturefile = "gfx/interface/decisions/decision_operation2.dds"
 	}
 	spriteType = {
 		name = "GFX_decision_decision_oppression"

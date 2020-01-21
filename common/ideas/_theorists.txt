@@ -5,7 +5,7 @@ ideas = {
 		generic_rocket_scientist = {
 			picture = generic_politician
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
@@ -17,7 +17,7 @@ ideas = {
 		generic_nuclear_scientist = {
 			picture = generic_politician2
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
@@ -29,7 +29,7 @@ ideas = {
 		generic_army_theorist = {
 			picture = generic_politician3
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
@@ -41,7 +41,7 @@ ideas = {
 		generic_grand_battleplan_theorist = {
 			picture = generic_general
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
@@ -55,7 +55,7 @@ ideas = {
 		generic_mass_assault_theorist = {
 			picture = generic_general2
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
@@ -69,7 +69,7 @@ ideas = {
 		generic_mobile_warfare_theorist = {
 			picture = generic_general3
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
@@ -83,7 +83,7 @@ ideas = {
 		generic_superior_firepower_theorist = {
 			picture = generic_general4
 			
-			visible = { }
+			visible = { has_focus_tree = generic_focus }
 			allowed = { }
 			available = { }
 			
