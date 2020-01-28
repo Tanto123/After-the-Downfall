@@ -21,3 +21,18 @@
 #	anti_revolutionary_front_popularity
 #	anti_chauvinist_front_popularity
 #	
+#	anarchism_happiness
+#	communism_happiness
+#	leftism_happiness
+#	centrism_happiness
+#	conservatism_happiness
+#	despotism_happiness
+#	monarchism_happiness
+#	ultranationalism_happiness
+#
+#	monarch_happiness
+#	clergy_happiness
+#	army_happiness
+#	navy_happiness
+#	air_force_happiness
+#

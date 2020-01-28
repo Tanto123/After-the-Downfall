@@ -17,7 +17,7 @@ set_technology = {
 }
 
 add_ideas = {	#Social Factions
-	sunni_islam
+	shia_islam
 }
 
 set_popularities = {

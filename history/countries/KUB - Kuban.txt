@@ -25,13 +25,13 @@ add_ideas = {	#National Ideas
 
 set_popularities = {
 	anarchism = 0 
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 100 
+	communism = 3 
+	leftism = 17 
+	centrism = 39 
+	conservatism = 37 
 	despotism = 0 
 	monarchism = 0 
-	ultranationalism = 0
+	ultranationalism = 4
 }
 
 set_politics = { 

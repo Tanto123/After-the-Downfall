@@ -711,3 +711,491 @@ pacifism_rating_greater_than_90 = {
 		}
 	}
 }
+
+anarchism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_anarchism_greater_than_0
+		check_variable = {
+			var = anarchism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+anarchism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_anarchism_greater_than_3
+		check_variable = {
+			var = anarchism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+anarchism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_anarchism_greater_than_-3
+		check_variable = {
+			var = anarchism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+anarchism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_anarchism_less_than_0
+		check_variable = {
+			var = anarchism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+anarchism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_anarchism_less_than_3
+		check_variable = {
+			var = anarchism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+anarchism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_anarchism_less_than_-3
+		check_variable = {
+			var = anarchism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+communism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_communism_greater_than_0
+		check_variable = {
+			var = communism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+communism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_communism_greater_than_3
+		check_variable = {
+			var = communism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+communism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_communism_greater_than_-3
+		check_variable = {
+			var = communism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+communism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_communism_less_than_0
+		check_variable = {
+			var = communism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+communism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_communism_less_than_3
+		check_variable = {
+			var = communism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+communism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_communism_less_than_-3
+		check_variable = {
+			var = communism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+leftism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_leftism_greater_than_0
+		check_variable = {
+			var = leftism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+leftism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_leftism_greater_than_3
+		check_variable = {
+			var = leftism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+leftism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_leftism_greater_than_-3
+		check_variable = {
+			var = leftism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+leftism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_leftism_less_than_0
+		check_variable = {
+			var = leftism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+leftism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_leftism_less_than_3
+		check_variable = {
+			var = leftism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+leftism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_leftism_less_than_-3
+		check_variable = {
+			var = leftism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+centrism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_centrism_greater_than_0
+		check_variable = {
+			var = centrism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+centrism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_centrism_greater_than_3
+		check_variable = {
+			var = centrism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+centrism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_centrism_greater_than_-3
+		check_variable = {
+			var = centrism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+centrism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_centrism_less_than_0
+		check_variable = {
+			var = centrism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+centrism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_centrism_less_than_3
+		check_variable = {
+			var = centrism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+centrism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_centrism_less_than_-3
+		check_variable = {
+			var = centrism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+conservatism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_conservatism_greater_than_0
+		check_variable = {
+			var = conservatism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+conservatism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_conservatism_greater_than_3
+		check_variable = {
+			var = conservatism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+conservatism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_conservatism_greater_than_-3
+		check_variable = {
+			var = conservatism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+conservatism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_conservatism_less_than_0
+		check_variable = {
+			var = conservatism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+conservatism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_conservatism_less_than_3
+		check_variable = {
+			var = conservatism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+conservatism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_conservatism_less_than_-3
+		check_variable = {
+			var = conservatism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+despotism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_despotism_greater_than_0
+		check_variable = {
+			var = despotism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+despotism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_despotism_greater_than_3
+		check_variable = {
+			var = despotism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+despotism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_despotism_greater_than_-3
+		check_variable = {
+			var = despotism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+despotism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_despotism_less_than_0
+		check_variable = {
+			var = despotism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+despotism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_despotism_less_than_3
+		check_variable = {
+			var = despotism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+despotism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_despotism_less_than_-3
+		check_variable = {
+			var = despotism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+monarchism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_monarchism_greater_than_0
+		check_variable = {
+			var = monarchism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+monarchism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_monarchism_greater_than_3
+		check_variable = {
+			var = monarchism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+monarchism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_monarchism_greater_than_-3
+		check_variable = {
+			var = monarchism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+monarchism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_monarchism_less_than_0
+		check_variable = {
+			var = monarchism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+monarchism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_monarchism_less_than_3
+		check_variable = {
+			var = monarchism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+monarchism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_monarchism_less_than_-3
+		check_variable = {
+			var = monarchism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}
+
+ultranationalism_happiness_greater_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_ultranationalism_greater_than_0
+		check_variable = {
+			var = ultranationalism_happiness
+			value = 0
+			compare = greater_than
+		}
+	}
+}
+ultranationalism_happiness_greater_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_ultranationalism_greater_than_3
+		check_variable = {
+			var = ultranationalism_happiness
+			value = 3
+			compare = greater_than
+		}
+	}
+}
+ultranationalism_happiness_greater_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_ultranationalism_greater_than_-3
+		check_variable = {
+			var = ultranationalism_happiness
+			value = -3
+			compare = greater_than
+		}
+	}
+}
+ultranationalism_happiness_less_than_0 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_ultranationalism_less_than_0
+		check_variable = {
+			var = ultranationalism_happiness
+			value = 0
+			compare = less_than
+		}
+	}
+}
+ultranationalism_happiness_less_than_3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_ultranationalism_less_than_3
+		check_variable = {
+			var = ultranationalism_happiness
+			value = 3
+			compare = less_than
+		}
+	}
+}
+ultranationalism_happiness_less_than_-3 = {
+	custom_trigger_tooltip = {
+		tooltip = TT_happiness_ultranationalism_less_than_-3
+		check_variable = {
+			var = ultranationalism_happiness
+			value = -3
+			compare = less_than
+		}
+	}
+}

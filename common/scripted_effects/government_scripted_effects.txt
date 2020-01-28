@@ -1,18 +1,83 @@
 calculate_coalition_popularity = {
 	set_variable = { coalition_popularity = 0 }		#Goes from 0 to 1.
-	if = { limit = { has_country_flag = anarchism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@anarchism } }
-	if = { limit = { has_country_flag = communism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@communism } }
-	if = { limit = { has_country_flag = leftism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@leftism } }
-	if = { limit = { has_country_flag = centrism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@centrism } }
-	if = { limit = { has_country_flag = conservatism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@conservatism } }
-	if = { limit = { has_country_flag = despotism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@despotism } }
-	if = { limit = { has_country_flag = monarchism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@monarchism } }
-	if = { limit = { has_country_flag = ultranationalism_government_membership } add_to_variable = { var = coalition_popularity value = party_popularity@ultranationalism } }
+	if = { 
+		limit = { has_country_flag = anarchism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@anarchism } 
+	}
+	if = { 
+		limit = { has_country_flag = communism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@communism } 
+	}
+	if = { 
+		limit = { has_country_flag = leftism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@leftism } 
+	}
+	if = { 
+		limit = { has_country_flag = centrism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@centrism }
+	}
+	if = { 
+		limit = { has_country_flag = conservatism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@conservatism }
+	}
+	if = { 
+		limit = { has_country_flag = despotism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@despotism } 
+	}
+	if = { 
+		limit = { has_country_flag = monarchism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@monarchism }
+	}
+	if = { 
+		limit = { has_country_flag = ultranationalism_government_membership } 
+		add_to_variable = { var = coalition_popularity value = party_popularity@ultranationalism } 
+	}
 	set_variable = { opposition_popularity = 1 }	#Starts at 1, coalition_popularity subtracted from 1.
 	subtract_from_variable = { var = opposition_popularity value = coalition_popularity }
-	#
 	update_government_popularity_idea = yes
-	#
+}
+update_government_popularity_idea = {
+	hidden_effect = {
+		if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.10 compare = less_than } } 
+			add_ideas = government_popularity0
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.20 compare = less_than } } 
+			add_ideas = government_popularity1
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.30 compare = less_than } } 
+			add_ideas = government_popularity2
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.40 compare = less_than } }
+			add_ideas = government_popularity3
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.50 compare = less_than } } 
+			add_ideas = government_popularity4
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.60 compare = less_than } } 
+			add_ideas = government_popularity5
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.70 compare = less_than } } 
+			add_ideas = government_popularity6
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.80 compare = less_than } } 
+			add_ideas = government_popularity7
+		}
+		else_if = { 
+			limit = { check_variable = { var = coalition_popularity value = 0.90 compare = less_than } } 
+			add_ideas = government_popularity8
+		}
+		else = { add_ideas = government_popularity9 }
+	}
+}
+calculate_coalition_models = {
 	set_variable = { revolutionary_front_popularity = 0 }				#A + Com
 	add_to_variable = { var = revolutionary_front_popularity value = party_popularity@anarchism }
 	add_to_variable = { var = revolutionary_front_popularity value = party_popularity@communism }
@@ -51,18 +116,19 @@ calculate_coalition_popularity = {
 	add_to_variable = { var = anti_chauvinist_front_popularity value = popular_front_popularity }
 	add_to_variable = { var = anti_chauvinist_front_popularity value = party_popularity@conservatism }
 }
-
-update_government_popularity_idea = {
-	if = { limit = { check_variable = { var = coalition_popularity value = 0.10 compare = less_than } } add_ideas = government_popularity0 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.20 compare = less_than } } add_ideas = government_popularity1 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.30 compare = less_than } } add_ideas = government_popularity2 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.40 compare = less_than } } add_ideas = government_popularity3 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.50 compare = less_than } } add_ideas = government_popularity4 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.60 compare = less_than } } add_ideas = government_popularity5 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.70 compare = less_than } } add_ideas = government_popularity6 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.80 compare = less_than } } add_ideas = government_popularity7 }
-	else_if = { limit = { check_variable = { var = coalition_popularity value = 0.90 compare = less_than } } add_ideas = government_popularity8 }
-	else = { add_ideas = government_popularity9 }
+delete_coalition_models = {
+	clear_variable = revolutionary_front_popularity
+	clear_variable = labor_front_popularity
+	clear_variable = social_liberal_front_popularity
+	clear_variable = liberal_conservative_front_popularity
+	clear_variable = national_conservative_front_popularity
+	clear_variable = left_front_popularity
+	clear_variable = democratic_front_popularity
+	clear_variable = right_front_popularity
+	clear_variable = national_front_popularity
+	clear_variable = popular_front_popularity
+	clear_variable = anti_revolutionary_front_popularity
+	clear_variable = anti_chauvinist_front_popularity
 }
 
 remove_all_government_members = {
@@ -304,4 +370,332 @@ switch_government_to_ultranationalism = {
 		set_politics = { ruling_party = ultranationalism elections_allowed = yes }
 	}
 	calculate_coalition_popularity = yes
+}
+
+anarchism_happiness_add_010 = {
+	custom_effect_tooltip = TT_anarchism_happiness_add_010
+	add_to_variable = { var = anarchism_happiness value = 0.10 }
+}
+anarchism_happiness_add_020 = {
+	custom_effect_tooltip = TT_anarchism_happiness_add_020
+	add_to_variable = { var = anarchism_happiness value = 0.20 }
+}
+anarchism_happiness_add_050 = {
+	custom_effect_tooltip = TT_anarchism_happiness_add_050
+	add_to_variable = { var = anarchism_happiness value = 0.50 }
+}
+anarchism_happiness_add_100 = {
+	custom_effect_tooltip = TT_anarchism_happiness_add_100
+	add_to_variable = { var = anarchism_happiness value = 1.00 }
+}
+anarchism_happiness_add_200 = {
+	custom_effect_tooltip = TT_anarchism_happiness_add_200
+	add_to_variable = { var = anarchism_happiness value = 2.00 }
+}
+anarchism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_anarchism_happiness_subtract_010
+	add_to_variable = { var = anarchism_happiness value = -0.10 }
+}
+anarchism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_anarchism_happiness_subtract_020
+	add_to_variable = { var = anarchism_happiness value = -0.20 }
+}
+anarchism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_anarchism_happiness_subtract_050
+	add_to_variable = { var = anarchism_happiness value = -0.50 }
+}
+anarchism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_anarchism_happiness_subtract_100
+	add_to_variable = { var = anarchism_happiness value = -1.00 }
+}
+anarchism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_anarchism_happiness_subtract_200
+	add_to_variable = { var = anarchism_happiness value = -2.00 }
+}
+
+communism_happiness_add_010 = {
+	custom_effect_tooltip = TT_communism_happiness_add_010
+	add_to_variable = { var = communism_happiness value = 0.10 }
+}
+communism_happiness_add_020 = {
+	custom_effect_tooltip = TT_communism_happiness_add_020
+	add_to_variable = { var = communism_happiness value = 0.20 }
+}
+communism_happiness_add_050 = {
+	custom_effect_tooltip = TT_communism_happiness_add_050
+	add_to_variable = { var = communism_happiness value = 0.50 }
+}
+communism_happiness_add_100 = {
+	custom_effect_tooltip = TT_communism_happiness_add_100
+	add_to_variable = { var = communism_happiness value = 1.00 }
+}
+communism_happiness_add_200 = {
+	custom_effect_tooltip = TT_communism_happiness_add_200
+	add_to_variable = { var = communism_happiness value = 2.00 }
+}
+communism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_communism_happiness_subtract_010
+	add_to_variable = { var = communism_happiness value = -0.10 }
+}
+communism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_communism_happiness_subtract_020
+	add_to_variable = { var = communism_happiness value = -0.20 }
+}
+communism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_communism_happiness_subtract_050
+	add_to_variable = { var = communism_happiness value = -0.50 }
+}
+communism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_communism_happiness_subtract_100
+	add_to_variable = { var = communism_happiness value = -1.00 }
+}
+communism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_communism_happiness_subtract_200
+	add_to_variable = { var = communism_happiness value = -2.00 }
+}
+
+leftism_happiness_add_010 = {
+	custom_effect_tooltip = TT_leftism_happiness_add_010
+	add_to_variable = { var = leftism_happiness value = 0.10 }
+}
+leftism_happiness_add_020 = {
+	custom_effect_tooltip = TT_leftism_happiness_add_020
+	add_to_variable = { var = leftism_happiness value = 0.20 }
+}
+leftism_happiness_add_050 = {
+	custom_effect_tooltip = TT_leftism_happiness_add_050
+	add_to_variable = { var = leftism_happiness value = 0.50 }
+}
+leftism_happiness_add_100 = {
+	custom_effect_tooltip = TT_leftism_happiness_add_100
+	add_to_variable = { var = leftism_happiness value = 1.00 }
+}
+leftism_happiness_add_200 = {
+	custom_effect_tooltip = TT_leftism_happiness_add_200
+	add_to_variable = { var = leftism_happiness value = 2.00 }
+}
+leftism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_leftism_happiness_subtract_010
+	add_to_variable = { var = leftism_happiness value = -0.10 }
+}
+leftism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_leftism_happiness_subtract_020
+	add_to_variable = { var = leftism_happiness value = -0.20 }
+}
+leftism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_leftism_happiness_subtract_050
+	add_to_variable = { var = leftism_happiness value = -0.50 }
+}
+leftism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_leftism_happiness_subtract_100
+	add_to_variable = { var = leftism_happiness value = -1.00 }
+}
+leftism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_leftism_happiness_subtract_200
+	add_to_variable = { var = leftism_happiness value = -2.00 }
+}
+
+centrism_happiness_add_010 = {
+	custom_effect_tooltip = TT_centrism_happiness_add_010
+	add_to_variable = { var = centrism_happiness value = 0.10 }
+}
+centrism_happiness_add_020 = {
+	custom_effect_tooltip = TT_centrism_happiness_add_020
+	add_to_variable = { var = centrism_happiness value = 0.20 }
+}
+centrism_happiness_add_050 = {
+	custom_effect_tooltip = TT_centrism_happiness_add_050
+	add_to_variable = { var = centrism_happiness value = 0.50 }
+}
+centrism_happiness_add_100 = {
+	custom_effect_tooltip = TT_centrism_happiness_add_100
+	add_to_variable = { var = centrism_happiness value = 1.00 }
+}
+centrism_happiness_add_200 = {
+	custom_effect_tooltip = TT_centrism_happiness_add_200
+	add_to_variable = { var = centrism_happiness value = 2.00 }
+}
+centrism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_centrism_happiness_subtract_010
+	add_to_variable = { var = centrism_happiness value = -0.10 }
+}
+centrism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_centrism_happiness_subtract_020
+	add_to_variable = { var = centrism_happiness value = -0.20 }
+}
+centrism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_centrism_happiness_subtract_050
+	add_to_variable = { var = centrism_happiness value = -0.50 }
+}
+centrism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_centrism_happiness_subtract_100
+	add_to_variable = { var = centrism_happiness value = -1.00 }
+}
+centrism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_centrism_happiness_subtract_200
+	add_to_variable = { var = centrism_happiness value = -2.00 }
+}
+
+conservatism_happiness_add_010 = {
+	custom_effect_tooltip = TT_conservatism_happiness_add_010
+	add_to_variable = { var = conservatism_happiness value = 0.10 }
+}
+conservatism_happiness_add_020 = {
+	custom_effect_tooltip = TT_conservatism_happiness_add_020
+	add_to_variable = { var = conservatism_happiness value = 0.20 }
+}
+conservatism_happiness_add_050 = {
+	custom_effect_tooltip = TT_conservatism_happiness_add_050
+	add_to_variable = { var = conservatism_happiness value = 0.50 }
+}
+conservatism_happiness_add_100 = {
+	custom_effect_tooltip = TT_conservatism_happiness_add_100
+	add_to_variable = { var = conservatism_happiness value = 1.00 }
+}
+conservatism_happiness_add_200 = {
+	custom_effect_tooltip = TT_conservatism_happiness_add_200
+	add_to_variable = { var = conservatism_happiness value = 2.00 }
+}
+conservatism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_conservatism_happiness_subtract_010
+	add_to_variable = { var = conservatism_happiness value = -0.10 }
+}
+conservatism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_conservatism_happiness_subtract_020
+	add_to_variable = { var = conservatism_happiness value = -0.20 }
+}
+conservatism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_conservatism_happiness_subtract_050
+	add_to_variable = { var = conservatism_happiness value = -0.50 }
+}
+conservatism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_conservatism_happiness_subtract_100
+	add_to_variable = { var = conservatism_happiness value = -1.00 }
+}
+conservatism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_conservatism_happiness_subtract_200
+	add_to_variable = { var = conservatism_happiness value = -2.00 }
+}
+
+despotism_happiness_add_010 = {
+	custom_effect_tooltip = TT_despotism_happiness_add_010
+	add_to_variable = { var = despotism_happiness value = 0.10 }
+}
+despotism_happiness_add_020 = {
+	custom_effect_tooltip = TT_despotism_happiness_add_020
+	add_to_variable = { var = despotism_happiness value = 0.20 }
+}
+despotism_happiness_add_050 = {
+	custom_effect_tooltip = TT_despotism_happiness_add_050
+	add_to_variable = { var = despotism_happiness value = 0.50 }
+}
+despotism_happiness_add_100 = {
+	custom_effect_tooltip = TT_despotism_happiness_add_100
+	add_to_variable = { var = despotism_happiness value = 1.00 }
+}
+despotism_happiness_add_200 = {
+	custom_effect_tooltip = TT_despotism_happiness_add_200
+	add_to_variable = { var = despotism_happiness value = 2.00 }
+}
+despotism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_despotism_happiness_subtract_010
+	add_to_variable = { var = despotism_happiness value = -0.10 }
+}
+despotism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_despotism_happiness_subtract_020
+	add_to_variable = { var = despotism_happiness value = -0.20 }
+}
+despotism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_despotism_happiness_subtract_050
+	add_to_variable = { var = despotism_happiness value = -0.50 }
+}
+despotism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_despotism_happiness_subtract_100
+	add_to_variable = { var = despotism_happiness value = -1.00 }
+}
+despotism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_despotism_happiness_subtract_200
+	add_to_variable = { var = despotism_happiness value = -2.00 }
+}
+
+monarchism_happiness_add_010 = {
+	custom_effect_tooltip = TT_monarchism_happiness_add_010
+	add_to_variable = { var = monarchism_happiness value = 0.10 }
+}
+monarchism_happiness_add_020 = {
+	custom_effect_tooltip = TT_monarchism_happiness_add_020
+	add_to_variable = { var = monarchism_happiness value = 0.20 }
+}
+monarchism_happiness_add_050 = {
+	custom_effect_tooltip = TT_monarchism_happiness_add_050
+	add_to_variable = { var = monarchism_happiness value = 0.50 }
+}
+monarchism_happiness_add_100 = {
+	custom_effect_tooltip = TT_monarchism_happiness_add_100
+	add_to_variable = { var = monarchism_happiness value = 1.00 }
+}
+monarchism_happiness_add_200 = {
+	custom_effect_tooltip = TT_monarchism_happiness_add_200
+	add_to_variable = { var = monarchism_happiness value = 2.00 }
+}
+monarchism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_monarchism_happiness_subtract_010
+	add_to_variable = { var = monarchism_happiness value = -0.10 }
+}
+monarchism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_monarchism_happiness_subtract_020
+	add_to_variable = { var = monarchism_happiness value = -0.20 }
+}
+monarchism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_monarchism_happiness_subtract_050
+	add_to_variable = { var = monarchism_happiness value = -0.50 }
+}
+monarchism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_monarchism_happiness_subtract_100
+	add_to_variable = { var = monarchism_happiness value = -1.00 }
+}
+monarchism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_monarchism_happiness_subtract_200
+	add_to_variable = { var = monarchism_happiness value = -2.00 }
+}
+
+ultranationalism_happiness_add_010 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_add_010
+	add_to_variable = { var = ultranationalism_happiness value = 0.10 }
+}
+ultranationalism_happiness_add_020 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_add_020
+	add_to_variable = { var = ultranationalism_happiness value = 0.20 }
+}
+ultranationalism_happiness_add_050 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_add_050
+	add_to_variable = { var = ultranationalism_happiness value = 0.50 }
+}
+ultranationalism_happiness_add_100 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_add_100
+	add_to_variable = { var = ultranationalism_happiness value = 1.00 }
+}
+ultranationalism_happiness_add_200 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_add_200
+	add_to_variable = { var = ultranationalism_happiness value = 2.00 }
+}
+ultranationalism_happiness_subtract_010 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_subtract_010
+	add_to_variable = { var = ultranationalism_happiness value = -0.10 }
+}
+ultranationalism_happiness_subtract_020 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_subtract_020
+	add_to_variable = { var = ultranationalism_happiness value = -0.20 }
+}
+ultranationalism_happiness_subtract_050 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_subtract_050
+	add_to_variable = { var = ultranationalism_happiness value = -0.50 }
+}
+ultranationalism_happiness_subtract_100 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_subtract_100
+	add_to_variable = { var = ultranationalism_happiness value = -1.00 }
+}
+ultranationalism_happiness_subtract_200 = {
+	custom_effect_tooltip = TT_ultranationalism_happiness_subtract_200
+	add_to_variable = { var = ultranationalism_happiness value = -2.00 }
 }

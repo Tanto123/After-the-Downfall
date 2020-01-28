@@ -85,10 +85,12 @@ add_ideas = {	#Laws and Government
 	civilian_economy
 	free_trade
 }
-add_ideas = {	#Starting Cabinet
+add_ideas = {	#Starting Advisors
 	ernst_scholz
 	franz_von_papen
 	wilhelm_marx
+	#
+	paul_von_hindenburg
 }
 add_ideas = {	#Social Factions
 	protestantism

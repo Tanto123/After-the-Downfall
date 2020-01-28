@@ -94,17 +94,9 @@ ideas = {
 			visible = { always = yes }
 			available = {
 				has_stability > 0.3
-				OR = {
-					has_government = conservatism
-					has_government = despotism
-					has_government = monarchism
-					has_government = ultranationalism
-				}
-				democracy_rating_less_than_20 = yes
-				OR = {
-					has_government = ultranationalism
-					democracy_rating_less_than_10 = yes
-				}
+				has_government = ultranationalism
+				democracy_rating_less_than_30 = yes
+				pacifism_rating_less_than_70 = yes
 				has_religious_movement_as_social_faction = yes
 			}
 			cancel = {}
@@ -348,6 +340,7 @@ ideas = {
 				has_government = despotism
 				has_army_manpower = { size > 100000 }
 				democracy_rating_less_than_40 = yes
+				pacifism_rating_less_than_80 = yes
 			}
 			cancel = {}
 			
@@ -472,7 +465,32 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				communism_drift = 0.01
+			}
+		}
+	
+		#
+		#	WARLORDISM
+		#
+		#	Can always pass laws.
+		#
+		warlordism = {
+			picture = political_power_bonus2
+			
+			allowed = {}
+			visible = { always = yes }
+			available = {
+				democracy_rating_less_than_40 = yes
+				pacifism_rating_less_than_40 = yes
+			}
+			cancel = {}
+			
+			cost = 600
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
 			}
 		}
 		
