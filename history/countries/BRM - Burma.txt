@@ -18,10 +18,37 @@ set_technology = {
 
 
 	set_popularities = {
-		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 ultranationalism = 5
+		anarchism = 0
+		communism = 1
+		leftism = 0
+		centrism = 0
+		conservatism = 37
+		despotism = 0
+		monarchism = 0
+		ultranationalism = 62
 	}
-set_politics = { ruling_party = conservatism
+set_politics = { 
+	ruling_party = ultranationalism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+add_ideas = {	#Laws and Government
+	military_dictatorship
+	volunteer_only
+	civilian_economy
+	free_trade
+}
+add_ideas = {	#Social Factions
+	buddhism
+	army_officers
+	satyagraha
+}
+
+create_country_leader = {
+	name = "U Nu"
+	desc = leader_desc_BRM_U_Nu
+	picture = "U_Nu.dds"
+	ideology = militant_reactionism
 }

@@ -500,6 +500,30 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
+		
+		#Indian Princely states
+		satyagraha = {
+			picture = all_india_forward
+			allowed = {}
+			
+			visible = {
+				OR = {
+					original_tag = GUJ
+					original_tag = TRA
+					original_tag = BRM
+				}
+			}
+			available = {
+				always = no
+			}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				autonomy_gain = 0.5 #value SUBJECT to change
+			}
+		}
 	
 		######################################
 		###		SINGULAR SPECIFIC COUNTRIES
