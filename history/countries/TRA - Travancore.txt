@@ -17,11 +17,39 @@ set_technology = {
 }
 
 
-	set_popularities = {
-		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 ultranationalism = 5
-	}
-set_politics = { ruling_party = conservatism
-	last_election = "1925.1.1"
+set_popularities = {
+	anarchism = 24
+	communism = 0
+	leftism = 14
+	centrism = 0
+	conservatism = 5
+	despotism = 1
+	monarchism = 35
+	ultranationalism = 21
+}
+set_politics = { ruling_party = monarchism
+	last_election = "1931.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+add_ideas = {	#Laws and Government
+	absolute_monarchy
+	volunteer_only
+	civilian_economy
+	free_trade
+}
+add_ideas = {	#Social Factions
+	hinduism
+	aristocrats
+	monarchists
+	satyagraha
+	intellectuals
+}
+
+create_country_leader = {
+	name = "Chithira Thirunal"
+	desc = leader_desc_TRA_Chithira_Thirunal
+	picture = "Chithira_Thirunal.dds"
+	ideology = absolute_monarchism
 }

@@ -17,11 +17,40 @@ set_technology = {
 }
 
 
-	set_popularities = {
-		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 ultranationalism = 5
-	}
-set_politics = { ruling_party = conservatism
+set_popularities = {
+	anarchism = 1
+	communism = 27
+	leftism = 67
+	centrism = 4
+	conservatism = 1
+	despotism = 0
+	monarchism = 0
+	ultranationalism = 0
+}
+
+add_ideas = {	#Laws and Government
+	unitary_republic
+	volunteer_only
+	civilian_economy
+	free_trade
+}
+add_ideas = {	#Social Factions
+	hinduism
+	sunni_islam
+	satyagraha
+	big_banks
+	labor_unions
+}
+set_politics = { 
+	ruling_party = leftism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Vallabhbhai Patel"
+	desc = leader_desc_GUJ_Vallabhbhai_Patel
+	picture = "Vallabhbhai_Patel.dds"
+	ideology = social_democracy
 }
