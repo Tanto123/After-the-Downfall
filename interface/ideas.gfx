@@ -6219,6 +6219,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/united_states/advisors/william_knudsen.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_william_o_douglas"
+		texturefile = "gfx/interface/ideas/united_states/advisors/william_o_douglas.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_woodrow_wilson"
 		texturefile = "gfx/interface/ideas/united_states/advisors/woodrow_wilson.dds"
 	}

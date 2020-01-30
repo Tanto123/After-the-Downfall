@@ -336,6 +336,19 @@ ideas = {
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
+		johann_friedrich_winckler = {
+			picture = robert_goddard
+			allowed = { original_tag = GER }
+			visible = { can_hire_monarchist_advisors = yes }
+			available = { can_hire_monarchist_advisors = yes }
+			traits = { 
+				monarchist_politician
+				militarization_advocate
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
 		johannes_hoffmann = {
 			picture = augusto_de_vasconcelos
 			allowed = { original_tag = GER }
@@ -343,7 +356,7 @@ ideas = {
 			available = { can_hire_leftist_advisors = yes }
 			traits = { 
 				leftist_politician
-				tolerant_intellectual
+				military_innovator
 			}
 			on_add = { }
 			do_effect = { }
@@ -459,6 +472,19 @@ ideas = {
 			traits = { 
 				monarchist_politician
 				foreign_interventionist
+			}
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+		oskar_hergt = {
+			picture = jfc_fuller
+			allowed = { original_tag = GER }
+			visible = { can_hire_monarchist_advisors = yes }
+			available = { can_hire_monarchist_advisors = yes }
+			traits = { 
+				monarchist_politician
+				committed_isolationist
 			}
 			on_add = { }
 			do_effect = { }
