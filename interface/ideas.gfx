@@ -2407,6 +2407,10 @@ spriteTypes = {
 	##ADVISORS##
 
 	spriteType = {
+		name = "GFX_idea_adolf_hitler"
+		texturefile = "gfx/interface/ideas/germany/advisors/adolf_hitler.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_albert_kesselring"
 		texturefile = "gfx/interface/ideas/germany/advisors/albert_kesselring.dds"
 	}
