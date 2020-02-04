@@ -4,7 +4,7 @@ OOB = "generic_1928"
 
 set_research_slots = 3
 
-set_stability = 0.5
+set_stability = 0.6
 set_war_support = 0.5
 
 set_convoys = 100
@@ -20,15 +20,26 @@ add_ideas = {	#Social Factions
 	roman_catholicism
 }
 
+add_ideas = {	#national ideas
+	MEX_rurales
+
+	MEX_divided_nation
+
+        MEX_war_torn_society
+
+        MEX_underground_resistance
+}
+
+
 set_popularities = {
-	anarchism = 0
-	communism = 0 
-	leftism = 0
+	anarchism = 5
+	communism = 25
+	leftism = 5
 	centrism = 0
-	conservatism = 0 
-	despotism = 100
-	monarchism = 0
-	ultranationalism = 0
+	conservatism = 5
+	despotism = 55
+	monarchism = 2
+	ultranationalism = 3
 }
 
 set_politics = { 
@@ -36,4 +47,14 @@ set_politics = {
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Porfirio Díaz Ortega"
+	desc = leader_desc_MEX_Diaz_Ortega
+	picture = "Diaz_Ortega.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
 }

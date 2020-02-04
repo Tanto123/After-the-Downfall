@@ -478,3 +478,14 @@
  ##########
  pori_corridor_question:0 "Pori Corridor Question"
  pori_corridor_question_desc:0 "Ever since Sweden's successful 1915 intervention in the European War, the Swedish-speaking parts of what was once Russian Finland have been part of Sweden.\n\nHowever, the German government, allied with both Sweden and Finland, forced Swedish troops to retreat to only two coastal strips with the highest concentration of ethnic Swedes.\n\nThese two territories, the Turku and Vaasa areas, are divided by the Pori region, which the Germans awarded to Finland. Ever since, a growing lobby of Swedish nationalists have voiced demands to connect the two colonial regions by acquiring what they refer to as the 'Pori Corridor'."
+ ##########
+ ##MEX
+ ##########
+ MEX_rurales:0 "Guardia Rural"
+ MEX_rurales_desc:0 "The Rurales first started by the President Benito Juárez in 1861 to tame banditry, and was later adapted by the French to for the same reason becoming well established in Mexico and during their stay they were quite an oppressive force. When the French were expelled, Victoriano Huerta assumed power and reused this the Rurales to keep peace amongst the peasantry and later expanded their powers to rid of political undesirables, when the Civil war began their roles were expaned quite a bit to support military efforts and after have brought great influence within the Government"
+ MEX_divided_nation:0 "A Divided Nation"
+ MEX_divided_nation_desc:0 "Mexico even before the Civil War has been divided politcally and economically, one can tell by the difference of City life and Rural Life this has brought tension between the classes,and if another spark were to arise it may lead to the end of Mexico itself"
+ MEX_war_torn_society:0 "War Torn Society"
+ MEX_war_torn_society_desc:0 "Ever since the Civil War some places have just never recovered leaving most in destitute, leading them to a life of crime and destitution, this has become a ever prevelent issue within Mexico and with it opening a gateway to radical ideologies"
+ MEX_underground_resistance:0 "Underground Resistance"
+ MEX_underground_resistance_desc:0 "In Mexico there are some who wish not to be under the Rule of Diaz and even after the Civil War they still won't give up, even the Rurales are having problems with dealing with them, they lie and wait ambush when possible and do it again, something must be done"

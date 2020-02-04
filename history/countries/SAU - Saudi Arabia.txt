@@ -37,3 +37,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Ibn Saud"
+	desc = leader_desc_GER_Gerd_Ibn_Saud
+	picture = "Ibn_Saud.dds"
+	ideology = tribal_despotism
+	traits = {
+		foreign_interventionist
+	}
+}

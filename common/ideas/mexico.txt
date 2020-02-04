@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		MEX_rurales = {
+			picture = army_volunteers
+			cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				army_core_attack_factor = 0.05
+                                army_core_defence_factor = 0.05
+                                army_org = 5
+                                enemy_partisan_effect = -0.1
+			}
+		}	
+		MEX_divided_nation = {
+			picture = upper_class
+			cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				leftism_drift = 0.01
+				communism_drift = 0.01
+				anarchism_drift = 0.01
+			}
+		}	
+		MEX_war_torn_society = {
+			picture = low_popular_support3
+			cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+			        industrial_capacity_factory = -0.05
+                                industrial_capacity_dockyard = -0.05
+                                communism_drift = 0.01
+			}
+		}	
+		MEX_underground_resistance = {
+			picture = diplomatic_pressure
+			cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.25
+			}
+		}	
+}
