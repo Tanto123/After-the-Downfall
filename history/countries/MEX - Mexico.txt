@@ -50,10 +50,73 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Plutarco Elías Calles"
+	desc = leader_desc_MEX_Plutarco_Elias_Calles_Wels
+	picture = "Plutarco_Elias_Calles.dds"
+	ideology = social_democracy
+	traits = {
+		unpopular_pragmatist
+	}
+}
+create_country_leader = {
+	name = "Ricardo Flores Magón"
+	desc = leader_desc_MEX_Ricardo_Flores_Magón
+	picture = "Ricardo_Flores_Magón.dds"
+	ideology = decentralism 
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Manabendra Nath Roy"
+	desc = leader_desc_MEX_Manabendra_Nath_Roy
+	picture = "Manabendra_Nath_Roy.dds"
+	ideology = national_communism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Ernst Ludwig von Hessen"
+	desc = leader_desc_GER_Ernst_Ludwig_von_Hessen
+	picture = "Ernst_Ludwig_von_Hessen.dds"
+	ideology = market_liberalism
+	traits = {
+		committed_isolationist
+	}
+}
+create_country_leader = {
+	name = "Rudolf Friedrichs"
+	desc = leader_desc_GER_Rudolf_Friedrichs
+	picture = "Rudolf_Friedrichs.dds"
+	ideology = national_conservatism
+	traits = {
+		political_hardliner
+	}
+}
+create_country_leader = {
 	name = "Porfirio Díaz Ortega"
 	desc = leader_desc_MEX_Diaz_Ortega
 	picture = "Diaz_Ortega.dds"
 	ideology = military_dictatorship
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Agustín de Iturbide y Green"
+	desc = leader_desc_MEX_Agustín_Iturbide
+	picture = "Agustín_Iturbide.dds"
+	ideology = absolute_monarchism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Gustavo Sáenz de Sicilia"
+	desc = leader_desc_MEX_Gustavo_Sáenz_de_Sicilia
+	picture = "Gustavo_Sáenz_de_Sicilia.dds"
+	ideology = ethnopurism
 	traits = {
 		
 	}
