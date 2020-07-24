@@ -26,6 +26,8 @@ add_ideas = {	#Government
 	advised_monarchy
 }
 
+puppet = PHI
+
 set_popularities = {
 	anarchism = 15
 	communism = 13 
@@ -108,10 +110,10 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Francisco Franco"
-	desc = leader_desc_SPR_Francisco_Franco
-	picture = "Francisco_Franco.dds"
-	ideology = falangism
+	name = "Miguel Primo de Rivera"
+	desc = leader_desc_SPR_Miguel_Primo_de_Rivera
+	picture = "Rivera.dds"
+	ideology = militant_reactionism
 	traits = {
 		
 	}

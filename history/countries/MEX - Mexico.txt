@@ -18,6 +18,9 @@ set_technology = {
 
 add_ideas = {	#Social Factions
 	roman_catholicism
+	aristocrats
+	army_officers
+	big_banks
 }
 
 add_ideas = {	#national ideas
@@ -29,6 +32,16 @@ add_ideas = {	#national ideas
 
         MEX_underground_resistance
 }
+
+add_ideas = {	#Laws and Government
+	limited_conscription
+	civilian_economy
+	limited_exports
+        federal_republic
+}
+
+set_variable = { democracy_rating = 40 }
+set_variable = { pacifism_rating = 33 }
 
 
 set_popularities = {
@@ -48,6 +61,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+add_government_membership_conservatism = yes
+add_government_membership_despotism = yes
 
 create_country_leader = {
 	name = "Plutarco Elías Calles"

@@ -6,7 +6,8 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = USA
+		owner = PHI
+		add_core_of = PHI
 		buildings = {
 			infrastructure = 5
 			12140 = {

@@ -18,10 +18,21 @@ set_technology = {
 
 
 	set_popularities = {
-		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 10 monarchism = 5 ultranationalism = 5
+		anarchism = 5 communism = 5 leftism = 20 centrism = 20 conservatism = 30 despotism = 15 ultranationalism = 5
 	}
-set_politics = { ruling_party = anarchism
+
+set_politics = { ruling_party = despotism
 	last_election = "1925.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Francisco Franco"
+	desc = leader_desc_PHI_Franco
+	picture = "Franco.dds"
+	ideology = military_dictatorship
+	traits = {
+		
+	}
 }
