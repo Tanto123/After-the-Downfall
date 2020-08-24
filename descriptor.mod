@@ -1,6 +1,6 @@
-version="1"
+version="1.9.3"
 tags={
 	"Alternative History"
 }
 name="Lincoln's Nightmare"
-supported_version="1.8.1"
+supported_version="1.9.3"

@@ -13216,6 +13216,6 @@
 13215;89;7;147;land;false;desert;2
 13216;229;131;235;land;true;mountain;2
 13217;86;104;241;land;false;plains;5
-13218;7;127;67;land;false;unknown;0
-13219;252;185;17;land;false;unknown;0
-13220;253;222;53;land;false;unknown;0
+13218;7;127;67;land;false;unknown;3
+13219;252;185;17;land;false;unknown;3
+13220;253;222;53;land;false;unknown;3
