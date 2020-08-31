@@ -32,8 +32,18 @@ set_popularities = {
 }
 
 set_politics = { 
-	ruling_party = despotism
+	ruling_party = ultranationalism 
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Khosrov bey Sultanov"
+	desc = leader_desc_AZR_Sultanov
+	picture = "Sultanov.dds"
+	ideology = ethnopurism
+	traits = {
+		babbling_buffoon
+	}
 }

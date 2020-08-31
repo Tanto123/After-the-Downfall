@@ -33,3 +33,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Haile Selassie"
+	desc = leader_desc_ETH_JAP_Haile_Selassie
+	picture = "Haile_Selassie.dds"
+	ideology = spiritual_monarchism
+	traits = {
+		
+	}
+}

@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 set_politics = { 
-	ruling_party = despotism
+	ruling_party = communism
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,7 +37,7 @@ set_politics = {
 create_country_leader = {
 	name = "Iosif Djugashvili"
 	desc = leader_desc_GEO_Iosif_Djugashvili
-	picture = "Iosif_Djugashvili.dds"
+	picture = "Stalin.dds"
 	ideology = vanguardism
 	traits = {
 		

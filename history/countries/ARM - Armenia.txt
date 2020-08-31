@@ -39,3 +39,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Christophor Araratov"
+	desc = leader_desc_ARM_Christophor_Araratov
+	picture = "Araratov.dds"
+	ideology = military_dictatorship
+	traits = {
+		talented_propagandist
+	}
+}
