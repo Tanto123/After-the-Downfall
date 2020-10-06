@@ -1,0 +1,208 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = generic_INF_DIV_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+	
+	division_names_group = generic_CAV_BRI_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+                cavalry = { x = 0 y = 1 }
+                cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "State Militias"
+	
+	division_names_group = generic_INF_BRI_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+
+units = {
+
+	division= {	
+		name = "Virginia State Militia"
+		location = 10412
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+
+	division= {	
+		name = "Kentucky State Militia"
+		location = 6696
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+
+	division= {	
+		name = "Missouri State Militia"
+		location = 4569
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+
+	division= {	
+		name = "North Carolina State Militia"
+		location = 7138
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+
+	division= {	
+		name = "Tennessee State Militia"
+		location = 12501
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division= {	
+		name = "Arkansas State Militia"
+		location = 12489
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+
+	division= {	
+		name = "South Carolina State Militia"
+		location = 7202
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+
+	division= {	
+		name = "Georgia State Militia"
+		location = 12384
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+
+	division= {	
+		name = "Alabama State Militia"
+		location = 12735
+		division_template = "State Militias"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.55
+	}
+
+	division= {	
+		name = "Florida State Militia"
+		location = 1843
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+
+	division= {	
+		name = "Mississippi State Militia"
+		location = 4464
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division= {	
+		name = "Louisiana State Militia"
+		location = 7552
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+
+	division= {	
+		name = "Oklahoma State Militia"
+		location = 8025
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Texas State Militia"
+		location = 10337
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+
+	division= {	
+		name = "New Mexico State Militia"
+		location = 4975
+		division_template = "State Militias"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.6
+	}
+
+	division= {	
+		name = "Arizona State Militia"
+		location = 853
+		division_template = "State Militias"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.45
+	}
+
+	division= {	
+		name = "Cherokee Cavalry Brigade"
+		location = 1806
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Indian Militia"
+		location = 1806
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Cuban Garrison"
+		location = 7622
+		division_template = "State Militias"
+		start_experience_factor = 0.1
+	}
+}
+
+instant_effect = {
+}

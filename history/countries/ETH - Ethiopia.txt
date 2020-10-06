@@ -35,9 +35,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Haile Selassie"
-	desc = leader_desc_ETH_JAP_Haile_Selassie
-	picture = "Haile_Selassie.dds"
+	name = "Zewditu"
+	desc = leader_desc_ETH_Zewditu
+	picture = "Zewditu.dds"
 	ideology = spiritual_monarchism
 	traits = {
 		

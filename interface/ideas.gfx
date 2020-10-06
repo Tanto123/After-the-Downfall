@@ -6475,4 +6475,16 @@ spriteTypes = {
 		name = "GFX_idea_yugoslavian_militias"
 		texturefile = "gfx/interface/ideas/yugoslavia/yugoslavian_militias.dds"
 	}	
+
+       ##
+
+	spriteType = {
+		name = "GFX_idea_fox_conner"
+		texturefile = "gfx/interface/ideas/idea_douglas_macarthur.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_theodore_bilbo"
+		texturefile = "gfx/interface/ideas/idea_eng_ernest_bevin.dds"
+	}
+
 }

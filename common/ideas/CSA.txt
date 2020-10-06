@@ -1,21 +1,183 @@
 ideas = {
+
+		white_league_terror = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			modifier = {
+				leftism_drift = 0.01
+				stability_factor = 0.1
+			}
+		}
+
+		legacy_of_confederacy = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = confederate_states
+			
+			modifier = {
+				surrender_limit = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		racial_segregation = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = segregation
+			
+			modifier = {
+				war_support_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+		segregated_military = {
+			
+			allowed = { always = no }
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			modifier = {
+				conscription = -0.10
+				war_support_factor = -0.05
+			}
+		}
+
+		mexican_bandits = {
+			
+			allowed = { always = no 
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+		sketchy_dealings = {
+			
+			allowed = { always = no 
+
+			removal_cost = -1
+
+			picture = german_advisors
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_factor = 0.15
+			}
+		}
+          }
 	
 	political_advisor = {
-	
-		alexander_shirah = {
-			picture = walraven_van_hall
-			allowed = { original_tag = CSA }
-			visible = { }
-			available = { can_hire_conservative_advisors = yes }
-			traits = { 
-				conservative_politician
-				state_capitalist
+
+		theodore_bilbo = {
+			picture = heinrich_himmler
+			allowed = {
+				original_tag = CRO
 			}
+			traits = { ultranationalist_ideologue }
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
 		}
 		
-	}
-	
+	}	
 }
+	army_chief = {
+
+		fox_conner = {
+			allowed = { original_tag = CSA }
+			visible = {  }
+			available = { always = yes }
+			traits = { army_chief_defensive }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+	}
+}
+
+	air_chief = {
+		
+
+		friedrich_navratil = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = CSA
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		adalbert_rogulja = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = CSA
+			}
+						
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	navy_chief = {
+
+		edgar_angeli = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = CSA
+			}
+						
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		nikola_steinfl = {
+			
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = CSA
+			}
+						
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
