@@ -1,6 +1,6 @@
 ﻿capital = 277
 
-OOB = "generic_1928"
+OOB = "MEX_1928"
 
 set_research_slots = 3
 

@@ -1,5 +1,7 @@
 ideas = {
 
+	country = {
+
 		white_league_terror = {
 			
 			allowed = { always = no }
@@ -68,7 +70,7 @@ ideas = {
 			picture = german_advisors
 			
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.5
 			}
 		}
 
@@ -85,7 +87,6 @@ ideas = {
 				political_power_factor = 0.15
 			}
 		}
-          }
 	
 	political_advisor = {
 
@@ -95,6 +96,17 @@ ideas = {
 				original_tag = CRO
 			}
 			traits = { ultranationalist_ideologue }
+			on_add = { }
+			do_effect = { }
+			ai_will_do = { factor = 1 }
+		}
+
+		Charles_G._Dawes = {
+			picture = heinrich_himmler
+			allowed = { original_tag = CSA }
+			visible = { can_hire_onservative_advisors = yes }
+			available = { can_hire_conservative_advisors = yes }
+			traits = { generic_industrial_lobbyist }
 			on_add = { }
 			do_effect = { }
 			ai_will_do = { factor = 1 }
@@ -115,69 +127,3 @@ ideas = {
 		}
 	}
 }
-
-	air_chief = {
-		
-
-		friedrich_navratil = {
-			
-			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = CSA
-			}
-			
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		adalbert_rogulja = {
-			
-			picture = generic_air_europe_3
-			
-			allowed = {
-				original_tag = CSA
-			}
-						
-			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-	navy_chief = {
-
-		edgar_angeli = {
-			
-			picture = generic_navy_europe_2
-			
-			allowed = {
-				original_tag = CSA
-			}
-						
-			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		nikola_steinfl = {
-			
-			picture = generic_navy_europe_3
-			
-			allowed = {
-				original_tag = CSA
-			}
-						
-			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}

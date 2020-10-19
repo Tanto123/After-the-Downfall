@@ -1,0 +1,140 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = generic_INF_DIV_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+	
+	division_names_group = generic_CAV_BRI_01
+
+	regiments = {
+	cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+	cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "Guardia Rural"
+	
+	division_names_group = generic_INF_BRI_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+
+units = {
+
+	division= {	
+		name = "Guardia Rural"
+		location = 12810
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 4904
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 10730
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 7921
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 12835
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 10830
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 10765
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Guardia Rural"
+		location = 12461
+		division_template = "Guardia Rural"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Guardia de la Ciudad de México"
+		location = 1965
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Guardia de la Veracruz"
+		location = 12810
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Guardia de la Guadalajara"
+		location = 13089
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Guardia de la Manzanillo"
+		location = 8032
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+	}
+}
+
+instant_effect = {
+}

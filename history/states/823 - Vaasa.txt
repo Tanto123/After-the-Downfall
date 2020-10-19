@@ -1,6 +1,6 @@
 state={
-	id=806
-	name="STATE_806"
+	id=823
+	name="STATE_823"
 	
 	state_category = town
 

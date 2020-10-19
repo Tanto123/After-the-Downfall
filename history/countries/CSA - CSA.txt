@@ -117,11 +117,44 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Charles G. Dawes"
-	desc = Charles_G_Dawes
+	name = "David_Curtiss_Stephenson"
+	desc = leader_desc_CSA_David_Curtiss_Stephenson
 	picture = "Charles_G_Dawes.dds"
 	ideology = ethnopurism
 	traits = {
 		talented_propagandist
 	}
+}
+
+create_field_marshal = {
+	name = "John J. Pershing"
+	picture = "generals/John_J_Pershing.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Fox Conner"
+	picture = "generals/Erich_Ludendorff.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Carl Heinrich von Stülpnagel"
+	picture = "generals/Carl_Heinrich_von_Stuelpnagel.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
