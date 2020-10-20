@@ -124,9 +124,14 @@ set_politics = {
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	anarchism = 0
+	communism = 0 
+	leftism = 0
+	centrism = 0
+	conservatism = 31
+	despotism = 61
+	monarchism = 0
+	ultranationalism = 8
 }
 
 add_ideas = {

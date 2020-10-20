@@ -58,7 +58,12 @@ create_country_leader = {
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	anarchism = 0
+	communism = 0 
+	leftism = 0
+	centrism = 0
+	conservatism = 31
+	despotism = 61
+	monarchism = 0
+	ultranationalism = 8
 }
