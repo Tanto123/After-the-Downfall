@@ -1,0 +1,33 @@
+ideas = {
+
+	country = {
+
+		the_bayonet_constitution = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = idea_hol_the_foundations_of_defense
+			
+			modifier = {
+				leftism_drift = 0.01
+				stability_factor = 0.1
+			}
+		}
+
+		backwards_economy = {
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = confederate_states
+			
+			modifier = {
+				surrender_limit = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}

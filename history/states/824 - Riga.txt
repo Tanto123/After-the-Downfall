@@ -1,0 +1,28 @@
+state={
+	id=824
+	name="STATE_824"
+	
+	state_category = city
+
+	history={
+		owner = PRE
+		add_core_of = PRE
+		victory_points = {
+			9340 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			3122 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	
+	provinces={
+		9340
+	}
+	manpower=270000
+	buildings_max_level_factor=1.000
+}

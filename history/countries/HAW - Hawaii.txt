@@ -46,10 +46,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Poindexter"
+	name = "Samuel K. Pua"
 	desc = ""
 	picture = "gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
 	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos A. Long"
+	desc = ""
+	picture = "gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
+	ideology = national_conservatism
 	traits = {
 		#
 	}
@@ -63,4 +73,15 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_field_marshal = {
+	name = "John Carey Lane"
+	picture = ".dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }

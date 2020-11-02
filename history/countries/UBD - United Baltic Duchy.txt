@@ -54,9 +54,6 @@ set_research_slots = 2
 set_convoys = 25
 set_stability = 0.75
 
-puppet = LAT
-puppet = EST
-
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1936.1.1"
@@ -88,3 +85,4 @@ create_country_leader = {
 	traits = {
 	}
 }
+
