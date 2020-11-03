@@ -110,7 +110,7 @@ if = {
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.
 set_politics = {
-	ruling_party = democratic
+	ruling_party = despotism 
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
