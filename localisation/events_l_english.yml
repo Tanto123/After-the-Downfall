@@ -115,7 +115,18 @@
  germany.5.t:0 "KVU and DNLP send ministers to join the DVP cabinet"
  germany.5.d:0 "As part of their deal with the DVP leadership around [Root.GetLeader], the monarchist KVU and the market liberal DNVP got the concession of occupying one major ministerial post each.\n\nA few days after the negotiations concluded, Alfred Hugenberg of the KVU joined the cabinet as Minister of the Interior, whereas Otto Gessler became Minister for Economic Questions."
  germany.5.o1:0 "Let's get some work done."
+ germany.6.t:0 "Success in Luxembourg"
+ germany.5.d:0 "Our forces have succeded in establishing a friendly rule in Luxembourg"
+ germany.6.o1:0 "A new Luxembourg begins"
+ germany.7.t:0 "Failure"
+ germany.7.o1:0 "Backdown"
+ germany.7.o2:0 "Invade"
  #####
+ ##Luxembourg
+ ###
+ luxembourg.1.t:0 "Coup Attempt!"
+ luxembourg.1.o1 "We must capitulate"
+ luxembourg.2.o2 "We shall not give in!"
  ## NEWS
  #####
  news.1.t:0 "[From.GetNameDef] declares war on [Root.GetNameDef]"

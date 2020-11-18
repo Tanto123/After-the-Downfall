@@ -1,0 +1,26 @@
+state={
+	id=826
+	name="STATE_826"
+	manpower = 25000
+	resources={
+
+	}
+	
+	state_category = rural
+
+	history={
+		owner = ENG
+		victory_points = {
+			12941 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = SOM
+	}
+
+	provinces=
+	{
+11014 12941	}
+}

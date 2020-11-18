@@ -104,3 +104,39 @@ country_event = {
 		add_ideas = otto_gessler
 	}
 }
+#sucesshandstreich
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = germany.6.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = germany.6.o1
+			puppet = LUX
+		}
+	}
+#failurehandstreich
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = germany.7.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = germany.7.o1
+			create_wargoal = {
+			type = annex_everything
+			target = LUX	}
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = germany.7.o2
+		add_stability = -0.1
+		ai_chance = { base = 50 }
+	}
+}

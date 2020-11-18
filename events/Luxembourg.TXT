@@ -1,0 +1,24 @@
+add_namespace = luxembourg
+
+#handstreich
+country_event = {
+	id = luxembourg.1
+	title = luxembourg.1.t
+	desc = luxembourg.1.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = luxembourg.1.o1
+			GER = { country_event = germany.6 }
+		}
+		ai_chance = { base = 50 }
+        } 
+	option = {
+		name = luxembourg.1.o2
+			GER = { country_event = germany.7 }
+		}
+		ai_chance = { base = 50 }
+        }
+}
