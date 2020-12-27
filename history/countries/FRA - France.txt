@@ -45,6 +45,7 @@ add_ideas = {	#Government
 }
 add_ideas = {	#National Ideas
 	french_revanchism
+        1917_reparations
 }
 
 set_popularities = {
@@ -131,11 +132,11 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Pierre-Etienne Flandin"
-	desc = leader_desc_FRA_Pierre_Etienne_Flandin
-	picture = "Pierre_Etienne_Flandin.dds"
+	name = "Marcel Bucard"
+	desc = leader_desc_FRA_Marcel_Bucard
+	picture = "Marcel_Bucard.dds"
 	ideology = ethnopurism
 	traits = {
-		babbling_buffoon
+		paranoid_veteran
 	}
 }

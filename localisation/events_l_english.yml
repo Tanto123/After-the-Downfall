@@ -1,5 +1,4 @@
 ﻿l_english:
- #####
  ## DEBUG
  #####
  debug.1.t:0 "Democracy Rating Cheat"
@@ -121,12 +120,39 @@
  germany.7.t:0 "Failure"
  germany.7.o1:0 "Backdown"
  germany.7.o2:0 "Invade"
+ germany.8.t:0 "German influence expands!"
+ germany.8.o1:0 "Hurrah!"
+ germany.9.t:0 "They Reject!"
+ germany.9.o1:0 "Now or never"
+ germany.9.o2:0 "We must back down.."
+ germany.10.t:0 "German influence expands!"
+ germany.10.o1:0 "Welcoming our Belgian Brothers"
+ germany.11.t:0 "Belgium declines"
+ germany.11.o1:0 "They Reject"
+ germany.12.t:0 "Coup Attempt!"
+ germany.12.o1:0 "We must capitulate"
+ germany.12.o2:0 "We shall not give in!"
+ germany.13.t:0 "German Demands"
+ germany.13.o1:0 "We must capitulate"
+ germany.13.o2:0 "We shall not give in!"
+ germany.14.t:0 "German Offer?"
+ germany.14.o1:0 "Joining our German Brothers"
+ germany.14.o2:0 "We'll stay neutral"
  #####
- ##Luxembourg
+ ## france
+ #####
+ france.1.t:0 "French Nationalists Coup!"
+ france.1.d:0 "Outside of Government Institutions. During a protest in Paris, Nationalist mottos could be heard chanted by the crowd, as the momentum grew some of the nationalistic protestors started to march onto Government buildings causing fights and disruption, tensions are rising as the guards might defect to the growing crowd."
+ france.1.o1:0 "The Guards join them"
+ france.1.o2:0 "Disperse the rioters"
+ france.2.t:0 "Reorganizing the France"
+ france.2.o1:0 "Drop the old, and out with Francism"
+ france.2.o2:0 "Restore the Monarchy"
+ france.3.t:0 "French Ultimatium"
+ france.3.d:0 "" 
+ france.3.o1:0 "Concede to French demands"
+ france.3.o2:0 "We stand defiant!"
  ###
- luxembourg.1.t:0 "Coup Attempt!"
- luxembourg.1.o1 "We must capitulate"
- luxembourg.2.o2 "We shall not give in!"
  ## NEWS
  #####
  news.1.t:0 "[From.GetNameDef] declares war on [Root.GetNameDef]"
@@ -148,6 +174,15 @@
  news.4.o2:0 "Worrying."
  news.4.o3:0 "Congratulations!"
  news.4.o4:0 "Furthermore, [From.GetName] must be destroyed."
+ news.5.t:0 "Nationalist Coup in France!"
+ news.5.d:0 "In Paris today, during a protest, French Nationalists led by Marcel Bucard engaged Government buildings, seizing them as the sympathetic guards joined into their numbers. The sucessful 'Coup d'état' has brought chaos to France as the Nationalists attempt to reorganize the Government" 
+ news.5.o1:0 "Worrying developments."
+ news.6.t:0 "Bucard's 'Francism'"
+ news.6.d:0 "As Marcel Bucard has become the sudden leader of France after the sporadic coup in Paris. He has distanced himself from the monarchist elements within his party by rejecting a offer to restore an Napoleonic Monarchy. Instead he has called out for 'Francism' to rejuvenate France's values and 'to stop the race to the abyss'"
+ news.6.o1:0 "Interesting.."
+ news.7.t:0 "The Napoléon Dynasty restored to the throne!"
+ news.7.d:0 "Reports from Paris have announced the restoration of the Monarchy and 'Louis XXI' of the Napoléon dynasty as their new Monarch. This has cause worry amongst the German government as it poses as a possible revival of efforts against Germany"
+ news.7.o1:0 "The Napoléons at it again...."
  #####
  ## POLITICS
  #####

@@ -88,3 +88,13 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = leader_desc_FRA_Marcel_Bucard
+	picture = "Marcel_Bucard.dds"
+	ideology = ethnopurism
+	traits = {
+		paranoid_veteran
+	}
+}

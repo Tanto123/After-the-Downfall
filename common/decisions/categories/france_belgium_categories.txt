@@ -1,0 +1,6 @@
+fra_intervene_low_countries = {
+        icon = decision_politics
+	allowed = {
+		original_tag = FRA
+	}
+}

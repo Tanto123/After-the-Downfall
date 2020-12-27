@@ -97,3 +97,48 @@ news_event = {
 		trigger = { has_war_with = FROM }
 	}
 }
+#francecoup
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_infantry7
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.o1
+		trigger = { tag = ROOT }
+        }
+}
+#francegoesfash
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_bucard_rally
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.o1
+		trigger = { tag = ROOT }
+	}
+}
+#francegoesmonarchist
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_government3
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.o1
+		trigger = { tag = ROOT }
+	}
+}

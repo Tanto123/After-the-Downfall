@@ -1,1 +1,105 @@
-﻿
+﻿add_namespace = france
+
+#frenchnationalistcoup
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = GFX_report_event_french_resistance2
+
+	fire_only_once = yes
+	is_triggered_only = no
+
+	trigger = {
+		tag = FRA
+		date > 1928.1.1
+		date < 1928.1.11
+	}
+	
+	option = {
+		name = france.1.o1
+		set_politics = {
+			ruling_party = ultranationalism
+			elections_allowed = no
+		}
+     swap_ideas = {
+     remove_idea = republicans
+     add_idea = ultranationalists
+}
+     swap_ideas = {
+     remove_idea = intellectuals
+     add_idea = monarchists
+}
+		add_stability = -0.1
+			add_popularity = { ideology = despotism popularity = 0.03 }
+			add_popularity = { ideology = monarchism popularity = 0.03 }
+			add_popularity = { ideology = ultranationalism popularity = 0.03 }
+		hidden_effect = {
+			news_event = { hours = 6 id = news.5 }
+                        country_event = { hours = 14 id = france.2 }
+		}
+		ai_chance = { base = 70 }
+	}
+	option = {
+		name = france.1.o2
+		add_stability = -0.05
+		ai_chance = { base = 30 }
+	}
+}
+#reorganizingthegovernment
+country_event = {
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	picture = GFX_report_event_paris
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = france.2.o1
+			add_popularity = { ideology = ultranationalism popularity = 0.05 }
+		add_stability = 0.05
+		hidden_effect = {
+			news_event = { hours = 6 id = news.6 }
+		}
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = france.2.o2
+			add_popularity = { ideology = monarchism popularity = 0.15 }
+		add_stability = 0.05
+		set_politics = {
+			ruling_party = monarchism
+			elections_allowed = no
+		}
+		hidden_effect = {
+			news_event = { hours = 6 id = news.7 }
+		}
+		ai_chance = { base = 50 }
+	}
+}
+#ultimatiumtobelgium
+country_event = {
+	id = france.3
+	title = france.3.t
+	desc = france.3.d
+	picture = GFX_report_event_infantry10
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = france.3.o1
+		FRA = { puppet = BEL }
+		hidden_effect = {
+			news_event = { hours = 6 id = news.8 }
+		}
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = france.3.o2
+		FRA = { create_wargoal = { type = annex_everything target = BEL } }
+		ai_chance = { base = 50 }
+	}
+}

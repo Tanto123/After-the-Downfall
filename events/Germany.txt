@@ -140,3 +140,134 @@ country_event = {
 		ai_chance = { base = 50 }
 	}
 }
+#sucessbelgium
+country_event = {
+	id = germany.8
+	title = germany.8.t
+	desc = germany.8.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = germany.8.o1
+			puppet = BEL
+		}
+	}
+#failurebelgium
+country_event = {
+	id = germany.9
+	title = germany.9.t
+	desc = germany.9.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = germany.9.o1
+			create_wargoal = {
+			type = annex_everything
+			target = BEL	}
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = germany.9.o2
+		add_stability = -0.15
+		ai_chance = { base = 50 }
+	}
+}
+#factionbelgium
+country_event = {
+	id = germany.10
+	title = germany.10.t
+	desc = germany.10.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = germany.10.o1
+			add_to_faction = BEL
+			BEL = { add_ideas = mitteleuropa_member }
+		}
+	}
+#sucessbelgium
+country_event = {
+	id = germany.11
+	title = germany.11.t
+	desc = germany.11.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = germany.11.o1
+
+		}
+	}
+country_event = {
+	id = germany.12
+	title = germany.12.t
+	desc = germany.12.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.12.o1
+			GER = { country_event = germany.6 }
+		}
+		ai_chance = { base = 50 }
+        } 
+	option = {
+		name = germany.12.o2
+			GER = { country_event = germany.7 }
+		}
+		ai_chance = { base = 50 }
+        }
+}
+#subjugation_attempt
+country_event = {
+	id = germany.13
+	title = germany.13.t
+	desc = germany.13.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.13.o1
+			GER = { country_event = germany.8 }
+		}
+		ai_chance = { base = 50 }
+        } 
+	option = {
+		name = germany.13.o2
+			GER = { country_event = germany.9 }
+		}
+		ai_chance = { base = 50 }
+        }
+}
+#alliance_with_germans
+country_event = {
+	id = germany.14
+	title = germany.14.t
+	desc = germany.14.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.14.o1
+			GER = { add_to_faction = BEL }
+			GER = { country_event = germany.10 }
+		}
+		ai_chance = { base = 50 }
+        } 
+	option = {
+		name = germany.14.o2
+			GER = { country_event = germany.11 }
+		}
+		ai_chance = { base = 50 }
+        }
+}

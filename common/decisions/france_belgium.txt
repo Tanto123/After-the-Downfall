@@ -1,0 +1,61 @@
+fra_intervene_low_countries = {
+
+#Decision for: Offer Protection
+	belgiumultimtium = {
+
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		cost = 85
+
+		available = {
+			original_tag = FRA	
+		}
+
+		visible = {
+			OR = {
+				AND = {
+                has_government = monarchism }
+				AND = {
+                has_government = ultranationalism } } }
+		ai_will_do = {
+			factor = 2
+		}
+
+		complete_effect = {
+				BEL = { country_event = france.3 }
+		}	
+
+	}
+	taketheircolonies = {
+
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		cost = 75
+
+		available = {
+			original_tag = FRA	
+		}
+
+		visible = {
+                BEL = { is_puppet_of = FRA }
+			OR = {
+				AND = {
+                has_government = monarchism }
+				AND = {
+                has_government = ultranationalism } } }
+		ai_will_do = {
+			factor = 2
+		}
+
+		complete_effect = {
+				FRA = { transfer_state = 295 } 
+				FRA = { transfer_state = 538 } 
+				FRA = { transfer_state = 718 } 
+		}	
+
+	}
+}

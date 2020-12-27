@@ -452,6 +452,11 @@ spriteTypes = {
 		name = "GFX_news_event_liberation_of_paris"
 		texturefile = "gfx/event_pictures/news_event/france/liberation_of_paris.dds"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_bucard_rally"
+		texturefile = "gfx/event_pictures/news_event/france/bucard_rally.dds"
+	}
 	
 	#GERMANY
 
