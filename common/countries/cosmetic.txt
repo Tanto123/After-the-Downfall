@@ -62,3 +62,12 @@ KWA_JapanesePuppet = {
 	color = rgb { 235 235 235 }
 	color_ui = rgb { 235 235 235 }
 }
+#baltic Puppets
+EST_balticPuppet = {
+	color = rgb { 160  160  160 }
+	color_ui = rgb { 160  160  160 }
+}
+LAT_balticPuppet = {
+	color = rgb { 160  160  160 }
+	color_ui = rgb { 160  160  160 }
+}

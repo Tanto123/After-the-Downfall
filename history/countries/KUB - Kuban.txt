@@ -40,3 +40,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+create_country_leader = {
+	name = "Nikolai Bukretov"
+	desc = leader_desc_DON_Nikolai_Bukretov
+	picture = "Nikolai_Bukretov.dds"
+	ideology = national_conservatism
+	traits = {
+	}
+}

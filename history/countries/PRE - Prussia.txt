@@ -54,8 +54,6 @@ set_research_slots = 2
 set_convoys = 25
 set_stability = 0.75
 
-puppet = LAT
-puppet = EST
 
 set_politics = {
 	ruling_party = conservatism
@@ -75,26 +73,3 @@ set_popularities = {
 	ultranationalism = 5
 }
 
-add_ideas = {
- mitteleuropa_member
-}
-
-create_country_leader = {
-	name = "Adolf Friedrich"
-	desc = ""
-	picture = "friedrich.dds"
-	expire = "1965.1.1"
-	ideology = national_conservatism 
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Heinrich Himmler"
-	desc = leader_desc_FRA_Marcel_Bucard
-	picture = "Marcel_Bucard.dds"
-	ideology = ethnopurism
-	traits = {
-		paranoid_veteran
-	}
-}

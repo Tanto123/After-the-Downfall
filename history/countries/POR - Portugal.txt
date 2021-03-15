@@ -37,3 +37,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+create_country_leader = {
+	name = "Óscar Carmona"
+	desc = leader_desc_POR_Carmona
+	picture = "carmona.dds"
+	ideology = ethnopurism
+	traits = {
+		dictator
+	}
+}

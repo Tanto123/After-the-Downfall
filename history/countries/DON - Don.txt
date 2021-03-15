@@ -40,3 +40,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+	name = "Pyotr Nikolaevich Krasnov"
+	desc = leader_desc_DON_Pyotr_Krasnov
+	picture = "Pyotr_Krasnov.dds"
+	ideology = national_conservatism
+	traits = {
+	}
+}

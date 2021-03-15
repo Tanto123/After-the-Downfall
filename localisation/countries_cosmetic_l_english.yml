@@ -913,3 +913,8 @@
  
  PHI_SPR_autonomy_puppet:0 "Spanish East Indies"
  PHI_SPR_autonomy_puppet_DEF:0 "The Spanish East Indies"
+ LAT_PRE_autonomy_puppet:0 "Latvian Autonomy"
+ LAT_PRE_autonomy_puppet_DEF:0 "The Latvian Autonomy"
+ EST_PRE_autonomy_puppet:0  "Estonian Autonomy"
+ EST_PRE_autonomy_puppet_DEF:0 "The Estonian Autonomy"
+

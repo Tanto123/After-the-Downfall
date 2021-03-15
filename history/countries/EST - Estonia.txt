@@ -24,15 +24,17 @@ add_ideas = {	#National Ideas
 	mitteleuropa_member
 }
 
+set_cosmetic_tag = EST_balticPuppet
+
 set_popularities = {
 	anarchism = 0
-	communism = 17
-	leftism = 11
-	centrism = 23
-	conservatism = 47
+	communism = 0
+	leftism = 0
+	centrism = 0
+	conservatism = 100
 	despotism = 0
 	monarchism = 0
-	ultranationalism = 2
+	ultranationalism = 0
 }
 
 set_politics = { 

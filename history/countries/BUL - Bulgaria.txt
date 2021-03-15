@@ -35,19 +35,37 @@ add_ideas = {	#National Ideas
 }
 
 set_popularities = {
-	anarchism = 0 
-	communism = 0 
-	leftism = 0 
-	centrism = 0 
-	conservatism = 100 
+	anarchism = 1
+	communism = 4
+	leftism = 11
+	centrism = 44
+	conservatism = 21
 	despotism = 0 
-	monarchism = 0 
-	ultranationalism = 0
+	monarchism = 14 
+	ultranationalism = 5
 }
 
 set_politics = { 
-	ruling_party = conservatism
+	ruling_party = centrism 
 	last_election = "1925.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = leader_desc_BUL_Ferdinand_I
+	picture = "Tsar_ferdinand.dds"
+	ideology = absolute_monarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dimitar Tonchev"
+	desc = leader_desc_BUL_Dimitar_Tonchev
+	picture = "Dimitar_Tonchev.dds"
+	ideology = social_liberalism
+	traits = {
+	}
 }
